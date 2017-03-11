@@ -3,22 +3,27 @@
 <head>
 <meta charset="utf-8">
 	<title> Sitio Personal</title>
+
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
+	
 </head>
 <body>
 
 <header>
 <h1>Sitio personal mio </h1>
 	<strong> Probando configuraciones </strong>
-
-	<nav> 
-		<ul>
-			<li> <a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li> <a href="{{site.baseurl}}/news.html">News</a></li>
-		</ul>
-	</nav>
+{% include nav.html %}
+	
 </header>
 
 {{content}}
+
+<footer>
+	{% include nav.html %}
+
+	<p> Created by Fabio</p>
+
+</footer>
 
 </body>
 </html>
