@@ -1,0 +1,25 @@
+html{
+	margin: 10px;
+	padding: 20px;
+	font: normal 100%/1.4 Georgia,serif;
+}
+
+.current{
+	background-color: #000531;
+	color: #fff;
+}
+
+.nav{
+	margin: 5px;
+	padding: 3px;
+
+	list-style-type: lower-norwegian; 
+}
+
+.nav > li{
+	display: inline-block;
+}
+
+.nav-top{
+	font-size: 1.25rem;
+}
