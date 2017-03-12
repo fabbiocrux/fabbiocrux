@@ -1,11 +1,11 @@
-- title: Planeta Grande
-  folder: f1
+- title: Planeta Enano
+  folder: dwarf
   content: 'Estos es una historia sobre el planeta grande'
 
-- title: Planeta mediano
-  folder: f2
+- title: Planeta Terrestre
+  folder: terrestrial
   content: 'Luego sigue la historia sobre el planeta mediano.'
 
-- title: Planeta pequeño
-  folder: f3
+- title: Planeta Gigante
+  folder: gas-giant
   content: 'Y finalmente, terminamos con la historia del planeta pequeño.'

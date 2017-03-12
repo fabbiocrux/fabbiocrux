@@ -1,29 +1,18 @@
 ---
-layout: default
+layout: planets-nav
+mastheadClass: masthead-planets
 ---
 
-<h1> Planetas</h1>
+
+<h1>Planetas</h1>
 
 <h2>Enanos</h2>
 
-<ul>
-	{% for planet in site.pages %}
-		{% if planet.type == 'dwarf' %}
-			<li>
-				{{planet.title}}
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+{% include planet-list.html type='dwarf'%}
 
 <h2>Terrestrial</h2>
+{% include planet-list.html type='terrestrial'%}
 
-<ul>
-	{% for planet in site.pages %}
-		{% if planet.type == 'terrestrial' %}
-			<li>
-				{{planet.title}}
-			</li>
-		{% endif %}
-	{% endfor %}
-</ul>
+<h2>Gas-Giant</h2>
+{% include planet-list.html type='gas-giant' %}
+

@@ -26,6 +26,7 @@ github_username:  jekyll
 
 #jekyll_posts_path: /Users/fabbiocrux.ms/Dropbox/Site/Personal-Site/_post
 
+permalink: pretty
 exclude: ['README.md']
 
 # Build settings

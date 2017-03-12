@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+
+<strong>Planets en el  Universe</strong>
+
+<nav>
+	<ul>
+	{% for planet in site.data.planet-types %}
+		<li>
+			<a href="{{site.baseurl}}/planets/{{planet.folder}}/" {% if page.url contains planet.folder %}class="current"{% endif %} >{{planet.title}}</a>
+		</li>
+
+	{% endfor%}
+	</ul>>
+</nav>
+
+{{content}}
+
