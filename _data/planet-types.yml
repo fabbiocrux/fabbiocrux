@@ -1,0 +1,11 @@
+- title: Planeta Grande
+  folder: f1
+  content: 'Estos es una historia sobre el planeta grande'
+
+- title: Planeta mediano
+  folder: f2
+  content: 'Luego sigue la historia sobre el planeta mediano.'
+
+- title: Planeta pequeño
+  folder: f3
+  content: 'Y finalmente, terminamos con la historia del planeta pequeño.'

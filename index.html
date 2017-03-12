@@ -4,3 +4,16 @@ layout: default
 
 <h1> Sitio de Fabbio</h1>
 <strong>Pruebas del sitio de Index</strong>
+
+
+<h2>Tipos de planetas</h2>
+
+<ol>
+	{% for planet in site.data.planet-types %}
+		<li>
+			<a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a>
+			{{planet.content}}
+		</li>
+
+	{% endfor%}
+</ol>
