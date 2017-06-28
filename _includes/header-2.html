@@ -1,0 +1,43 @@
+<!-- Header -->
+<header id="header">
+	<!-- Logo -->
+	<div class="logo">
+		<a href="{{ site.baseurl }}/">FC</a><span> By Fabioo</span>
+	</div>
+
+	<!-- Nav -->
+	<nav id="nav">
+		<ul>
+			{% for item in site.data.settings.menu %}							
+				{% if item.subitems != null %}
+				
+				<li><a href="{{ site.baseurl }}/{{ item.url }}" class="icon fa-angle-down" >{{ item.text }}</a>
+					<ul>
+						
+						{% for SubNav1 in item.subitems %}
+							{% if SubNav1.subitems != null %}
+							<li><a href="{{ site.baseurl }}/{{ SubNav1.url }}">{{ SubNav1.text }}</a>
+								<ul>
+									{% for SubNav2 in SubNav1.subitems %}
+										<li><a href="{{ site.baseurl }}/{{ SubNav2.url }}">{{ SubNav2.text }}</a></li>
+									{% endfor %}
+								</ul>
+							</li>
+							{% else %}
+								<li><a href="{{ site.baseurl }}/{{ SubNav1.url }}">{{ SubNav1.text }}</a></li>
+							{% endif %}
+						
+						{% endfor %}							
+					</ul>					
+				</li>
+
+				{% else %}
+				<li><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.text }}</a></li>	
+
+				{% endif %}				
+			{% endfor %}
+			
+		</ul>
+	</nav>
+</header>
+

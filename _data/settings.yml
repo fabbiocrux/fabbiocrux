@@ -1,0 +1,53 @@
+#-------------------------------
+# General Site Settings of Fabio's Site
+#-------------------------------
+
+title: Fabio Cruz
+description: Creating a local recycling system would open up new opportunities for the circular economy
+email: fabio-alberto.cruz-sanchez@univ-lorraine.fr
+
+permalink: pretty
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+# menu:
+# - {nav: What do I do, url: '#our-vision', sub-nav: "NO", sub-url: /text/, sub-nav2: Values, sub-url2: /text/ }
+# - {nav: My core Values, url: '#research', sub-nav: "NO", sub-url: Prueba, sub-nav2: HOla, sub-url2: /text/ , sub-nav2: Values, sub-url2: /text/ }
+# - {nav: My Work, url: '#students', sub-nav: Menu 1, sub-url: /text/ , sub-nav2: SubMenu 1, sub-url2: /text/ }
+# - {nav: Skill, url: '#resources', sub-nav: Menu 2, sub-url: /text/ , sub-nav2: SubMenu 2, sub-url2: /text/ }
+# - {nav: People, url: '#contact', sub-nav: Menu 3, sub-url: /text/ , sub-nav2: SubMenu 3, sub-url2: /text/ }
+# - {nav: Contact, url: '#contact', sub-nav: Menu 4, sub-url: /text/ , sub-nav2: SubMenu 4, sub-url2: /text/ }
+
+
+
+menu:
+- text: What do I do
+  url: '#our-vision'
+- text: My core Values
+  url: /first-menu/
+  subitems:
+    - text: Primer
+      url: /first-menu/first-menu-sub/
+      subitems:
+        - text: First (sub-sub)
+          url: /first-menu/first-menu-sub/first-menu-sub-sub/
+        - text: Second (sub-sub)
+          url: /first-menu/first-menu-sub/first-menu-sub-sub/ 
+        - text: Second (sub-sub)
+          url: /first-menu/first-menu-sub/first-menu-sub-sub/ 
+    - text: Segundo
+      url: /first-menu/first-menu-sub/
+
+- text: My Work
+  url: /second-menu/
+  subitems:
+    - text: Second menu (sub)
+      url: /second-menu/second-menu-sub/
+- text: Skill
+  url: Text
+- text: People
+  url: Blog
+- text: Contact
+  url: /sitemap/
+
+
+

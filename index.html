@@ -1,21 +1,23 @@
 ---
 layout: default
-
-meta: Hola soy FAbio
 ---
 
-<h1> Sitio de Fabbio</h1>
-<strong>Pruebas del sitio de Index</strong>
+
+{% include Banner.html %}
 
 
-<h2>Tipos de planetas</h2>
+{% include Values.html %}
 
-<ol>
-	{% for planet in site.data.planet-types %}
-		<li>
-			<a href="{{site.baseurl}}/planets/{{planet.folder}}/">{{planet.title}}</a>
-			{{planet.content}}
-		</li>
+{% include Experience.html %}
 
-	{% endfor%}
-</ol>
+{% include Hystory.html %}
+
+{% include Achievements.html %}
+
+{% include People.html %}
+
+{% include Skills.html %}
+
+{% include contact.html %}
+
+
