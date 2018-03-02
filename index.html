@@ -1,23 +1,100 @@
 ---
 layout: default
+header_class: alt
+
+banner:
+  class: major principal style1 
+  title: Hey, I'm Fabio. 
+  excerpt: 3D printing <br/> sed aliquam lorem dis Egestas Commodo.
+  image: /assets/img/Home/Fabio-Pro.jpg
+
 ---
 
+{% comment %}
 
-{% include Banner.html %}
+	Forty by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
 
+	Name:
 
-{% include Values.html %}
+		Home page
 
-{% include Experience.html %}
+	Description:
 
-{% include Hystory.html %}
+		Main page of the site
 
-{% include Achievements.html %}
-
-{% include People.html %}
-
-{% include Skills.html %}
-
-{% include contact.html %}
+{% endcomment %}
 
 
+
+
+{% include layout/banner.html banner=page.banner %}
+
+
+
+<!-- Main -->
+<div id="main">
+
+
+<section class="container">
+		
+	<div class="row">
+ 	<div class="2u">Two</div>
+ 	<div class="4u">Four</div>
+ 	
+ 	<div class="6u$">
+ 		<div class="inner">
+			<header class="major">
+				<h2>Un poco sobre mi</h2>
+			</header>
+
+
+			<p>Hello.
+
+
+				Mi nombre es Fabio y trabajo como Ingeniero de Investigacion en el <a href="http://www.lf2l.fr/">Lorraine Fab Living Lab </a>en Nancy, Francia. <br>
+			
+			</p>
+			<!-- <ul class="actions">
+				<li><a href="landing.html" class="button next">Get Started</a></li>
+			</ul> -->
+		</div>
+ 	</div>
+ </div>
+
+		
+	</section>
+
+	
+
+	<!-- Two -->	
+	<section id="two" class="special">
+		<div class="inner">
+			<header class="major">
+			<h2>Here's what I've been doing so far</h2>
+		</header>				
+		</div>
+		
+		{% include components/tiles.html id="three" tiles=site.data.settings.Articles %}
+
+	</section>
+
+
+		
+	
+
+
+
+	<section id="four">
+		<div class="inner alt">
+			<header class="major">
+				<h2>This is how I work</h2>
+			</header>
+		</div>
+	</section>
+
+
+
+
+</div>

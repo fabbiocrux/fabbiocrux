@@ -6,48 +6,45 @@ title: Fabio Cruz
 description: Creating a local recycling system would open up new opportunities for the circular economy
 email: fabio-alberto.cruz-sanchez@univ-lorraine.fr
 
-permalink: pretty
-# NOTE: The Logo and Background image are defined in the all.sass document.
-
-# menu:
-# - {nav: What do I do, url: '#our-vision', sub-nav: "NO", sub-url: /text/, sub-nav2: Values, sub-url2: /text/ }
-# - {nav: My core Values, url: '#research', sub-nav: "NO", sub-url: Prueba, sub-nav2: HOla, sub-url2: /text/ , sub-nav2: Values, sub-url2: /text/ }
-# - {nav: My Work, url: '#students', sub-nav: Menu 1, sub-url: /text/ , sub-nav2: SubMenu 1, sub-url2: /text/ }
-# - {nav: Skill, url: '#resources', sub-nav: Menu 2, sub-url: /text/ , sub-nav2: SubMenu 2, sub-url2: /text/ }
-# - {nav: People, url: '#contact', sub-nav: Menu 3, sub-url: /text/ , sub-nav2: SubMenu 3, sub-url2: /text/ }
-# - {nav: Contact, url: '#contact', sub-nav: Menu 4, sub-url: /text/ , sub-nav2: SubMenu 4, sub-url2: /text/ }
 
 
-
-menu:
-- text: What do I do
-  url: '#our-vision'
-- text: My core Values
-  url: /first-menu/
-  subitems:
-    - text: Primer
-      url: /first-menu/first-menu-sub/
-      subitems:
-        - text: First (sub-sub)
-          url: /first-menu/first-menu-sub/first-menu-sub-sub/
-        - text: Second (sub-sub)
-          url: /first-menu/first-menu-sub/first-menu-sub-sub/ 
-        - text: Second (sub-sub)
-          url: /first-menu/first-menu-sub/first-menu-sub-sub/ 
-    - text: Segundo
-      url: /first-menu/first-menu-sub/
-
-- text: My Work
-  url: /second-menu/
-  subitems:
-    - text: Second menu (sub)
-      url: /second-menu/second-menu-sub/
-- text: Skill
-  url: Text
-- text: People
-  url: Blog
-- text: Contact
-  url: /sitemap/
-
-
-
+Articles:
+- title: Standard Protocol for OS 3D Printers 
+  excerpt: "Experimental protocol of geometrical performance evaluation in order to characterise OS 3D printers in a robust manner." 
+  image: /assets/img/articles/proj-1/FoldaRap.jpg
+  url: /articles/standard-protocol/
+  
+- title: Distributed Recycling 
+  excerpt: "General methodology to evaluate the recyclability of polymers used as feedstock for 3D printing machines"
+  image: /images/pic02.jpg
+  url: /landing.html
+  
+- title: Logistic Distributed Recycling 
+  excerpt: Lorem etiam nullam
+  image: /images/pic03.jpg
+  url: /landing.html
+  
+- title: Ipsum 
+  excerpt: Nisl sed aliquam
+  image: /images/pic04.jpg
+  url: /landing.html
+  
+Hobbies:
+- title: Photography
+  excerpt: Una imagen vale mas que mil palabras.
+  image: /assets/img/Home/Fabio-800x800.jpg
+  position: center center
+  url: /generic.html
+  link_text: Learn more
+- title: Music
+  excerpt: No todo en la vida es texto
+  image: /images/pic09.jpg
+  position: top center
+  url: /generic.html
+  link_text: Learn more
+- title: The life in the books
+  excerpt: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+  image: /images/pic10.jpg
+  position: 25% 25%
+  url: /generic.html
+  link_text: Learn more

@@ -1,52 +1,80 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
+{% comment %}
 
-	
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="{{ site.data.settings.seo.description }}">
-	<meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
-	<meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+	Forty by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
 
-	<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
+	Name:
 
-	<title>{{ site.data.settings.title }}</title>
+		Default layout
 
-	<!-- Bootstrap -->
-	<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap.css"> -->
-	<!-- Fabio CSS -->
-	<!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.css"> -->
+	Description:
 
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		Basic HTML foundation for all pages.
+
+	Example:
+
+		---
+		layout: default
+		---
+
+{% endcomment %}
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<!-- Required meta tags -->
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+		
+		
+		<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+		<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.png">
 
 
-</head>
-<body id="top">
-  
-  {% include header.html %}
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				{% include layout/header.html %}
+				{% include layout/menu.html %}
+
+				{{ content }}
+
+				{% include layout/footer.html %}
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="{{ site.baseurl }}/assets/js/main.js"></script>
 
 
-  <main>
-    {{content}}
-  </main>
+			<!-- Bootstrap JS -->
+
+			<script src="{{ '/assets/js/jquery.min.js' | prepend: site.baseurl}}"></script>
+			<script src="{{ '/assets/js/tether.min.js' | prepend: site.baseurl}}"></script>
+			<script src="{{ '/assets/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
 
 
-{%include footer.html %}
 
-<!-- Scripts -->
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/jquery.selectorr.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script src="{{ site.baseurl }}/assets/js/main.js"></script>	
-</body>
+    
+  </body>
+
+	</body>
 </html>

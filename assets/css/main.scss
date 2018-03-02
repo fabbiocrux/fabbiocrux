@@ -1,65 +1,101 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
 ---
 
+// Bootstrap
+@import 'bootstrap-4.0/bootstrap';
+
+
+@import 'skel/libs/vars';
+@import 'skel/libs/functions';
+@import 'skel/libs/mixins';
+@import 'skel/libs/skel';
+
+
+// FontAwsome - Academicicons
+// @import 'font-awesome.min.css';
+@import 'academicons.css';
+@import 'skel/complements/font-awesome-4.7.0/scss/font-awesome';
+// @import 'complements/academicons-1.8.0/css/academicons.css';
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+
 /*
-	Telemetry by Pixelarity
+	Forty by Pixelarity
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
 
-// 1 - TOOLS
-@import "1-tools/1-Herramientas";
-
-
 	@include skel-breakpoints((
-	xlarge: '(max-width: 1680px)',
-	large: '(max-width: 1280px)',
-	medium: '(max-width: 980px)',
-	small: '(max-width: 736px)',
-	xsmall: '(max-width: 480px)'
+		xlarge: '(max-width: 1680px)',
+		large: '(max-width: 1280px)',
+		medium: '(max-width: 980px)',
+		small: '(max-width: 736px)',
+		xsmall: '(max-width: 480px)',
+		xxsmall: '(max-width: 360px)'
 	));
 
 	@include skel-layout((
-	reset: 'full',
-	boxModel: 'border',
-	grid: ( gutters: 2em ),
-	breakpoints: (
-		large: (
-			grid: ( gutters: 1.5em )
-		),
-		small: (
-			grid: ( gutters: 1.25em )
+		reset: 'full',
+		containers: (80%, true),
+		
+		boxModel: 'border',
+		grid: ( gutters: 2em ),
+		
+		breakpoints: (
+			large: (
+				grid: ( gutters: 1.5em )
+			),
+			small: (
+				grid: ( gutters: 1.25em )
+			)
 		)
-	)
 	));
 
-	@mixin color($p) {
-		@include color-typography($p);
-		@include color-box($p);
-		@include color-button($p);
-		@include color-form($p);
-		@include color-list($p);
-		@include color-section($p);
-		@include color-table($p);
-		@include color-features($p);
-		@include color-stats($p);
-		@include color-tabs($p);
-		@include color-ratings($p);
+	@mixin inner {
+		> .inner {
+			@include padding(4em, 0);
+			margin: 0 auto;
+			max-width: _size(inner);
+			width: calc(100% - 6em);
+
+			@include breakpoint(small) {
+				@include padding(3em, 0);
+				width: calc(100% - 3em);
+			}
+		}
 	}
 
+// Base.
+
+	@import 'skel/base/page';
+	@import 'skel/base/typography';
+
+// Component.
+
+	@import 'skel/components/section';
+	@import 'skel/components/form';
+	@import 'skel/components/box';
+	@import 'skel/components/icon';
+	@import 'skel/components/image';
+	@import 'skel/components/list';
+	@import 'skel/components/table';
+	@import 'skel/components/button';
+	@import 'skel/components/tiles';
+	@import 'skel/components/contact-method';
+	@import 'skel/components/spotlights';
+	
+
+// Layout.
+	@import 'skel/layout/header';
+	@import 'skel/layout/banner';
+	@import 'skel/layout/main';
+	@import 'skel/layout/contact';
+	@import 'skel/layout/footer';
+	@import 'skel/layout/wrapper';
+	@import 'skel/layout/menu';
 
 
-// 2 - BASICS
-@import '2-basics/2-Basico';
-
-// 3 - Modules
-@import '3-modules/3-Modulos';
-
-// 4 - pages
-@import '4-layout/4-Layouts';
 
 
-@import 'font-awesome.min.css';
 
 
