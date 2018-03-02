@@ -1,0 +1,64 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+
+
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+
+
+// Palette.
+	$palette: (
+		bg:					$white, 	//#242943,
+		bg-alt:				$gray-100, 	//#2a2f4a,
+		fg:					$gray-900,	// #ffffff,
+		fg-bold:			$black,	// #ffffff,
+		fg-light:			$gray-700,//rgba(244,244,255,0.2),
+		border:				$gray-300, // rgba(212,212,255,0.1),
+		border-bg:			$gray-200, //rgba(212,212,255,0.035),
+		highlight:			#9bf1ff,
+		accent1:			#6fc3df,
+		accent2:			#8d82c4,
+		accent3:			#ec8d81,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4
+	);

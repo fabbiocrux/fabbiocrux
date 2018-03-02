@@ -1,0 +1,449 @@
+---
+title: Standard protocol
+layout: default
+header_class: style2 alt
+path-img: /assets/img/articles/proj-1/
+
+
+
+banner:
+ class: style2
+ image: /assets/img/articles/proj-1/FoldaRap.jpg
+ title: Towards a standard experimental protocol 
+ excerpt: for open source additive manufacturing
+
+spotlights:
+- image: /assets/img/articles/proj-1/FoldaRap.jpg
+  position: center center
+  title: In summary
+  excerpt: Our proposed methodology contribute to establish
+  conclusions:
+  - description: Level of machine precision.
+    url: "/Sections/Concept/FabLivingLab/"
+  - description: Internation standard tolerance (IT) of the machine.
+    url: "/Sections/Concept/Publications-ERPI-LF2L/"
+  - description: Best compromise of manufacturing parameters.  
+  url: http://dx.doi.org/10.1080/17452759.2014.919553
+  link_text: Learn more
+
+---
+
+{% comment %}
+
+	Name:
+
+		Landing page
+
+	Description:
+
+		Alternative page design.
+		Use the "alt" header_class for the best effect.
+		The "styleN" banner.class should match that of header_class.
+
+	Example:
+
+		---
+		header_class: alt style2
+		banner:
+			class: style2
+		---
+
+{% endcomment %}
+
+
+
+{% include layout/banner.html banner=page.banner %}
+
+
+
+<!-- Goal -->
+<div class="container alt" id="main">
+	
+		<!-- One -->
+	<section>
+		<div class="inner">
+			<header class="major ml-0">
+				<h2 class="text-uppercase">Goal of the article:</h2>
+			</header>
+
+			<p class="align-rigth">To propose an experimental protocol in order to characterise the dimensional accuracy of a representative open-source 3D printer, based on Design of Experiments (DoE) and integrating different families of geometrical features. 
+			</p>
+
+		<div class="row">
+			<figure class="figure mx-auto">
+				<img src="{{ site.baseurl | append: page.path-img | append: 'thumb.png' }}"
+				class="figure-img img-fluid rounded" style="max-height:300px" alt="OS-3D Printers growth">
+				
+				<figcaption class="figure-caption">
+					<p>Exponential groowth of the OS 3D printers. <a href="https://wohlersassociates.com/2016report.htm" type="text/html"> Source </a></p>  
+				</figcaption>
+			</figure>
+			
+		</div>
+
+		</div>
+	</section>
+
+	<section class="row">
+		<div class="12u$">
+			<h3>Why is it important?</h3>
+				<ul>
+					<li>Exponential growth of the open-source (OS) 3D Printers.</li>
+					<li>Characteristics such as its OS nature, its customisation and self-replication capability, open up the possibility for exponential growth for innovation in both products and 3D printer systems.</li>
+				</ul>
+		</div>
+
+
+		<div class="6u 12u$(small) text-center">
+			<figure class="figure">
+			  <img src="{{ site.baseurl | append: page.path-img | append: "3DP-Growth.jpg" }}"
+			  class="figure-img img-fluid rounded " style="max-height:300px" alt="OS-3D Printers growth">
+			  
+			  <figcaption class="figure-caption">
+			  	<p>Exponential groowth of the OS 3D printers. <a href="https://wohlersassociates.com/2016report.htm" type="text/html"> Source </a></p>  
+			  </figcaption>
+			</figure>
+			
+		</div>
+
+		<div class="6u 12u$(small) text-center">
+			<figure class="figure">
+			  <img src="{{ site.baseurl | append: page.path-img | append: "RepRap-Tree.jpg" }}" 
+			  class="figure-img img-fluid rounded" alt="OS-3D Printers growth" style="max-height:300px">
+			  
+			  <figcaption class="figure-caption">
+			  	<p> Diversification of the OS 3D printers. <a href="https://doi.org/10.1016/B978-0-12-410462-4.00005-6"> Source </a></p>  
+			  </figcaption>
+			</figure>
+		</div>				
+	</section>
+
+	<section class="row">
+		<div class="12u$ 12u$(small)">
+			<h4>Research Problem</h4>
+
+			<p> Diferent benchmarking <b>Methodologies + Geometrical Models</b> have been proposed in the literature of commercial Additive Manufacturing with the purpose of:</p>
+
+			<ul>
+				<li>Comparing AM processes.</li>
+				<li>Finding optimal parameters.</li>
+				<li>Establishing minimal performance standards.</li>
+			</ul>
+		</div>
+
+		<div class="row text-center">
+			<figure class="figure col-lg-4 col-6"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: "Benchmarking/Childs1994.png" }}"
+				 class="figure-img img-fluid rounded"  style="max-height:200px"  >
+				<figcaption class="figure-caption">          
+					<p><a href="https://doi.org/10.1016/S0007-8506(07)62187-8">Childs & Juster (1994)</a></p> 
+				</figcaption>
+			</figure>
+
+			<figure class="figure col-lg-4 col-6"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: "Benchmarking/Ippolito1995.png"}}"
+				class="figure-img img-fluid rounded"   style="max-height:200px"  >
+				<figcaption class="figure-caption">          
+					<p><a href="https://doi.org/10.1016/S0007-8506(07)62296-3">Ippolito, R., Iuliano, L., & Gatto, A. (1995) </a></p>            
+				</figcaption>
+			</figure>
+
+			<figure class="figure col-lg-4 col-6"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: "Benchmarking/Mahesh2006.png"}}"
+				class="figure-img img-fluid rounded"  style="max-height:200px"  >
+				<figcaption class="figure-caption">          
+					<p><a href="https://doi.org/10.1007/s00170-005-0201-z"> Mahesh et al. (2006)</a></p>            
+				</figcaption>
+			</figure>
+
+			<figure class="figure col-lg-4 col-6">  
+				<img src="{{ site.baseurl | append: page.path-img | append: "Benchmarking/Johnson2011.png"}}"
+				class="figure-img img-fluid rounded"  style="max-height:200px"  >
+				<figcaption class="figure-caption">          
+					<p><a href="https://sffsymposium.engr.utexas.edu/Manuscripts/2011/2011-16-Johnson.pdf">Johnson et al. (2011)</a></p>            
+				</figcaption>
+			</figure>
+
+			<figure class="figure col-lg-4 col-6"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: "Benchmarking/Scaravetti2007.png"}}"
+				class="figure-img img-fluid rounded"  style="max-height:200px"  >
+				<figcaption class="figure-caption">          
+					<p><a href="https://doi.org/10.1007/s00170-007-1129-2">Scaravetti, D., Dubois, P., & Duchamp, R. (2007)</a></p>            
+				</figcaption>
+			</figure>
+		</div>
+
+
+		<p><b>Nevertheless</b> <span style="color:red">for open-source case:</span></p>
+
+		<ul>
+			<li>Little benchmarking methodologies have been proposed.</li>
+			<li>Performance between Open-Source and commercial AM was not clarified.</li>
+			<li>Relation between Parameters/ Process/Properties is not clearly established yet.</li>
+		</ul>
+	</section>
+
+
+	<section class="row">	
+		<div class="12u$ ">
+
+			<h4 class="text-center">What is our proposition about? </h4>
+
+			<p>We propose an experimental <b>methodology</b> in four steps, with two main goals: </p>
+
+		<ol>
+			<li>Dimensional performance of an open-source 3D printer:</li>
+
+				<ul>
+				<li><strong>XZ</strong>-Plane</li>
+				<li><strong>Z</strong>-Axis</li>
+				<li><strong>D</strong>-Circular features</li>
+				<li><strong>T</strong>-Thing walls</li>
+				</ul>  
+			
+			<li>Establishment of optimal manufacturing parameters.</li>
+			
+		</ol>
+			<div class="d-flex justify-content-center">
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: "Methodology.svg" }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-width: 100%"  >
+				
+				<figcaption class="figure-caption">          
+					Proposed Methodology for test an open source 3D printer.
+				</figcaption>
+			</figure>
+			</div>
+		</div> 
+
+	<p> </p>
+	</section>
+
+	<section class="row">
+		<div class="12u$">
+			<h3 class="text-center">Our Case Study: The FoldaRap</h3>	
+		</div>	
+		
+		<div class="5u 12u$(medium)">
+
+		<figure class="figure"> 
+			<img src="{{ site.baseurl | append: page.path-img | append: "Foldarap.jpg" }}"
+			class="figure-img img-fluid rounded" alt="Methodology" style="max-height:300px"  >
+			<figcaption class="figure-caption">          
+				OS Source 3D Printer. <a href="http://reprap.org/wiki/FoldaRap" type="text/html"> The FoldaRap </a>
+			</figcaption>
+		</figure>
+				
+		</div>
+
+		<div class="7u$ 12u$(medium)">			
+			<p>A derivative machine from the RepRap project called  <a href="http://reprap.org/wiki/FoldaRap" type="text/html"> The FoldaRap </a>  was selected for this investigation. 
+			This machine is a representative 3D printer among the set of open source machines developed by the RepRap community.</p>
+		</div>
+<p></p>
+	</section>
+
+
+	<section class="row">
+		<div class="12u$">
+			<h3>A. Geometric Benchmarking Model</h3>	
+		</div>	
+		
+		<div class="9u d-flex justify-content-between">
+						
+			<img src="{{ site.baseurl | append: page.path-img | append: 'Methodology-1.png' }}"
+								class="figure-img img-fluid rounded" alt="Methodology - 1" style="max-height:300px">	
+			
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'GBM.jpg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px"  >
+				<figcaption class="figure-caption">          
+					Geometrical Benchmarking Model used in the experimentation.
+				</figcaption>
+			</figure>
+		</div>	
+
+		<div class="3u$">
+			<p>This research uses a modified version of the benchmarking model from the National Institute of Standards and Technology (NIST) <a href="https://sffsymposium.engr.utexas.edu/Manuscripts/2012/2012-69-Moylan.pdf" type="text/html">(Moylan et al. 2012)</a>.</p>
+		</div>			
+	
+	</section>	
+
+	<section class="row">
+		<div class="12u$">
+			<h3>B. Design of Experiments</h3>	
+		</div>	
+		
+		<div class="6u d-flex justify-content-between">
+				
+			<img src="{{ site.baseurl | append: page.path-img | append: 'Methodology-2.png' }}"
+								class="figure-img img-fluid rounded" alt="Methodology - 1" style="max-height:300px">	
+			
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'Taguchi.svg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px"  >
+				<figcaption class="figure-caption">          
+					Design of experiments: Taguchi Approach.
+				</figcaption>
+			</figure>
+		</div>	
+
+		<div class="6u$">
+			<p>One of the available DoE approaches in the scientific literature is the Taguchi method. It has been proven to be successful for improvement of product quality and process performance. <br>
+			Using Taguchi’s approach, <b>three control factors </b> have been considered in this investigation. 
+			A reliable estimation of the effect of factors can be obtained by using an orthogonal array with fewer experiments than classical DoE. <br>
+			The appropriate orthogonal array for this experiment is L <sub>9</sub>(3<sup>4</sup>).</p>
+		</div>			
+	
+	</section>	
+
+	<section class="row">
+		<div class="12u$">
+			<h3>C. Fabrication</h3>	
+		</div>	
+		
+		<div class="6u d-flex justify-content-between">
+				
+			<img src="{{ site.baseurl | append: page.path-img | append: 'Methodology-3.png' }}"
+								class="figure-img img-fluid rounded" alt="Methodology - 3" style="max-height:300px">	
+			
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'samples.png' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px"  >
+				<figcaption class="figure-caption">          
+					Surface quality of the printed samples.
+				</figcaption>
+			</figure>
+		</div>	
+
+		<div class="6u$">
+			<p> 18 samples were fabricated according to the Taguchi's table.
+				<ul>
+					<li>Detailed measurements on the Geometrical Benchmarking Model was made in order to obtain the <br>
+					<b>percent deviation measurements (&#916;Y)</b></li>
+				</ul>
+			</p>
+		</div>			
+	
+	</section>	
+
+
+	<section class="row uniform">
+		<div class="12u$">
+			<h3>D. Results</h3>	
+		</div>	
+		
+		<div class="2u d-flex justify-content-between">
+				
+			<img src="{{ site.baseurl | append: page.path-img | append: 'Methodology-4.png' }}"
+								class="figure-img img-fluid rounded" alt="Results" style="max-height:300px">	
+						
+		</div>	
+
+		<div class="4u d-flex justify-content-between">
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'Probability-Function.svg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px;"  >
+				<figcaption class="figure-caption">          
+					Determination of probabilities <br> of each type of dimensional accuracy
+				</figcaption>
+			</figure>
+		</div>			
+
+		<div class="6u$ d-flex justify-content-between">
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'IT-Comparison.svg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px" >
+				<figcaption class="figure-caption">          
+					Comparison of machine's performance between open-source and commercial.
+				</figcaption>
+			</figure>
+			
+		</div>			
+	
+
+		<ol>
+			<li>Precision of the machine</li>
+			<li>Comparison of commercial AM  Vs. open-source machines</li>
+			<li>To find the best compromise of the manufacturing parameters tested:</li>
+		</ol>
+		
+		<div class="12u$">
+			
+			<p>We use RMSD value as an estimator of accuracy. The lower the RSMD value, the higher the precision. </p>
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'RMSD-1.svg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px"  >
+				<figcaption class="figure-caption">          
+					
+				</figcaption>
+			</figure>
+
+		</div>	
+
+
+		
+		<div class="12u$">			
+			<p>We calculate the frequency of each manufacturing identified as "Best", "Best-2" and "Best-3" </p>
+			
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'RMSD-2.svg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px"  >
+				<figcaption class="figure-caption">          
+					
+				</figcaption>
+			</figure>
+
+		</div>	
+		
+		<div class="12u$">
+			<figure class="figure"> 
+				<img src="{{ site.baseurl | append: page.path-img | append: 'RMSD-3.svg' }}"
+				class="figure-img img-fluid rounded" alt="Methodology" style="max-height:250px"  >
+				<figcaption class="figure-caption">          
+					
+				</figcaption>
+			</figure>			
+			<p>A <b><em>Global Index</em></b> of performance is established with three relative weights <em>w<sub>i</sub></em>  for pondering the significance of each type of frequency, giving more importance to the set of frequencies of the factors qualified as the most accurate ("Best")</p>
+		</div>
+
+
+		<div class="12u$">
+
+			<h3>Specifics results for our case study:</h3>
+				<blockquote>
+				<ol>
+					<li>There is a 82.14% of probability that the feature's measurement made by the 3D printer are in the range of (-5%,5%) with respect to the CAD measurement</li>		
+					<li>International standard tolerance: (IT14 - IT16)</li>
+					<li>Best trade-off: 
+						<ul>
+							<li>Layer thickness: 0.18mm</li>
+							<li>Raster width: 0.71mm</li>
+							<li>Nozzle speed movement: 50mm/s</li>				
+						</ul>  
+					</li>
+				</ol> 
+			</blockquote>
+			
+
+			
+		</div>	
+
+	</section>	
+
+
+
+</div> <!-- closing the Container  -->
+
+
+
+
+<!-- Conclusions -->
+
+{% include components/spotlights.html id="two" spotlights=page.spotlights %}
+
+
+
+
+
+

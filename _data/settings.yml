@@ -1,0 +1,50 @@
+#-------------------------------
+# General Site Settings of Fabio's Site
+#-------------------------------
+
+title: Fabio Cruz
+description: Creating a local recycling system would open up new opportunities for the circular economy
+email: fabio-alberto.cruz-sanchez@univ-lorraine.fr
+
+
+
+Articles:
+- title: Standard Protocol for OS 3D Printers 
+  excerpt: "Experimental protocol of geometrical performance evaluation in order to characterise OS 3D printers in a robust manner." 
+  image: /assets/img/articles/proj-1/FoldaRap.jpg
+  url: /articles/standard-protocol/
+  
+- title: Distributed Recycling 
+  excerpt: "General methodology to evaluate the recyclability of polymers used as feedstock for 3D printing machines"
+  image: /images/pic02.jpg
+  url: /landing.html
+  
+- title: Logistic Distributed Recycling 
+  excerpt: Lorem etiam nullam
+  image: /images/pic03.jpg
+  url: /landing.html
+  
+- title: Ipsum 
+  excerpt: Nisl sed aliquam
+  image: /images/pic04.jpg
+  url: /landing.html
+  
+Hobbies:
+- title: Photography
+  excerpt: Una imagen vale mas que mil palabras.
+  image: /assets/img/Home/Fabio-800x800.jpg
+  position: center center
+  url: /generic.html
+  link_text: Learn more
+- title: Music
+  excerpt: No todo en la vida es texto
+  image: /images/pic09.jpg
+  position: top center
+  url: /generic.html
+  link_text: Learn more
+- title: The life in the books
+  excerpt: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+  image: /images/pic10.jpg
+  position: 25% 25%
+  url: /generic.html
+  link_text: Learn more
