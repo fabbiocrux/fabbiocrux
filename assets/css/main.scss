@@ -19,6 +19,33 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
 
+
+
+// Font
+// Charter
+
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter-2014-06/CharterR.woff');
+}
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter-2014-06/CharterB.woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter-2014-06/CharterI.woff');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Charter';
+    src: url('../fonts/Charter-2014-06/CharterZ.woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 /*
 	Forty by Pixelarity
 	pixelarity.com | hello@pixelarity.com
