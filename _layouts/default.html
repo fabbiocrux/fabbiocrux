@@ -1,80 +1,42 @@
-{% comment %}
+---
+---
 
-	Forty by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.12.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-	Name:
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-		Default layout
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-	Description:
+    <div class="initial-content">
+      {{ content }}
+    </div>
 
-		Basic HTML foundation for all pages.
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include search/search_form.html %}
+      </div>
+    {% endif %}
 
-	Example:
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-		---
-		layout: default
-		---
+    {% include scripts.html %}
 
-{% endcomment %}
-
-<!DOCTYPE HTML>
-<html>
-	<head>
-
-		<!-- Required meta tags -->
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
-		
-		
-		<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-		<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
-
-		<!-- Favicon -->
-		<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.png">
-
-
-	</head>
-	<body>
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				{% include layout/header.html %}
-				{% include layout/menu.html %}
-
-				{{ content }}
-
-				{% include layout/footer.html %}
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
-			<script src="{{ site.baseurl }}/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="{{ site.baseurl }}/assets/js/main.js"></script>
-
-
-			<!-- Bootstrap JS -->
-
-			<script src="{{ '/assets/js/jquery.min.js' | prepend: site.baseurl}}"></script>
-			<script src="{{ '/assets/js/tether.min.js' | prepend: site.baseurl}}"></script>
-			<script src="{{ '/assets/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
-
-
-
-    
   </body>
-
-	</body>
 </html>

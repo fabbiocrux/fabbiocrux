@@ -1,102 +1,40 @@
 ---
-layout: default
-header_class: alt
+layout: single
+classes: wide
+permalink: "/"
+author_profile: true
 
-
-path-img: /assets/img/Home/
-
-banner:
-  class: major principal style1 
-  title: Hey, I'm Fabio. 
-  excerpt: I explore the  3D printing technology for a greener world.
-  image: /assets/img/Home/Fabio-Pro.jpg
-
+title: Hi, I'm Fabio
+excerpt: "And this my virtual brain-space"
+header:
+  overlay_color: "#d30011"
+  overlay_filter: rgba(50, 50, 0, 0.2)
+  overlay_image: "/assets/img/home/Fabio-Mission2.jpg"
+  image_description: "A description of the image"
+  caption: "Photo credit: [**Peb**](http://www.pebfox.com/blog/)"
+  cta_label: "More Info"
+  cta_url: "/#id"
 ---
 
-{% comment %}
+<h2 id="id">About me</h2>
 
-	Forty by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+<p>Hi, I'm Fabio. I'm a researcher working on new product development acceptance assessment. 
+I currently work at the <a href="http://lf2l.fr "lf2l"">Lorraine Fab Living Lab (LF2L)</a>as a Research associate.</p>
 
-	Name:
+<p>I am a mechanical engineer that turned out into Innovation field to explore meaningful technological ideas. Particularly, the application of 3D printing technology for a local recycling process in open labs.
+Adept at working in a facilitator role in multidisciplinary teams to create solutions for the societal challenges of XXI century.</p>
 
-		Home page
+<!-- <h2>Research interest</h2>
 
-	Description:
+<ul>
+	<li>Use assessment with eyetracking</li>
+	<li>Acceptability assesment</li>
+	<li>Bayesian networks and Machine Learning</li>
+	<li>Digital transformation of museums and cultural heritage from the use perspective</li>
+<li>Big-data, open-data use for Smart-city development using a Living Lab approach</li>
+</ul>
 
-		Main page of the site
+ -->
 
-{% endcomment %}
-
-
-
-
-{% include layout/banner.html banner=page.banner %} 
-
-
-
-<!-- Main -->
-<div id="main">
-
-
-<!-- <section class="container"> -->
-
-		
-<div class="row pt-5">
- 	<div class="6u 12u$(small)"><span class="image fit"><img src="{{ site.baseurl | append: page.path-img | append: 'Fabio-Mission2.jpg' }}"</span></div>
- 	
- 	<div class="4u$ -1u 10u$(small) -1u(small) ">
- 		<div class="inner">
-			<header class="major">
-				<h2>Un poco sobre mi</h2>
-			</header>
-
-			<p>Hello.
-
-
-				Mi nombre es Fabio y trabajo como Ingeniero de Investigacion en el <a href="http://www.lf2l.fr/">Lorraine Fab Living Lab </a>en Nancy, Francia. <br>
-			
-			</p>
-			<!-- <ul class="actions">
-				<li><a href="landing.html" class="button next">Get Started</a></li>
-			</ul> -->
-		</div>
- 	</div>
- </div>
-
-		
-<!-- </section> -->
-
-	
-
-	<!-- Two -->	
-	<section id="two" class="special">
-		<div class="inner">
-			<header class="major">
-			<h2>Here's what I've been doing so far</h2>
-		</header>				
-		</div>
-		
-		{% include components/tiles.html id="three" tiles=site.data.settings.Articles %}
-
-	</section>
-
-
-		
-	
-
-
-
-	<section id="four">
-		<div class="inner alt">
-			<header class="major">
-				<h2>This is how I work</h2>
-			</header>
-		</div>
-	</section>
-
-
-
-
-</div>
+  
+    
