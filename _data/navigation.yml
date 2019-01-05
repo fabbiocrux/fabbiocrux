@@ -1,10 +1,7 @@
 # main links
 main:
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
-  - title: "Resume"
-    url: /cv/ 
-  - title: "Blog"
-    url: /blog/
+  - title: "The Professional"
+    url: /
+  - title: "The Human"
+    url: /
+  
