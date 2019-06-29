@@ -1,5 +1,6 @@
 ---
 title: "Towards a standard experimental protocol"
+permalink: "/projects/standard-protocol-for-3DP/"
 excerpt: "for open source additive manufacturing"
 img-path: /assets/img/projects/Standard-Protocol/
 header:

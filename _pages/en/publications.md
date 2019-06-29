@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 classes: wide
 title: "Publications"
 permalink: /publications/
@@ -14,4 +14,3 @@ Here you will find a recent list of my publications, most of them are available 
 
 
 <script src="https://bibbase.org/service/mendeley/2704f78b-4c0d-311d-9a1a-3865c785c758?jsonp=1"></script>
-

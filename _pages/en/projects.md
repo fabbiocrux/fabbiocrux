@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: splash
+layout: page
 permalink: /projects/
 collection: projects
 entries_layout: grid
@@ -20,25 +20,7 @@ intro:
 
 
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
----
-
 {% include feature_row id="intro" type="center" %}
 
 
-
 # Some Projects
-
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-
-
-<div class="entries-{{ page.entries_layout }}">
-  {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
