@@ -97,7 +97,7 @@ plugins:
 # Site Author
 author:
   name: Fabio Cruz
-  picture: /assets/img/home/fabio.jpg
+  picture: /assets/img/home/fabio-cruz.jpg
   email:
   twitter: fabbiocrux
   links:
@@ -108,7 +108,7 @@ author:
 #      url: https://instagram.com/mmistakes
 #      icon: fab fa-instagram
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/fabbiocrux
       icon: fab fa-github-square
 
 # Footer Links
@@ -120,7 +120,7 @@ footer_links:
 #    url: https://instagram.com/mmistakes
 #    icon: fab fa-instagram
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/fabbiocrux
     icon: fab fa-github-square
   - title: Feed
     url: atom.xml
