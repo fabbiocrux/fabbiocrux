@@ -36,52 +36,9 @@ Dos preguntas ponen en valor el trabajo que Robert Greene propone:
 
 La idea principal es tener *claridad* mental para entender el proceso misterioso y complejo que tiene el comportamiento humano.
 Y mucho de ello para entenderlo, radica en ver en sí mismo la **Naturaleza humana** que tenemos dentro.
-Ver como esta naturaleza humana ha evolucionado a lo largo del tiempo para volvernos animales sociales, donde una de las principales misiones ha sido la supervivencia como especie. 
+Ver como esta naturaleza humana ha evolucionado a lo largo del tiempo para volvernos animales sociales, donde una de las principales misiones ha sido la supervivencia como especie.
 
-Entonces, Robert Greene lo que propone en este libro es un compendio de caractéristicas y principios sobre lo que llama los  invariables de la naturaleza humana. Diversos puntos de vista han sido explorados, incluyendo la filosofía, psicología, economía, entre otros campos. 
+Entonces, Robert Greene lo que propone en este libro es un compendio de caractéristicas y principios sobre lo que llama los  invariables de la naturaleza humana. Diversos puntos de vista han sido explorados, incluyendo la filosofía, psicología, economía, entre otros campos.
 A partir de ahí, se puede ir entendiendo el tejido complejo que tiene el carácter humano.
 
-PAra lograr su cometido
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Para ello, 
