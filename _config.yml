@@ -73,6 +73,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
+  - jekyll-include-cache
 
 
 # # Front Matter Defaults
