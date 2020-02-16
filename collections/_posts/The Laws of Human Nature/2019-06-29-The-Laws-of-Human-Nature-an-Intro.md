@@ -69,14 +69,14 @@ Por ello, herramientas como profunda observación y escucha activa son elementos
 
 Otro punto importante que propone es el hecho de comprender cuán influencia tiene nuestra propia psique, y sobretodo, darse cuenta que 
 Existe una auto-indulgencia que nos es propia. 
-Si hablamos sobre la envidia, el egoísmo, y demás rasgos oscuros de la personalidad... la mayoría de las veces, hablamos de esos rasgos que hay *en los demas*, no en *nosostros*.
+Si hablamos sobre la envidia, el egoísmo, y demás rasgos oscuros de la personalidad... la mayoría de las veces, hablamos de esos rasgos que hay *en los demás*, no en *nosotros*.
 Por ello, tener una autoconciencia . 
 Mirar nuestra propia sombra es un espectro de crecimiento enorme. 
 Asimismo, nos damos cuenta de la humildad que debemos que no somos superiores (ni inferiores) a lo demás. Somos simplemente lo que somos. 
 
 
 Finalmente, el ultimo argumento que propone Robert Green en este libro consiste en darse cuenta de un ideal/potencial que existe en cada uno de nosotros para que sea aportado al mundo.
-El propósito final del libro es precisamente desarrollar este potencial que cada uno lleva para que pueda tener lugar en el mundo aqui y ahora. 
+El propósito final del libro es precisamente desarrollar este potencial que cada uno lleva para que pueda tener lugar en el mundo aquí y ahora. 
 Finalmente, lo que cada ser humano puede aportar al mundo más allá del trabajo del día a día (como diría Churchill '*blood, toil, tears and sweat*') .. son la ideas.
 El poder de las ideas es un poder que no tiene limites.
 

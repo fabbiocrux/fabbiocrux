@@ -158,9 +158,6 @@ collections:
     output: true
     permalink: /:collection/:title/
 
-  laws-human-nature:
-    output: true
-    permalink: /:collection/:title/
 
 
 
