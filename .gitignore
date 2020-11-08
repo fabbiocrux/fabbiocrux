@@ -9,3 +9,5 @@ _site/
 .AppleDouble
 .LSOverride
 .Rproj.user
+
+public/
