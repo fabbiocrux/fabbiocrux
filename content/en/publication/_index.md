@@ -1,7 +1,7 @@
 ---
-header:
-  caption: "test"
-  image: "../publications/header.jpg"
+#header:
+#  caption: ""
+#  image: "pic07.jpg"
 title: Publications
 view: 3
 ---
