@@ -1,17 +1,21 @@
 ---
-lang: es
-title: "Libro 'The Laws of human Nature' --- An Intro"
-excerpt_separator: "\n\n"
+title: "Libro The Laws of human Nature -- An Intro"
+author: Fabio
+date: '2019-06-29'
+slug: the-human-laws-of-human-nature-an-intro
 categories:
   - The Laws of Human Nature
-
-tags:
-  - Robert Greene
-  - Human Laws
-#image:
-#  path: "/assets/img/home/header.jpg"
-  #caption: "Photo credit: [**Peb**](http://www.pebfox.com/blog/)"
-last_modified_at: 2019-06-29
+tags: [Robert Greene, Human Laws]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-06-29T15:29:11+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
 
 Este libro es el último escrito por el gran escritor Robert Greene.
@@ -59,64 +63,27 @@ El siguiente punto interesante del libro concierne a encontrar los verdaderos me
 Usualmente, en un mundo donde la absorción del ser en si mismo se convierte en regla, y donde el egocentrismo es la religión profesada, resulta difícil que nuestras ideas tengan influencia sobre los demás.
 Y esta es normal, dado que cada ser humano es obstinado e defensivo al cambio.
 Sin embargo, este libro propone trabajar sobre elementos sobre la parte actitudinal, la empatía y una ética (del trabajo y personal) con el fin de influenciar a los demás desde una perspectiva más emocional.
-Esto no significa que los datos, la argumentación y confrontación no sean necesaria. 
-Por el contrario, deben ser trabajadas. 
-Pero hay que considerar también la forma que estos datos y argumento son transmitidos. 
+Esto no significa que los datos, la argumentación y confrontación no sean necesaria.
+Por el contrario, deben ser trabajadas.
+Pero hay que considerar también la forma que estos datos y argumento son transmitidos.
 Partiendo desde una perspectiva empática (ponerse en los zapatos de los demás para ver lo que ven) crea un lazos más profundos con las personas que nos rodean.
-Esta perspectivas es muy diferente de la del monologo interior que se tiene cuando interactuamos con los demás. 
-Por ello, herramientas como profunda observación y escucha activa son elementos indispensables. 
+Esta perspectivas es muy diferente de la del monologo interior que se tiene cuando interactuamos con los demás.
+Por ello, herramientas como profunda observación y escucha activa son elementos indispensables.
 
 
-Otro punto importante que propone es el hecho de comprender cuán influencia tiene nuestra propia psique, y sobretodo, darse cuenta que 
-Existe una auto-indulgencia que nos es propia. 
+Otro punto importante que propone es el hecho de comprender cuán influencia tiene nuestra propia psique, y sobretodo, darse cuenta que
+Existe una auto-indulgencia que nos es propia.
 Si hablamos sobre la envidia, el egoísmo, y demás rasgos oscuros de la personalidad... la mayoría de las veces, hablamos de esos rasgos que hay *en los demás*, no en *nosotros*.
-Por ello, tener una autoconciencia . 
-Mirar nuestra propia sombra es un espectro de crecimiento enorme. 
-Asimismo, nos damos cuenta de la humildad que debemos que no somos superiores (ni inferiores) a lo demás. Somos simplemente lo que somos. 
+Por ello, tener una autoconciencia .
+Mirar nuestra propia sombra es un espectro de crecimiento enorme.
+Asimismo, nos damos cuenta de la humildad que debemos que no somos superiores (ni inferiores) a lo demás. Somos simplemente lo que somos.
 
 
 Finalmente, el ultimo argumento que propone Robert Green en este libro consiste en darse cuenta de un ideal/potencial que existe en cada uno de nosotros para que sea aportado al mundo.
-El propósito final del libro es precisamente desarrollar este potencial que cada uno lleva para que pueda tener lugar en el mundo aquí y ahora. 
+El propósito final del libro es precisamente desarrollar este potencial que cada uno lleva para que pueda tener lugar en el mundo aquí y ahora.
 Finalmente, lo que cada ser humano puede aportar al mundo más allá del trabajo del día a día (como diría Churchill '*blood, toil, tears and sweat*') .. son la ideas.
 El poder de las ideas es un poder que no tiene limites.
 
-Este libro es valioso, en sentido que propone una cuadro de análisis. 
+Este libro es valioso, en sentido que propone una cuadro de análisis.
 No es el único. Pero vale la pena verlo en detalle.
 Exploraré este cuadro en los siguientes escritos. :smile: !!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

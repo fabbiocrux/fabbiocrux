@@ -21,3 +21,14 @@ Nevertheless, it the most difficult one because we need to reconcile the underst
 In this point we make an assessments of what is usefulness.
 
 Recently, I started to get interest in the field of system dynamics, a research field developed by the MIT Profesor Jay Forrester. One of the points that highlights Prof. Forrester is that every model is wrong, but some are useful.
+
+
+So, what is a system? A system is a set of things—people, cells, molecules, or whatever—interconnected in such a way that they produce their own
+pattern of behavior over time. The system may be buffeted, constricted,
+triggered, or driven by outside forces. But the system’s response to these
+forces is characteristic of itself, and that response is seldom simple in the
+real world.
+
+
+
+
