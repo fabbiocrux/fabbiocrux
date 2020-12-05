@@ -1,5 +1,8 @@
 ---
 title: "System dynamics -- An Intro"
+author: Fabio
+date: '2020-10-04'
+
 categories:
   - System dynamics
 tags:
@@ -8,7 +11,7 @@ tags:
 #image:
 #  path: "/assets/img/home/header.jpg"
   #caption: "Photo credit: [**Peb**](http://www.pebfox.com/blog/)"
-last_modified_at: 2020-10-04
+lastmod: '2020-12-01T06:28:35+01:00'
 draft: true
 ---
 
