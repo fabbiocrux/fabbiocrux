@@ -26,16 +26,16 @@ draft: true
 En este segundo capitulo, Robert Greene nos habla sobre la importancia que tiene la auto-estima.
 En sus palabra, la autoestima representa una construcción interna donde debemos tener una imagen de nosotros mismos, con el fin de reconfortarnos y sentirnos validados *desde adentro*.
 Esta auto-imagen  funciona como un termostato que permite regular nuestras dudas e inseguridades.
-Yo paso de lado toda la teoría científica detras de estas ideas (desde Freud, Carl Jung y demas personalidades del campo de la psicología).
-Sin embargo, lo que resalto es que es una necesidad psicologica de la naturaleza humana el hecho de conectar con otros humanos.
-La atención en formas de atencion que recibimos de la parte
+Yo paso de lado toda la teoría científica detrás de estas ideas (desde Freud, Carl Jung y demás personalidades del campo de la psicología).
+Sin embargo, lo que resalto es que es una necesidad psicológica de la naturaleza humana el hecho de conectar con otros humanos.
+La atención en formas de atención que recibimos de la parte
 
-Lo interesante de este capitulo  es la proposicion de un donde identifica cutro espectros de Narcisos: (1) Narciso profundo, (2) Narciso
+Lo interesante de este capitulo  es la proposición de un donde identifica cuatro espectros de Narcisos: (1) Narciso profundo, (2) Narciso
 Narcistas profundos
 Una motivacion psicologia es la atencion que recibimios de los‘o‘s'<<’ demas
 
 
-- Narcisimos  como una herramienta pare medir nuestro nivel de auto-absorcion.
+- Narcisismo  como una herramienta pare medir nuestro nivel de auto-absorcion.
 
 - Las tareas a hacer son triples
    1. Entender totalmente el fenomeno del narcisismo profundo con el fin de poder distinguir los tipos de narcisismo toxicos que promueven el drama y alinean las condiciones siempre a su favor.
@@ -53,7 +53,7 @@ las personas estan inviertiendo menos tiempo en interaccioens sociales (y más a
 La empatia esta relacionada con la **calidad de nuestra atencion**. Si nuestra atecion esta fuertemente ligada al telefono, muy probablemente no ganaremos ni entenderemos la perspectiva de la persona que pueda estar el frente de nosotros.
 Incrementando nuestra atencion hacia el exterior, basado claramente en una solida auto-estima, podremoms ganar feedback para mejorar afinar nuestro consciencia del mundo.
 
-Robert Greene propone cuatro componenete para desarrollar esta competencia:
+Robert Greene propone cuatro componente para desarrollar esta competencia:
 1. Actitud empatica
 2. Empatia VIsceral
 3. Empatia Analitica
