@@ -66,6 +66,7 @@ Debemos empezar con un marco mental de 'ignorancia y curiosidad' reconociendo qu
 
 Las personas se presentan con una mascara la cual por error siempre la interpretaremos como verdadera
 
+con
 
 
 
