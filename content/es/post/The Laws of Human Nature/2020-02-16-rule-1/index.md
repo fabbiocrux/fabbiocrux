@@ -1,7 +1,7 @@
 ---
 title: "Ley de la Irracionalidad - 'Master your emotional self'"
 author: Fabio
-date: '2020-12-05'
+date: '2020-06-29'
 slug: transformando-amor-propio-en-empatia
 categories:
   - The Laws of Human Nature
@@ -9,7 +9,7 @@ tags: [Robert Greene, Human Laws]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: 2020-02-16
+lastmod: '2020-06-29T15:29:11+01:00'
 featured: no
 image:
   caption: ''
