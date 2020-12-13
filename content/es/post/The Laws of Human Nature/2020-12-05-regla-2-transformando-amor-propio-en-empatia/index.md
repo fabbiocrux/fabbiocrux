@@ -9,7 +9,7 @@ tags: [Robert Greene, Empatía]
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-12-05T15:29:11+01:00'
+lastmod: '2020-12-13T15:29:11+01:00'
 featured: no
 image:
   caption: ''
@@ -36,7 +36,7 @@ Las proposición fundamentales del capítulo son triples:
    1. Entender totalmente el fenomeno del narcisismo profundo con el fin de poder distinguir los tipos de narcisismo tóxicos que promueven el drama y alinean las condiciones siempre a favor de este tipo de personas.
    2. Entender y ser honestos con nosotros mismos sobre nuestra propia naturaleza sin negarla.
    Todos somos narcisistas y estamos en cierta medida dentro del espectro de la auto-absorción, lo cual, es necesario para nuestro funcionamiento y sobrevivencia en sociedad.
-   3. Debemos empezar la transformación hacia un *Naricismo Saludable*. Esto significa poder desarrollar resiliencia dentro de nosotros para poder hacer frente a todos los contratiempos que nuestra existencia implica.  Y para ello es necesario desarrollar habilidades de *Empatía*.
+   3. Debemos empezar la transformación hacia un *Narcisismo Saludable*. Esto significa poder desarrollar resiliencia dentro de nosotros para poder hacer frente a todos los contratiempos que nuestra existencia implica.  Y para ello es necesario desarrollar habilidades de *Empatía*.
 
 ## Desarrollando empatía
 
