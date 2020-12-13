@@ -20,7 +20,7 @@ projects: []
 
 Este libro es el último escrito por el gran escritor Robert Greene.
 Quién, entre otros, ha escrito magníficos relatos en torno al poder, la guerra, y la seducción.
-No es raro que al final de estos escritos, se proponga escribir sobre los elementos que constituye el **Naturaleza humano**.
+No es raro que al final de estos escritos, se proponga escribir sobre los elementos que constituye la **Naturaleza humana**.
 Puesto que el poder, la guerra y la seducción son parte fundamental de lo que nos une como *Ser Humano*.
 
 Son cinco las proposiciones que promete Robert Green en este libro.

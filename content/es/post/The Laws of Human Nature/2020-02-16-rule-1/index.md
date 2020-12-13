@@ -1,21 +1,25 @@
 ---
-lang: es
 title: "Ley de la Irracionalidad - 'Master your emotional self'"
-categories: [The Laws of Human Nature]
-
-tags:
-  - Robert Greene
-  - Human Laws
-#image:
-#  path: "/assets/img/home/header.jpg"
-  #caption: "Photo credit: [**Peb**](http://www.pebfox.com/blog/)"
-last_modified_at: 2020-02-16
+author: Fabio
+date: '2020-12-05'
+slug: transformando-amor-propio-en-empatia
+categories:
+  - The Laws of Human Nature
+tags: [Robert Greene, Human Laws]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: 2020-02-16
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
 ---
 
 
-
-
-> Racionalidad es la habilidad de ver las cosas *tal y como se presentan*, a diferencia de como uno las esta percibiendo desde el filtro de la emoción.
+> Racionalidad es la habilidad de ver las cosas *'tal y como se presentan'*, a diferencia de como uno las esta percibiendo desde el filtro de la emoción.
 
 
 Este primer capitulo introductorio nos presenta el caso del emperador **Pericles**.
