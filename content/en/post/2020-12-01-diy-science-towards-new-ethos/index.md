@@ -22,7 +22,6 @@ draft: true
 
 # Taking on 'Ethos'
 
-
 When we talk about 'Ethos', certainly we think about rheotrix principles of aristotles for argumentation the argumentation principles of Aristotle in to Aristotle
 
 At the end of the eay, sience related much of this wendevours in the principle of argumentation and the cration of plausigle results.
