@@ -1,0 +1,163 @@
+---
+title: "Entendiendo ANOVA"
+output: html_document
+bibliography: references.bib
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="objetivo." class="section level2">
+<h2>Objetivo.</h2>
+<blockquote>
+<p>Los métodos estadistícos son uno de los elementos importantes a tener en cuenta para validar experimentos e investigaciones. El objetivo de este poder entender a profundidad el concepto de Análisis de Varianza (ANOVA).</p>
+</blockquote>
+</div>
+<div id="qué-es-anova" class="section level2">
+<h2>¿Qué es ANOVA?</h2>
+<p>ANOVA es el Analisis de Varianza. El objetivo principal de este análisis es poder comparar multiples populaciones y subgrupos de esas populaciones.</p>
+</div>
+<div id="conceptos-clave" class="section level2">
+<h2>Conceptos Clave</h2>
+<div id="t" class="section level3">
+<h3>T</h3>
+<p>Idea principal: Identificar la Variabilidad <strong>Entre</strong> y <strong>Dentro</strong> la medias de las muestras</p>
+<p>Hipotésis nula: $\mu = $</p>
+<p>Concept= Varianza Between / Variance within</p>
+</div>
+<div id="varianza" class="section level3">
+<h3>Varianza</h3>
+<p>La Varianza es el promedio de las desviacion cuadratica de un punto con respecto a la distribution de la media</p>
+<ul>
+<li>Suma de los cuadraso (Sum of Squares) es la suma e la diferencia e cada punto con respecto a la media, elevando la al cuadrado para ver que es positiva y sumando todo</li>
+</ul>
+</div>
+</div>
+<div id="primero-limpiando-la-casa" class="section level2">
+<h2>Primero, limpiando la casa</h2>
+<div id="data-as-a-vector" class="section level3">
+<h3>Data as a <em>vector</em>:</h3>
+<ul>
+<li><p>Los datos son indicados Data is indicated with a single variable name like: <span class="math inline">\(y_{i}\)</span></p></li>
+<li><p>Observations are of the form <span class="math inline">\((x_{i}, y_{i})\)</span></p></li>
+<li><p>The subscript refers to the row that the particular value is in; <em>i</em> = 1, 2, 3,…,<em>n</em></p></li>
+</ul>
+</div>
+<div id="data-as-a-rectangular-array" class="section level3">
+<h3>Data as a <strong>rectangular array</strong>:</h3>
+<ul>
+<li>Data is indicated with a single variable name like: <span class="math inline">\(y_{ij}\)</span></li>
+<li>Observations are now of the form <span class="math inline">\((x_{ij}, y_{ij})\)</span></li>
+<li>The first subscript refers to the row that the particular value is in; <em>i</em> = 1, 2, 3,<span class="math inline">\(\dotsc\)</span>,<em>n</em></li>
+<li>The second subscript refers to the column; <em>j</em> = 1, 2, 3, …,<em>k</em></li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="anova-data" class="section level1">
+<h1>ANOVA data</h1>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="18%" />
+<col width="9%" />
+<col width="10%" />
+<col width="10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Observation</th>
+<th align="center"><em>j</em> = 1</th>
+<th align="center"><em>j</em> = 2</th>
+<th align="center"><em>j</em> = 3</th>
+<th align="center"><span class="math inline">\(\ldots\)</span></th>
+<th align="center"><em>j</em> = <em>k</em></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em>i</em> = 1</td>
+<td align="center"><span class="math inline">\(y_{11}\)</span></td>
+<td align="center"><span class="math inline">\(y_{12}\)</span></td>
+<td align="center"><span class="math inline">\(y_{13}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\(y_{1k}\)</span></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left"><em>i</em> = 2</td>
+<td align="center"><span class="math inline">\(y_{21}\)</span></td>
+<td align="center"><span class="math inline">\(y_{22}\)</span></td>
+<td align="center"><span class="math inline">\(y_{23}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\(y_{2k}\)</span></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left"><em>i</em> = 3</td>
+<td align="center"><span class="math inline">\(y_{31}\)</span></td>
+<td align="center"><span class="math inline">\(y_{32}\)</span></td>
+<td align="center"><span class="math inline">\(y_{33}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\(y_{3k}\)</span></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left"><em>i</em> = 4</td>
+<td align="center"><span class="math inline">\(y_{41}\)</span></td>
+<td align="center"><span class="math inline">\(y_{42}\)</span></td>
+<td align="center"><span class="math inline">\(y_{43}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\(y_{4k}\)</span></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"><span class="math inline">\(\ddots\)</span></td>
+<td align="center"><span class="math inline">\(\vdots\)</span></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left"><em>i</em> = <em>n</em></td>
+<td align="center"><span class="math inline">\(y_{n1}\)</span></td>
+<td align="center"><span class="math inline">\(y_{n2}\)</span></td>
+<td align="center"><span class="math inline">\(y_{n3}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\(y_{nk}\)</span></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="left">Means</td>
+<td align="center"><span class="math inline">\(\bar{y}_{\bullet1}\)</span></td>
+<td align="center"><span class="math inline">\(\bar{y}_{\bullet2}\)</span></td>
+<td align="center"><span class="math inline">\(\bar{y}_{\bullet3}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\(\bar{y}_{\bullet{k}}\)</span></td>
+<td align="center"><span class="math inline">\(\bar{y}_{\bullet\bullet}\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">Variance</td>
+<td align="center"><span class="math inline">\({s_y}^2_{\bullet1}\)</span></td>
+<td align="center"><span class="math inline">\({s_y}^2_{\bullet2}\)</span></td>
+<td align="center"><span class="math inline">\({s_y}^2_{\bullet3}\)</span></td>
+<td align="center"><span class="math inline">\(\ldots\)</span></td>
+<td align="center"><span class="math inline">\({s_y}^2_{\bullet{k}}\)</span></td>
+<td align="center"><span class="math inline">\({s_y}^2_{\bullet\bullet}\)</span></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<div id="referencias" class="section level2">
+<h2>Referencias</h2>
+<ul>
+<li><p>MAgnificent Visual introduction to ANOVA: <a href="https://www.youtube.com/watch?v=0Vj2V2qRU10" class="uri">https://www.youtube.com/watch?v=0Vj2V2qRU10</a></p></li>
+<li></li>
+</ul>
+</div>
+</div>

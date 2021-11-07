@@ -1,0 +1,205 @@
+---
+title: "Entendiendo ANOVA"
+output: html_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objetivo.
+
+> Los métodos estadistícos son uno de los elementos importantes a tener en cuenta para validar experimentos e investigaciones. El objetivo de este poder entender a profundidad el concepto de Análisis de Varianza (ANOVA).
+
+## ¿Qué es ANOVA?
+
+ANOVA es el Analisis de Varianza. El objetivo principal de este análisis es poder comparar multiples populaciones y subgrupos de esas populaciones.
+
+## Conceptos Clave
+
+### T
+
+```{r}
+read_csv2()
+
+```
+
+Idea principal: Identificar la Variabilidad **Entre** y **Dentro** la medias de las muestras
+
+Hipotésis nula: $\\mu = $
+
+
+
+Concept= Varianza Between / Variance within
+
+### Varianza
+
+La Varianza es el promedio de las desviacion cuadratica de un punto con respecto a la distribution de la media
+
+- Suma de los cuadraso (Sum of Squares) es la suma e la diferencia e cada punto con respecto a la media, elevando la al cuadrado para ver que es positiva y sumando todo
+
+## Primero, limpiando la casa
+
+### Data as a *vector*:
+
+* Los datos son indicados Data is indicated with a single variable name like: $y_{i}$
+
+* Observations are of the form $(x_{i}, y_{i})$
+* The subscript refers to the row that the particular value is in; *i* = 1, 2, 3,...,*n*
+
+### Data as a __rectangular array__:  
+
+* Data is indicated with a single variable name like: $y_{ij}$
+* Observations are now of the form $(x_{ij}, y_{ij})$
+* The first subscript refers to the row that the particular value is in; *i* = 1, 2, 3,$\dotsc$,*n*
+* The second subscript refers to the column; *j* = 1, 2, 3, ...,*k*
+
+---
+
+# ANOVA data
+
+| Observation | *j* = 1      | *j* = 2      | *j* = 3      | $\ldots$ |*j* = *k*| |
+| :----------| :---------:| :---------:|:----------:|:----:|:-----:|:-----:|
+| *i* = 1       | $y_{11}$ | $y_{12}$ | $y_{13}$ | $\ldots$ | $y_{1k}$ ||
+| *i* = 2       | $y_{21}$ | $y_{22}$ | $y_{23}$ | $\ldots$ | $y_{2k}$ ||
+| *i* = 3       | $y_{31}$ | $y_{32}$ | $y_{33}$ | $\ldots$ | $y_{3k}$ ||
+| *i* = 4       | $y_{41}$ | $y_{42}$ | $y_{43}$ | $\ldots$ | $y_{4k}$ ||
+| $\vdots$    | $\vdots$ | $\vdots$ | $\vdots$ | $\ddots$ | $\vdots$ ||
+| *i* = *n*     | $y_{n1}$ | $y_{n2}$ | $y_{n3}$ | $\ldots$ | $y_{nk}$ ||
+| Means       | $\bar{y}_{\bullet1}$ | $\bar{y}_{\bullet2}$ | $\bar{y}_{\bullet3}$ | $\ldots$ | $\bar{y}_{\bullet{k}}$ | $\bar{y}_{\bullet\bullet}$ |
+| Variance    | ${s_y}^2_{\bullet1}$ | ${s_y}^2_{\bullet2}$ | ${s_y}^2_{\bullet3}$ | $\ldots$ | ${s_y}^2_{\bullet{k}}$ | ${s_y}^2_{\bullet\bullet}$ |
+
+---
+
+
+
+
+## Coursera on Fractional Design
+
+Factorial experiments with two factors $2^{k}$
+
+For planning a experimental design
+nclude the first three steps in your Project Report.
+
+1. Define the problem statement and the objectives of the experiment.
+
+2. Identify your response variable(s)
+
+  a. How will this be measured?
+
+3. Describe your Factors (at least 3)
+
+  a. What are the levels for each factor? If continuous, what is the range?
+
+  b. Do you need/have a blocking variable?
+
+Part 2:
+
+4. Choice of Experimental Design
+
+a. What design are you choosing and why? What are some of the design diagnostics or properties (e.g. Power)?
+
+b. Provide design/test matrix; a table with the levels and run order of each run.
+
+
+
+- On of the main advantages of the factorial design is the ability to identify quick interactions in a system using the contour plots and response surface
+
+
+
+
+### Example The battery Life Experiment
+
+
+As an example of a factorial design involving two factors, an engineer is designing a battery for use in a device that will be subjected to some extreme variations in temperature. 
+The only design parameter that he can select at this point is the plate material for the battery, and he has three possible choices. When the device is manufactured and is shipped to the field, the engineer has no control over the temperature extremes that the device will encounter, and he knows from experience that temperature will probably affect the effective battery life. However, temperature can be controlled in the product development laboratory for the purposes of a test.
+
+In this problem, the engineer wants to answer the following questions:
+
+1. What effects do material type and temperature have on the life of the battery? 
+
+2. Is there a choice of material that would give uniformly long life regardless oftemperature?
+
+
+
+
+```{r}
+library(tidyverse)
+
+life.batterie <- tibble(
+   Material.type = c(1, 2, 3),
+   Temperature = c(15, 70, 125),
+)
+
+
+y1 = tibble(Material.type = 1,Temperature = 15 ,  result= c(130, 155, 74, 180))
+y2 = tibble(Material.type = 1,Temperature = 70 ,  result= c(34, 40, 80, 75))
+y3 = tibble(Material.type = 1,Temperature = 125 ,  result= c(20, 70, 82, 58))
+y4 = tibble(Material.type = 2,Temperature = 15 ,  result= c(150, 188, 159, 126))
+y5 = tibble(Material.type = 2,Temperature = 70 ,  result= c(136, 122, 106, 115))
+y6 = tibble(Material.type = 2,Temperature = 125 ,  result= c(25, 70, 58, 45))
+y7 = tibble(Material.type = 3,Temperature = 15 ,  result= c(138, 110, 168, 160))
+y8 = tibble(Material.type = 3,Temperature = 70 ,  result= c(174, 120, 150, 139))
+y9 = tibble(Material.type = 3,Temperature = 125 ,  result= c(96, 104, 82, 60))
+
+life.batterie  <-  rbind(y1,y2,y3,y4,y5,y6,y7,y8,y9)
+rm(y1,y2,y3,y4,y5,y6,y7,y8,y9)
+
+life.batterie <- 
+   life.batterie %>% 
+   mutate(Material.type = factor(Material.type, levels = c(1, 2, 3)),
+          Temperature = factor(Temperature, levels = c(15, 70, 125)) 
+   )
+
+
+## ANOVA
+model <- lm(result ~ Material.type*Temperature, data = life.batterie)
+model <- lm(result ~ Material.type + Temperature + Material.type*Temperature, data = life.batterie)
+summary(model)
+anova(model)
+
+
+## Power analysis of the Experiment
+
+
+```
+
+
+
+
+## Factorials with more than two factors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Referencias
+
+-   MAgnificent Visual introduction to ANOVA: <https://www.youtube.com/watch?v=0Vj2V2qRU10>
+
+-   
