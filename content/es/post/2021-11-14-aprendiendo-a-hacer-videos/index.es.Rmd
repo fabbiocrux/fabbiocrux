@@ -1,0 +1,31 @@
+---
+title: Aprendiendo a hacer videos
+author: fabio
+date: '2021-11-14'
+slug: aprendiendo-a-hacer-videos
+categories: ['Research life']
+tags: ['Research Skills']
+subtitle: 'El patito feo en ciencia que se volverá cisne'
+summary: ''
+authors: []
+lastmod: '2021-11-14T14:42:36+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+draft: true
+---
+
+
+La investigacion cientifica ha tenido como premisa fundamental la creacion y difusion de conociemiento a traves de la palabra escrita. 
+Como quién dice, los libros y los famosos articulos cientificos siempre han tenido la ultima palabra en cuanto a '*ciencia* se significa. 
+
+
+Claramente, veo que una de las competencias que hoy en dia es necesario desarrollar para un investigador es la comunicacion audivisual. 
+Ciertamente, el trabajo en investigacion cientifica recae en la creacion de articulos cientificos, ponencias, capitulos de libros o libros mismos. 
+
+Sin embargo. Creo que hoy en dia la forma de hacer ciencia e investigacion va ir cambiando hacia una forma de comunicacion audiovisual mucho mas pronunciada. 
+
+No esta mas de decir la influencia que tiene Youtube en la enseñanza como material pédagogico. 
