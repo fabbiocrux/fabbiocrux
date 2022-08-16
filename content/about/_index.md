@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: |
-  Personal website for Silvia Canelón
+  Personal website for Fabio CRUZ
 show_header: true
 sidebar_left: false
 # Keep this! Do not edit.
