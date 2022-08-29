@@ -15,14 +15,16 @@ urlcolor: blue
 bibliography: references.bib
 draft: true
 ---
+```{r}
+```
 
 <!-- Intro of the Antropocène -->
-Recently, I read the great book of the *L'evénement Anthropocène: La Terres, l'histoire et nous'* by Christophe Bonneuil and Jean-Baptiste Fressoz.
+Recently, I read the great book of the *L'evénement Anthropocène: La Terre, l'histoire et nous'* by Christophe Bonneuil and Jean-Baptiste Fressoz.
 This is a fantastic book about the history behind the notion of Anthropocène concept. 
 But beyond of that, this is a very interesting historical analysis of the environmental reflexivity awareness about the impact of human activities on the *'Système Terre'*.
    <!-- Poloocene: Constesting the  -->
 Maybe in another blog post I get deep on the content of this book, but, reading the chapter on 
-*Poléomcène*, Bonneuil and Fressoz deals with the rejections tha society try to make to the degradation of the natural ecosystems.
+*Polénocène*, Bonneuil and Fressoz deals with the battles that society try to make to the degradation of the natural ecosystems.
 In particular, they pointed out and interested historical paper about the notion of manufacturing in $19^{th}$ century.
 This is *Historical Alternatives to Mass Production: Politics, Markets and Technology in Nineteenth-Century Industrialization* by @sabel1985.
 We could believe that mass production is the 'champion' manufacturing system that won the battle in the capitalism and the globalisation (and everything that it conveals). 

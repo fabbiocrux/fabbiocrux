@@ -1,0 +1,148 @@
+---
+title: "Candidature au poste de <br> Maître de Conférences"
+subtitle: ""  
+author: 
+  - "Fabio A. CRUZ SANCHEZ"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: ["Fabio.css"]
+    seal: false
+    nature:
+#      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+# Load packages -----
+library(tidyverse)
+library(xaringanExtra)
+library(xaringanthemer)
+library(fontawesome)
+library(here)
+#library(vembedr)
+#library(xaringanBuilder)
+
+source(here("static/talks/2022-09-UK","xaringan-themer.R"))
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = TRUE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE,
+  fig.align='center'
+)
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+```
+
+
+class: title-slide, center, bottom
+
+.pull-left[
+```{r, echo=FALSE, out.width = '60%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'))
+```
+]
+.pull-right[
+```{r, echo=FALSE, out.width = '70%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/ERPI/ERPI.svg'))
+```
+]
+
+
+
+****
+#  `r rmarkdown::metadata$title`
+
+zzz
+
+
+### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$author`
+<i class="fas fa-user-friends"></i>
+
+`r rmarkdown::metadata$subtitle` |  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
+
+
+---
+
+
+---
+class: middle
+
+# Sommaire 
+
+.grey_Inedit[
+1. .large.bg-yellow[**Mon profil et parcours**]
+1. Proposition d'intégration à l'ENSGSI et à l'ERPI 
+1. Engagements collectifs actuels et perspectives
+
+]   
+
+
+???
+
+
+1. Je commence par exposer mon profil et le récapitulatif de mon parcours. 
+
+2. Ensuite, Je vous présente mon projet d’intégration coté recherche et coté enseignement.
+
+3. Et je finalise avec mes engamenet collectives et de Valorisation actuels et futurs 
+
+Commençons donc par mon profil.
+---
+
+.pull-left-1[
+```{r, echo=FALSE, out.width = '40%', fig.align='center', out.extra='class="rounded"'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio-300x300.jpg'))
+```
+
+34 ans - .large[`r emo::ji("colombia")`| `r emo::ji("france")`|]  <br>
+Ingénieur Mécanique et <br>
+Master II - Design Global.<br>
+PhD. en Génie des Systèmes Industriels <br>
+CNU : **60** – **62**   <br>
+]
+
+???
+
+- J'ai 34 ans. Je suis d'Origine Colombienne.
+
+--
+
+.pull-right-2[ 
+
+- **2005 - 2012**:  Universidad Nacional de Colombie
+   - .large[`r emo::ji("brazil")`] **2010**: International trainee 
+   
+```{r, echo=FALSE, out.width = '90%', fig.align='center'}
+#knitr::include_graphics("images/brazil/Brazil.png")
+```
+]
+
+
+???
+- Je suis ingénieur mécanique formé à l’Université Nacional de Colombie.
+- en 2010; J’ai eu l’opportunité de travailler 11 mois au Bresil pour une entreprise de montage mécaniques qui travail avec des entreprises de l’explotation minière.
+- Cette première expérience international m’a ouvert le sprit à trois elements:
+
+1. La langue, bien évidement, et le premier choque culturel.
+2. La notion Valeur et la notion Innovatio. --> Internationaliser
+3. L'enjeux environmental comm vecteur fort de mon parcours
+---
+
+
+
+
