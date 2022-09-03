@@ -1,5 +1,5 @@
 ---
-title: "Candidature au poste de <br> Maître de Conférences"
+title: "Sustainable distributed recycling via additive manufacturing: from technical to systemic challenge"
 subtitle: ""  
 author: 
   - "Fabio A. CRUZ SANCHEZ"
@@ -43,6 +43,7 @@ knitr::opts_chunk$set(
   fig.align='center'
 )
 
+
 # Link for the Figures
 URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
@@ -51,57 +52,53 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 class: title-slide, center, bottom
 
+#  `r rmarkdown::metadata$title`
+
+** Workshop: Responsible Design for AM**
+<br>
+
 .pull-left[
-```{r, echo=FALSE, out.width = '60%', fig.align='center'}
-knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'))
+
+```{r, out.width = '80%', fig.align='center'}
+knitr::include_graphics("images/flyer.jpeg")
+
 ```
 ]
+
 .pull-right[
-```{r, echo=FALSE, out.width = '70%', fig.align='center'}
+### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$author`
+`r rmarkdown::metadata$subtitle` |  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
+
+```{r, echo=FALSE, out.width = '30%', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'))
+```
+
+
+```{r, echo=FALSE, out.width = '30%', fig.align='right'}
 knitr::include_graphics(paste0(URL, 'Logos/ERPI/ERPI.svg'))
 ```
 ]
 
-
-
-****
-#  `r rmarkdown::metadata$title`
-
-zzz
-
-
-### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$author`
-<i class="fas fa-user-friends"></i>
-
-`r rmarkdown::metadata$subtitle` |  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
-
-
 ---
 
-
----
-class: middle
-
-# Sommaire 
-
-.grey_Inedit[
-1. .large.bg-yellow[**Mon profil et parcours**]
-1. Proposition d'intégration à l'ENSGSI et à l'ERPI 
-1. Engagements collectifs actuels et perspectives
-
-]   
+# Who am I?
+.pull-left-1[
+```{r, out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
+```
 
 
-???
+<iframe src="https://www.google.com/maps/d/embed?mid=zjoguh0NVOXo.kZTYPT-5FrXA"  width="100%" height="500px"></iframe>
 
+]
 
-1. Je commence par exposer mon profil et le récapitulatif de mon parcours. 
+.pull-right-2[
+```{r, out.width = '100%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
+```
 
-2. Ensuite, Je vous présente mon projet d’intégration coté recherche et coté enseignement.
+]
 
-3. Et je finalise avec mes engamenet collectives et de Valorisation actuels et futurs 
-
-Commençons donc par mon profil.
 ---
 
 .pull-left-1[
@@ -120,29 +117,42 @@ CNU : **60** – **62**   <br>
 
 - J'ai 34 ans. Je suis d'Origine Colombienne.
 
---
 
-.pull-right-2[ 
-
-- **2005 - 2012**:  Universidad Nacional de Colombie
-   - .large[`r emo::ji("brazil")`] **2010**: International trainee 
-   
-```{r, echo=FALSE, out.width = '90%', fig.align='center'}
-#knitr::include_graphics("images/brazil/Brazil.png")
-```
-]
-
-
-???
-- Je suis ingénieur mécanique formé à l’Université Nacional de Colombie.
-- en 2010; J’ai eu l’opportunité de travailler 11 mois au Bresil pour une entreprise de montage mécaniques qui travail avec des entreprises de l’explotation minière.
-- Cette première expérience international m’a ouvert le sprit à trois elements:
-
-1. La langue, bien évidement, et le premier choque culturel.
-2. La notion Valeur et la notion Innovatio. --> Internationaliser
-3. L'enjeux environmental comm vecteur fort de mon parcours
 ---
 
+class: center, middle
+
+# Distributed recycling via additive manufacturing: a mindshift of the technial, societal .bg-yellow[industry]?
+
+???
+
+- In these fifteen minutes, my main point is to present some our our perspective of distributed recycling approach framed in the  the climate change issues
+- The global question the presentation is how innovation labs could help to mitigate climate change. 
+- from a perspective of academy-industry partnetships experiences
+- So let me begin very quickly to this climate change umbrella problem. 
 
 
+---
+
+class: middle
+
+# Outline 
+
+1. .large.bg-yellow[**Challengues beyond climate change**]
+1. Approach of Distribed Recycling via Additive Manufacturing
+1. What are the challengues. 
+
+---
+
+# Challengues
+
+-  Anthropocène: Humans as new geological force. 
+
+---
+
+# Expanding the scope of the societal challengues
+
+
+---
+# Dram
 
