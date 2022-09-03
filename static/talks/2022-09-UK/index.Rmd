@@ -69,26 +69,31 @@ knitr::include_graphics("images/flyer.jpeg")
 ### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$author`
 `r rmarkdown::metadata$subtitle` |  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
 
-```{r, echo=FALSE, out.width = '30%', fig.align='left'}
-knitr::include_graphics(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'))
-```
 
+```{r, echo=FALSE,out.width="49%", out.height="10%",fig.cap="caption",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'), paste0(URL, 'Logos/ERPI/ERPI.svg')))
 
-```{r, echo=FALSE, out.width = '30%', fig.align='right'}
-knitr::include_graphics(paste0(URL, 'Logos/ERPI/ERPI.svg'))
-```
+``` 
+
 ]
+
+---
+class: middle
+
+# Outline 
+
+1. .large.bg-yellow[**Challengues beyond climate change**]
+1. Approach of Distribed Recycling via Additive Manufacturing
+1. What are the challengues. 
+
 
 ---
 
 # Who am I?
 .pull-left-1[
-```{r, out.width = '80%', fig.align='center'}
+```{r, out.width = '60%', fig.align='center', out.extra='class="rounded"'}
 knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
 ```
-
-
-<iframe src="https://www.google.com/maps/d/embed?mid=zjoguh0NVOXo.kZTYPT-5FrXA"  width="100%" height="500px"></iframe>
 
 ]
 
@@ -101,55 +106,174 @@ knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
 
 ---
 
-.pull-left-1[
-```{r, echo=FALSE, out.width = '40%', fig.align='center', out.extra='class="rounded"'}
-knitr::include_graphics(paste0(URL, 'Fabio/Fabio-300x300.jpg'))
+
+ .pull-left-2[
+###  How I started in the 3D Printing world.?
+
+```{r, echo=FALSE, out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'LF2L/Fablab/Fablab-01.png'))
+```
+]
+.pull-right-1[
+```{r,  out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Emmanuel-00.jpeg'))
 ```
 
-34 ans - .large[`r emo::ji("colombia")`| `r emo::ji("france")`|]  <br>
-Ingénieur Mécanique et <br>
-Master II - Design Global.<br>
-PhD. en Génie des Systèmes Industriels <br>
-CNU : **60** – **62**   <br>
+```{r,  out.width = '90%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Foldarap/Wiki.png'))
+```
+
 ]
 
+---
+class: bottom, left
+background-image: url(`r paste0(URL, 'Metodologies/Master-recherche/Master-00.png')`)
+background-position: 50% 10%
+background-size: 85%
+
+Cruz Sanchez, F. A., Boudaoud, H., Muller, L. & Camargo, M. <br> Towards a standard experimental protocol for open source additive manufacturing. Virtual and Physical Prototyping 9, 151–167 (2014).
+
+---
+
+
+
+```{r, fig.cap=" ", out.width = '80%', fig.align='center'}
+knitr::include_graphics(paste0(URL, 'AM/OS/Reprap-01.png'))
+```
+
+
+
+self-replicating manufacturing machine --> .bg-yellow[ ]?
+
+
+Paradox of Jevons
+
+---
+class: inverse middle
+
+# What are the real challengues for a sustainable manufacturing ?
+
+---
+
+class: top, left
+
+## Anthropocène: <br>  Humans as a geological force ...
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Anthropocene/de-la-torre2021.png')`)
+background-position: 100% 70%
+background-size: 60%
+
+
+## Anthropocène: <br> Humans as a geological force ... <br> .bg-red.white[[in pollution]]. 
+
+.pull-left-1[
+De-la-Torre, G. E., Dioses-Salinas, D. C., Pizarro-Ortega, C. I. & Santillán, L. New plastic formations in the Anthropocene. Science of The Total Environment 754, 142216 (2021).
+]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Our-world-data/Emissions-by-sector.png')`)
+background-position: right
+background-size: contain
+
+
+## Anthropocène: <br> Humans as a geological force ... <br> 
+.bg-red.white.large[[in pollution  ]] <br> 
+.bg-red.white.large[[in CO2]  ]. 
+
+--
+- Towards a neutral climate 
+- Improvements in sector sector counts
+
+---
+
+class: middle, left
+background-image: url(Figures/Doughnut-Economics.jpg)
+background-position: right
+background-size: contain
+
+## Intensive research on <br> what could be an <br> alternative model...
+
+.pull-left[
+.tiny[Calisto Friant, M., Vermeulen, W.J.V., <br> Salomone, R., 2020. A typology of circular economy discourses: <br> Navigating the diverse visions of a contested paradigm.<br> Resour. Conserv. Recycl. 161, 104917. https://doi.org/10.1016/j.resconrec.2020.104917
+
+- Circularity discourses
+
+]]
+---
+class: middle, left
+background-image: url(`r paste0(URL, 'Doughnut/Doughnut-00.png')`)
+background-image: url(Figures/Doughnut.png)
+background-position: right
+background-size: contain
+
+
+# Doughnut Economics
+
+- Need to a holistic view other than GDP growth
+- 'Sweet spot' between <br> minimal social requirements **AND** <br> Biophysical earth's boundaries.
+
+.footnote[Raworth, K. A Safe and Just Space for Humanity: Can We Live within the Doughnut? Oxfam: Oxford, UK, 2012.
+]
+
+---
+class: middle, left
+background-image: url(Figures/Doughnut-2.png)
+background-position: right
+background-size: contain
+
+
+# Doughnut Economics
+
+- Need to a holistic view other than GDP growth
+- 'Sweet spot' between <br> minimal social requirements **AND** <br> Biophysical earth's boundaries.
+- Many index to evaluate for a country.
+
+.footnote[Raworth, K. A Safe and Just Space for Humanity: Can We Live within the Doughnut? Oxfam: Oxford, UK, 2012.
+]
+
+
 ???
 
-- J'ai 34 ans. Je suis d'Origine Colombienne.
+- This approach is called Doughnut Economics proposed by the researcher Kate Raworth from Oxford and Cambrigde
+
+---
+# Doughnut Economics: .blue[Chile vs France]
+
+.center[![](Figures/Dona-Chile-France.png)]
+
+.footnote[O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95. More details: https://goodlife.leeds.ac.uk .
+]
+
+---
+class: middle, left
+background-image: url(Figures/Planetary-boundaries-1.jpg)
+background-position: right
+background-size: contain
+
+# Doughnut Economics: <br> .blue[World]
+
+.pull-left[
+
+- Imagine a country that satisfy the basic needs:  a long, healthy, happy life.
+
+- Now, imagine this same country can do this without while use natural ressources in a sustainable way
+
+- What about if all countries would do the same
+
+]
+
+.footnote[O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). <br/>A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95.  <br>   https://goodlife.leeds.ac.uk
+]
+
 
 
 ---
-
-class: center, middle
-
-# Distributed recycling via additive manufacturing: a mindshift of the technial, societal .bg-yellow[industry]?
-
-???
-
-- In these fifteen minutes, my main point is to present some our our perspective of distributed recycling approach framed in the  the climate change issues
-- The global question the presentation is how innovation labs could help to mitigate climate change. 
-- from a perspective of academy-industry partnetships experiences
-- So let me begin very quickly to this climate change umbrella problem. 
-
-
----
-
-class: middle
-
-# Outline 
-
-1. .large.bg-yellow[**Challengues beyond climate change**]
-1. Approach of Distribed Recycling via Additive Manufacturing
-1. What are the challengues. 
-
----
-
-# Challengues
-
--  Anthropocène: Humans as new geological force. 
-
----
-
 # Expanding the scope of the societal challengues
 
 
