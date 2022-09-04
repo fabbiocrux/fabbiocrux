@@ -1,5 +1,6 @@
 ---
 title: "Sustainable distributed recycling via additive manufacturing (DRAM): <br>from a technical to systemic challenge"
+email: "cruzsanc1@univ-lorraine.fr"
 subtitle: ""  
 author: 
   - "Fabio A. CRUZ SANCHEZ"
@@ -535,8 +536,8 @@ background-size: 50%
 
 - Bottom-up integration of **territorial and industrial systems** at levels:
 
-  - Material
-  - Process
+  - Material 
+  - Process 
   - Systems
   - Planetary
 ]
@@ -565,3 +566,32 @@ Micro-industrial urban factories in the Antropocene:
 
 
 
+---
+
+class: title-slide, center, bottom
+
+#  `r rmarkdown::metadata$title`
+
+** Workshop: Responsible Design for AM**
+<br>
+
+.pull-left[
+
+```{r, out.width = '80%', fig.align='center'}
+knitr::include_graphics("images/flyer.jpeg")
+
+```
+]
+
+.pull-right[
+### `r fa("comment", fill = "steelblue")` `r rmarkdown::metadata$author`
+|  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
+
+### `r rmarkdown::metadata$email`
+
+```{r, echo=FALSE,out.width="49%", out.height="10%",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'), paste0(URL, 'Logos/ERPI/ERPI.svg')))
+
+``` 
+
+]
