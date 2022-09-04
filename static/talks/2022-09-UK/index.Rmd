@@ -1,5 +1,5 @@
 ---
-title: "Sustainable distributed recycling via additive manufacturing: <br>from technical to systemic challenge"
+title: "Sustainable distributed recycling via additive manufacturing (DRAM): <br>from a technical to systemic challenge"
 subtitle: ""  
 author: 
   - "Fabio A. CRUZ SANCHEZ"
@@ -70,7 +70,7 @@ knitr::include_graphics("images/flyer.jpeg")
 `r rmarkdown::metadata$subtitle` |  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
 
 
-```{r, echo=FALSE,out.width="49%", out.height="10%",fig.cap="caption",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE,out.width="49%", out.height="10%",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'), paste0(URL, 'Logos/ERPI/ERPI.svg')))
 
 ``` 
@@ -103,6 +103,12 @@ knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
 knitr::include_graphics(paste0(URL, 'LF2L/Concept/Concept-00.png'))
 ```
 
+**Innovation**: 
+
+- As a product.
+- as a process.
+- As a complex system.
+- As territorial asset.
 ]
 
 ---
@@ -180,6 +186,23 @@ class: top, left
 
 ## Anthropocène: <br>  Humans as a geological force ...
 
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Our-world-data/Emissions-by-sector.png')`)
+background-position: right
+background-size: contain
+
+
+## Anthropocène: <br> Humans as a geological force ... <br>
+
+<br> 
+- .bg-red.white.large[[in CO2] ]. 
+
+.pull-left[
+- Climate neautrality & decarbonization
+- Improvements in sector sector counts
+]
 
 ---
 
@@ -189,27 +212,19 @@ background-position: 100% 70%
 background-size: 60%
 
 
-## Anthropocène: <br> Humans as a geological force ... <br> .bg-red.white[[in pollution]]. 
+## Anthropocène: <br> Humans as a geological force ... <br> 
+<br> 
+- .bg-red.white.large[[in CO2]]
+- .bg-red.white.large[[in Pollution]]. <br> 
+.
+
+
 
 .pull-left-1[
 De-la-Torre, G. E., Dioses-Salinas, D. C., Pizarro-Ortega, C. I. & Santillán, L. New plastic formations in the Anthropocene. Science of The Total Environment 754, 142216 (2021).
 ]
 
----
 
-class: top, left
-background-image: url(`r paste0(URL, 'Our-world-data/Emissions-by-sector.png')`)
-background-position: right
-background-size: contain
-
-
-## Anthropocène: <br> Humans as a geological force ... <br> 
-.bg-red.white.large[[in pollution  ]] <br> 
-.bg-red.white.large[[in CO2]  ]. 
-
---
-- Towards a neutral climate 
-- Improvements in sector sector counts
 
 ---
 
@@ -419,9 +434,9 @@ background-size: 80%
 
 ---
 
-class: middle inverse
+class: middle 
 
-# Putting everything *together*
+# Putting things in **Do-It-Together**
 
 
 ---
@@ -476,7 +491,77 @@ background-position: 50% 50%
 background-size: 90%
 
 ---
+class: middle
+
+.center[
+
+```{r}
+embed_youtube(
+  "tQgD4KITCVE",
+  width = 1200,
+  height = 600,
+  ratio = "4by3",
+  frameborder = 0,
+  allowfullscreen = TRUE,
+)
+```
+
+]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/DRAM-05.jpeg')`)
+background-position: 50% 50%
+background-size: 90%
+
+## Future
 
 
 ---
+
+background-image: url(`r paste0(URL, 'Ecoservices/Eco-Services-00.jpg')`)
+background-position: 100% 80%
+background-size: 50%
+
+## Future
+
+.bg-green[**Micro-industrial urban factories**] in the Antropocene:
+
+.pull-left[
+- Only **.red[tech-economic criteria]**  not enough for .orange[informed decision making]. 
+
+- Need to assess value chains to include **all impacts on ecosystems**
+
+- Bottom-up integration of **territorial and industrial systems** at levels:
+
+  - Material
+  - Process
+  - Systems
+  - Planetary
+]
+
+---
+
+background-image: url(`r paste0(URL, 'Recycling/Enzymatic/Joshua2022.png')`)
+background-position: 100% 55%
+background-size: 50%
+
+## Future
+
+Micro-industrial urban factories in the Antropocene:
+
+.pull-left[
+- Only tech-economic criteria  not enough for informed decision making. 
+- Need to assess value chains to include all impacts on ecosystems
+
+- Bottom-up integration of territorial and industrial systems at levels:
+
+  - .bg-yellow[**Material**] 💡
+  - .bg-yellow[**Process**] 💡
+  - Systems
+  - Planetary
+]
+
+
 
