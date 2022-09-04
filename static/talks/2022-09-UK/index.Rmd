@@ -1,5 +1,5 @@
 ---
-title: "Sustainable distributed recycling via additive manufacturing: from technical to systemic challenge"
+title: "Sustainable distributed recycling via additive manufacturing: <br>from technical to systemic challenge"
 subtitle: ""  
 author: 
   - "Fabio A. CRUZ SANCHEZ"
@@ -82,9 +82,10 @@ class: middle
 
 # Outline 
 
-1. .large.bg-yellow[**Challengues beyond climate change**]
+1. .large.bg-yellow[**Who am I?**]
+1. **Societal challengues for sustainable manufacturing **
 1. Approach of Distribed Recycling via Additive Manufacturing
-1. What are the challengues. 
+1. Put in reality
 
 
 ---
@@ -143,18 +144,32 @@ self-replicating manufacturing machine --> .bg-yellow[ ]?
 
 
 Paradox of Jevons
+
 ---
+exclude: true
 class: middle
 
-# How .red[<ins>Additive manufacturing</ins>] impact the future....
+# Outline
+
+1. Who am I?
+1. .large.bg-yellow[**Societal challengues for sustainable manufacturing **]
+1. Approach of Distribed Recycling via Additive Manufacturing
+1. Put in reality
+
+### .center[How .red[<ins>Additive manufacturing</ins>] impact the future....]
 
 ---
 
 # Future of Additive Manufacturing
 
-![](Figures/DRAM/AM-future.png)
+```{r}
+knitr::include_graphics(paste0(URL, 'AM/Future/Future-01.png'))
+```
+
+
 
 ---
+
 class: inverse middle
 
 # What are the real challengues for a sustainable manufacturing ?
@@ -278,21 +293,190 @@ background-size: contain
 ---
 
 ---
+
 class: middle
 
 # Today, we need to include circularity in a micro/meso/macro level !!
+
+
 ---
 class: top, left
 background-image: url(`r paste0(URL, 'Green-Fablab/Green-fablab-2.jpg')`)
-background-position: bottom center
+background-position: 50% 90%
 background-size: 70%
 
 # Distributed recycling via additive manufacturing
 
+- Local closed-loop ➡️ Virgin materials ➡️ landfilling  
 
-Local closed-loop ➡️ Virgin materials ➡️ landfilling  
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Thesis/Recycling-00.jpg')`)
+background-position: 50% 100%
+background-size: 86%
+
+## Technical validation of DRAM
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Pavlo/Pavlo-00.jpg')`)
+background-position: 50% 50%
+background-size: 95%
+
+
+## Logistical validation of DRAM
+
+---
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-01.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
 
 
 ---
 
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-02.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-03.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-04.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-05.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-06.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-07.jpg')`)
+background-position: 50% 55%
+background-size: 90%
+
+## Global system
+
+.pull-down.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+
+---
+
+class: bottom, left
+background-image: url(`r paste0(URL, 'DRAM/SDRAM-00.svg')`)
+background-position: 50% 5%
+background-size: 80%
+
+## Global system
+
+.small[Cruz Sanchez, et al. Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy. Journal of Cleaner Production (2020).]
+
+---
+
+class: middle inverse
+
+# Putting everything *together*
+
+
+---
+
+## Projet EU H2020 INEDIT
+
+
+
+.pull-left-1[
+```{r, out.width = '80%'}
+knitr::include_graphics(paste0(URL, 'Inedit/Inedit-01.svg'))
+```
+
+Open **IN**novation **E**cosystem for **D**o-**I**t-**T**ogether process
+
+]
+
+.pull-right-2[
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-00.png'))
+```
+]
+
+---
+
+## Demonstrateur Green Fablab
+
+.pull-left[
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP7/INEDIT_Brochure-01.jpg'))
+```
+]
+
+.pull-right[
+
+- From DYI to the definition DIT `r fa("check", fill = "steelblue")`
+- Formalisation DIT `r fa("check", fill = "steelblue")`
+- Open Manufacturing Demostrator (OMDF) `r fa("spinner", fill = "steelblue")`
+- .bg-green[**Demostrator (UL)**] `r fa("spinner", fill = "steelblue")`
+
+```{r, out.width = '80%'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
+```
+
+]
+
+---
+
+class: bottom, left
+background-image: url(`r paste0(URL, 'Octroi/Octroi-00.png')`)
+background-position: 50% 50%
+background-size: 90%
+
+---
+
+
+---
 
