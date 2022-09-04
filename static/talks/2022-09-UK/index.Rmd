@@ -135,18 +135,24 @@ Cruz Sanchez, F. A., Boudaoud, H., Muller, L. & Camargo, M. <br> Towards a stand
 
 ---
 
-
-
 ```{r, fig.cap=" ", out.width = '80%', fig.align='center'}
 knitr::include_graphics(paste0(URL, 'AM/OS/Reprap-01.png'))
 ```
-
-
 
 self-replicating manufacturing machine --> .bg-yellow[ ]?
 
 
 Paradox of Jevons
+---
+class: middle
+
+# How .red[<ins>Additive manufacturing</ins>] impact the future....
+
+---
+
+# Future of Additive Manufacturing
+
+![](Figures/DRAM/AM-future.png)
 
 ---
 class: inverse middle
@@ -193,29 +199,27 @@ background-size: contain
 ---
 
 class: middle, left
-background-image: url(Figures/Doughnut-Economics.jpg)
+background-image: url(`r paste0(URL, 'CE/CalistoFriant2020.jpg')`)
 background-position: right
 background-size: contain
 
-## Intensive research on <br> what could be an <br> alternative model...
+## What could be an <br> alternative model...
 
-.pull-left[
-.tiny[Calisto Friant, M., Vermeulen, W.J.V., <br> Salomone, R., 2020. A typology of circular economy discourses: <br> Navigating the diverse visions of a contested paradigm.<br> Resour. Conserv. Recycl. 161, 104917. https://doi.org/10.1016/j.resconrec.2020.104917
+.pull-left-1.tiny[
+Calisto Friant, M., Vermeulen, W.J.V., <br> Salomone, R., 2020. A typology of circular economy discourses: <br> Navigating the diverse visions of a contested paradigm.<br> Resour. Conserv. Recycl. 161, 104917. https://doi.org/10.1016/j.resconrec.2020.104917
+]
 
-- Circularity discourses
 
-]]
 ---
 class: middle, left
 background-image: url(`r paste0(URL, 'Doughnut/Doughnut-00.png')`)
-background-image: url(Figures/Doughnut.png)
 background-position: right
 background-size: contain
 
 
-# Doughnut Economics
+## Doughnut Economics
 
-- Need to a holistic view other than GDP growth
+- Holistic view other than GDP growth
 - 'Sweet spot' between <br> minimal social requirements **AND** <br> Biophysical earth's boundaries.
 
 .footnote[Raworth, K. A Safe and Just Space for Humanity: Can We Live within the Doughnut? Oxfam: Oxford, UK, 2012.
@@ -223,16 +227,15 @@ background-size: contain
 
 ---
 class: middle, left
-background-image: url(Figures/Doughnut-2.png)
+background-image: url(`r paste0(URL, 'Doughnut/Doughnut-02.png')`)
 background-position: right
 background-size: contain
 
 
-# Doughnut Economics
+## Doughnut Economics
 
-- Need to a holistic view other than GDP growth
+- Holistic view other than GDP growth
 - 'Sweet spot' between <br> minimal social requirements **AND** <br> Biophysical earth's boundaries.
-- Many index to evaluate for a country.
 
 .footnote[Raworth, K. A Safe and Just Space for Humanity: Can We Live within the Doughnut? Oxfam: Oxford, UK, 2012.
 ]
@@ -272,11 +275,24 @@ background-size: contain
 ]
 
 
+---
 
 ---
-# Expanding the scope of the societal challengues
+class: middle
+
+# Today, we need to include circularity in a micro/meso/macro level !!
+---
+class: top, left
+background-image: url(`r paste0(URL, 'Green-Fablab/Green-fablab-2.jpg')`)
+background-position: bottom center
+background-size: 70%
+
+# Distributed recycling via additive manufacturing
+
+
+Local closed-loop ➡️ Virgin materials ➡️ landfilling  
 
 
 ---
-# Dram
+
 
