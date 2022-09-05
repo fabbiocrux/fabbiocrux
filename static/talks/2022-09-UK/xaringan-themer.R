@@ -88,6 +88,11 @@ style_mono_accent(
          "margin-bottom" = "2px"
       ),
       
+      ".remark-slide-content > ul" = list(
+         "margin-top" = "2px",
+         "margin-bottom" = "2px"
+      ),
+      
       ".small" = list("font-size" = "90%"),
       ".Large , .Large .remark-code, .Large .remark-inline-code" = list("font-size"= "144%"), 
       ".large , .large .remark-code, .large .remark-inline-code" = list("font-size"= "120%"), 
