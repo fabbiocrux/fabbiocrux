@@ -20,6 +20,7 @@ output:
 always_allow_html: true
 ---
 
+
 ```{r setup, include=FALSE}
 # Load packages -----
 library(tidyverse)
@@ -48,6 +49,11 @@ knitr::opts_chunk$set(
 # Link for the Figures
 URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
+
+#remotes::install_github("jhelvy/renderthis")
+
+
+
 ```
 
 
@@ -71,8 +77,8 @@ knitr::include_graphics("images/flyer.jpeg")
 `r rmarkdown::metadata$subtitle` |  `r paste0("Nancy ",  format(Sys.time(), '%d %B, %Y'))`
 
 
-```{r, echo=FALSE,out.width="49%", out.height="10%",fig.show='hold',fig.align='center'}
-knitr::include_graphics(c(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'), paste0(URL, 'Logos/ERPI/ERPI.svg')))
+```{r, out.width="100%", fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/UL-ENSGSI-ERPI.svg'))
 
 ``` 
 
@@ -83,7 +89,7 @@ class: middle
 
 # Outline 
 
-1.  Who I am?
+1.  .large.bg-yellow[Who I am?]
 1.  Societal challengues for sustainable manufacturing
 1. Approach of Distributed Recycling via Additive Manufacturing (DRAM)
 1. Put in reality
@@ -98,7 +104,7 @@ background-size: 65%
 
 ## Who am I?
 .pull-left-1[
-```{r, out.width = '60%', fig.align='center', out.extra='class="rounded"'}
+```{r, out.width = '70%', fig.align='center', out.extra='class="rounded"'}
 knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
 ```
 
@@ -111,7 +117,7 @@ knitr::include_graphics(paste0(URL, 'Fabio/Fabio.png'))
 
 **Innovation**: 
 - As a product.
-- as a process.
+- As a process.
 - As a complex system.
 - As territorial asset.
 ]
@@ -262,6 +268,11 @@ background-size: 60%
 De-la-Torre, G. E., Dioses-Salinas, D. C., Pizarro-Ortega, C. I. & Santillán, L. New plastic formations in the Anthropocene. Science of The Total Environment 754, 142216 (2021).
 ]
 
+---
+
+class: middle
+
+# Today, we need to include circularity in a micro/meso/macro level !!
 
 
 ---
@@ -301,7 +312,7 @@ background-position: 100% 50%
 background-size: 70%
 
 
-## Doughnut Economics
+## Doughnut Economics <br> .blue[World at 2015]
 
 - Beyond GDP growth
 - 'Sweet spot'  <br> minimal social requirements **AND** <br> Planetary earth's boundaries.
@@ -309,11 +320,10 @@ background-size: 70%
 .footnote[O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95. More details: https://goodlife.leeds.ac.uk .
 ]
 
-**World at 2015**
 
 ???
 
-- This approach is called Doughnut Economics proposed by the researcher Kate Raworth from Oxford and Cambrigde
+- Kate Raworth from Oxford and Cambrigde
 
 
 ---
@@ -321,10 +331,10 @@ background-size: 70%
 
 class: middle, left
 background-image: url(`r paste0(URL, 'Doughnut/Nations-2015.png')`)
-background-position: right
-background-size: contain
+background-position: 100% 50%
+background-size: 55%
 
-## Doughnut Economics: <br> .blue[World]
+## Doughnut Economics: <br> .blue[World at 2015]
 
 .pull-left[
 
@@ -335,12 +345,6 @@ background-size: contain
 .footnote[O’Neill, D. W., Fanning, A. L., Lamb, W. F., & Steinberger, J. K. (2018). <br/>A good life for all within planetary boundaries. Nature sustainability, 1(2), 88-95.  <br>   https://goodlife.leeds.ac.uk
 ]
 
-
----
-
-class: middle
-
-# Today, we need to include circularity in a micro/meso/macro level !!
 
 
 ---
@@ -360,12 +364,23 @@ class: middle
 
 class: top, left
 background-image: url(`r paste0(URL, 'Green-Fablab/Green-fablab-2.jpg')`)
-background-position: 50% 80%
-background-size: 70%
+background-position: 100% 80%
+background-size: 65%
 
 # Distributed recycling via additive manufacturing
 
-- Local closed-loop ➡️ Virgin materials ➡️ landfilling  
+- Local closed-loop ➡️ Virgin / recycled ➡️ FFF / FGF
+
+.pull-left-1.small[
+<br>
+<br>
+```{r, out.width = '90%', fig.align='left'}
+knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
+```
+
+https://lf2l.fr/projects/green-fablab/
+]
+
 
 ---
 
@@ -439,8 +454,8 @@ background-size: 85%
 
 .pull-left-1[
 
-```{r, out.width='90%'}
-knitr::include_graphics(paste0(URL, 'Articles/2020-Artur/2020-Artur.jpg'))
+```{r, out.width='70%'}
+knitr::include_graphics(paste0(URL, 'Articles/2020-Artur/Artur-01.jpg'))
 ```
 
 ]
@@ -454,12 +469,31 @@ background-position: 50% 55%
 background-size: 85%
 
 
+.pull-left-1[
+
+```{r, out.width='90%'}
+knitr::include_graphics(paste0(URL, 'Articles/2022-Diego/Results.jpg'))
+```
+
+]
+
 ---
 
 class: top, left
 background-image: url(`r paste0(URL, 'DRAM/SDRAM-06.jpg')`)
 background-position: 50% 55%
 background-size: 85%
+
+ 
+.pull-down.pull-left-1[
+
+.bg-white[Open Source IoT-based Collection Bin Applied to Local Plastic Recycling. HardwareX. *In review*.]
+```{r, out.width='90%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP6/smart-collector/SM-mdc.png'))
+```
+
+
+]
 
 
 ---
@@ -469,7 +503,7 @@ background-image: url(`r paste0(URL, 'DRAM/SDRAM-07.jpg')`)
 background-position: 50% 55%
 background-size: 85%
 
----
+--
 
 class: top, left
 background-image: url(`r paste0(URL, 'Articles/2022-Pavlo/Results-01.jpg')`)
@@ -485,7 +519,8 @@ background-position: 50% 55%
 background-size: 80%
 
 
-## SDRAM
+## SDRAM: .... Work in progress ...
+
 
 ---
 
@@ -505,34 +540,22 @@ class: middle
 
 ## Projet EU H2020 INEDIT
 
-
-
-.pull-left-1[
-```{r, out.width = '80%'}
-knitr::include_graphics(paste0(URL, 'Inedit/Inedit-01.svg'))
-```
+.pull-left[
 
 Open **IN**novation **E**cosystem for **D**o-**I**t-**T**ogether process
 
-]
-
-.pull-right-2[
-```{r, out.width = '100%'}
-knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-00.png'))
-```
-]
-
----
-
-## Demonstrateur Green Fablab
-
-.pull-left[
 ```{r, out.width = '100%'}
 knitr::include_graphics(paste0(URL, 'Inedit/WP7/INEDIT_Brochure-01.jpg'))
 ```
+
+
 ]
 
 .pull-right[
+
+```{r, out.width = '100%'}
+knitr::include_graphics(paste0(URL, 'Inedit/WP2/DIT-model-00.png'))
+```
 
 - From DYI to the definition DIT `r fa("check", fill = "steelblue")`
 - Formalisation DIT `r fa("check", fill = "steelblue")`
@@ -545,12 +568,24 @@ knitr::include_graphics(paste0(URL, 'Green-Fablab/Logo-GF.png'))
 
 ]
 
+
 ---
 
 class: bottom, left
 background-image: url(`r paste0(URL, 'Octroi/Octroi-00.png')`)
 background-position: 50% 50%
 background-size: 90%
+
+
+---
+
+class: top, left
+background-image: url(`r paste0(URL, 'Inedit/Concept-01.jpg')`)
+background-position: 90% 30%
+background-size: 100%
+
+
+## Projet EU H2020 INEDIT
 
 ---
 class: middle
@@ -577,7 +612,19 @@ background-image: url(`r paste0(URL, 'DRAM/DRAM-05.jpeg')`)
 background-position: 50% 50%
 background-size: 90%
 
-## Future
+
+---
+
+
+class: middle 
+
+# Outline 
+
+1.  Who I am?
+1.  Societal challengues for sustainable manufacturing
+1. Approach of Sustainable Distributed Recycling via Additive Manufacturing  (SDRAM) 
+1. Put in reality
+1. .large.bg-yellow[Some Future considerations]
 
 
 ---
@@ -626,7 +673,6 @@ Micro-industrial urban factories in the Antropocene:
   - Planetary
 ]
 
-
 ---
 background-image: url(`r paste0(URL, 'Recycling/Enzymatic/Joshua2022.png')`)
 background-position: 100% 55%
@@ -671,8 +717,8 @@ knitr::include_graphics("images/flyer.jpeg")
 
 ### `r rmarkdown::metadata$email`
 
-```{r, echo=FALSE,out.width="49%", out.height="10%",fig.show='hold',fig.align='center'}
-knitr::include_graphics(c(paste0(URL, 'Logos/ENSGSI/2022-ENSGSI.jpeg'), paste0(URL, 'Logos/ERPI/ERPI.svg')))
+```{r, out.width="100%", fig.align='center'}
+knitr::include_graphics(paste0(URL, 'Logos/UL-ENSGSI-ERPI.svg'))
 
 ``` 
 
