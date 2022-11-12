@@ -2,9 +2,9 @@ baseURL = "https://fabbiocrux.com/"
 theme = "hugo-apero"
 languageCode = "en"
 # Title of your site
-title = "Fabio Cruz"
+title = "Fabio A. Cruz Sanchez"
 author = "Fabio A. Cruz Sanchez"
-#copyright = 'Fabio Cruz &copy;{year}' # set to override the auto generated copyright using org info and now year
+copyright = 'Fabio A. Cruz Sanchez &copy;{year}' # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
@@ -102,10 +102,10 @@ enableEmoji = true
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://twitter.com/fabbiocrux"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+#  [[params.social]]
+#      icon      = "impactstory" # icon name without the 'fa-'
+#      icon_pack = "ai"
+#      url       = "https://impactstory.org/u/0000-0002-8082-1890"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
