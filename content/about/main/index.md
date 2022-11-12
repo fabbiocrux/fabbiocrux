@@ -17,10 +17,11 @@ intro: |
   Without forgetting the love that I have for tools like Latex, #Rstats and visualization.
   
   Learn more about my research interests in [publications](/publication). 
-  
- 
+
+show_outro: true
 outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
+  <i class="fas fa-glass-cheers pr2"></i>
+  
 ---
 
 ** index doesn't contain a body, just front matter above.
