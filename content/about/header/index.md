@@ -7,11 +7,14 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm a research associate at the - [Équipe de Recherche de Processus Innovatif  -ERPI](https://erpi.univ-lorraine.fr/) at the Université de Lorraine, Nancy - France.
-I work specifically at the research platform Lorraine Fab Living Lab (LF2L) in subjects related to the 3D printing process. 
+I'm a research associate at the  [Équipe de Recherche de Processus Innovatifs -ERP-I](https://erpi.univ-lorraine.fr/) at the Université de Lorraine, Nancy - France.
+I work specifically at the research platform [Lorraine Fab Living Lab (LF2L](https://lf2l.fr/) in the project of [Green Fablab](https://lf2l.fr/projects/Green-Fablab).
 
-The research that I have developed so far is focused on the conceptualization of a circular economy through a distributed polymer recycling approach for the open source 3D printing technology. Technical and logistical characterizations are studied in the validation of each aspect of the distributed and local recycling process for this technology. I am one of the researches in charge of the Green Fablab project.
-
+My main research  is based on the distributed recycling via additive manufacturing (DRAM) approach as a possible socio-technical transition towards a sustainable manufacturing approach in a post-growth future alternative.
+This broad topic leads me to many interesting fields including the technical aspects  of the additive manufacturing process, the sustainability sciences including industrial ecology, transitions & socio-technical systems,  ecosystem services, conviviality / appropriate technologies and the commons.
+Finally,  imaging the Circular / Post-growth approaches for the future economy is a challenging and interest exercise in my researcher journey.
+I try to come up with a diversity of methodological tools including experimental design, operational research, life cycle thinking and system dynamics to better understand the future of a circular economy through a distributed polymer recycling approach for the open source 3D printing technology.
+Without forgetting the love that I have for tools like Latex, #Rstats and some programming 
 
 Learn more about my research interests in [publications](/publication).
 
