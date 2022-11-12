@@ -1,7 +1,7 @@
 ---
 title: "Fabio A. Cruz Sanchez"
 subtitle: "Writing, ergo Sum"
-description: "Sit down, relax, and get to know me a little better. Here I put some random thougths that if I don't put, certainly I will forget it."
+description: "Here I put some random thougths that if I don't, certainly I will forget it."
 images:
   - img/home/header.jpg
 image_left: true
