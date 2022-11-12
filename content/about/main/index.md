@@ -17,11 +17,17 @@ intro: |
   Without forgetting the love that I have for tools like Latex, #Rstats and visualization.
   
   Learn more about my research interests in [publications](/publication). 
+  
+  <i class="fas fa-graduation-cap pr2"></i> Ph.D. in Industrial Engineering  &#8729; Université de Lorraine  &#8729;  2016
+  
+  <i class="fas fa-certificate pr2"></i> &#8729; Master M2 in Design Global  University of Pennsylvania  &#8729;  2013
+  
+   
+  <i class="fas fa-graduation-cap pr2"></i>B.S. in Mechanical Engineering  &#8729; Universidad Nacional de Colombia  &#8729;  2012
 
 show_outro: true
 outro: |
-  <i class="fas fa-glass-cheers pr2"></i>
-  
+  <i class="fas fa-lightbulb pr2"></i>Mechanical engineer turned environmental,<br>curious about all intersections of sustainability and society.</br>
 ---
 
 ** index doesn't contain a body, just front matter above.
