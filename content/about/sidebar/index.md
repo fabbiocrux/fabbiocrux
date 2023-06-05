@@ -9,7 +9,7 @@ link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
 - name: Sustainability Sciences & Philosophy
   url: 
-- name: Transitions & Postgrowth futures
+- name: Transitions & Post-growth futures
   url: 
 - name: R Education & Data Visualization
   url: 
