@@ -22,3 +22,6 @@ _site/
 
 public/
 resources/
+/.quarto/
+
+/.luarc.json
