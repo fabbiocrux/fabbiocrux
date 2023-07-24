@@ -3,12 +3,13 @@ title: Publications
 description: |
   This is home for my research publications. Each document is linked with accompanying preprints, posters, and/or additional pieces.
 author: "Fabio A. Cruz Sanchez"
+show_post_time: true
 show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 show_author_byline: true
 show_post_date: true
 # for listing page layout
-layout: list # list, list-sidebar, list-grid
+layout: list-grid # list, list-sidebar, list-grid
 
 # set up common front matter for all pages inside blog/
 cascade:

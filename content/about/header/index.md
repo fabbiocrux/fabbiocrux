@@ -3,8 +3,7 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, Let me introduce you
-  
+  Hi there  
 ---
 
-<!-- this is a subheadline -->
+I’m glad you’re here — thanks for visiting my website 👊!
