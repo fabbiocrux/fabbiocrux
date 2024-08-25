@@ -1,0 +1,106 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Fabio Cruz"
+  site-url: https://fabbiocrux.com
+  repo-url: https://github.com/fabbiocrux/fabbiocrux
+  description: "Assitant Professor at the Université de Lorraine"
+  favicon: assets/favicon.png
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card:
+    creator: "@fabbiocrux"
+    site: "@fabbiocrux"
+    card-style: summary_large_image  
+  comments: 
+    utterances: 
+      repo: spcanelon/silvia 
+      label: utterances
+      theme: body-light
+      issue-term: title
+
+  search: 
+    location: navbar
+    type: overlay  
+  bread-crumbs: true
+  reader-mode: false
+  open-graph: true
+  
+  #repo-actions: [edit, issue]
+  navbar:
+    #logo: images/LF2l-Navigation-03.svg
+    pinned: false
+    background: primary
+    foreground: white
+    tools:
+      - icon: linkedin
+        href: https://www.linkedin.com/company/102623341/        
+
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about/index.qmd
+      - text: Blog
+        aria-label: "Pensées pour Moi"
+        href: blog/index.qmd
+      - text: Talks
+        aria-label: "Invited Talks"
+        href: talk/index.qmd  
+      - text: Publications
+        aria-label: "Publications"
+        href: publication/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: project/index.qmd
+
+  page-footer:  
+    #background: light
+    left: >-
+     &#169; 2024 Fabio Cruz &#8729; Made with [Quarto](https://quarto.org)
+    center: 
+      - icon: github
+        href: https://github.com/
+      - icon: instagram
+        href: /        
+      - icon: linkedin
+        href: /
+      - icon: twitter
+        href: /
+
+    right: 
+      - text: "Accessibility"
+        aria-label: "Accessibility Commitment"
+        href: accessibility.qmd
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - icon: rss
+        href: blog/index.xml
+
+        
+format:
+  html:    
+    #include-in-header: assets/header.html  
+    #include-before-body: assets/header.html  
+    #bibliography: assets/bibliography.bib
+    page-layout: full
+    theme:
+      light:
+        - cosmo
+        - assets/fabio-theme-light.scss
+        - assets/silvia/colors-light.scss
+        - assets/silvia/fonts.scss
+    code-link: true
+    pagetitle: "{{< meta title >}}"
+    lightbox: true
+
+
+execute: 
+  freeze: auto
+
+
