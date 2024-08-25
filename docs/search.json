@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Fabio A. Cruz Sanchez, PhD",
     "section": "",
-    "text": "I am Assistant Professorat the Université de Lorraine. I work specifically at the ERPI Laboratory and tech at the ENSGSI School at Nancy. I work at the Lorraine Fab Living Lab Plateform on projects value the partnership between open source tools and as a way to build power and effect change\nLearn more about me →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "text": "Hi!, I am Assistant Professor at the Université de Lorraine. I work specifically at the ERPI Laboratory and tech at the ENSGSI School at Nancy. My research is developed at the Lorraine Fab Living Lab Plateform on projects relatined to plastic recycling on circular economy perspectives valuing the partnership between open source tools, social innovation spaces as a way to effect change in people’s perspectives for circular economy.\nLearn more about me →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "talk/2021-05-04-data-viz-accessibility/index.html",
@@ -278,5 +278,12 @@
     "title": "Hello Quarto: Porting my Website from Hugo Apéro",
     "section": "Footnotes",
     "text": "Footnotes\n\nSee also Digital gardens let you cultivate your own little bit of the internet | MIT Technology Review↩︎\nBy adding an underscore prefix (e.g., _index.Rmarkdown)↩︎\nI.e., index.markdown↩︎\nA CSS design system used in the Hugo Apéro theme: https://tachyons.io↩︎\nFor more on custom theming, see Quarto - HTML Theming and Quarto - More About Quarto Themes↩︎\nDon’t skip this step! People will almost certainly have shared one or more of your posts somewhere on the internet, and it helps everyone if you can point them to the right spot↩︎"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Fabio Cruz",
+    "section": "",
+    "text": "Back to top"
   }
 ]

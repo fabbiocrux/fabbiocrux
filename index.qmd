@@ -16,22 +16,12 @@ about:
   image-width: 28em
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - icon: substack
-      href: https://spcanelon.substack.com
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
+      href: https://github.com/fabbiocrux
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
-    # - text: "{{< fa brands bluesky >}}" 
-    #   aria-label: "Bluesky"
-    #   href: https://bsky.app/profile/silviacanelon.com
-    - icon: mastodon
-      href: https://hachyderm.io/@spcanelon
+      href: https://linkedin.com/in/fabbiocrux
     - text: "{{< ai orcid >}}"
       href: https://orcid.org/0000-0003-1709-1394
     - text: "{{< ai google-scholar >}}"
@@ -54,9 +44,9 @@ resources:
 
 
 ::: {#hero-heading}
-I am Assistant Professor<br>at the Université de Lorraine. 
-I work specifically at the [ERPI Laboratory](https://erpi.univ-lorraine.fr/) and tech at the ENSGSI School at Nancy. 
-I work at the Lorraine Fab Living Lab Plateform on projects value the partnership between *open source* tools and as a way to build power and effect change
+Hi!, I am Assistant Professor at the Université de Lorraine. 
+I work specifically at the [ERPI Laboratory](https://erpi.univ-lorraine.fr/) and tech at the [ENSGSI School](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy. 
+My research is developed at the [Lorraine Fab Living Lab Plateform](https://lf2l.fr/) on projects relatined to plastic recycling on circular economy perspectives valuing the partnership between *open source* tools, social innovation spaces as a way to effect change in people's perspectives for circular economy.
 
 [Learn more about me &rarr;](/about){.about-links .subtitle}
 

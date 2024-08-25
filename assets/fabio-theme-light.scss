@@ -9,21 +9,29 @@
 $spc-primary:            #122140; // primary color
 $spc-primary-light:      #3d486b; // primary color, lighter variant
 $spc-primary-dark:       #00001b; // primary color, darker variant
-$spc-secondary:          #e5be00; // secondary color
-$spc-secondary-light:    #fff14d; // secondary color, lighter variant
+
+$spc-secondary:          #f7cf04; // secondary color
+$spc-secondary-light:    #2b0bfa; // secondary color, lighter variant
+
 $spc-secondary-dark:     #ae8f00; // secondary color, darker variant
-$spc-accent:             #ae8f00; // secondary color, darker variant
+$spc-accent:             #b40015; // secondary color, darker variant
+
 $spc-accent-light: #A23E02; // formerly #936C10, 815E0E, b04303
 $spc-accent-dark: #936c10;
 $spc-bg-0: #fffbf2; // formerly #F5F5F5, #fffcf7, fffbf5: 
 
+
+
 // Colors: Quarto variables
 $primary:                    $spc-primary-light;
 $secondary:                  $spc-secondary;
+
+
+
 // Colors: custom variables
 $primary-dark:               $spc-primary;
 $secondary-light:            $spc-secondary-light;
-$accent:                     $spc-accent; 
+$accent:                     #C50201; 
 $accent-light:               $spc-accent-light;
 $accent-dark:                $spc-accent-dark;
 
@@ -45,9 +53,9 @@ $headings-font-family:       "Petrona";
 
 // Links
 
-$link-color:                  $secondary;
+$link-color:                  $primary;
 $link-decoration:             underline;
-$link-hover-color:            $secondary-light;
+$link-hover-color:            $accent;
 $link-hover-decoration:       none;
 
 // Tables
@@ -70,7 +78,7 @@ $toc-active-border:           $toc-color;
 $toc-inactive-border:         lighten($toc-color, 50%);
 
 // Navbar icons
-$navbar-fg:                   $secondary;
+$navbar-fg:                   $primary;
 
 // Footer text
 $footer-fg:                   $primary;
@@ -118,7 +126,7 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 
 // footer
 .nav-footer-center i {
-  color: $secondary !important;
+  color: $accent !important;
   
   &:hover {
     color: $secondary-light !important;
@@ -127,7 +135,7 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 
 // home + about pages
 .about-links .about-link i {
-  color: $secondary !important;
+  color: $accent !important;
 
   &:hover {
     color: $secondary-light !important;
@@ -138,14 +146,14 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 
 // social links
 .link-dark.me-1 i {
-  color: $secondary !important;
+  color: $accent !important;
 }
 
 // Buttons
 
 // post links
 .btn-secondary {
-  color: $secondary;
+  color: $accent;
   background: transparent;
   border-radius: 5px;
 }
@@ -205,13 +213,13 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   letter-spacing: .1em;
 
   &:hover {
-    border-bottom: 1px solid $primary !important;
+    border-bottom: 1px solid $accent !important;
   }
 }
 
 // links
 .navbar-nav .nav-link {
-    color: $secondary !important;
+    color: $primary !important;
     text-transform: uppercase;
     letter-spacing: .1em; 
     border-bottom: 0px hidden $secondary;    
@@ -228,10 +236,10 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
 
 // links on left side
 .nav-footer a {
-    color: $secondary;
+    color: $primary;
     // link on hover
     &:hover {
-      color: $secondary-light;
+      color: $accent;
     }
 }
 

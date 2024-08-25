@@ -82,11 +82,11 @@
   </url>
   <url>
     <loc>https://fabbiocrux.com/index.html</loc>
-    <lastmod>2024-08-25T15:13:55.079Z</lastmod>
+    <lastmod>2024-08-25T15:51:50.274Z</lastmod>
   </url>
   <url>
     <loc>https://fabbiocrux.com/about/index.html</loc>
-    <lastmod>2024-08-25T15:03:27.766Z</lastmod>
+    <lastmod>2024-08-25T15:51:15.991Z</lastmod>
   </url>
   <url>
     <loc>https://fabbiocrux.com/blog/index.html</loc>
@@ -107,5 +107,9 @@
   <url>
     <loc>https://fabbiocrux.com/blog/2023-09-29-hello-quarto/index.html</loc>
     <lastmod>2024-08-20T22:03:25.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fabbiocrux.com/accessibility.html</loc>
+    <lastmod>2024-08-21T00:11:49.836Z</lastmod>
   </url>
 </urlset>
