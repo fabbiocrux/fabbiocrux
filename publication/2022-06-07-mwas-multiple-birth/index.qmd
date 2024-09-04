@@ -1,11 +1,11 @@
 ---
-title: "Medication-Wide Association Study Using Electronic Health Record Data of Prescription Medication Exposure and Multifetal Pregnancies: Retrospective Study"
+title: "Open source IoT-based collection bin applied to local plastic recycling"
 author:
-  - name: Lena Davidson
-  - name: Silvia P. Canelón
-    orcid: 0000-0003-1709-1394
-  - name: Mary Regina Boland
-date: '2022-06-07'
+  - name: Alex Gabriel
+  - name: Fabio A. Cuz Sanchez
+    orcid: 0000-0001-8529-5327
+
+date: '2023-06-07'
 slug: mwas-multiple-birth
 categories:
   - Research
