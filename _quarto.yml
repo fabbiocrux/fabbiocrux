@@ -100,7 +100,7 @@ format:
     lightbox: true
 
 
-execute: 
-  freeze: auto
+#execute: 
+#  freeze: auto
 
 

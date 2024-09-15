@@ -2,8 +2,8 @@
 title: Publications
 description: |
   This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces.
-author: "Silvia Canelón"
-show_post_thumbnail: false
+author: "Fabio A. Cruz Sanchez"
+show_post_thumbnail: true
 thumbnail_left: true # for list-sidebar only
 show_author_byline: true
 show_post_date: true
@@ -35,3 +35,4 @@ cascade:
 ---
 
 ** No content below YAML for the blog _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside blog/. You may still override any of these by changing them in a page's front matter.**
+
