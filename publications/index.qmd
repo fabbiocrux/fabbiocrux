@@ -8,8 +8,8 @@ listing:
     contents: "articles/**/index.qmd"
     page-size: 3
     sort: "date desc"
-    type: grid
-    categories: true
+    type: default
+    categories: false
     sort-ui: [type]
     filter-ui: false
     fields: [title, image, author, categories, date]
@@ -20,6 +20,7 @@ listing:
     fields: [title, image, author, date]
   - id: thesis
     contents: "/thesis/**/index.qmd"    
+    type: grid
     page-size: 3    
 
 #  image-align: left
@@ -39,7 +40,7 @@ resources:
 
 
 
-## Articles
+## Scientific Articles
 
 :::{#articles}
 :::

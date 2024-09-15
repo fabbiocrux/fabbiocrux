@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-title','listing-image','listing-author','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       valueNames: ['listing-title','listing-image','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 3,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -137,9 +137,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -249,11 +249,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div><div class="category" data-category="3D Printer">3D Printer <span class="quarto-category-count">(2)</span></div><div class="category" data-category="3D Printing">3D Printing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="3D printing">3D printing <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Benchmarking">Benchmarking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Circular economy">Circular economy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Closed loop supply chain">Closed loop supply chain <span class="quarto-category-count">(5)</span></div><div class="category" data-category="DIY">DIY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="DRAM">DRAM <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Damping,">Damping, <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Distributed Recycling">Distributed Recycling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Distributed recycling">Distributed recycling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Fab lab">Fab lab <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fused Filament Fabrication">Fused Filament Fabrication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Innovation">Innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Innovation labs">Innovation labs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Innovation team roles">Innovation team roles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LCA">LCA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine qualification">Machine qualification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mechanical properties">Mechanical properties <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Mixed integer linear programming">Mixed integer linear programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modal Analysis">Modal Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Open source">Open source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Open source additive manufacturing">Open source additive manufacturing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PLA">PLA <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Plastic">Plastic <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Plastic recycling">Plastic recycling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Political dimension">Political dimension <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Polylactic acid">Polylactic acid <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Prototyping">Prototyping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Recycling">Recycling <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RepRap">RepRap <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Research">Research <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Reverse logistics">Reverse logistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Reverse supply chain">Reverse supply chain <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Social dimension">Social dimension <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Social innovation">Social innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sustainability indicators">Sustainability indicators <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TBI">TBI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technological dimension">Technological dimension <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Tensile properties">Tensile properties <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tensile strength">Tensile strength <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Thermoplastic Polyurethane">Thermoplastic Polyurethane <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Third place">Third place <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Vibration">Vibration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fused granular fabrication,">fused granular fabrication, <span class="quarto-category-count">(1)</span></div><div class="category" data-category="null">null <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open source 3-dimensional printing">open source 3-dimensional printing <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
 <!-- 
@@ -274,7 +272,7 @@ window.Quarto = {
 </div>
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -287,22 +285,25 @@ window.Quarto = {
 </header>
 
 
-<section id="articles" class="level2">
-<h2 class="anchored" data-anchor-id="articles">Articles</h2>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-grid">
+<section id="scientific-articles" class="level2">
+<h2 class="anchored" data-anchor-id="scientific-articles">Scientific Articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-default">
 <div class="listing-actions-group">
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Research,Innovation labs,Social innovation,Innovation team roles" data-listing-date-sort="1706396400000" data-listing-file-modified-sort="1726416226258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2024-01-28-ferney/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../publications/articles/2024-01-28-ferney/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach
-</h5>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Research,Innovation labs,Social innovation,Innovation team roles" data-listing-date-sort="1706396400000" data-listing-file-modified-sort="1726416226258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2024-01-28-ferney/index.html" class="no-external"></a></p><a href="../publications/articles/2024-01-28-ferney/index.html" class="no-external">
+<p><img src="../publications/articles/2024-01-28-ferney/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2024-01-28-ferney/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2024-01-28-ferney/index.html" class="no-external">Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2024-01-28-ferney/index.html" class="no-external">A comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
 Research
@@ -317,28 +318,31 @@ Social innovation
 Innovation team roles
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Ferney Osorio, Fabio A. Cruz Sanchez, Mauricio Camargo, Laurent Dupont, José Isamel Peña
 </div>
+<div class="metadata">
+<a href="../publications/articles/2024-01-28-ferney/index.html" class="no-external">
 <div class="listing-date">
 Jan 28, 2024
 </div>
-</div>
-</div>
+<div class="listing-author">
+Ferney Osorio, Fabio A. Cruz Sanchez, Mauricio Camargo, Laurent Dupont, José Isamel Peña
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Research,DRAM,TBI" data-listing-date-sort="1704409200000" data-listing-file-modified-sort="1726412853897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
-<a href="../publications/articles/2024-01-05-catalina/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../publications/articles/2024-01-05-catalina/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Research,DRAM,TBI" data-listing-date-sort="1704409200000" data-listing-file-modified-sort="1726412853897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<div class="thumbnail">
+<p><a href="../publications/articles/2024-01-05-catalina/index.html" class="no-external"></a></p><a href="../publications/articles/2024-01-05-catalina/index.html" class="no-external">
+<p><img src="../publications/articles/2024-01-05-catalina/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2024-01-05-catalina/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2024-01-05-catalina/index.html" class="no-external">Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2024-01-05-catalina/index.html" class="no-external">This study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
 Research
@@ -350,28 +354,31 @@ DRAM
 TBI
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Catalina Suescun Gonzalez, Fabio A. Cruz Sanchez, Hakim Boudaoud, Cecile Nouvel, Joshua Pearce
 </div>
+<div class="metadata">
+<a href="../publications/articles/2024-01-05-catalina/index.html" class="no-external">
 <div class="listing-date">
 Jan 5, 2024
 </div>
-</div>
-</div>
+<div class="listing-author">
+Catalina Suescun Gonzalez, Fabio A. Cruz Sanchez, Hakim Boudaoud, Cecile Nouvel, Joshua Pearce
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Innovation,Open source,Fab lab,Third place" data-listing-date-sort="1700694000000" data-listing-file-modified-sort="1726417004776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
-<a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../publications/articles/2023-11-23-fablabs-ti/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Les fab labs : des lieux de partage pour booster l’innovation
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Innovation,Open source,Fab lab,Third place" data-listing-date-sort="1700694000000" data-listing-file-modified-sort="1726417004776" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
+<div class="thumbnail">
+<p><a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="no-external"></a></p><a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="no-external">
+<p><img src="../publications/articles/2023-11-23-fablabs-ti/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="no-external">Les fab labs : des lieux de partage pour booster l’innovation</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="no-external">This article presents the different facets of fab labs through a systematic questioning.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Innovation'); return false;">
 Innovation
@@ -386,51 +393,61 @@ Fab lab
 Third place
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Fabio A. Cruz Sanchez, Alaa Hassan, Hakim Boudahoud
 </div>
+<div class="metadata">
+<a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="no-external">
 <div class="listing-date">
 Nov 23, 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Alaa Hassan, Hakim Boudahoud
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Research" data-listing-date-sort="1693260000000" data-listing-file-modified-sort="1726412893915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<a href="../publications/articles/2023-08-28-fangkai/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Research" data-listing-date-sort="1693260000000" data-listing-file-modified-sort="1726412893915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<div class="thumbnail">
+<p><a href="../publications/articles/2023-08-28-fangkai/index.html" class="no-external"></a></p><a href="../publications/articles/2023-08-28-fangkai/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../publications/articles/2023-08-28-fangkai/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2023-08-28-fangkai/index.html" class="no-external">Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2023-08-28-fangkai/index.html" class="no-external">Present study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
 Research
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Fangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya
 </div>
+<div class="metadata">
+<a href="../publications/articles/2023-08-28-fangkai/index.html" class="no-external">
 <div class="listing-date">
 Aug 29, 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Fangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="DRAM,LCA,DIY" data-listing-date-sort="1684188000000" data-listing-file-modified-sort="1726416608258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2023-05-16-cristian/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="DRAM,LCA,DIY" data-listing-date-sort="1684188000000" data-listing-file-modified-sort="1726416608258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2023-05-16-cristian/index.html" class="no-external"></a></p><a href="../publications/articles/2023-05-16-cristian/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../publications/articles/2023-05-16-cristian/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2023-05-16-cristian/index.html" class="no-external">Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2023-05-16-cristian/index.html" class="no-external">The purpose of this study is to evaluate the environmental impact of a DRAM unit as a baseline scenario, compared to two scenarios of the virgin supply chain plastic filament used in the printing process.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('DRAM'); return false;">
 DRAM
@@ -442,53 +459,61 @@ LCA
 DIY
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Cristian Caceres Mendoza, Pavlo Santander Tapia, Fabio A. Cruz Sanchez, Nadège Troussier, Hakim Boudahoud, Mauricio Camargo
 </div>
+<div class="metadata">
+<a href="../publications/articles/2023-05-16-cristian/index.html" class="no-external">
 <div class="listing-date">
 May 16, 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Cristian Caceres Mendoza, Pavlo Santander Tapia, Fabio A. Cruz Sanchez, Nadège Troussier, Hakim Boudahoud, Mauricio Camargo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Research" data-listing-date-sort="1674169200000" data-listing-file-modified-sort="1726412908257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2023-01-20-alex/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Open source IoT-based collection bin applied to local plastic recycling
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Research" data-listing-date-sort="1674169200000" data-listing-file-modified-sort="1726412908257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2023-01-20-alex/index.html" class="no-external"></a></p><a href="../publications/articles/2023-01-20-alex/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="../publications/articles/2023-01-20-alex/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2023-01-20-alex/index.html" class="no-external">Open source IoT-based collection bin applied to local plastic recycling</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2023-01-20-alex/index.html" class="no-external">This article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
 Research
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alex Gabriel, Fabio A. Cruz Sanchez
 </div>
+<div class="metadata">
+<a href="../publications/articles/2023-01-20-alex/index.html" class="no-external">
 <div class="listing-date">
 Jan 20, 2023
 </div>
-</div>
-</div>
+<div class="listing-author">
+Alex Gabriel, Fabio A. Cruz Sanchez
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="3D Printing,Prototyping,Distributed Recycling,Tensile strength,PLA" data-listing-date-sort="1658527200000" data-listing-file-modified-sort="1726412802605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2022-07-27-diego/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2022-07-27-diego/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Feasibility study on the use of recycled materials for prototyping purposes: A comparative study based on the tensile strength
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="3D Printing,Prototyping,Distributed Recycling,Tensile strength,PLA" data-listing-date-sort="1658527200000" data-listing-file-modified-sort="1726412802605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2022-07-27-diego/index.html" class="no-external"></a></p><a href="../publications/articles/2022-07-27-diego/index.html" class="no-external">
+<p><img data-src="../publications/articles/2022-07-27-diego/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2022-07-27-diego/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2022-07-27-diego/index.html" class="no-external">Feasibility study on the use of recycled materials for prototyping purposes: A comparative study based on the tensile strength</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2022-07-27-diego/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('3D Printing'); return false;">
 3D Printing
@@ -506,28 +531,31 @@ Tensile strength
 PLA
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Victor M. Lopez, Diego Carou, Fabio A. Cuz Sanchez
 </div>
+<div class="metadata">
+<a href="../publications/articles/2022-07-27-diego/index.html" class="no-external">
 <div class="listing-date">
 Jul 23, 2022
 </div>
-</div>
-</div>
+<div class="listing-author">
+Victor M. Lopez, Diego Carou, Fabio A. Cuz Sanchez
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Recycling,Closed loop supply chain,Reverse supply chain,Reverse logistics,Sustainability indicators,Social dimension,Technological dimension,Political dimension" data-listing-date-sort="1641164400000" data-listing-file-modified-sort="1726412775488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2022-01-03-pavlo/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2022-01-03-pavlo/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="Recycling,Closed loop supply chain,Reverse supply chain,Reverse logistics,Sustainability indicators,Social dimension,Technological dimension,Political dimension" data-listing-date-sort="1641164400000" data-listing-file-modified-sort="1726412775488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2022-01-03-pavlo/index.html" class="no-external"></a></p><a href="../publications/articles/2022-01-03-pavlo/index.html" class="no-external">
+<p><img data-src="../publications/articles/2022-01-03-pavlo/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2022-01-03-pavlo/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2022-01-03-pavlo/index.html" class="no-external">Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2022-01-03-pavlo/index.html" class="no-external">A systematic literature review has been conducted in order to understand how the social, political, and technological dimensions should be integrated into the sustainability evaluation process of a potential recycling network.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Recycling'); return false;">
 Recycling
@@ -554,28 +582,31 @@ Technological dimension
 Political dimension
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
 </div>
+<div class="metadata">
+<a href="../publications/articles/2022-01-03-pavlo/index.html" class="no-external">
 <div class="listing-date">
 Jan 3, 2022
 </div>
-</div>
-</div>
+<div class="listing-author">
+Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="fused granular fabrication,,Recycling,Polylactic acid,Tensile properties,Distributed recycling," data-listing-date-sort="1587679200000" data-listing-file-modified-sort="1726412759947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2020-04-24-arthur/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2020-04-24-arthur/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="fused granular fabrication,,Recycling,Polylactic acid,Tensile properties,Distributed recycling," data-listing-date-sort="1587679200000" data-listing-file-modified-sort="1726412759947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2020-04-24-arthur/index.html" class="no-external"></a></p><a href="../publications/articles/2020-04-24-arthur/index.html" class="no-external">
+<p><img data-src="../publications/articles/2020-04-24-arthur/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2020-04-24-arthur/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2020-04-24-arthur/index.html" class="no-external">Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2020-04-24-arthur/index.html" class="no-external">The objective of this work is to evaluate the performance of the FFF and FGF techniques in terms of technical and economical dimensions at the desktop 3D printing scale. Recycled and virgin polylactic acid material was studied by using five different types of recycling feedstocks: commercial filament, pellets, distributed filament, distributed pellets, and shredded waste. The results showed that the mechanical properties from the FGF technique using same configurations showed no statistical differences to FFF samples.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('fused granular fabrication,'); return false;">
 fused granular fabrication,
@@ -596,28 +627,31 @@ Distributed recycling
 
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Arthur Alexandre, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
 </div>
+<div class="metadata">
+<a href="../publications/articles/2020-04-24-arthur/index.html" class="no-external">
 <div class="listing-date">
 Apr 24, 2020
 </div>
-</div>
-</div>
+<div class="listing-author">
+Arthur Alexandre, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Recycling,Closed loop supply chain,Reverse supply chain,Reverse logistics,Sustainability indicators,Social dimension,Technological dimension,Political dimension" data-listing-date-sort="1586901600000" data-listing-file-modified-sort="1726412764479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2020-04-15-fabio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2020-04-15-fabio/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="Recycling,Closed loop supply chain,Reverse supply chain,Reverse logistics,Sustainability indicators,Social dimension,Technological dimension,Political dimension" data-listing-date-sort="1586901600000" data-listing-file-modified-sort="1726412764479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2020-04-15-fabio/index.html" class="no-external"></a></p><a href="../publications/articles/2020-04-15-fabio/index.html" class="no-external">
+<p><img data-src="../publications/articles/2020-04-15-fabio/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2020-04-15-fabio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2020-04-15-fabio/index.html" class="no-external">Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2020-04-15-fabio/index.html" class="no-external">This paper aims to examine the current advances on thermoplastic recycling processes via additive manufacturing technologies proposing a closed recycling global chain for Distributed Recycling via Additive Manufacturing –DRAM-.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Recycling'); return false;">
 Recycling
@@ -644,28 +678,31 @@ Technological dimension
 Political dimension
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo, Joshua Pearce
 </div>
+<div class="metadata">
+<a href="../publications/articles/2020-04-15-fabio/index.html" class="no-external">
 <div class="listing-date">
 Apr 15, 2020
 </div>
-</div>
-</div>
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo, Joshua Pearce
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="Closed loop supply chain,Plastic recycling,3D printing,Circular economy,Mixed integer linear programming,Distributed recycling" data-listing-date-sort="1575327600000" data-listing-file-modified-sort="1726412737992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2019-12-03-pavlo/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2019-12-03-pavlo/featured.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="Closed loop supply chain,Plastic recycling,3D printing,Circular economy,Mixed integer linear programming,Distributed recycling" data-listing-date-sort="1575327600000" data-listing-file-modified-sort="1726412737992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2019-12-03-pavlo/index.html" class="no-external"></a></p><a href="../publications/articles/2019-12-03-pavlo/index.html" class="no-external">
+<p><img data-src="../publications/articles/2019-12-03-pavlo/featured.png" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2019-12-03-pavlo/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2019-12-03-pavlo/index.html" class="no-external">Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2019-12-03-pavlo/index.html" class="no-external">This article therefore explores the economic and environmental feasibility of this distributed plastic recycling approach from a logistics perspective, as a step towards its validation. To achieve this, an optimization mixed integer linear programming (MILP) model was used as an evaluation tool, representing a local closed loop supply chain (CLSC) network.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Closed loop supply chain'); return false;">
 Closed loop supply chain
@@ -686,28 +723,31 @@ Mixed integer linear programming
 Distributed recycling
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
 </div>
+<div class="metadata">
+<a href="../publications/articles/2019-12-03-pavlo/index.html" class="no-external">
 <div class="listing-date">
 Dec 3, 2019
 </div>
-</div>
-</div>
+<div class="listing-author">
+Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="3D printing,Plastic recycling,Mechanical properties,PLA,Open source additive manufacturing,RepRap" data-listing-date-sort="1501884000000" data-listing-file-modified-sort="1726412692865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2017-08-05-fabio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2017-08-05-fabio/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Polymer recycling in an open-source additive manufacturing context: Mechanical issues
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="3D printing,Plastic recycling,Mechanical properties,PLA,Open source additive manufacturing,RepRap" data-listing-date-sort="1501884000000" data-listing-file-modified-sort="1726412692865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2017-08-05-fabio/index.html" class="no-external"></a></p><a href="../publications/articles/2017-08-05-fabio/index.html" class="no-external">
+<p><img data-src="../publications/articles/2017-08-05-fabio/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2017-08-05-fabio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2017-08-05-fabio/index.html" class="no-external">Polymer recycling in an open-source additive manufacturing context: Mechanical issues</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2017-08-05-fabio/index.html" class="no-external">The contribution of the present study is twofold: first, a general methodology to evaluate the recyclability of thermoplastics used as feedstock in open-source 3D printing machines is proposed. Then, the proposed methodology is applied to the recycling study of polylactic acid (PLA) material addressed to the fused filament fabrication (FFF) technique, which is currently the most widely used.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('3D printing'); return false;">
 3D printing
@@ -728,28 +768,31 @@ Open source additive manufacturing
 RepRap
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Fabio A. Cruz Sanchez, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo
 </div>
+<div class="metadata">
+<a href="../publications/articles/2017-08-05-fabio/index.html" class="no-external">
 <div class="listing-date">
 Aug 5, 2017
 </div>
-</div>
-</div>
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="open source 3-dimensional printing,Machine qualification,RepRap,Benchmarking" data-listing-date-sort="1404338400000" data-listing-file-modified-sort="1726412040481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../publications/articles/2014-04-15-fabio/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img data-src="../publications/articles/2014-04-15-fabio/Master-00.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Towards a standard experimental protocol for open source additive manufacturing
-</h5>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="open source 3-dimensional printing,Machine qualification,RepRap,Benchmarking" data-listing-date-sort="1404338400000" data-listing-file-modified-sort="1726412040481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/articles/2014-04-15-fabio/index.html" class="no-external"></a></p><a href="../publications/articles/2014-04-15-fabio/index.html" class="no-external">
+<p><img data-src="../publications/articles/2014-04-15-fabio/Master-00.png" class="thumbnail-image"></p>
+</a><p><a href="../publications/articles/2014-04-15-fabio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/articles/2014-04-15-fabio/index.html" class="no-external">Towards a standard experimental protocol for open source additive manufacturing</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/articles/2014-04-15-fabio/index.html" class="no-external">This paper deals with the development, manufacture and testing of a geometrical benchmarking model (GBM) in order to evaluate the geometrical accuracy performance of open source 3D printers.</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open source 3-dimensional printing'); return false;">
 open source 3-dimensional printing
@@ -764,17 +807,17 @@ RepRap
 Benchmarking
 </div>
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Fabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo
 </div>
+<div class="metadata">
+<a href="../publications/articles/2014-04-15-fabio/index.html" class="no-external">
 <div class="listing-date">
 Jul 3, 2014
 </div>
-</div>
-</div>
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo
 </div>
 </a>
+</div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
@@ -896,55 +939,32 @@ No matching items
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-thesis">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="3D printing,Plastic recycling,Mechanical properties,PLA,Open source additive manufacturing,RepRap" data-listing-date-sort="1481238000000" data-listing-file-modified-sort="1726412682672" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<div class="thumbnail">
-<p><a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external"></a></p><a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">
-<p><img src="../publications/thesis/2016-08-05-fabio/featured.jpg" class="thumbnail-image"></p>
-</a><p><a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external"></a></p>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-thesis">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="3D printing,Plastic recycling,Mechanical properties,PLA,Open source additive manufacturing,RepRap" data-listing-date-sort="1481238000000" data-listing-file-modified-sort="1726412682672" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/thesis/2016-08-05-fabio/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../publications/thesis/2016-08-05-fabio/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Methodological proposition to evaluate polymer recycling in open-source additive manufacturing contexts
+</h5>
+<div class="card-text listing-description">
+Additive Manufacturing
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">Methodological proposition to evaluate polymer recycling in open-source additive manufacturing contexts</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">This thesis is integrated in this global issue; indeed, throughout the manuscript we analyze about the impact of open-source (OS) Additive Manufacturing (AM) (also as known as open-source 3D printing or just 3D printing) in the light of the sustainability issues.</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('3D printing'); return false;">
-3D printing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Plastic recycling'); return false;">
-Plastic recycling
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Mechanical properties'); return false;">
-Mechanical properties
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('PLA'); return false;">
-PLA
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Open source additive manufacturing'); return false;">
-Open source additive manufacturing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('RepRap'); return false;">
-RepRap
-</div>
-</div>
-<div class="listing-description">
-<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">Additive Manufacturing</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">
-<div class="listing-date">
-Dec 9, 2016
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Fabio A. Cruz Sanchez
 </div>
-</a>
+<div class="listing-date">
+Dec 9, 2016
 </div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
