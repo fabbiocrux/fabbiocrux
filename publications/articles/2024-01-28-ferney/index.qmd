@@ -10,7 +10,7 @@ author:
 date: '2024-01-28'
 slug: social-innovation-competences
 type: article
-image: featured.png
+image: featured.jpg
 categories:
   - Research 
   - Innovation labs

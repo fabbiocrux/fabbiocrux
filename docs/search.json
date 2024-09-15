@@ -775,5 +775,19 @@
     "title": "Publications",
     "section": "Thesis",
     "text": "Thesis"
+  },
+  {
+    "objectID": "project/2021-07-07-presentable-user2021/index.html",
+    "href": "project/2021-07-07-presentable-user2021/index.html",
+    "title": "Professional, Polished, Presentable",
+    "section": "",
+    "text": "The xaringan package brings professional, impressive, and visually appealing slides to the powerful R Markdown ecosystem. Through our hands-on tutorial, you will learn how to design highly effective slides that support presentations for teaching and reporting alike. Over three hours, you will learn how to create an accessible baseline design that matches your institution or organization’s style guide. Together we’ll explore the basics of CSS—the design language of the internet—and how we can leverage CSS to produce elegant slides for effective communication."
+  },
+  {
+    "objectID": "project/2021-07-07-presentable-user2021/index.html#abstract",
+    "href": "project/2021-07-07-presentable-user2021/index.html#abstract",
+    "title": "Professional, Polished, Presentable",
+    "section": "",
+    "text": "The xaringan package brings professional, impressive, and visually appealing slides to the powerful R Markdown ecosystem. Through our hands-on tutorial, you will learn how to design highly effective slides that support presentations for teaching and reporting alike. Over three hours, you will learn how to create an accessible baseline design that matches your institution or organization’s style guide. Together we’ll explore the basics of CSS—the design language of the internet—and how we can leverage CSS to produce elegant slides for effective communication."
   }
 ]
