@@ -41,19 +41,19 @@ website:
     right:
       - text: About
         aria-label: "About Me"
-        href: about/index.qmd
+        href: about/
       - text: Blog
         aria-label: "Pensées pour Moi"
-        href: blog/index.qmd
+        href: blog/.qmd
       - text: Talks
         aria-label: "Invited Talks"
-        href: talk/index.qmd  
+        href: talk/
       - text: Publications
         aria-label: "Publications"
-        href: publications/index.qmd
+        href: publications/
       - text: Projects
         aria-label: "Project Portfolio"
-        href: project/index.qmd
+        href: project/
 
   page-footer:  
     #background: light
