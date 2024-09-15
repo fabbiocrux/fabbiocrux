@@ -1,0 +1,27 @@
+---
+title: "Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods"
+author: 
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+  - Silvia Lanza
+  - Hakim Boudaoud
+  - Sandrine Hoppe
+  - Mauricio Camargo  
+date: '2015-08-01'
+image: featured.jpg
+slug: processes-methods-dram
+categories:
+  - 3D printing 
+  - RepRap
+  - Distributed recycling
+description: 'Solid Freeform Fabrication'
+subtitle: 'In this study, we propose an evaluation of the mechanical recyclability of Polylactic Acid (PLA), material widely used in the open-source 3D printing context, in order to establish the viability of this recycled material to be used in the open-source 3D printers.'
+abstract: 'Polymer recycling is a way to reduce environmental impacts of accumulation of polymeric waste materials. However, low recycling rates are often observed in conventional centralized recycling plants mainly to the challenge of collection and transportation for high-volume low-weight-polymers in conventional centralized recycling plants. As the democratization of open-source 3D printers is going forward thanks to initiatives such as FabLab environments, there is a growing interest on how to use this technology to improve the efficiency of use of raw materials. Studies have been proposed in order to recycle waste polymer into open-source 3D printer feedstock. The recycling of high-density polyethylene (HDPE) issued from bottles of used milk jugs through use of an open-source filament fabricator system called RecycleBot has been evaluated. In this study, we propose an evaluation of the mechanical recyclability of Polylactic Acid (PLA), material widely used in the open-source 3D printing context, in order to establish the viability of this recycled material to be used in the open-source 3D printers. The degradation of the material’s mechanical and rheological properties after a number of cycles of multiple extrusion and printing processes is evaluated. The characterization of recycled raw materials for open-source 3D printing has implications not only to reduce the environmental impact of polymers waste, but also it will allow us to understand the technical requirements and challenges for development of open-source filament recycle machine/process. The coupling of open-source 3D printers and filament extruders can offer the bases of a new distributed polymer recycling paradigm, which reverses the traditional paradigm of centralizing recycling of polymers where is often uneconomic and energy intensive due to transportation embodied energy. Moreover, this characterization also will allow the exploration of new source of materials and new composite materials for open-source 3D printing, in order to improve the quality of products made by this technology.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://repositories.lib.utexas.edu/items/1cf6b1c0-e24a-4919-bff1-571c1a8fd25f
+---
+
+
+

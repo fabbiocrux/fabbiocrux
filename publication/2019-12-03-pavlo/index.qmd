@@ -1,31 +1,28 @@
 ---
-title: "Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review"
+title: "Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach"
 author: 
   - Pavlo Santander
-  - name: Fabio A. Cuz Sanchez
+  - name: Fabio A. Cruz Sanchez
     orcid: 0000-0001-8529-5327
   - Hakim Boudaoud
   - Mauricio Camargo 
-date: '2022-01-03'
+date: '2019-12-03'
 image: featured.png
-slug: vibration-am
+slug: closed-loop-dram
 categories:
-  - Recycling 
   - Closed loop supply chain 
-  - Reverse supply chain 
-  - Reverse logistics 
-  - Sustainability indicators 
-  - Social dimension 
-  - Technological dimension 
-  - Political dimension
-
-description: 'Cleaner Engineering and Technology'
-subtitle: 'A systematic literature review has been conducted  in order to understand how these social, political, and technological dimensions should be integrated into the sustainability evaluation process of a potential recycling network, '
-abstract: 'The development and implementation of recycling networks seems to be a promising way to cope with and mitigate the environmental problems of waste. As a mandatory condition, recycling networks must guarantee the achievement of sustainability requirements. Since the first proposal of the TBL (Triple Bottom Line) in the early 1990s, some authors have suggested that this model should be extended to include more dimensions. Recent studies have proposed that for a system to be sustainable, it should not only include the economic, environmental, and social dimensions but must also consider technological and political aspects and their subsequent sustainability indicators for their evaluation. In regard to recycling networks, however, social, technological, and political dimensions are still to be formalized to facilitate their use when designing recycling networks or evaluating their impact. In order to understand how these social, political, and technological dimensions should be integrated into the sustainability evaluation process of a potential recycling network, a systematic literature review has been conducted. A total of 160 journal articles were selected and analyzed. Information was identified on the problem addressed, the recycling domain, the methodologies used, and the social, technological, and political aspects under consideration. A set of social, political, and technological indicators to be considered for the main recycling network problems (design and planning, decision-making and performance evaluation, provider selection, price, and coordination) is then proposed. The main contribution of this work lies in the understanding for future research of how to consider social, political, and technological aspects taking into account the most common problems addressed in a recycling network. At the same time, findings and research gaps have been derived from these results. This study provides a basis for future work oriented toward the holistic evaluation of sustainable recycling networks.'
+  - Plastic recycling 
+  - 3D printing 
+  - Circular economy 
+  - Mixed integer linear programming 
+  - Distributed recycling
+description: 'Resources, Conservation and Recycling'
+subtitle: 'This article therefore explores the economic and environmental feasibility of this distributed plastic recycling approach from a logistics perspective, as a step towards its validation. To achieve this, an optimization mixed integer linear programming (MILP) model was used as an evaluation tool, representing a local closed loop supply chain (CLSC) network.'
+abstract: 'Recent research and initiatives increasingly propose a new approach, based on distributed plastic recycling for open-source (OS) 3D printing technologies, as a way to deal with the issue of plastic waste and to support the development of the circular economy (CE). Distributed recycling can be thought of as a sort of “smart grid”, composed of small and coordinated recycling units. However, the operational complexity of this distributed approach limits its application. Furthermore, the environmental and economic advantages have yet to be demonstrated. This article therefore explores the economic and environmental feasibility of this distributed plastic recycling approach from a logistics perspective, as a step towards its validation. To achieve this, an optimization mixed integer linear programming (MILP) model was used as an evaluation tool, representing a local closed loop supply chain (CLSC) network. The proposed model is illustrated using a case study of a university seeking to implement a distributed recycling demonstrator in order to recover 3D printing wastes from secondary schools in the northeast of France. Following this step, a sensitivity analysis was carried out considering the market variations (price of virgin plastic filament) and the amount of available plastic waste derived from the schools. The results obtained show positive economic and environmental benefits of carrying out this new method of plastic recycling. This work serves as a basis for continuing to explore the feasibility and replication of the distributed plastic recycling network in other contexts.'
 links:
 - icon: file-richtext-fill
   name: Publication
-  url: https://doi.org/10.1016/j.clet.2022.100397
+  url: https://doi.org/10.1016/j.resconrec.2019.104531
 ---
 
 

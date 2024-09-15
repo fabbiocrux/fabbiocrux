@@ -1,0 +1,29 @@
+---
+title: "Modelling, Printing and Validation of Dental Dry Models for Implantology Skills Training"
+author: 
+  - Ramses Alburquerque 
+  - Giovanny Arbelaez Garces
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+  - Mauricio Camargo 
+  - Joseph David
+  - Nguyen Tran
+date: '2018-06-01'
+image: featured.jpg
+slug: dry-models
+categories:
+  - Closed loop supply chain 
+  - Recycling
+  - Plastic
+  - 3D Printer
+description: '2018 IEEE International Conference on Engineering, Technology and Innovation (ICE/ITMC)'
+subtitle: 'Training models need to biomimicry the real organs in other types of properties such as texture, density, mechanical behaviour among other properties. Therefore, different 3Dprocesses materials, textures and densities need to be explored and tested.'
+abstract: 'The acquisition of procedural technical skills is essential to become a surgeon. Traditional medical training required to practice procedures in cadavers and animals. New technologies such as virtual reality and additive manufacturing can help surgeons to learn and improve their skills through physical models of the human organ to be intervened. However, shape representation is not enough to have a realistic training experience. Training models need to biomimicry the real organs in other types of properties such as texture, density, mechanical behaviour among other properties. Therefore, different 3D processes materials, textures and densities need to be explored and tested. The goal of this work was the development and validation of a dental dry model system using additive manufacturing. The mechanical profile of the printed models by capturing the force applied by a dental micro motor attached to a CNC machine during a standardized drilling test is measured. This research work was done in collaboration with the Nancy School of Surgery to help develop a new system to guide the training process for dentistry surgical procedures.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.1109/ICE.2018.8436302
+---
+
+
+

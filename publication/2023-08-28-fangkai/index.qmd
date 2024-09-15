@@ -4,7 +4,7 @@ author:
   - Fangkai Xue
   - Hakim Boudaoud
   - Guillaume Robin  
-  - name: Fabio A. Cuz Sanchez
+  - name: Fabio A. Cruz Sanchez
     orcid: 0000-0001-8529-5327
   - El Mostafa Daya 
 date: '2023-08-29'

@@ -3,7 +3,7 @@ title: "Life cycle assessment of filament production in distributed plastic recy
 author:
   - name: Cristian Caceres Mendoza
   - name: Pavlo Santander Tapia  
-  - name: Fabio A. Cuz Sanchez
+  - name: Fabio A. Cruz Sanchez
     orcid: 0000-0001-8529-5327
   - name: Nadège Troussier
   - name: Hakim Boudahoud

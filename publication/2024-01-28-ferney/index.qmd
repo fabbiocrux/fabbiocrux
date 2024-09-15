@@ -2,13 +2,14 @@
 title: "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach"
 author: 
 - Ferney Osorio
-- name: Fabio A. Cuz Sanchez
+- name: Fabio A. Cruz Sanchez
   orcid: 0000-0001-8529-5327
 - Mauricio Camargo
 - Laurent Dupont
 - José Isamel Peña
 date: '2024-01-28'
 slug: social-innovation-competences
+image: featured.png
 categories:
   - Research 
   - Innovation labs
