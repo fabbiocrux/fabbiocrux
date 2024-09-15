@@ -6,7 +6,7 @@ website:
   title: "Fabio Cruz"
   site-url: https://fabbiocrux.com
   repo-url: https://github.com/fabbiocrux/fabbiocrux
-  description: "Assitant Professor at the Université de Lorraine"
+  description: "Assistant Professor at the Université de Lorraine"
   favicon: assets/favicon.png
   page-navigation: true
   back-to-top-navigation: true
@@ -14,12 +14,12 @@ website:
     creator: "@fabbiocrux"
     site: "@fabbiocrux"
     card-style: summary_large_image  
-  comments: 
-    utterances: 
-      repo: spcanelon/silvia 
-      label: utterances
-      theme: body-light
-      issue-term: title
+  # comments: 
+  #   utterances: 
+  #     repo: spcanelon/silvia 
+  #     label: utterances
+  #     theme: body-light
+  #     issue-term: title
 
   search: 
     location: navbar
@@ -50,7 +50,7 @@ website:
         href: talk/index.qmd  
       - text: Publications
         aria-label: "Publications"
-        href: publication/index.qmd
+        href: publications/index.qmd
       - text: Projects
         aria-label: "Project Portfolio"
         href: project/index.qmd
