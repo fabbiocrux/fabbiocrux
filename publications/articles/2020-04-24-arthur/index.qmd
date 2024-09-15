@@ -1,0 +1,30 @@
+---
+title: "Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers"
+author: 
+  - Arthur Alexandre
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+  - Hakim Boudaoud
+  - Mauricio Camargo 
+date: '2020-04-24'
+image: featured.jpg
+slug: fgf-comparison-dram
+type: article
+categories:
+  - fused granular fabrication, 
+  - Recycling
+  - Polylactic acid
+  - Tensile properties
+  - Distributed recycling
+  - 
+description: 'Resources, Conservation and Recycling'
+subtitle: 'The objective of this work is to evaluate the performance of the FFF and FGF techniques in terms of technical and economical dimensions at the desktop 3D printing scale. Recycled and virgin polylactic acid material was studied by using five different types of recycling feedstocks: commercial filament, pellets, distributed filament, distributed pellets, and shredded waste. The results showed that the mechanical properties from the FGF technique using same configurations showed no statistical differences to FFF samples.'
+abstract: 'Fused filament fabrication (FFF) is the most common and widespread additive manufacturing (AM) technique, but it requires the formation of filament. Fused granular fabrication (FGF), where plastic granules are directly three-dimensional (3D) printed, has become a promising technique for the AM technology. FGF could be a key driver to promote further greening of distributed recycling thanks to the reduced melt solidification steps and elimination of the filament extruder system. However, only large-scale FGF systems have been tested for technical and economic viability of recycling plastic materials. The objective of this work is to evaluate the performance of the FFF and FGF techniques in terms of technical and economical dimensions at the desktop 3D printing scale. Recycled and virgin polylactic acid material was studied by using five different types of recycling feedstocks: commercial filament, pellets, distributed filament, distributed pellets, and shredded waste. The results showed that the mechanical properties from the FGF technique using same configurations showed no statistical differences to FFF samples. Nevertheless, the granulometry could have an influence on the reproducibility of the samples, which explains that the critical factor in this technology is to assure the material input in the feeding system. In addition, FGF costs per kg of material were reduced to less than 1 e/kg compared with more than 20 e/kg for commercial recycled filament. These results are encouraging to foster FGF printer diffusion among heavy users of 3D printers because of reducing the cost associated to the filament fabrication while ensuring the technical quality. This indicates the possibility of a new type of 3D printing recycled plastic waste that is more likely to drive a circular economy and distributed recycling.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.1089/3dp.2019.0195
+---
+
+
+

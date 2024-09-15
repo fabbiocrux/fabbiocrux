@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="This is home for my research publications, each linked with  accompanying preprints, posters, and/or news pieces.">
+
+<title>Publications</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image','listing-author','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-conferences .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-conferences'] = new List('listing-conferences', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-thesis .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-thesis'] = new List('listing-thesis', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="stylesheet" href="../assets/listing-default.css">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Publications">
+<meta property="og:description" content="This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces.">
+<meta property="og:image" content="https://fabbiocrux.com/publications/articles/2024-01-28-ferney/featured.png">
+<meta property="og:site_name" content="Fabio Cruz">
+<meta property="og:image:height" content="1600">
+<meta property="og:image:width" content="2700">
+<meta name="twitter:title" content="Publications">
+<meta name="twitter:description" content="This is home for my research publications, each linked with accompanying preprints, posters, and/or news pieces.">
+<meta name="twitter:image" content="https://fabbiocrux.com/publications/articles/2024-01-28-ferney/featured.png">
+<meta name="twitter:creator" content="@fabbiocrux">
+<meta name="twitter:site" content="@fabbiocrux">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="1600">
+<meta name="twitter:image-width" content="2700">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Fabio Cruz</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../talk/index.html"> 
+<span class="menu-text">Talks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publication/index.qmd"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../project/index.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+    <a href="https://www.linkedin.com/company/102623341/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div><div class="category" data-category="3D Printer">3D Printer <span class="quarto-category-count">(2)</span></div><div class="category" data-category="3D Printing">3D Printing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="3D printing">3D printing <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Benchmarking">Benchmarking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Circular economy">Circular economy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Closed loop supply chain">Closed loop supply chain <span class="quarto-category-count">(5)</span></div><div class="category" data-category="DIY">DIY <span class="quarto-category-count">(1)</span></div><div class="category" data-category="DRAM">DRAM <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Damping,">Damping, <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Distributed Recycling">Distributed Recycling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Distributed recycling">Distributed recycling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="EHR">EHR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fused Filament Fabrication">Fused Filament Fabrication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Innovation labs">Innovation labs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Innovation team roles">Innovation team roles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="LCA">LCA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine qualification">Machine qualification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Mechanical properties">Mechanical properties <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Mixed integer linear programming">Mixed integer linear programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modal Analysis">Modal Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Open source additive manufacturing">Open source additive manufacturing <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PLA">PLA <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Plastic">Plastic <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Plastic recycling">Plastic recycling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Political dimension">Political dimension <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Polylactic acid">Polylactic acid <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Prototyping">Prototyping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Recycling">Recycling <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RepRap">RepRap <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Research">Research <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Reverse logistics">Reverse logistics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Reverse supply chain">Reverse supply chain <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Social dimension">Social dimension <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Social innovation">Social innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sustainability indicators">Sustainability indicators <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TBI">TBI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Technological dimension">Technological dimension <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Tensile properties">Tensile properties <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tensile strength">Tensile strength <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Thermoplastic Polyurethane">Thermoplastic Polyurethane <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Vibration">Vibration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fused granular fabrication,">fused granular fabrication, <span class="quarto-category-count">(1)</span></div><div class="category" data-category="medications">medications <span class="quarto-category-count">(1)</span></div><div class="category" data-category="null">null <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open source 3-dimensional printing">open source 3-dimensional printing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pregnancy">pregnancy <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title"> 
+-->
+<!-- <header id="title-block-header" class="quarto-title-block default page-columns"> -->
+<!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
+<header id="title-block-header" class="quarto-title-block default page-columns">
+<div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
+<h1 class="title">Publications</h1>
+</div>
+
+<div>
+  <div id="title-block-title-desc" class="description pt-4">
+    <p>This is home for my research publications, each linked with<br> accompanying preprints, posters, and/or news pieces.</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+
+</header>
+
+
+<section id="articles" class="level2">
+<h2 class="anchored" data-anchor-id="articles">Articles</h2>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Research,Innovation labs,Social innovation,Innovation team roles" data-listing-date-sort="1706396400000" data-listing-file-modified-sort="1726412846735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2024-01-28-ferney/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../publications/articles/2024-01-28-ferney/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
+Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Innovation labs'); return false;">
+Innovation labs
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Social innovation'); return false;">
+Social innovation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Innovation team roles'); return false;">
+Innovation team roles
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ferney Osorio, Fabio A. Cruz Sanchez, Mauricio Camargo, Laurent Dupont, José Isamel Peña
+</div>
+<div class="listing-date">
+Jan 28, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Research,DRAM,TBI" data-listing-date-sort="1704409200000" data-listing-file-modified-sort="1726412853897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="156">
+<a href="../publications/articles/2024-01-05-catalina/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../publications/articles/2024-01-05-catalina/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
+Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('DRAM'); return false;">
+DRAM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TBI'); return false;">
+TBI
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Catalina Suescun Gonzalez, Fabio A. Cruz Sanchez, Hakim Boudaoud, Cecile Nouvel, Joshua Pearce
+</div>
+<div class="listing-date">
+Jan 5, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Research" data-listing-date-sort="1693260000000" data-listing-file-modified-sort="1726412893915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+<a href="../publications/articles/2023-08-28-fangkai/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
+Research
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya
+</div>
+<div class="listing-date">
+Aug 29, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="DRAM,LCA,DIY" data-listing-date-sort="1684188000000" data-listing-file-modified-sort="1726412876658" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2023-11-23-fablabs-ti/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('DRAM'); return false;">
+DRAM
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('LCA'); return false;">
+LCA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('DIY'); return false;">
+DIY
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Cristian Caceres Mendoza, Pavlo Santander Tapia, Fabio A. Cruz Sanchez, Nadège Troussier, Hakim Boudahoud, Mauricio Camargo
+</div>
+<div class="listing-date">
+May 16, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Research" data-listing-date-sort="1674169200000" data-listing-file-modified-sort="1726412908257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2023-01-20-alex/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Open source IoT-based collection bin applied to local plastic recycling
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
+Research
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alex Gabriel, Fabio A. Cruz Sanchez
+</div>
+<div class="listing-date">
+Jan 20, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Research,EHR,pregnancy,medications" data-listing-date-sort="1674169200000" data-listing-file-modified-sort="1726412826718" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<a href="../publications/articles/2023-05-16-cristian/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Open source IoT-based collection bin applied to local plastic recycling
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Research'); return false;">
+Research
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EHR'); return false;">
+EHR
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('pregnancy'); return false;">
+pregnancy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('medications'); return false;">
+medications
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alex Gabriel, Fabio A. Cruz Sanchez
+</div>
+<div class="listing-date">
+Jan 20, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="3D Printing,Prototyping,Distributed Recycling,Tensile strength,PLA" data-listing-date-sort="1658527200000" data-listing-file-modified-sort="1726412802605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2022-07-27-diego/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2022-07-27-diego/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Feasibility study on the use of recycled materials for prototyping purposes: A comparative study based on the tensile strength
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('3D Printing'); return false;">
+3D Printing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Prototyping'); return false;">
+Prototyping
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Recycling'); return false;">
+Distributed Recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tensile strength'); return false;">
+Tensile strength
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PLA'); return false;">
+PLA
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Victor M. Lopez, Diego Carou, Fabio A. Cuz Sanchez
+</div>
+<div class="listing-date">
+Jul 23, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Recycling,Closed loop supply chain,Reverse supply chain,Reverse logistics,Sustainability indicators,Social dimension,Technological dimension,Political dimension" data-listing-date-sort="1641164400000" data-listing-file-modified-sort="1726412775488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2022-01-03-pavlo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2022-01-03-pavlo/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Recycling'); return false;">
+Recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Closed loop supply chain'); return false;">
+Closed loop supply chain
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Reverse supply chain'); return false;">
+Reverse supply chain
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Reverse logistics'); return false;">
+Reverse logistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Sustainability indicators'); return false;">
+Sustainability indicators
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Social dimension'); return false;">
+Social dimension
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Technological dimension'); return false;">
+Technological dimension
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Political dimension'); return false;">
+Political dimension
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
+</div>
+<div class="listing-date">
+Jan 3, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="fused granular fabrication,,Recycling,Polylactic acid,Tensile properties,Distributed recycling," data-listing-date-sort="1587679200000" data-listing-file-modified-sort="1726412759947" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2020-04-24-arthur/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2020-04-24-arthur/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('fused granular fabrication,'); return false;">
+fused granular fabrication,
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Recycling'); return false;">
+Recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Polylactic acid'); return false;">
+Polylactic acid
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tensile properties'); return false;">
+Tensile properties
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed recycling'); return false;">
+Distributed recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory(''); return false;">
+
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Arthur Alexandre, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
+</div>
+<div class="listing-date">
+Apr 24, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Recycling,Closed loop supply chain,Reverse supply chain,Reverse logistics,Sustainability indicators,Social dimension,Technological dimension,Political dimension" data-listing-date-sort="1586901600000" data-listing-file-modified-sort="1726412764479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2020-04-15-fabio/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2020-04-15-fabio/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Recycling'); return false;">
+Recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Closed loop supply chain'); return false;">
+Closed loop supply chain
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Reverse supply chain'); return false;">
+Reverse supply chain
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Reverse logistics'); return false;">
+Reverse logistics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Sustainability indicators'); return false;">
+Sustainability indicators
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Social dimension'); return false;">
+Social dimension
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Technological dimension'); return false;">
+Technological dimension
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Political dimension'); return false;">
+Political dimension
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo, Joshua Pearce
+</div>
+<div class="listing-date">
+Apr 15, 2020
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Closed loop supply chain,Plastic recycling,3D printing,Circular economy,Mixed integer linear programming,Distributed recycling" data-listing-date-sort="1575327600000" data-listing-file-modified-sort="1726412737992" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2019-12-03-pavlo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2019-12-03-pavlo/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Closed loop supply chain'); return false;">
+Closed loop supply chain
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Plastic recycling'); return false;">
+Plastic recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('3D printing'); return false;">
+3D printing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Circular economy'); return false;">
+Circular economy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mixed integer linear programming'); return false;">
+Mixed integer linear programming
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed recycling'); return false;">
+Distributed recycling
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
+</div>
+<div class="listing-date">
+Dec 3, 2019
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="3D printing,Plastic recycling,Mechanical properties,PLA,Open source additive manufacturing,RepRap" data-listing-date-sort="1501884000000" data-listing-file-modified-sort="1726412692865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2017-08-05-fabio/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2017-08-05-fabio/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Polymer recycling in an open-source additive manufacturing context: Mechanical issues
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('3D printing'); return false;">
+3D printing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Plastic recycling'); return false;">
+Plastic recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mechanical properties'); return false;">
+Mechanical properties
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PLA'); return false;">
+PLA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Open source additive manufacturing'); return false;">
+Open source additive manufacturing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RepRap'); return false;">
+RepRap
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo
+</div>
+<div class="listing-date">
+Aug 5, 2017
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="open source 3-dimensional printing,Machine qualification,RepRap,Benchmarking" data-listing-date-sort="1404338400000" data-listing-file-modified-sort="1726412040481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/articles/2014-04-15-fabio/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/articles/2014-04-15-fabio/Master-00.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Towards a standard experimental protocol for open source additive manufacturing
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('open source 3-dimensional printing'); return false;">
+open source 3-dimensional printing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Machine qualification'); return false;">
+Machine qualification
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RepRap'); return false;">
+RepRap
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Benchmarking'); return false;">
+Benchmarking
+</div>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo
+</div>
+<div class="listing-date">
+Jul 3, 2014
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="articles-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</section>
+<section id="conferences" class="level2">
+<h2 class="anchored" data-anchor-id="conferences">Conferences</h2>
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Closed loop supply chain,Recycling,Plastic,3D Printer" data-listing-date-sort="1527804000000" data-listing-file-modified-sort="1726412707099" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/conferences/2018-06-01-pavlo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../publications/conferences/2018-06-01-pavlo/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Pavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo
+</div>
+<div class="listing-date">
+Jun 1, 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Vibration,Damping,,Fused Filament Fabrication,Modal Analysis,Thermoplastic Polyurethane" data-listing-date-sort="1642633200000" data-listing-file-modified-sort="1726412791095" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/conferences/2022-01-20-fangkai/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../publications/conferences/2022-01-20-fangkai/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+General Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya
+</div>
+<div class="listing-date">
+Jan 20, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Closed loop supply chain,Recycling,Plastic,3D Printer" data-listing-date-sort="1527804000000" data-listing-file-modified-sort="1726412718481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/conferences/2018-06-01-ramses/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../publications/conferences/2018-06-01-ramses/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Modelling, Printing and Validation of Dental Dry Models for Implantology Skills Training
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Ramses Alburquerque, Giovanny Arbelaez Garces, Fabio A. Cruz Sanchez, Mauricio Camargo, Joseph David, Nguyen Tran
+</div>
+<div class="listing-date">
+Jun 1, 2018
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="3D printing,RepRap,Distributed recycling" data-listing-date-sort="1438380000000" data-listing-file-modified-sort="1726412069270" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../publications/conferences/2015-08-05-fabio/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../publications/conferences/2015-08-05-fabio/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Fabio A. Cruz Sanchez, Silvia Lanza, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo
+</div>
+<div class="listing-date">
+Aug 1, 2015
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="conferences-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</section>
+<section id="thesis" class="level2">
+<h2 class="anchored" data-anchor-id="thesis">Thesis</h2>
+<div id="conference">
+
+</div>
+
+
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-thesis">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="3D printing,Plastic recycling,Mechanical properties,PLA,Open source additive manufacturing,RepRap" data-listing-date-sort="1481238000000" data-listing-file-modified-sort="1726412682672" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="thumbnail">
+<p><a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external"></a></p><a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">
+<p><img src="../publications/thesis/2016-08-05-fabio/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">Methodological proposition to evaluate polymer recycling in open-source additive manufacturing contexts</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">This thesis is integrated in this global issue; indeed, throughout the manuscript we analyze about the impact of open-source (OS) Additive Manufacturing (AM) (also as known as open-source 3D printing or just 3D printing) in the light of the sustainability issues.</a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('3D printing'); return false;">
+3D printing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Plastic recycling'); return false;">
+Plastic recycling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mechanical properties'); return false;">
+Mechanical properties
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PLA'); return false;">
+PLA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Open source additive manufacturing'); return false;">
+Open source additive manufacturing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RepRap'); return false;">
+RepRap
+</div>
+</div>
+<div class="listing-description">
+<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">Additive Manufacturing</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../publications/thesis/2016-08-05-fabio/index.html" class="no-external">
+<div class="listing-date">
+Dec 9, 2016
+</div>
+<div class="listing-author">
+Fabio A. Cruz Sanchez
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/fabbiocrux\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://utteranc.es/client.js" repo="spcanelon/silvia" issue-term="title" theme="body-light" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2024 Fabio Cruz ∙ Made with <a href="https://quarto.org">Quarto</a></p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../accessibility.html">
+<p>Accessibility</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../license.html">
+<p>License</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../blog/index.xml">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

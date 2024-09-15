@@ -1,0 +1,27 @@
+---
+title: "Methodological proposition to evaluate polymer recycling in open-source additive manufacturing contexts"
+author: 
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+date: '2016-12-09'
+image: featured.jpg
+slug: thesis
+type: thesis
+categories:
+  - 3D printing 
+  - Plastic recycling 
+  - Mechanical properties 
+  - PLA 
+  - Open source additive manufacturing 
+  - RepRap
+description: 'Additive Manufacturing'
+subtitle: 'This thesis is integrated in this global issue; indeed, throughout the manuscript we analyze about the impact of open-source (OS) Additive Manufacturing (AM) (also as known as open-source 3D printing or just 3D printing) in the light of the sustainability issues.'
+abstract: "Since the beginning of the XXI century, we can recognize that several technical (r)evolutions have changed the way we conceived our world. New realities have appeared thanks to the information and communication technologies (e.g. Internet), peer-to-peer dynamics (e.g. open software/hardware, collaborative economy), new means of production (fablabs, hackerspaces), among others. One of the impacts of this technical ecosystem is the individual's empowerment that changes the relationship between consumer and producer. For instance, we observe an evolution of role passing from a passive consumer towards an active prosumer, where this latter considers not only economic aspects, but also social and environmental issues. This thesis is integrated in this global issue; indeed, throughout the manuscript we analyze about the impact of open-source (OS) Additive Manufacturing (AM) (also as known as open-source 3D printing or just 3D printing) in the light of the sustainability issues. The democratization of OS AM and the creation of spaces for co-creation (e.g. FabLabs) proved the interest for changes in the established roles. Therefore, we are interested in how this OS technology could develop sustainable waste management options through a polymer recycling process. In a first phase, we present the concept of additive manufacturing (AM) and its importance on sustainability issues. A systematic literature review related to the material recycling advances in the commercial and open-source (OS) AM is developed with a focus on thermoplastic polymer recycling.In a second phase, our aim is to validate open-source AM systems as a reliable manufacturing tool. We develop and test an experimental protocol in order to evaluate the dimensional performance using as case study a representative OS 3D printer: called FoldaRap. It was found that the International Standard Tolerance Grade of this machine is situated between IT14 and IT16. We conclude that the dimensional performance of this case study is comparable to the commercial AM systems, taking into account the important different in terms of machine cost. In a third phase, we center our attention on the recycling process and we propose a systematic methodology to evaluate the feasibility of the use of recycled thermoplastic polymer in OS 3D printers. A case study is developed with the evaluation of the recycling process using polylactid acid (PLA). The results allow us to conclude that the use of recycled PLA is technically feasible. Nevertheless, the degradation of the material is more important than in other traditional manufacturing systems (e.g. injection). Finally, we concludes and propose as perspectives, the study of a distributed recycling process for other type of polymers"
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://theses.hal.science/tel-01668459
+---
+
+
+

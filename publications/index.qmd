@@ -1,0 +1,55 @@
+---
+title: "Publications" 
+description: |
+  This is home for my research publications, each linked with<br>
+  accompanying preprints, posters, and/or news pieces.
+listing:
+  - id: articles
+    contents: "articles/**/index.qmd"
+    page-size: 3
+    sort: "date desc"
+    type: grid
+    categories: true
+    sort-ui: [type]
+    filter-ui: false
+    fields: [title, image, author, categories, date]
+  - id: conferences
+    contents: "conferences/**/index.qmd"    
+    page-size: 3
+    type: grid
+    fields: [title, image, author, date]
+  - id: thesis
+    contents: "/thesis/**/index.qmd"    
+    page-size: 3    
+
+#  image-align: left
+  # image-height: 10em
+  # page-size: 5
+
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/listing-default.css">
+resources:
+  - ../assets/listing-default.css
+---
+
+
+
+## Articles
+
+:::{#articles}
+:::
+
+## Conferences
+
+:::{#conferences}
+:::
+
+## Thesis
+
+:::{#conference}
+:::

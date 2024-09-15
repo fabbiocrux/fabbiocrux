@@ -1,0 +1,21 @@
+---
+title: "Open source IoT-based collection bin applied to local plastic recycling"
+author:
+  - name: Alex Gabriel
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+
+date: '2023-01-20'
+slug: iot-smart-collector
+type: article
+categories:
+  - Research
+description: 'HardwareX'
+subtitle: 'This article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units.'
+abstract: 'Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.2196/32229
+---
+
