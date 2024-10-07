@@ -1,7 +1,7 @@
 ---
 title: "Fabio A. Cruz Sanchez"
 pagetitle: "Fabio A. Cruz Sanchez"
-subtitle: "Assistant Professor on a sustainable distributed recycling"
+subtitle: "Assistant Professor on sustainable distributed recycling concept"
 image: assets/figures/home/header-2.jpg
 image-alt: "Fabio A. Cruz Sanchez"
 
@@ -44,10 +44,12 @@ resources:
 
 
 ::: {#hero-heading}
-Hello there!
-I work specifically at the  [Research team on innovation process -ERPI- Laboratory](https://erpi.univ-lorraine.fr/) and teach at the [National School in Industrial Systems Engineering and Innovation -ENSGSI School-](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy. 
+Hello there! Thanks for passing by.
+
+I work specifically at the  [Research team on innovation process -ERPI- Laboratory](https://erpi.univ-lorraine.fr/) and teach at the [National School in Industrial Systems Engineering and Innovation -ENSGSI School-](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy - France.
+
 My research is developed at the [Lorraine Fab Living Lab Plateform](https://lf2l.fr/) on projects related to the concept of Distributed recycling for circular economy perspectives valuing the partnership between *open source* tools, social innovation spaces, holistic indicators as a way to effect change in people's.
 
-[Learn more about me &rarr;](/about){.about-links .subtitle}
+[Learn more about my research &rarr;](/about){.about-links .subtitle}
 
 :::
