@@ -96,11 +96,11 @@ resources:
 ::: {#hero-heading}
 <div class="h1">Hey, I'm happy you're here</div>
 
-Thanks for stopping by!
+I work at the Université de Lorraine in France in topics related to the mechanical and innovation management engineering. 
 
-I'm a data analyst in the [Penn Medicine Center for Health Justice](https://chti.upenn.edu/center-for-health-justice) at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields. 
+My research interests include applications of biomedical and spatial data science in the public and population health fields. 
 
-I work on projects that use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in [publications](/publication).
+I work on projects that aims to deep study the limits of the distributed recycling approach as a short-medium strategy for the plastic waste problem.   Learn more about my research interests in [publications](/publication).
 
 Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
@@ -109,27 +109,20 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 ## About me
 
 ::: {.grid}
-
 ::: {.g-col-6 #about-me-1}
 
-**Biomedical engineer turned informaticist, curious about all intersections of data and society.**
+**Mechanical engineer turned innovation management, I'am curious about the use of philosophy of the open source for the .**
 
-I enjoy using [R](https://www.r-project.org/about.html) to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I'm certified as an [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/canelon+silvia/) and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my [blog](/blog) and presentations in [talks](/talk).
-
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://education.rstudio.com/trainers/people/canelon+silvia/">Tidyverse Instructor Certification</a> ∙ RStudio, PBC ∙ 2020</li>
-</ul>
 
 :::
 
 ::: {.g-col-6 #about-me-2}
 
-Prior to joining the Center for Health Justice, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I'm particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.
 
 <ul class="fa-ul">
    <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Biomedical Engineering ∙ Purdue University ∙ 2018</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Systems  Engineering ∙ Purdue University ∙ 2018</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012</li>
 </ul>
 
 :::
