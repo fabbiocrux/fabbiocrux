@@ -53,3 +53,5 @@ My research is developed at the [Lorraine Fab Living Lab Plateform](https://lf2l
 [Learn more about my research &rarr;](/about){.about-links .subtitle}
 
 :::
+
+
