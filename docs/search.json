@@ -1,152 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Fabio A. Cruz Sanchez",
-    "section": "",
-    "text": "Hello there! Thanks for passing by.\nI work specifically at the Research team on innovation process -ERPI- Laboratory and teach at the National School in Industrial Systems Engineering and Innovation -ENSGSI School- at Nancy - France.\nMy research is developed at the Lorraine Fab Living Lab Plateform on projects related to the concept of Distributed recycling for circular economy perspectives valuing the partnership between open source tools, social innovation spaces, holistic indicators as a way to effect change in people’s.\nLearn more about my research →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "talk/2021-05-04-data-viz-accessibility/index.html",
-    "href": "talk/2021-05-04-data-viz-accessibility/index.html",
-    "title": "Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community",
-    "section": "",
-    "text": "Presented with Liz Hare, PhD from Dog Genetics, LLC"
-  },
-  {
-    "objectID": "talk/2021-05-04-data-viz-accessibility/index.html#abstract",
-    "href": "talk/2021-05-04-data-viz-accessibility/index.html#abstract",
-    "title": "Revealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community",
-    "section": "Abstract",
-    "text": "Abstract\nWe all aim to use data to tell a compelling story, and many of us enjoy sharing how we got there by open-sourcing our code, but we don’t always share our story with everyone. Even kind, supportive, and open communities like the #TidyTuesday R learning community on Twitter has a ways to go before the content shared can be accessible to everyone.Lived experiences of blind R users tell us that most data visualizations shared for TidyTuesday are inaccessible to screen reading technology because they lack alternative text (i.e. alt text) descriptions. Our goal was to bring this hidden lack of accessibility to the surface by examining the alternative text accompanying data visualizations shared as part of the TidyTuesday social project.We scraped the alternative text from 6,443 TidyTuesday images posted on Twitter between April 2, 2018 and January 31, 2021. The first image attached to each tweet was considered the primary image and was scraped for alternative text. Manual web inspection revealed the CSS class and HTML element corresponding to the primary image, as well as the attribute containing the alternative text. We used this information and the ROpenSci {RSelenium} package to scrape the alternative text. Our preliminary analysis found that only 2.4% of the images contained a text description entered by the tweet author compared to 84% which were described by default as ‘Image.’This small group of intentional alternative text descriptions had a median word count of 18 (range: 1-170), and a median character count of 83 (range: 8-788). As a reference point, Twitter allows 240 characters in a single tweet and 1,000 characters for image descriptions. This analysis was made possible thanks to a dataset of historical TidyTuesday tweet data collected using the ROpenSci {rtweet} package, and openly available in the TidyTuesday GitHub repository.We will present during Session 0 on May 4, 2021: Crowdcast Link"
-  },
-  {
-    "objectID": "talk/2020-08-31-tour-of-the-tidyverse/index.html",
-    "href": "talk/2020-08-31-tour-of-the-tidyverse/index.html",
-    "title": "An Antarctic Tour of the Tidyverse",
-    "section": "",
-    "text": "Learn how to explore and manipulate data in R with packages from the Tidyverse. We’ll introduce the eight core packages that make up the Tidyverse and use at least one function from each package while exploring a dataset on the migration of penguins."
-  },
-  {
-    "objectID": "talk/index.html",
-    "href": "talk/index.html",
-    "title": "Talks",
-    "section": "",
-    "text": "Considering Equity in Data Visualization\n\n\nInvited talk for the Leonard Davis Institute of Health Economics Summer Undergraduate Mentored Research Program (SUMR)\n\n\n\nResearch\n\n\n\n\n\n\nJul 10, 2024\n\n\nSilvia Canelón, Emily Seeburger\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironmental Justice and Policy Panel\n\n\nPanel discussion hosted by Penn Science Policy and Diplomacy Group & Climate Leaders @Penn\n\n\n\nResearch\n\n\n\n\n\n\nMar 26, 2024\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nPlace-based Interventions to Promote Structural Change & Equity\n\n\nTalk for the Philadelphia Department of Public Health Epis for Equity work group, highlighting the placed-based intervention projects at the Urban Health Lab\n\n\n\nResearch\n\n\n\n\n\n\nOct 11, 2023\n\n\nSilvia Canelón, Emily Seeburger\n\n\n\n\n\n\n\n\n\n\n\n\nData Analytics 101\n\n\nPractical talk highlighting how data can be leveraged to support community-academic partnerships\n\n\n\nEducation\n\n\n\n\n\n\nMar 9, 2023\n\n\nSilvia Canelón, Emily Seeburger\n\n\n\n\n\n\n\n\n\n\n\n\nThinking Big with Maps in R\n\n\nTips on Wrangling Large Vector Data into Interactive Maps\n\n\n\nR\n\n\ngeospatial\n\n\n\n\n\n\nNov 10, 2022\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nCreating the Philly Center City SIPS Interactive Map\n\n\nR-Ladies Philly workshop on webscraping, geocoding, and interactive map-making\n\n\n\nR\n\n\nWorkshop\n\n\nEducation\n\n\nR-Ladies\n\n\nrvest\n\n\ntidygeocoder\n\n\nleaflet\n\n\n\n\n\n\nSep 29, 2022\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Traumatic Brain Injury Mechanisms and Severity Using Electronic Health Records\n\n\nFlashtalk and poster presenting preliminary results for a study on TBI among female patients at Penn Medicine\n\n\n\nResearch\n\n\nEHR\n\n\nTBI\n\n\n\n\n\n\nApr 27, 2022\n\n\nSilvia Canelón, Rebecca Morse, Mary Regina Boland\n\n\n\n\n\n\n\n\n\n\n\n\nLessons Learned from the EHR\n\n\nToronto Data Workshop talk about working with Electronic Health Record data\n\n\n\nResearch\n\n\nEHR\n\n\n\n\n\n\nFeb 11, 2022\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nProfessional, Polished, Presentable: Making Great Slides with xaringan\n\n\nA useR!2021 tutorial about making great slides with xaringan\n\n\n\nR\n\n\nEducation\n\n\nxaringan\n\n\nuseR\n\n\n\n\n\n\nJul 7, 2021\n\n\nGarrick Aden-Buie & Silvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nRevealing Room for Improvement in Accessibility within a Social Media Data Visualization Learning Community\n\n\nData visualization accessibility talk to share what we found after scraping alternative (alt) text from data viz shared on Twitter as part of the #TidyTuesday social project.\n\n\n\nR\n\n\nEducation\n\n\nTidyTuesday\n\n\nTidyTuesdayAltText\n\n\nrtweet\n\n\nRSelenium\n\n\naccessibility\n\n\n\n\n\n\nMay 4, 2021\n\n\nSilvia Canelón, Liz Hare\n\n\n\n\n\n\n\n\n\n\n\n\nThe Impact of Sickle Cell Status on Adverse Delivery Outcomes Using Electronic Health Record Data\n\n\nApplied Clinical Research Informatics: Solving Real World Problems. Oral Presentations S17: March 23, 2021 11:30am-1pm ET\n\n\n\nResearch\n\n\n\n\n\n\nMar 22, 2021\n\n\nSilvia P. Canelón, Samantha Butts, Mary Regina Boland\n\n\n\n\n\n\n\n\n\n\n\n\nWriting Presentations in R\n\n\nPackage demonstration for R-Ladies Seattle showing how to make beautiful slides with xaringan and how to deploy them.\n\n\n\nR\n\n\nEducation\n\n\nDemo\n\n\nR-Ladies\n\n\nxaringan\n\n\n\n\n\n\nMar 16, 2021\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nFrom Learn-R to Teach-R: An Expert Panel on Effective R Instruction\n\n\nAn R-Ladies Philly panel and discussion event on R instruction and education.\n\n\n\nR\n\n\nEducation\n\n\nR-Ladies\n\n\n\n\n\n\nFeb 18, 2021\n\n\nSilvia Canelón, Ama Nyame-Mensah, Cass Wilkinson Saldaña\n\n\n\n\n\n\n\n\n\n\n\n\nIntroducción al Paquete xaringan\n\n\nTaller del paquete xaringan para presentaciones, creado para R-Ladies Xalapa\n\n\n\nR\n\n\nWorkshop\n\n\nEducation\n\n\nR-Ladies\n\n\nEspañol\n\n\nxaringan\n\n\n\n\n\n\nDec 17, 2020\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nSharing Your Work with xaringan: The Basics and Beyond\n\n\nAn introduction to xaringan for presentations, created for the NHS-R Community 2020 Virtual Conference\n\n\n\nR\n\n\nxaringan\n\n\nWorkshop\n\n\nxaringan\n\n\n\n\n\n\nNov 3, 2020\n\n\nSilvia Canelón\n\n\n\n\n\n\n\n\n\n\n\n\nAn Antarctic Tour of the Tidyverse\n\n\nAn introductory tidyverse tutorial created and presented for R-Ladies Chicago\n\n\n\nR\n\n\nEducation\n\n\nTutorial\n\n\nR-Ladies\n\n\ntidyverse\n\n\n\n\n\n\nAug 31, 2020\n\n\nSilvia Canelón\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "talk/2021-02-18-r-teaching-panel/index.html",
-    "href": "talk/2021-02-18-r-teaching-panel/index.html",
-    "title": "From Learn-R to Teach-R: An Expert Panel on Effective R Instruction",
-    "section": "",
-    "text": "This panel and discussion event will be focused on R instruction and education. As a learner, what are some recommended resources for developing my R skills? As an instructor, how can I make my materials and presentations more effective? What does data science education look like in 2021? What types of careers are out there in R education? How can I gain experience teaching R?\nPanelists:\nAma Nyame-Mensah is a Postdoctoral Fellow and Research Associate in the School of Social Policy & Practice and the Graduate School of Education at the University of Pennsylvania. Her current work rethinks whether and how quantitative and computational methods can contribute to a more equitable understanding of marginalized children’s and families’ learning and development. Ama is passionate about empowering people to use data for social analysis and critique data and data technologies. When not working, Ama can be found tinkering with data and designing visualizations. Website: https://www.anyamemensah.com\nCass Wilkinson Saldaña helps learners, researchers, and communities to engage meaningfully (and critically) with data. They currently work as a Data Instructional Specialist at the Children’s Hospital of Philadelphia’s Research Institute, and teach introduction to R courses at Yeshiva University. Previously, Cass worked as the Social Science and Geospatial Data Librarian at Cornell University. As a data educator and data librarian, Cass participates and collaborates in open source ecosystems, especially in the domains of open science, digital scholarship, and civic data. They also strive to advocate for justice in worker and learner communities. Website: https://cassws.net\nSilvia Canelón is a postdoctoral research scientist in biomedical informatics at the University of Pennsylvania in Philadelphia. She uses data science in the public and population health fields and is particularly interested in leveraging electronic health record data to study reproductive health outcomes. Silvia is formally trained as a biomedical engineer and an RStudio Certified Tidyverse Instructor. She loves community organizing and is passionate about R education as a way to help build power in her communities."
-  },
-  {
-    "objectID": "talk/2021-02-18-r-teaching-panel/index.html#description",
-    "href": "talk/2021-02-18-r-teaching-panel/index.html#description",
-    "title": "From Learn-R to Teach-R: An Expert Panel on Effective R Instruction",
-    "section": "",
-    "text": "This panel and discussion event will be focused on R instruction and education. As a learner, what are some recommended resources for developing my R skills? As an instructor, how can I make my materials and presentations more effective? What does data science education look like in 2021? What types of careers are out there in R education? How can I gain experience teaching R?\nPanelists:\nAma Nyame-Mensah is a Postdoctoral Fellow and Research Associate in the School of Social Policy & Practice and the Graduate School of Education at the University of Pennsylvania. Her current work rethinks whether and how quantitative and computational methods can contribute to a more equitable understanding of marginalized children’s and families’ learning and development. Ama is passionate about empowering people to use data for social analysis and critique data and data technologies. When not working, Ama can be found tinkering with data and designing visualizations. Website: https://www.anyamemensah.com\nCass Wilkinson Saldaña helps learners, researchers, and communities to engage meaningfully (and critically) with data. They currently work as a Data Instructional Specialist at the Children’s Hospital of Philadelphia’s Research Institute, and teach introduction to R courses at Yeshiva University. Previously, Cass worked as the Social Science and Geospatial Data Librarian at Cornell University. As a data educator and data librarian, Cass participates and collaborates in open source ecosystems, especially in the domains of open science, digital scholarship, and civic data. They also strive to advocate for justice in worker and learner communities. Website: https://cassws.net\nSilvia Canelón is a postdoctoral research scientist in biomedical informatics at the University of Pennsylvania in Philadelphia. She uses data science in the public and population health fields and is particularly interested in leveraging electronic health record data to study reproductive health outcomes. Silvia is formally trained as a biomedical engineer and an RStudio Certified Tidyverse Instructor. She loves community organizing and is passionate about R education as a way to help build power in her communities."
-  },
-  {
-    "objectID": "talk/2020-12-17-introduccion-xaringan/index.html",
-    "href": "talk/2020-12-17-introduccion-xaringan/index.html",
-    "title": "Introducción al Paquete xaringan",
-    "section": "",
-    "text": "El taller tiene por objetivo introducir a las participantes al paquete xaringan de R como una herramienta para crear diapositivas de presentación impresionantes que se pueden implementar en la web para compartir fácilmente."
-  },
-  {
-    "objectID": "talk/2020-11-03-xaringan-basics-and-beyond/index.html",
-    "href": "talk/2020-11-03-xaringan-basics-and-beyond/index.html",
-    "title": "Sharing Your Work with xaringan: The Basics and Beyond",
-    "section": "",
-    "text": "This four-hour hands-on workshop will be a gentle introduction to the xaringan package as a tool to create impressive presentation slides that can be deployed to the web for easy sharing.\nDay 1 (Nov. 3, 3-5pm BST) will cover the nuts and bolts of creating presentation slides using xaringan and deploying them in HTML format for easy sharing with others.\nDay 2 (Nov. 5, 3-5pm BST) will cover how to take your slides to the next level with the xaringanExtra package and how to customize slides with CSS.\nThis workshop is designed for R users already familiar with R Markdown and GitHub."
-  },
-  {
-    "objectID": "talk/2020-11-03-xaringan-basics-and-beyond/index.html#description",
-    "href": "talk/2020-11-03-xaringan-basics-and-beyond/index.html#description",
-    "title": "Sharing Your Work with xaringan: The Basics and Beyond",
-    "section": "",
-    "text": "This four-hour hands-on workshop will be a gentle introduction to the xaringan package as a tool to create impressive presentation slides that can be deployed to the web for easy sharing.\nDay 1 (Nov. 3, 3-5pm BST) will cover the nuts and bolts of creating presentation slides using xaringan and deploying them in HTML format for easy sharing with others.\nDay 2 (Nov. 5, 3-5pm BST) will cover how to take your slides to the next level with the xaringanExtra package and how to customize slides with CSS.\nThis workshop is designed for R users already familiar with R Markdown and GitHub."
-  },
-  {
-    "objectID": "talk/2023-10-11-epis4equity/index.html",
-    "href": "talk/2023-10-11-epis4equity/index.html",
-    "title": "Place-based Interventions to Promote Structural Change & Equity",
-    "section": "",
-    "text": "Deeply Rooted\nIGNITE: A Randomized Controlled Trial of Concentrated Investment in Black Neighborhoods to Address Structural Racism as a Fundamental Cause of Poor Health\nSPARROw\nNature and Wellbeing Project"
-  },
-  {
-    "objectID": "talk/2023-10-11-epis4equity/index.html#projects-highlighted",
-    "href": "talk/2023-10-11-epis4equity/index.html#projects-highlighted",
-    "title": "Place-based Interventions to Promote Structural Change & Equity",
-    "section": "",
-    "text": "Deeply Rooted\nIGNITE: A Randomized Controlled Trial of Concentrated Investment in Black Neighborhoods to Address Structural Racism as a Fundamental Cause of Poor Health\nSPARROw\nNature and Wellbeing Project"
-  },
-  {
-    "objectID": "talk/2022-09-29-ccd-sips/index.html",
-    "href": "talk/2022-09-29-ccd-sips/index.html",
-    "title": "Creating the Philly Center City SIPS Interactive Map",
-    "section": "",
-    "text": "A gentle introduction to web-scraping, geocoding and map-making in an end-to-end analysis. The workshop will cover how to scrape the bar and restaurant data from the Center City SIPS website and convert the addresses to latitude and longitude, as well as how to plot the geographic data onto a map and customize the visualization with {leaflet}."
-  },
-  {
-    "objectID": "talk/2022-11-10-thinking-big/index.html",
-    "href": "talk/2022-11-10-thinking-big/index.html",
-    "title": "Thinking Big with Maps in R",
-    "section": "",
-    "text": "The road to map-making can take some unexpected twists and turns when you scale up an interactive map from hundreds of features to hundreds of thousands. This talk is a story about creative spatial data wrangling, powerful R packages, and a heroic #RStats community."
-  },
-  {
-    "objectID": "talk/2022-04-27-dbei-research-day/index.html",
-    "href": "talk/2022-04-27-dbei-research-day/index.html",
-    "title": "Exploring Traumatic Brain Injury Mechanisms and Severity Using Electronic Health Records",
-    "section": "",
-    "text": "This abstract was one of 10 selected for a flashtalk presentation. And the flashtalk received an award! 🎉\nThe talk recording will be available to the public on April 28, 2022. The accompanying (PowerPoint) slides are available to download using the “Slides” link above.\n2022 CCEB & DBEI Research Day Poster (letter)"
-  },
-  {
-    "objectID": "talk/2022-04-27-dbei-research-day/index.html#abstract",
-    "href": "talk/2022-04-27-dbei-research-day/index.html#abstract",
-    "title": "Exploring Traumatic Brain Injury Mechanisms and Severity Using Electronic Health Records",
-    "section": "Abstract",
-    "text": "Abstract\n\nObjective\nOften referred to as the “silent epidemic,” Traumatic Brain Injury (TBI) is a public health concern contributing to disability and death worldwide. Our study describes a cohort of TBI patients within the Penn Medicine health system and the distribution of TBI injury mechanisms and severity.\n\n\nMethods\nWe obtained Electronic Health Record data for 1,060,100 female patients treated at Penn Medicine inpatient or outpatient clinics from 2010-2017. We identified patients with TBI diagnoses using ICD-9/10 codes and the Disease Control and Prevention (CDC) and Department of Defense (DOD) definitions for TBI and TBI severity. The CDC/DOD codes for TBI were then manually annotated with mechanisms of TBI injury (e.g. Sport Mechanism of Injury, Collision or Crash, Foreign Body Object). The highest TBI severity category was noted for each patient and defined, in increasing severity, as “Mild,” “Moderate,” “Severe,” or “Penetrating.” We report the distribution of TBI mechanisms and severity among this patient population.\n\n\nResults\nThere were 4,392 patients with a total of 9,800 TBI diagnoses. The majority of diagnoses in the cohort were Mild (5,704; 58%), followed by Moderate (3,840; 39%), Severe (173; 1.8%), and Penetrating (83; 0.8%). The following are the six most common mechanisms observed to contribute to TBI diagnoses: “Injury,” “Mechanism of Injury,” “Accidents,” “Physical Accidents,” “Fall Mechanism of Injury,” and “Traffic Vehicle Accident.”"
-  },
-  {
-    "objectID": "talk/2024-03-26-env-justice/index.html",
-    "href": "talk/2024-03-26-env-justice/index.html",
-    "title": "Environmental Justice and Policy Panel",
-    "section": "",
-    "text": "Source: Climate Leaders @Penn on LinkedIn\nWhat: Panel discussion with speakers from Philly Thrive, Penn Medicine Center for Health Justice, and Philadelphia Office of Sustainability\nTopics: How did you enter the environmental justice field? How can we engage with community care/environmental justice outside of our careers? Do I need to have a certain degree or job in order to advocate for change? How do we challenge hierarchies of knowledge? What are examples of place-based initiatives in Philadelphia?"
-  },
-  {
-    "objectID": "talk/2021-07-07-presentable-user2021/index.html",
-    "href": "talk/2021-07-07-presentable-user2021/index.html",
-    "title": "Professional, Polished, Presentable: Making Great Slides with xaringan",
-    "section": "",
-    "text": "Co-instructed with Garrick Aden-Buie"
-  },
-  {
-    "objectID": "talk/2021-07-07-presentable-user2021/index.html#abstract",
-    "href": "talk/2021-07-07-presentable-user2021/index.html#abstract",
-    "title": "Professional, Polished, Presentable: Making Great Slides with xaringan",
-    "section": "Abstract",
-    "text": "Abstract\nThe xaringan package brings professional, impressive, and visually appealing slides to the powerful R Markdown ecosystem. Through our hands-on tutorial, you will learn how to design highly effective slides that support presentations for teaching and reporting alike. Over three hours, you will learn how to create an accessible baseline design that matches your institution or organization’s style guide. Together we’ll explore the basics of CSS—the design language of the internet—and how we can leverage CSS to produce elegant slides for effective communication."
-  },
-  {
-    "objectID": "talk/2021-03-23-amia-informatics-summit/index.html",
-    "href": "talk/2021-03-23-amia-informatics-summit/index.html",
-    "title": "The Impact of Sickle Cell Status on Adverse Delivery Outcomes Using Electronic Health Record Data",
-    "section": "",
-    "text": "This study investigates the effect of sickle cell trait and sickle cell disease, on adverse pregnancy outcomes at Penn Medicine. The risk of a Cesarean section (C-section), preterm birth, stillbirth, pain crisis, blood transfusion, and hemorrhage during delivery were all found to be significantly correlated with race/ethnicity, sickle cell disease, the number of pain crises before delivery, and the number of blood transfusions before delivery. Multiple birth was also found to significantly increase the risk of these same outcomes.\n\nOral Presentations S17: March 23, 2021 11:30am-1pm ET\n\n\n\nBanner for the 2021 AMIA Informatics Summit (March 22-25)"
-  },
-  {
-    "objectID": "talk/2021-03-23-amia-informatics-summit/index.html#abstract",
-    "href": "talk/2021-03-23-amia-informatics-summit/index.html#abstract",
-    "title": "The Impact of Sickle Cell Status on Adverse Delivery Outcomes Using Electronic Health Record Data",
-    "section": "",
-    "text": "This study investigates the effect of sickle cell trait and sickle cell disease, on adverse pregnancy outcomes at Penn Medicine. The risk of a Cesarean section (C-section), preterm birth, stillbirth, pain crisis, blood transfusion, and hemorrhage during delivery were all found to be significantly correlated with race/ethnicity, sickle cell disease, the number of pain crises before delivery, and the number of blood transfusions before delivery. Multiple birth was also found to significantly increase the risk of these same outcomes.\n\nOral Presentations S17: March 23, 2021 11:30am-1pm ET\n\n\n\nBanner for the 2021 AMIA Informatics Summit (March 22-25)"
-  },
-  {
     "objectID": "talk/2024-07-10-data-equity-ldi/index.html",
     "href": "talk/2024-07-10-data-equity-ldi/index.html",
     "title": "Considering Equity in Data Visualization",
@@ -161,125 +14,6 @@
     "text": "Emily and I had the pleasure of presenting to the 2024 cohort of LDI Summer Undergraduate Mentored Research Program (SUMR). The materials for this interactive presentation were adapted from the Urban Institute’s series of Do No Harm guides, which focus on how to incorporate principles of equity into data collection, visualization, and communication. We concluded our talk by playing a game with the Scholars, encouraging them to use what they took away from the presentation to identify areas for improvement in a series of visualizations taken from published dashboards, papers, and other sources."
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Fabio A. Cruz Sanchez",
-    "section": "",
-    "text": "Hey, I’m happy you’re here\n\nI work at the Université de Lorraine in France in topics related to the mechanical and innovation management engineering.\nMy research interests include applications of biomedical and spatial data science in the public and population health fields.\nI work on projects that aims to deep study the limits of the distributed recycling approach as a short-medium strategy for the plastic waste problem. Learn more about my research interests in publications.\nGet in touch by sending me a note!"
-  },
-  {
-    "objectID": "about/index.html#about-me",
-    "href": "about/index.html#about-me",
-    "title": "Fabio A. Cruz Sanchez",
-    "section": "About me",
-    "text": "About me\n\n\nMechanical engineer turned innovation management, I’am curious about the use of philosophy of the open source for the .\n\n\n\n\nCertificate in Biomedical Informatics ∙ University of Pennsylvania ∙ 2019\n\n\nPh.D. in Systems Engineering ∙ Purdue University ∙ 2018\n\n\nB.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012"
-  },
-  {
-    "objectID": "about/index.html#lately",
-    "href": "about/index.html#lately",
-    "title": "Fabio A. Cruz Sanchez",
-    "section": "Lately …",
-    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nHello Quarto: Porting my Website from Hugo Apéro\n\n\nNotes from porting my personal Blogdown website to Quarto\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nConsidering Equity in Data Visualization\n\n\nInvited talk for the Leonard Davis Institute of Health Economics Summer Undergraduate Mentored Research Program (SUMR)\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nExploring team roles for social innovation labs: Toward a competence-based role self-assessment approach\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nPhilly Center City District SIPS: An Interactive Map\n\n\nA collection of interactive maps showing restaurants participating in Phily’s CCD SIPS\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Meeting People Where They R",
-    "section": "",
-    "text": "Hello Quarto: Porting my Website from Hugo Apéro\n\n\nNotes from porting my personal Blogdown website to Quarto \n\n\n\nR\n\n\nquarto\n\n\nwebsite\n\n\n\n\n\n\nSep 29, 2023\n\n\nSilvia Canelón\n\n\n\n\n\n\nNo matching items\n\n Back to topReuseCC BY-SA 4.0"
-  },
-  {
-    "objectID": "publication/index.html",
-    "href": "publication/index.html",
-    "title": "Publications",
-    "section": "",
-    "text": "This paper deals with the development, manufacture and testing of a geometrical benchmarking model (GBM) in order to evaluate the geometrical accuracy performance of open source 3D printers.\n\n\n\nopen source 3-dimensional printing\n\n\nMachine qualification\n\n\nRepRap\n\n\nBenchmarking\n\n\n\nVirtual and Physical Prototyping\n\n\n\n\n\nJul 3, 2014\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "project/index.html",
-    "href": "project/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Philly Center City District SIPS: An Interactive Map\n\n\n\nR\n\n\nmaps\n\n\nwebscraping\n\n\nrobotstxt\n\n\nrvest\n\n\nleaflet\n\n\ntidygeocoder\n\n\n\n\nJun 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR for the Rest of Us Podcast: Episode #7\n\n\n\nR\n\n\nxaringan\n\n\nR Markdown\n\n\npodcast\n\n\n\n\nApr 18, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfessional, Polished, Presentable\n\n\n\nR\n\n\nxaringan\n\n\nR\n\n\nEducation\n\n\n\n\nJul 7, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTidyTuesdayAltText\n\n\n\nR\n\n\nTidyTuesday\n\n\nTidyTuesdayAltText\n\n\naccessibility\n\n\nPackage\n\n\n\n\nMay 4, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nuseR!2021 Cost Conversion Tool\n\n\n\nuseR\n\n\ntidyverse\n\n\nR\n\n\n\n\nJan 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar Tecnología en Comunidad\n\n\n\nEducation\n\n\nEspañol\n\n\n\n\nDec 28, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnhsr CSS Theme for xaringan\n\n\n\nR\n\n\nxaringan\n\n\ncss\n\n\n\n\nDec 9, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSharing Your Work with xaringan\n\n\n\nR\n\n\nxaringan\n\n\nEducation\n\n\n\n\nNov 3, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nxaringan CSS Theme for nhsrtheme\n\n\n\nOct 29, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVisualizing the Inside Journey of Recovery from Opioid Use Disorder\n\n\n\nEducation\n\n\ndata hack\n\n\nopioid\n\n\n\n\nMar 25, 2020\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html",
-    "href": "blog/2023-09-29-hello-quarto/index.html",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "",
-    "text": "In 2019 I created my first website using blogdown and the Hugo Academic theme, and in 2021 I migrated that site to the Hugo Apéro theme created by Alison Hill. I even documented that trek in great detail 😅 to provide something resembling a paved path for others to use on their journey adopting this beautiful and functional theme. Over the past two years, my Apéro site became a wonderful place to cultivate a digital garden1. Now the time has come to say thank you, say goodbye, and travel down a new path. Enter Quarto."
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#goodbye-hugo-apéro",
-    "href": "blog/2023-09-29-hello-quarto/index.html#goodbye-hugo-apéro",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "",
-    "text": "In 2019 I created my first website using blogdown and the Hugo Academic theme, and in 2021 I migrated that site to the Hugo Apéro theme created by Alison Hill. I even documented that trek in great detail 😅 to provide something resembling a paved path for others to use on their journey adopting this beautiful and functional theme. Over the past two years, my Apéro site became a wonderful place to cultivate a digital garden1. Now the time has come to say thank you, say goodbye, and travel down a new path. Enter Quarto."
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#why-port-to-quarto",
-    "href": "blog/2023-09-29-hello-quarto/index.html#why-port-to-quarto",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Why port to Quarto?",
-    "text": "Why port to Quarto?\nQuarto is a new and powerful technical publishing system in active development, natively friendly to a variety of programming languages and IDEs. There are countless features available in Quarto that I was interested in having access to in my website, so I’ll list just my top five:\n\nFlexibility in design. Quarto offers options for website navigation (top navigation vs. side navigation), “about” pages like the postcard landing pages that a lot of folks use in their distill sites, listing pages that are generated from a list of documents, among others. These components would act like modules that I could combine to design a site that truly fit my needs.\nFlexibility in content layout. With Quarto I would gain the ability to organize content in ways I hadn’t even dreamt of. Tables and figures could be laid out across multiple columns and rows as sub-tables and sub-figures of a panel. How much of the page the content took up would be up to me. Content could even go in the margin! 🤩 \nFreezing computations. Quarto would give me the option to freeze posts containing executable code. This was huge for me, because updating my blogdown site always produced a little bit of anxiety. I used to worry that blogdown might try to re-render old R Markdown blog posts and break things! 😱\nSite search. With content spread out over blog posts, talks, publications, and projects, I wanted site visitors (including myself!) to be able to keyword search for something in particular. Tags and categories in blogdown would get me part of the way there, but Quarto offers built-in search capability.\nEmbedding computations. Ok this is a feature that I learned about a week ago at posit::conf(2023) from Mine Çetinkaya-Rundel’s talk “Reproducible Manuscripts with Quarto.” Mine demo’d pulling a table from a .qmd file and a figure from an .ipynb file into the same manuscript .qmd file, without having to execute the source code again! 👀 This is a game changer for anyone compiling results from computations performed in different files, and in my personal site I could see it coming in handy if I have a series of blog posts with outputs that I want to cross-reference. Currently we can only embed computations from Jupyter notebook files, but hopefully we’ll be able to embed .qmd computations in Quarto v1.4! 🤞🏽\nI mean, it’s pretty cool that content can go in the margin, right??  It could even be a picture: The book page reads verdere expedities which is Dutch for “further expeditions”"
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#the-cost-of-porting",
-    "href": "blog/2023-09-29-hello-quarto/index.html#the-cost-of-porting",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "The cost of porting",
-    "text": "The cost of porting\nGaining the aforementioned Quarto functionality did not come without a cost. To me, the biggest cost was the aesthetics – the Hugo Apéro theme is quite lovely! – but I customized my Quarto site enough to reflect the design aspects I loved the most. More on styling later. Some other costs included:\n\n\nLoss of the sidebar layout. The Apéro theme has options for adding a nicely styled sidebar that I had been using for my blog. It included a featured image and details about the individual post like tags, categories, length, etc. All of this information is available in Quarto posts, it’s just organized a little differently.\nExample of the sidebar\n\n\n\n\nLoss of Utterances comments. Any interactions with folks through Utteranc.es comments did not transfer over, and I’ll miss them. The few comments on my site have been very kind (see example below) and I’ve really enjoy reading them!\nExample of Utterances comments\n\n\n\n\n\n\n\nUpdate: Oct. 12, 2023\n\n\n\n\n\nThanks to Emily Riederer, I’m happy to report this is a non-issue! See her tips in the comments at the end of the post, or on GitHub.\n\n\n\n\nHugo Apéro collections. The Apéro theme had a way of bundling together posts that were related into a collection of posts. Garrick and I used this feature for our user!2021 xaringan workshop and it worked well to organize learning materials for different sections of our workshop. If I wanted something like this in the future, I would probably use Quarto’s sidebar navigation feature like Andrew Bray did in his Rmd to Quarto workshop for rstudio::conf(2022).\nName pronunciation on the About page. Apéro had a built-in option for adding an audio clip under your name that you could use to help people learn how your name is pronounced. I never used this feature myself, but if I wanted to, I could look to Emil Hvitfeldt’s site as an example.\nRedirects. The Apéro theme gave me the option to define the combination of date information and URL slugs for each of my posts, and I had them set up as year-slug (e.g., blog/2023-hello-quarto). Quarto does not offer that functionality and strictly creates URLs for posts based on the filepath (e.g., blog/2023-09-29-hello-quarto). In order to continue using my year-month-day-slug naming convention for my post folders, I had to set up redirects from the old URLs to the new ones so that there wouldn’t be broken links sprinkled throughout the internet. More on redirects later."
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#designing-the-site",
-    "href": "blog/2023-09-29-hello-quarto/index.html#designing-the-site",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Designing the site",
-    "text": "Designing the site\nApéro had posts in the content folder but with Quarto I could pull blog, talk, publication, and project subfolders into the root folder.\nStructure\n\n\nQuarto\nHugo Apéro\n\n\n\n.\n├── _quarto.yml\n├── about\n├── blog\n├── talk\n├── publication\n├── project\n├── index.qmd\n└── silvia.Rproj\n\n\n.\n├── content\n│   ├── _index.md\n│   ├── about    \n│   ├── blog      \n│   ├── project\n│   ├── publication\n│   └── talk\n├── config.toml\n├── netlify.toml\n├── index.Rmd\n└── silvia.Rproj\n\n\n\nAbout & listing pages\nI decided to use a combination of about pages and listing pages to replicate the site structure I enjoyed in my Apéro site. I used an about page layout for both my home and about pages, and listing pages to generate a list of blog posts, talks, publications, and projects. There was also some custom CSS involved, but we haven’t gotten to that part of the blog post yet wink 😉 Dear reader, it’s at this point in my blog post drafting that I start realizing that what was meant to be a brief post is turning into a novel (sigh)\nOne of the aspects I liked about my Apéro site was that the About page highlighted the most recent posts from the blog, talk, publication, and project groups. In my Quarto site, I achieved this by including a one-entry listing grid for each group on my About page.\n\n\n\n\n\n\nCSS tip\n\n\n\n\n\nThese listing cards looked great on a wide screen but as the screen got narrower (think mobile device) the listing cards just became narrower and narrower 😂. I took care of this by tweaking the CSS so that the cards would wrap.\n\n\nassets/about.css\n\n  /* wrap lately section */\n  #lately .grid {\n    display: flex;\n    flex-wrap: wrap;\n  }\n\n  /* listings */\n  #blog, #talks, #publications, #projects {\n    flex-basis: 100% !important;\n  }\n\n source code\n\n\n\nContact form\nThe last structural piece I wanted to recreate from Apéro was a contact form. I saw a great example on Michael McCarthy’s Tidy Tales blog, site and did a little repo-diving to get ideas on how to organize the content. I ended up using the Bootstrap CSS Grid to layout the content exactly how I wanted to. See what I mean about Quarto offering a lot of flexibility in content layout?\n\n\n\n\n\n\nBones of the contact page\n\n\n\n\n\n\n\ncontact.qmd\n\n\n&lt;!-- start grid --&gt;\n::: {.grid} \n\n&lt;!-- column for the body text --&gt;\n::: {.g-col-5}\n\n# Send me a note\n\n&lt; Body text&gt;\n\n&lt; HTML code for social media icons &gt;\n\n:::\n\n&lt;!-- column for spacing --&gt;\n::: {.g-col-1}\n:::\n\n&lt;!-- column for the form --&gt;\n::: {.g-col-6}\n\n&lt; HTML embed code provided by Formspree &gt;\n\n:::\n\n:::\n&lt;!-- end grid --&gt;\n\n source code"
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#adapting-old-posts",
-    "href": "blog/2023-09-29-hello-quarto/index.html#adapting-old-posts",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Adapting old posts",
-    "text": "Adapting old posts\nYAML fields\nOk so once I figured out how to incorporate all of the structural elements I wanted, I had to deal with the (relatively small) challenge of porting my old posts to Quarto. Quarto was designed to be compatible with existing R Markdown documents, but I didn’t actually want it trying to re-render old R Markdown files so I had Quarto ignore those completely2 and render the Markdown version of each post instead3. There were also a handful of YAML fields that I had to remove or modify to play nicely with Quarto:\n\nRemove layout: (e.g., layout: single-sidebar)\nRemove publishDate\n\nRemove lastUpdated\n\nRemove featured (e.g., featured: yes)\nMerge categories with tags and keep tags\n\nAdd image (e.g. image: featured.png)\nPartials\nIf you’ve used Apéro you might have come to love the cute button links created from the links field in the YAML, like the one at the top of this post, pointing to the Quarto docs.\nlinks:\n- icon: journal-text\n  name: Quarto Docs\n  url: https://quarto.org/docs/websites/\nWell, these button links are not ready-made by Quarto, but lucky for me (us!), Garrick figured out a way to bring them in right where we I need them. I repo-dived and found that he modified an HTML partial for title blocks, which controls the layout and styling of the post title, description, and tags, shown at the top of the page.\nThe original title block partial has sections controlling the placement and styling of text provided in the title, subtitle, authors, date, and abstract fields of the document YAML.\nAs an example, line 2 might read:If there’s something in the title field of the YAML, give it a level 1 heading and style it with CSS class .title\n\n\ngithub.com/quarto-dev/quarto-cli/src/resources/formats/html/pandoc/title-block.html\n\n&lt;header id=\"title-block-header\"&gt;\n$if(title)$&lt;h1 class=\"title\"&gt;$title$&lt;/h1&gt;$endif$\n$if(subtitle)$\n&lt;p class=\"subtitle\"&gt;$subtitle$&lt;/p&gt;\n$endif$\n$for(author)$\n&lt;p class=\"author\"&gt;$author$&lt;/p&gt;\n$endfor$\n\n$if(date)$\n&lt;p class=\"date\"&gt;$date$&lt;/p&gt;\n$endif$\n$if(abstract)$\n&lt;div class=\"abstract\"&gt;\n&lt;div class=\"abstract-title\"&gt;$abstract-title$&lt;/div&gt;\n$abstract$\n&lt;/div&gt;\n$endif$\n&lt;/header&gt;\n\nThe modified partial  includes some additional sections but I’ll break down the one for links.\nThere’s more styling going on in the modified partial, but starting on line 6, the structure for the link buttons is effectively:If the links field is populated in the YAML, create an HTML container styled by some CSS, and give it some specific HTML properies.Then, for each sub-item of the links field: create a hyperlink from the url sub-item, apply some CSS classes to create the button, add a Bootstrap icon defined by the icon sub-item, and finally add hyperlink text defined by the name sub-item.\n\n\n_partials/title-block-link-buttons/title-block.html\n\n&lt;header id=\"title-block-header\" class=\"quarto-title-block default page-columns\"&gt;\n...\n$if(links)$\n&lt;div class=\"mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start\" role=\"group\" aria-label=\"Links\"&gt;\n$for(links)$\n&lt;a href=\"$links.url$\" class=\"btn btn-secondary text-capitalize\"&gt;&lt;i class=\"bi bi-$links.icon$ me-1\"&gt;&lt;/i&gt;$links.name$&lt;/a&gt;\n$endfor$\n&lt;/div&gt;\n$endif$\n...\n&lt;/header&gt;"
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#styling-the-site",
-    "href": "blog/2023-09-29-hello-quarto/index.html#styling-the-site",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Styling the site",
-    "text": "Styling the site\nSCSS variables\nI may have published my brand new Quarto site in the fall of 2023, but I had actually taken my first go at porting it from Apéro in the fall of 2022. In an attempt to replicate the styling of my old site I tried to strong-arm my Quarto site into using tachyons4, and I wrote way too much custom CSS in the process 😩.\nSomething didn’t feel right about it, so I took a break and came back to my in-progress Quarto site several months later – outside of the Quarto release craze, and with the perspective that I wanted to work with the built-in theming capabilities, rather than against them 😌. This time around I leaned into the Bootstrap SCSS variables, and added custom styling as needed.\nTo be more specific, I created a custom theme 5, and populated it with definitions for some of the built-in Bootstrap Sass variables. If you poke around my custom theme, you will notice that some colors are defined by color variables that start with $spc-. These are variables pointing to colors that I’ve defined elsewhere, and they can be replaced with a hex code of your choosing! 🎨\n\n\nassets/silvia-theme.scss\n\n/*-- scss:defaults --*/\n\n// Colors\n$primary:                    $spc-primary-light;\n$secondary:                  $spc-secondary;\n\nThe Sass variables listed in the documentation got me pretty far, but there were still elements of my site using default colors and styling that I wanted to change. So I repo-dived to learn about additional Quarto Bootstrap variables and rules:\n\nBootstrap variables: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/_bootstrap-variables.scss\n\nBootstrap rules: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/_bootstrap-rules.scss\n\n\nTo give you an example, someone in the Quarto Discussions forum asked how to set the color of block quotes, figure captions, and outlines, something not defined in the documentation. One of the replies suggested using the browser’s inspector to find the CSS rule applied to the element in question, we’ll say the figure caption, and then looking at how Quarto implemented that rule. I’ll make that process a little more explicit here and use the figure caption as an example:\n\nUse the browser inspector to highlight a figure caption\nThe inspector will reveal that the element is styled by CSS class .figure-caption\nRun a keyword search for “figure-caption” in the Bootstrap variables file. This will yield no results 🤔\n\nRun the same keyword search in the Bootstrap rules file – success! We have a clue, which is that .figure-caption is styled by a variable named body-secondary 🔍\n.panel-caption,\n.figure-caption,\n.subfigure-caption,\n.table-caption,\nfigcaption.quarto-float-caption,\ncaption {\n  font-size: 0.9rem;\n  @include body-secondary;\n}\n\n\nDefine your own body-secondary color variable in your custom theme file\n\n\nassets/custom-theme.scss\n\n/*-- scss:defaults --*/\n\n$body-secondary: #6C757D;\n\n\nEnjoy the fruits of your labor as a CSS detective 🕵🏽‍♀️\nIndividual page styling\nIn some cases, I wanted to style individual pages differently than I was styling my entire site. Poking around Garrick’s repo (again!), I learned that you can reference CSS stylesheets in the YAML of any particular document. I used this approach to separately style my Home, About, and listing pages.\n\n\nindex.qmd\n\nexecute: \n  freeze: false\n  echo: false\n  warning: false\n\n\n\nindex.qmd  source code\n\n\nassets/index.css  source code\n\nBackground image for title blocks\nOk one of the aesthetic pieces I was excited to add to my Quarto site that I didn’t have in my old site is a featured image at the top of each post. I was inspired by Matt Worthington’s site while I was reading one of his excellent blog posts on a workflow for interactive maps in R – I loved that the title block included an image in the background! 🤩\nAfter some web inspecting and repo-diving in Matt’s website repo I came up with some styling that I could apply to the title block of each post. It took modifying the title block partial described earlier, and adding some CSS to my custom theme.\nFor styling that I wanted to apply uniformly to all post title blocks, I created a .featured-image CSS class in my custom theme:\nDon’t miss the code annotations for this code chunk! 👀 Such a cool feature!\n\n\nassets/custom-theme.scss\n\n  // style background image on posts\n  .featured-image {\n1    background-size: cover;\n2    background-position: center;\n3    color: white;\n4    box-shadow: inset 0 0 0 1000px rgba(0,38,66,0.75);\n  }\n\n\n1\n\nHave the image cover the background\n\n2\n\nCenter the image\n\n3\n\nMake the overlaying text color white\n\n4\n\nAdd shadowing that gives the appearance of a dark overlay\n\n\nAlright, but why didn’t I use a background-image property to define the image? If I define the background image in my .featured-image class then that is the image that’s going to show up in all of the posts across my site. I want the title block of each post to display the featured image belonging to each individual post. That’s where the partial comes back in.\n\n\n_partials/title-block-link-buttons/title-block.html\n\n&lt;div \nid=\"title-block-header-title\" \nclass=\"quarto-title page-columns page-full page-layout-full featured-image p-4\" \nstyle=\"background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);\"&gt;\n...\n&lt;/div&gt;\n\nAlong with some other CSS classes, the div container for the title block is styled with the featured-image class defined earlier, using the class= property. In addition, the div itself is styled using the style= property, and that’s where I defined the background image. The partial will look for a featured image of some kind either in the same folder as the post, or in the parent folder, and display it in the background of the title block.\nThis is a hacky way of getting what I really want which is for the partial to check for a featured image in the order I specify and then just stop once it finds one. As it stands right now, the styling attempts to layer on all three images, with the first image on the top and the last image on the bottom. This means that I get a warning every time I preview or render my site because the partial can’t find one or two of the other urls, but I’m ok with that!\n\n\n\n\n\n\nExample warning\n\n\n\n/blog/2023-09-29-hello-quarto/featured.png (404: Not Found)"
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#setting-up-redirects",
-    "href": "blog/2023-09-29-hello-quarto/index.html#setting-up-redirects",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Setting up redirects",
-    "text": "Setting up redirects\nResources\nLast but not least, I can’t finish this blog post without talking about the necessary task of redirecting old Apéro URLs to new Quarto ones 6. Many thanks to Danielle Navarro and Tom Mock for documenting their solutions for automatically generating a _redirects file with each render of the site.\n\nDanielle’s blog post: Notes from a data witch - Porting a distill blog to quarto\n\nTom’s source code: index.qmd - The MockUp\n\n\nI adapted their code to (1) fit my site, which has multiple folders of posts that all need redirects, and (2) combine these automatically generated redirects with ones I had already defined manually. I placed this code within my home page index.qmd file  and I specified freeze: false in the YAML so that the code would run each time I rendered the site. The following sections will take a look at the code piece by piece.\nImporting manual redirects\nThe first step imports the manually-defined redirects that I had already been using in my old site. These redirects primarily have the task of redirecting my rbind.io domain to my custom domain silviacanelon.com.\n\n\n\nindex.qmd\n\nmanual_redirects &lt;-\n  readr::read_table(here::here(\"static\", \"_manualredirects.txt\"),\n                    col_names = FALSE) |&gt; \n  dplyr::mutate(redirect = paste0(X1, \" \", X2, \" \", X3))\n\nmanual_redirects &lt;- manual_redirects$redirect\n\nhead(manual_redirects)\n\n\n[1] \"https://silvia.rbind.io/authors/silvia/avatar.png https://silviacanelon.com/about/sidebar/avatar.png 301!\"\n[2] \"https://silvia.rbind.io/post/* https://silviacanelon.com/blog/:splat 301!\"                                \n[3] \"https://silvia.rbind.io/blog/* https://silviacanelon.com/blog/:splat 301!\"                                \n[4] \"https://silvia.rbind.io/talk/* https://silviacanelon.com/talk/:splat 301!\"                                \n[5] \"https://silvia.rbind.io/project/* https://silviacanelon.com/project/:splat 301!\"                          \n[6] \"http://silvia.rbind.io/* https://silviacanelon.com/:splat 301!\"                                           \n\n\nListing subdirectories\nThe next step defines a function that obtains a list of subdirectories, iterates it over the four groups of posts in my site (blog posts, talks, publications, and projects), and compiles the files into a data frame.\n\n\n\nindex.qmd\n\n# function: obtain list of post paths\nlist_paths &lt;- function(folder) {\n  posts &lt;-\n    list.dirs(\n    path = c(here::here(folder)),\n    full.names = FALSE,\n    recursive = FALSE\n    ) |&gt; \n    tibble::as_tibble_col(column_name = \"path\")  |&gt;\n    dplyr::mutate(folder = folder)\n}\n\n# define post folders\nfolders &lt;- c(\"blog\", \"project\", \"publication\", \"talk\")\n\n# list post paths by folder\nposts &lt;- purrr::map(folders, list_paths) |&gt; purrr::list_rbind()\n\nhead(posts)\n\n\n\n  \n\n\n\nDefining redirects\nThis next chunk removes the month and day from year-month-day-slug so that I’m left with shorter paths with the format year-slug, and uses these paths and the folders they are housed in to create redirects.\nThe resulting redirects will point the short year-slug link to this blog post:\nhttps://silviacanelon.com/blog/2023-hello-quarto\nTo the longer year-month-day-slug Quarto link to this post:\nhttps://silviacanelon.com/blog/2023-09-29-hello-quarto\n\n# extract short paths and create redirects\nposts &lt;- \n  posts |&gt; \n  dplyr::mutate(\n    # extract the year-slugs\n    short_path = stringr::str_remove(path, \"(?!\\\\d{4}-)\\\\d{2}-\\\\d{2}-(?!\\\\d)\"),\n    # create short paths\n    short_path = paste0(folder, \"/\", short_path),\n    # create lines to insert to a netlify _redirect file\n    redirects = paste0(\"/\", short_path, \" \", \"/\", folder, \"/\", path)\n    )\n\nhead(posts)\n\n\n  \n\n\n\nWriting redirects file\nThe last step takes the redirects from the data frame produced in the previous step, combines them with the manual redirects, and writes them to a new text file _redirects. This file is written into the _site folder where my Quarto site is rendered, and where Netlify will know to find it.\n\n\n\nindex.qmd\n\n# extract redirects\nredirects &lt;- posts$redirects\n\n# combine with manual redirects\nredirects_combined &lt;- c(manual_redirects, redirects)\n\n# write the _redirect file\nwriteLines(redirects_combined, here::here(\"_site\", \"_redirects\"))"
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#fin",
-    "href": "blog/2023-09-29-hello-quarto/index.html#fin",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Fin",
-    "text": "Fin\nNow that it’s been over a year since Quarto made its debut, there are so many wonderful blog posts walking folks through how to create a Quarto site. My hope is that the notes I took in this blog post help provide some stepping stones for folks making the transition from blogdown sites, and offer some ideas for what is possible with the flexibility of this new publishing framework. I, for one, am looking forward to growing my digital garden with Quarto tools 🌱."
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#acknowledgments",
-    "href": "blog/2023-09-29-hello-quarto/index.html#acknowledgments",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\nFeatured photo by Annelies Geneyn on Unsplash."
-  },
-  {
-    "objectID": "blog/2023-09-29-hello-quarto/index.html#footnotes",
-    "href": "blog/2023-09-29-hello-quarto/index.html#footnotes",
-    "title": "Hello Quarto: Porting my Website from Hugo Apéro",
-    "section": "Footnotes",
-    "text": "Footnotes\n\nSee also Digital gardens let you cultivate your own little bit of the internet | MIT Technology Review↩︎\nBy adding an underscore prefix (e.g., _index.Rmarkdown)↩︎\nI.e., index.markdown↩︎\nA CSS design system used in the Hugo Apéro theme: https://tachyons.io↩︎\nFor more on custom theming, see Quarto - HTML Theming and Quarto - More About Quarto Themes↩︎\nDon’t skip this step! People will almost certainly have shared one or more of your posts somewhere on the internet, and it helps everyone if you can point them to the right spot↩︎"
-  },
-  {
     "objectID": "accessibility.html",
     "href": "accessibility.html",
     "title": "Fabio Cruz",
@@ -287,319 +21,25 @@
     "text": "Back to top"
   },
   {
-    "objectID": "publication/2024-05-27-tbi-definitions/index.html",
-    "href": "publication/2024-05-27-tbi-definitions/index.html",
-    "title": "Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture",
+    "objectID": "project/index.html",
+    "href": "project/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "The high volume of plastic waste and the extremely low recycling rate have created a serious challenge worldwide. Local distributed recycling and additive manufacturing (DRAM) offers a solution by economically incentivizing local recycling. One DRAM technology capable of processing large quantities of plastic waste is fused granular fabrication, where solid shredded plastic waste can be reused directly as 3D printing feedstock. This study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing. After the material collection, shredding, and cleaning, the characterization and optimization of parameters for 3D printing were performed. Results showed the feasibility of printing a large object from rPET/ rHDPE flakes, reducing production costs by up to 88%."
+    "text": "Philly Center City District SIPS: An Interactive Map\n\n\n\nR\n\n\nmaps\n\n\nwebscraping\n\n\nrobotstxt\n\n\nrvest\n\n\nleaflet\n\n\ntidygeocoder\n\n\n\n\nJun 16, 2024\n\n\n\n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
-    "objectID": "publication/2024-05-27-tbi-definitions/index.html#abstract",
-    "href": "publication/2024-05-27-tbi-definitions/index.html#abstract",
-    "title": "Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Research · Life · random thoughts",
     "section": "",
-    "text": "The high volume of plastic waste and the extremely low recycling rate have created a serious challenge worldwide. Local distributed recycling and additive manufacturing (DRAM) offers a solution by economically incentivizing local recycling. One DRAM technology capable of processing large quantities of plastic waste is fused granular fabrication, where solid shredded plastic waste can be reused directly as 3D printing feedstock. This study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing. After the material collection, shredding, and cleaning, the characterization and optimization of parameters for 3D printing were performed. Results showed the feasibility of printing a large object from rPET/ rHDPE flakes, reducing production costs by up to 88%."
+    "text": "Meditaciones: Lo importante es comenzar\n\n\nDia 1 de escribir para no olvidar \n\n\n\nMeditaciones\n\n\n\n\n\n\nOct 10, 2024\n\n\nFabio Cruz\n\n\n\n\n\n\nNo matching items\n\n Back to topReuseCC BY-SA 4.0"
   },
   {
-    "objectID": "publication/2024-01-05-catalina/index.html",
-    "href": "publication/2024-01-05-catalina/index.html",
-    "title": "Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fabio A. Cruz Sanchez",
     "section": "",
-    "text": "The high volume of plastic waste and the extremely low recycling rate have created a serious challenge worldwide. Local distributed recycling and additive manufacturing (DRAM) offers a solution by economically incentivizing local recycling. One DRAM technology capable of processing large quantities of plastic waste is fused granular fabrication, where solid shredded plastic waste can be reused directly as 3D printing feedstock. This study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing. After the material collection, shredding, and cleaning, the characterization and optimization of parameters for 3D printing were performed. Results showed the feasibility of printing a large object from rPET/ rHDPE flakes, reducing production costs by up to 88%."
-  },
-  {
-    "objectID": "publication/2024-01-05-catalina/index.html#abstract",
-    "href": "publication/2024-01-05-catalina/index.html#abstract",
-    "title": "Multi-material distributed recycling via material extrusion: recycled high density polyethylene and poly (ethylene terephthalate) mixture",
-    "section": "",
-    "text": "The high volume of plastic waste and the extremely low recycling rate have created a serious challenge worldwide. Local distributed recycling and additive manufacturing (DRAM) offers a solution by economically incentivizing local recycling. One DRAM technology capable of processing large quantities of plastic waste is fused granular fabrication, where solid shredded plastic waste can be reused directly as 3D printing feedstock. This study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing. After the material collection, shredding, and cleaning, the characterization and optimization of parameters for 3D printing were performed. Results showed the feasibility of printing a large object from rPET/ rHDPE flakes, reducing production costs by up to 88%."
-  },
-  {
-    "objectID": "publication/2022-11-24-mwas-repurposed-covid19-meds/index.html",
-    "href": "publication/2022-11-24-mwas-repurposed-covid19-meds/index.html",
-    "title": "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach",
-    "section": "",
-    "text": "This research proposes a competence-based role model as a methodological basis for guiding the conformation of social innovation lab (SI lab) teams. Based on a comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed. Applied to 10 nascent SI lab teams from Latin American universities, the self-assessment methodology provides an interpretative approach for SI lab teams to position themselves with regards to their competence profile and proposed roles, while identifying strategies for improvement."
-  },
-  {
-    "objectID": "publication/2022-11-24-mwas-repurposed-covid19-meds/index.html#abstract",
-    "href": "publication/2022-11-24-mwas-repurposed-covid19-meds/index.html#abstract",
-    "title": "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach",
-    "section": "",
-    "text": "This research proposes a competence-based role model as a methodological basis for guiding the conformation of social innovation lab (SI lab) teams. Based on a comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed. Applied to 10 nascent SI lab teams from Latin American universities, the self-assessment methodology provides an interpretative approach for SI lab teams to position themselves with regards to their competence profile and proposed roles, while identifying strategies for improvement."
-  },
-  {
-    "objectID": "publication/2022-07-21-ten-simple-rules-inclusive-conference/index.html",
-    "href": "publication/2022-07-21-ten-simple-rules-inclusive-conference/index.html",
-    "title": "Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization",
-    "section": "",
-    "text": "With the increasing use of additive manufacturing (AM) in diverse fields, printed structures are inevitably exposed to vibrations, which can result in fracture, fatigue, and noise. Present study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM. The effects of process parameters on the vibration damping characteristics of printed viscoelastic structures were investigated through modal analysis and design of experiments. Results show that higher nozzle temperature, smaller layer height, lower deposition speed and smaller raster angle contribute to higher resonant frequencies and loss factors of the final parts."
-  },
-  {
-    "objectID": "publication/2022-07-21-ten-simple-rules-inclusive-conference/index.html#abstract",
-    "href": "publication/2022-07-21-ten-simple-rules-inclusive-conference/index.html#abstract",
-    "title": "Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization",
-    "section": "",
-    "text": "With the increasing use of additive manufacturing (AM) in diverse fields, printed structures are inevitably exposed to vibrations, which can result in fracture, fatigue, and noise. Present study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM. The effects of process parameters on the vibration damping characteristics of printed viscoelastic structures were investigated through modal analysis and design of experiments. Results show that higher nozzle temperature, smaller layer height, lower deposition speed and smaller raster angle contribute to higher resonant frequencies and loss factors of the final parts."
-  },
-  {
-    "objectID": "publication/2024-01-28-social-innovation-competences/index.html",
-    "href": "publication/2024-01-28-social-innovation-competences/index.html",
-    "title": "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach",
-    "section": "",
-    "text": "This research proposes a competence-based role model as a methodological basis for guiding the conformation of social innovation lab (SI lab) teams. Based on a comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed. Applied to 10 nascent SI lab teams from Latin American universities, the self-assessment methodology provides an interpretative approach for SI lab teams to position themselves with regards to their competence profile and proposed roles, while identifying strategies for improvement."
-  },
-  {
-    "objectID": "publication/2024-01-28-social-innovation-competences/index.html#abstract",
-    "href": "publication/2024-01-28-social-innovation-competences/index.html#abstract",
-    "title": "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach",
-    "section": "",
-    "text": "This research proposes a competence-based role model as a methodological basis for guiding the conformation of social innovation lab (SI lab) teams. Based on a comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed. Applied to 10 nascent SI lab teams from Latin American universities, the self-assessment methodology provides an interpretative approach for SI lab teams to position themselves with regards to their competence profile and proposed roles, while identifying strategies for improvement."
-  },
-  {
-    "objectID": "publication/2022-06-07-mwas-multiple-birth/index.html",
-    "href": "publication/2022-06-07-mwas-multiple-birth/index.html",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments."
-  },
-  {
-    "objectID": "publication/2022-06-07-mwas-multiple-birth/index.html#abstract",
-    "href": "publication/2022-06-07-mwas-multiple-birth/index.html#abstract",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments."
-  },
-  {
-    "objectID": "publication/2023-08-28-fangkai/index.html",
-    "href": "publication/2023-08-28-fangkai/index.html",
-    "title": "Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization",
-    "section": "",
-    "text": "With the increasing use of additive manufacturing (AM) in diverse fields, printed structures are inevitably exposed to vibrations, which can result in fracture, fatigue, and noise. Present study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM. The effects of process parameters on the vibration damping characteristics of printed viscoelastic structures were investigated through modal analysis and design of experiments. Results show that higher nozzle temperature, smaller layer height, lower deposition speed and smaller raster angle contribute to higher resonant frequencies and loss factors of the final parts."
-  },
-  {
-    "objectID": "publication/2023-08-28-fangkai/index.html#abstract",
-    "href": "publication/2023-08-28-fangkai/index.html#abstract",
-    "title": "Enhancing vibration damping properties of additively manufactured viscoelastic structures through process parameter optimization",
-    "section": "",
-    "text": "With the increasing use of additive manufacturing (AM) in diverse fields, printed structures are inevitably exposed to vibrations, which can result in fracture, fatigue, and noise. Present study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM. The effects of process parameters on the vibration damping characteristics of printed viscoelastic structures were investigated through modal analysis and design of experiments. Results show that higher nozzle temperature, smaller layer height, lower deposition speed and smaller raster angle contribute to higher resonant frequencies and loss factors of the final parts."
-  },
-  {
-    "objectID": "publication/2024-01-28-ferney/index.html",
-    "href": "publication/2024-01-28-ferney/index.html",
-    "title": "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2024-01-28-ferney/index.html#abstract",
-    "href": "publication/2024-01-28-ferney/index.html#abstract",
-    "title": "Exploring team roles for social innovation labs: Toward a competence-based role self-assessment approach",
-    "section": "",
-    "text": "This research proposes a competence-based role model as a methodological basis for guiding the conformation of social innovation lab (SI lab) teams. Based on a comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed. Applied to 10 nascent SI lab teams from Latin American universities, the self-assessment methodology provides an interpretative approach for SI lab teams to position themselves with regards to their competence profile and proposed roles, while identifying strategies for improvement."
-  },
-  {
-    "objectID": "publication/2016-11-06-bapn-morphology/index.html",
-    "href": "publication/2016-11-06-bapn-morphology/index.html",
-    "title": "β-Aminopropionitrile-Induced Reduction in Enzymatic Crosslinking Causes In Vitro Changes in Collagen Morphology and Molecular Composition",
-    "section": "",
-    "text": "Type I collag een morphology can be characterized using fibril D-spacing, a metric which describes the periodicity of repeating bands of gap and overlap regions of collagen molecules arranged into collagen fibrils. This fibrillar structure is stabilized by enzymatic crosslinks initiated by lysyl oxidase (LOX), a step which can be disrupted using β-aminopropionitrile (BAPN). Murine in vivo studies have confirmed effects of BAPN on collagen nanostructure and the objective of this study was to evaluate the mechanism of these effects in vitro by measuring D-spacing, evaluating the ratio of mature to immature crosslinks, and quantifying gene expression of type I collagen and LOX. Osteoblasts were cultured in complete media, and differentiated using ascorbic acid, in the presence or absence of 0.25mM BAPN-fumarate. The matrix produced was imaged using atomic force microscopy (AFM) and 2D Fast Fourier transforms were performed to extract D-spacing from individual fibrils. The experiment was repeated for quantitative reverse transcription polymerase chain reaction (qRT-PCR) and Fourier Transform infrared spectroscopy (FTIR) analyses. The D-spacing distribution of collagen produced in the presence of BAPN was shifted toward higher D-spacing values, indicating BAPN affects the morphology of collagen produced in vitro, supporting aforementioned in vivo experiments. In contrast, no difference in gene expression was found for any target gene, suggesting LOX inhibition does not upregulate the LOX gene to compensate for the reduction in aldehyde formation, or regulate expression of genes encoding type I collagen. Finally, the mature to immature crosslink ratio decreased with BAPN treatment and was linked to a reduction in peak percent area of mature crosslink hydroxylysylpyridinoline (HP). In conclusion, in vitro treatment of osteoblasts with low levels of BAPN did not induce changes in genes encoding LOX or type I collagen, but led to an increase in collagen D-spacing as well as a decrease in mature crosslinks."
-  },
-  {
-    "objectID": "publication/2016-11-06-bapn-morphology/index.html#abstract",
-    "href": "publication/2016-11-06-bapn-morphology/index.html#abstract",
-    "title": "β-Aminopropionitrile-Induced Reduction in Enzymatic Crosslinking Causes In Vitro Changes in Collagen Morphology and Molecular Composition",
-    "section": "",
-    "text": "Type I collag een morphology can be characterized using fibril D-spacing, a metric which describes the periodicity of repeating bands of gap and overlap regions of collagen molecules arranged into collagen fibrils. This fibrillar structure is stabilized by enzymatic crosslinks initiated by lysyl oxidase (LOX), a step which can be disrupted using β-aminopropionitrile (BAPN). Murine in vivo studies have confirmed effects of BAPN on collagen nanostructure and the objective of this study was to evaluate the mechanism of these effects in vitro by measuring D-spacing, evaluating the ratio of mature to immature crosslinks, and quantifying gene expression of type I collagen and LOX. Osteoblasts were cultured in complete media, and differentiated using ascorbic acid, in the presence or absence of 0.25mM BAPN-fumarate. The matrix produced was imaged using atomic force microscopy (AFM) and 2D Fast Fourier transforms were performed to extract D-spacing from individual fibrils. The experiment was repeated for quantitative reverse transcription polymerase chain reaction (qRT-PCR) and Fourier Transform infrared spectroscopy (FTIR) analyses. The D-spacing distribution of collagen produced in the presence of BAPN was shifted toward higher D-spacing values, indicating BAPN affects the morphology of collagen produced in vitro, supporting aforementioned in vivo experiments. In contrast, no difference in gene expression was found for any target gene, suggesting LOX inhibition does not upregulate the LOX gene to compensate for the reduction in aldehyde formation, or regulate expression of genes encoding type I collagen. Finally, the mature to immature crosslink ratio decreased with BAPN treatment and was linked to a reduction in peak percent area of mature crosslink hydroxylysylpyridinoline (HP). In conclusion, in vitro treatment of osteoblasts with low levels of BAPN did not induce changes in genes encoding LOX or type I collagen, but led to an increase in collagen D-spacing as well as a decrease in mature crosslinks."
-  },
-  {
-    "objectID": "publication/2023-01-20-fablabs-ti/index.html",
-    "href": "publication/2023-01-20-fablabs-ti/index.html",
-    "title": "Les fab labs : des lieux de partage pour booster l’innovation",
-    "section": "",
-    "text": "Companies, universities and municipalities have all bet on the development of fab labs. They want to promote the development of innovation projects through these spaces dedicated to learning and collaboration. This article presents the different facets of fab labs through a systematic questioning. After a quick introduction, an analysis of the typologies and resources available in fab labs is given. Their networking and modes of governance are discussed, then the article highlights the actors of these spaces and the projects that are realized within them. Finally, some perspectives on the future of these spaces are proposed."
-  },
-  {
-    "objectID": "publication/2023-01-20-fablabs-ti/index.html#abstract",
-    "href": "publication/2023-01-20-fablabs-ti/index.html#abstract",
-    "title": "Les fab labs : des lieux de partage pour booster l’innovation",
-    "section": "",
-    "text": "Companies, universities and municipalities have all bet on the development of fab labs. They want to promote the development of innovation projects through these spaces dedicated to learning and collaboration. This article presents the different facets of fab labs through a systematic questioning. After a quick introduction, an analysis of the typologies and resources available in fab labs is given. Their networking and modes of governance are discussed, then the article highlights the actors of these spaces and the projects that are realized within them. Finally, some perspectives on the future of these spaces are proposed."
-  },
-  {
-    "objectID": "publication/2023-01-20-alex/index.html",
-    "href": "publication/2023-01-20-alex/index.html",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2023-01-20-alex/index.html#abstract",
-    "href": "publication/2023-01-20-alex/index.html#abstract",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments."
-  },
-  {
-    "objectID": "publication/2023-11-23-fablabs-ti/index.html",
-    "href": "publication/2023-11-23-fablabs-ti/index.html",
-    "title": "Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2023-11-23-fablabs-ti/index.html#abstract",
-    "href": "publication/2023-11-23-fablabs-ti/index.html#abstract",
-    "title": "Les fab labs : des lieux de partage pour booster l’innovation",
-    "section": "",
-    "text": "Les entreprises, les universités, les communes ont toutes parié sur le développement des fab labs. Il s’agit pour elles de favoriser le développement de projets d’innovation par ces espaces dédiés à l’apprentissage et à la collaboration. Cet article présente les différentes facettes des fab labs au moyen d’un questionnement systématique. Après une rapide introduction, une analyse des typologies et des ressources disponibles dans les fab labs est donnée. Leur constitution en réseau et leurs modes de gouvernance sont discutés, puis l’article met en lumière les acteurs de ces lieux et les projets qui y sont réalisés. Enfin, quelques perspectives du devenir de ces espaces sont proposées"
-  },
-  {
-    "objectID": "publication/2023-11-23-fablabs-ti/index.html#résumé-en-français",
-    "href": "publication/2023-11-23-fablabs-ti/index.html#résumé-en-français",
-    "title": "Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing",
-    "section": "",
-    "text": "Les entreprises, les universités, les communes ont toutes parié sur le développement des fab labs. Il s’agit pour elles de favoriser le développement de projets d’innovation par ces espaces dédiés à l’apprentissage et à la collaboration. Cet article présente les différentes facettes des fab labs au moyen d’un questionnement systématique. Après une rapide introduction, une analyse des typologies et des ressources disponibles dans les fab labs est donnée. Leur constitution en réseau et leurs modes de gouvernance sont discutés, puis l’article met en lumière les acteurs de ces lieux et les projets qui y sont réalisés. Enfin, quelques perspectives du devenir de ces espaces sont proposées"
-  },
-  {
-    "objectID": "publication/2023-05-16-cristian/index.html",
-    "href": "publication/2023-05-16-cristian/index.html",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments."
-  },
-  {
-    "objectID": "publication/2023-05-16-cristian/index.html#abstract",
-    "href": "publication/2023-05-16-cristian/index.html#abstract",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments."
-  },
-  {
-    "objectID": "publication/2022-01-20-fangkai/index.html",
-    "href": "publication/2022-01-20-fangkai/index.html",
-    "title": "General Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication",
-    "section": "",
-    "text": "sss\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "publication/2021-12-31-pavlo/index.html",
-    "href": "publication/2021-12-31-pavlo/index.html",
-    "title": "Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2022-07-27-diego/index.html",
-    "href": "publication/2022-07-27-diego/index.html",
-    "title": "Feasibility study on the use of recycled materials for prototyping purposes: A comparative study based on the tensile strength",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2019-12-03-pavlo/index.html",
-    "href": "publication/2019-12-03-pavlo/index.html",
-    "title": "Closed loop supply chain network for local and distributed plastic recycling for 3D printing: a MILP-based optimization approach",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2018-06-01-ramses/index.html",
-    "href": "publication/2018-06-01-ramses/index.html",
-    "title": "Modelling, Printing and Validation of Dental Dry Models for Implantology Skills Training",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2020-04-15-fabio/index.html",
-    "href": "publication/2020-04-15-fabio/index.html",
-    "title": "Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2017-08-05-fabio/index.html",
-    "href": "publication/2017-08-05-fabio/index.html",
-    "title": "Polymer recycling in an open-source additive manufacturing context: Mechanical issues",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2022-01-03-pavlo/index.html",
-    "href": "publication/2022-01-03-pavlo/index.html",
-    "title": "Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2020-04-24-arthur/index.html",
-    "href": "publication/2020-04-24-arthur/index.html",
-    "title": "Mechanical Properties of Direct Waste Printing of Polylactic Acid with Universal Pellets Extruder: Comparison to Fused Filament Fabrication on Open-Source Desktop Three-Dimensional Printers",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2016-08-05-fabio/index.html",
-    "href": "publication/2016-08-05-fabio/index.html",
-    "title": "Methodological proposition to evaluate polymer recycling in open-source additive manufacturing contexts",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2018-06-01-pavlo/index.html",
-    "href": "publication/2018-06-01-pavlo/index.html",
-    "title": "3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2015-08-05-fabio/index.html",
-    "href": "publication/2015-08-05-fabio/index.html",
-    "title": "Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/2014-04-15-fabio/index.html",
-    "href": "publication/2014-04-15-fabio/index.html",
-    "title": "Towards a standard experimental protocol for open source additive manufacturing",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/index.html#articles",
-    "href": "publication/index.html#articles",
-    "title": "Publications",
-    "section": "",
-    "text": "This paper deals with the development, manufacture and testing of a geometrical benchmarking model (GBM) in order to evaluate the geometrical accuracy performance of open source 3D printers.\n\n\n\nopen source 3-dimensional printing\n\n\nMachine qualification\n\n\nRepRap\n\n\nBenchmarking\n\n\n\nVirtual and Physical Prototyping\n\n\n\n\n\nJul 3, 2014\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "publication/index.html#meeting-notes",
-    "href": "publication/index.html#meeting-notes",
-    "title": "Publications",
-    "section": "Meeting Notes",
-    "text": "Meeting Notes"
-  },
-  {
-    "objectID": "publication/index.html#conferences",
-    "href": "publication/index.html#conferences",
-    "title": "Publications",
-    "section": "Conferences",
-    "text": "Conferences"
-  },
-  {
-    "objectID": "publication/articles/2014-04-15-fabio/index.html",
-    "href": "publication/articles/2014-04-15-fabio/index.html",
-    "title": "Towards a standard experimental protocol for open source additive manufacturing",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "publication/conferences/2015-08-05-fabio/index.html",
-    "href": "publication/conferences/2015-08-05-fabio/index.html",
-    "title": "Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods",
-    "section": "",
-    "text": "Back to top"
+    "text": "Hello there! 👋.\nI work specifically at the Research team on innovation process -ERPI- Laboratory and teach at the National School in Industrial Systems Engineering and Innovation -ENSGSI School- at Nancy - France.\nMy research is developed at the Lorraine Fab Living Lab Plateform on projects related to the concept of Distributed recycling for circular economy perspectives valuing the partnership between open source tools, social innovation spaces, holistic indicators as a way to effect change in people’s.\nLearn more about my research →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "publications/conferences/2018-06-01-pavlo/index.html",
@@ -628,13 +68,6 @@
     "title": "Life cycle assessment of filament production in distributed plastic recycling via additive manufacturing",
     "section": "",
     "text": "Back to top"
-  },
-  {
-    "objectID": "publications/articles/2023-05-16-cristian/index.html#abstract",
-    "href": "publications/articles/2023-05-16-cristian/index.html#abstract",
-    "title": "Open source IoT-based collection bin applied to local plastic recycling",
-    "section": "",
-    "text": "Plastic waste is a major challenge for policy making; it has a terrible impact on the environment if it is not properly managed. In order to mitigate this issue, recycling industries have emerged with the associated logistics chain that also has an environmental impact, notably with the production of greenhouse gas. In addition to using energy to transform plastic waste into source material, energy is also wasted to transport it. In parallel to reducing plastic waste, it may be recycled at a very local scale, reducing transportation and allowing potential improvement of the collecting process. Assuming that local transformation of plastic waste is possible, this article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units. The specificity of these collectors is that they produces on-line data related to the quantity of waste collected. Once implemented, a network of smart collectors should allow the reduction of travel to collect waste as it notifies when the collectors are full. It also produces data on the scale of a territory to optimize the supply chain related to plastic waste collection. This article presents the design and engineering aspects as well as limitations induced by technical choices, but also potential improvements for future developments."
   },
   {
     "objectID": "publications/articles/2023-11-23-fablabs-ti/index.html",
@@ -684,6 +117,13 @@
     "title": "Social, political, and technological dimensions of the sustainability evaluation of a recycling network. A literature review",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Send me a note ",
+    "section": "",
+    "text": "Send me a note \nYou can use this form to contact me about speaking engagements, collaborations, or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved — particularly if they could be made more accessible \n      \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message\n\n\n\n\n\nSign-up for my newsletter \nYou can use this form to sign up to receive a little e-mail note from me anytime I post something new on my website.\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "publications/articles/2023-08-28-fangkai/index.html",
@@ -742,8 +182,8 @@
     "text": "A comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed.\n\n\n\nResearch\n\n\nInnovation labs\n\n\nSocial innovation\n\n\nInnovation team roles\n\n\n\n\n\n\nJan 28, 2024\n\n\nFerney Osorio, Fabio A. Cruz Sanchez, Mauricio Camargo, Laurent Dupont, José Isamel Peña\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing.\n\n\n\nResearch\n\n\nDRAM\n\n\nTBI\n\n\n\n\n\n\nJan 5, 2024\n\n\nCatalina Suescun Gonzalez, Fabio A. Cruz Sanchez, Hakim Boudaoud, Cecile Nouvel, Joshua Pearce\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article presents the different facets of fab labs through a systematic questioning.\n\n\n\nInnovation\n\n\nOpen source\n\n\nFab lab\n\n\nThird place\n\n\n\n\n\n\nNov 23, 2023\n\n\nFabio A. Cruz Sanchez, Alaa Hassan, Hakim Boudahoud\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresent study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM.\n\n\n\nResearch\n\n\n\n\n\n\nAug 29, 2023\n\n\nFangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe purpose of this study is to evaluate the environmental impact of a DRAM unit as a baseline scenario, compared to two scenarios of the virgin supply chain plastic filament used in the printing process.\n\n\n\nDRAM\n\n\nLCA\n\n\nDIY\n\n\n\n\n\n\nMay 16, 2023\n\n\nCristian Caceres Mendoza, Pavlo Santander Tapia, Fabio A. Cruz Sanchez, Nadège Troussier, Hakim Boudahoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units.\n\n\n\nResearch\n\n\n\n\n\n\nJan 20, 2023\n\n\nAlex Gabriel, Fabio A. Cruz Sanchez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3D Printing\n\n\nPrototyping\n\n\nDistributed Recycling\n\n\nTensile strength\n\n\nPLA\n\n\n\n\n\n\nJul 23, 2022\n\n\nVictor M. Lopez, Diego Carou, Fabio A. Cuz Sanchez\n\n\n\n\n\n\n\n\n\n\n\n\n\nA systematic literature review has been conducted in order to understand how the social, political, and technological dimensions should be integrated into the sustainability evaluation process of a potential recycling network.\n\n\n\nRecycling\n\n\nClosed loop supply chain\n\n\nReverse supply chain\n\n\nReverse logistics\n\n\nSustainability indicators\n\n\nSocial dimension\n\n\nTechnological dimension\n\n\nPolitical dimension\n\n\n\n\n\n\nJan 3, 2022\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe objective of this work is to evaluate the performance of the FFF and FGF techniques in terms of technical and economical dimensions at the desktop 3D printing scale. Recycled and virgin polylactic acid material was studied by using five different types of recycling feedstocks: commercial filament, pellets, distributed filament, distributed pellets, and shredded waste. The results showed that the mechanical properties from the FGF technique using same configurations showed no statistical differences to FFF samples.\n\n\n\nfused granular fabrication,\n\n\nRecycling\n\n\nPolylactic acid\n\n\nTensile properties\n\n\nDistributed recycling\n\n\n\n\n\n\n\n\n\nApr 24, 2020\n\n\nArthur Alexandre, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis paper aims to examine the current advances on thermoplastic recycling processes via additive manufacturing technologies proposing a closed recycling global chain for Distributed Recycling via Additive Manufacturing –DRAM-.\n\n\n\nRecycling\n\n\nClosed loop supply chain\n\n\nReverse supply chain\n\n\nReverse logistics\n\n\nSustainability indicators\n\n\nSocial dimension\n\n\nTechnological dimension\n\n\nPolitical dimension\n\n\n\n\n\n\nApr 15, 2020\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo, Joshua Pearce\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article therefore explores the economic and environmental feasibility of this distributed plastic recycling approach from a logistics perspective, as a step towards its validation. To achieve this, an optimization mixed integer linear programming (MILP) model was used as an evaluation tool, representing a local closed loop supply chain (CLSC) network.\n\n\n\nClosed loop supply chain\n\n\nPlastic recycling\n\n\n3D printing\n\n\nCircular economy\n\n\nMixed integer linear programming\n\n\nDistributed recycling\n\n\n\n\n\n\nDec 3, 2019\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe contribution of the present study is twofold: first, a general methodology to evaluate the recyclability of thermoplastics used as feedstock in open-source 3D printing machines is proposed. Then, the proposed methodology is applied to the recycling study of polylactic acid (PLA) material addressed to the fused filament fabrication (FFF) technique, which is currently the most widely used.\n\n\n\n3D printing\n\n\nPlastic recycling\n\n\nMechanical properties\n\n\nPLA\n\n\nOpen source additive manufacturing\n\n\nRepRap\n\n\n\n\n\n\nAug 5, 2017\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis paper deals with the development, manufacture and testing of a geometrical benchmarking model (GBM) in order to evaluate the geometrical accuracy performance of open source 3D printers.\n\n\n\nopen source 3-dimensional printing\n\n\nMachine qualification\n\n\nRepRap\n\n\nBenchmarking\n\n\n\n\n\n\nJul 3, 2014\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications/index.html#articles",
-    "href": "publications/index.html#articles",
+    "objectID": "publications/index.html#scientific-articles",
+    "href": "publications/index.html#scientific-articles",
     "title": "Publications",
     "section": "",
     "text": "A comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed.\n\n\n\nResearch\n\n\nInnovation labs\n\n\nSocial innovation\n\n\nInnovation team roles\n\n\n\n\n\n\nJan 28, 2024\n\n\nFerney Osorio, Fabio A. Cruz Sanchez, Mauricio Camargo, Laurent Dupont, José Isamel Peña\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing.\n\n\n\nResearch\n\n\nDRAM\n\n\nTBI\n\n\n\n\n\n\nJan 5, 2024\n\n\nCatalina Suescun Gonzalez, Fabio A. Cruz Sanchez, Hakim Boudaoud, Cecile Nouvel, Joshua Pearce\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article presents the different facets of fab labs through a systematic questioning.\n\n\n\nInnovation\n\n\nOpen source\n\n\nFab lab\n\n\nThird place\n\n\n\n\n\n\nNov 23, 2023\n\n\nFabio A. Cruz Sanchez, Alaa Hassan, Hakim Boudahoud\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresent study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM.\n\n\n\nResearch\n\n\n\n\n\n\nAug 29, 2023\n\n\nFangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe purpose of this study is to evaluate the environmental impact of a DRAM unit as a baseline scenario, compared to two scenarios of the virgin supply chain plastic filament used in the printing process.\n\n\n\nDRAM\n\n\nLCA\n\n\nDIY\n\n\n\n\n\n\nMay 16, 2023\n\n\nCristian Caceres Mendoza, Pavlo Santander Tapia, Fabio A. Cruz Sanchez, Nadège Troussier, Hakim Boudahoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units.\n\n\n\nResearch\n\n\n\n\n\n\nJan 20, 2023\n\n\nAlex Gabriel, Fabio A. Cruz Sanchez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3D Printing\n\n\nPrototyping\n\n\nDistributed Recycling\n\n\nTensile strength\n\n\nPLA\n\n\n\n\n\n\nJul 23, 2022\n\n\nVictor M. Lopez, Diego Carou, Fabio A. Cuz Sanchez\n\n\n\n\n\n\n\n\n\n\n\n\n\nA systematic literature review has been conducted in order to understand how the social, political, and technological dimensions should be integrated into the sustainability evaluation process of a potential recycling network.\n\n\n\nRecycling\n\n\nClosed loop supply chain\n\n\nReverse supply chain\n\n\nReverse logistics\n\n\nSustainability indicators\n\n\nSocial dimension\n\n\nTechnological dimension\n\n\nPolitical dimension\n\n\n\n\n\n\nJan 3, 2022\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe objective of this work is to evaluate the performance of the FFF and FGF techniques in terms of technical and economical dimensions at the desktop 3D printing scale. Recycled and virgin polylactic acid material was studied by using five different types of recycling feedstocks: commercial filament, pellets, distributed filament, distributed pellets, and shredded waste. The results showed that the mechanical properties from the FGF technique using same configurations showed no statistical differences to FFF samples.\n\n\n\nfused granular fabrication,\n\n\nRecycling\n\n\nPolylactic acid\n\n\nTensile properties\n\n\nDistributed recycling\n\n\n\n\n\n\n\n\n\nApr 24, 2020\n\n\nArthur Alexandre, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis paper aims to examine the current advances on thermoplastic recycling processes via additive manufacturing technologies proposing a closed recycling global chain for Distributed Recycling via Additive Manufacturing –DRAM-.\n\n\n\nRecycling\n\n\nClosed loop supply chain\n\n\nReverse supply chain\n\n\nReverse logistics\n\n\nSustainability indicators\n\n\nSocial dimension\n\n\nTechnological dimension\n\n\nPolitical dimension\n\n\n\n\n\n\nApr 15, 2020\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo, Joshua Pearce\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article therefore explores the economic and environmental feasibility of this distributed plastic recycling approach from a logistics perspective, as a step towards its validation. To achieve this, an optimization mixed integer linear programming (MILP) model was used as an evaluation tool, representing a local closed loop supply chain (CLSC) network.\n\n\n\nClosed loop supply chain\n\n\nPlastic recycling\n\n\n3D printing\n\n\nCircular economy\n\n\nMixed integer linear programming\n\n\nDistributed recycling\n\n\n\n\n\n\nDec 3, 2019\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe contribution of the present study is twofold: first, a general methodology to evaluate the recyclability of thermoplastics used as feedstock in open-source 3D printing machines is proposed. Then, the proposed methodology is applied to the recycling study of polylactic acid (PLA) material addressed to the fused filament fabrication (FFF) technique, which is currently the most widely used.\n\n\n\n3D printing\n\n\nPlastic recycling\n\n\nMechanical properties\n\n\nPLA\n\n\nOpen source additive manufacturing\n\n\nRepRap\n\n\n\n\n\n\nAug 5, 2017\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis paper deals with the development, manufacture and testing of a geometrical benchmarking model (GBM) in order to evaluate the geometrical accuracy performance of open source 3D printers.\n\n\n\nopen source 3-dimensional printing\n\n\nMachine qualification\n\n\nRepRap\n\n\nBenchmarking\n\n\n\n\n\n\nJul 3, 2014\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo\n\n\n\n\n\n\nNo matching items"
@@ -754,6 +194,13 @@
     "title": "Publications",
     "section": "Conferences",
     "text": "Conferences\n\n\n\n\n\n\n\n\n\n\n3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design\n\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\nJun 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication\n\n\n\nFangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya\n\n\nJan 20, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling, Printing and Validation of Dental Dry Models for Implantology Skills Training\n\n\n\nRamses Alburquerque, Giovanny Arbelaez Garces, Fabio A. Cruz Sanchez, Mauricio Camargo, Joseph David, Nguyen Tran\n\n\nJun 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods\n\n\n\nFabio A. Cruz Sanchez, Silvia Lanza, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo\n\n\nAug 1, 2015\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/index.html#thesis",
+    "href": "publications/index.html#thesis",
+    "title": "Publications",
+    "section": "Thesis",
+    "text": "Thesis"
   },
   {
     "objectID": "publications/conferences/2022-01-20-fangkai/index.html",
@@ -770,38 +217,157 @@
     "text": "Back to top"
   },
   {
-    "objectID": "publications/index.html#thesis",
-    "href": "publications/index.html#thesis",
-    "title": "Publications",
-    "section": "Thesis",
-    "text": "Thesis"
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Fabio A. Cruz Sanchez",
+    "section": "",
+    "text": "Hey, I’m happy you’re here\n\nI work at the Université de Lorraine in France in topics related to the mechanical and innovation engineering.\nThe objet of my research is the concept of distributed recycling process. The idea is to better understand the limits of this approach as a short/medium strategy of the plastic waste problem. I am very interested to work with fantastic people to make a holistic analysis of this topic, by doing research from technical, logistical and systemic evaluation.\nLearn more about my research interests in publications.\nGet in touch by sending me a note!"
   },
   {
-    "objectID": "project/2021-07-07-presentable-user2021/index.html",
-    "href": "project/2021-07-07-presentable-user2021/index.html",
-    "title": "Professional, Polished, Presentable",
-    "section": "",
-    "text": "The xaringan package brings professional, impressive, and visually appealing slides to the powerful R Markdown ecosystem. Through our hands-on tutorial, you will learn how to design highly effective slides that support presentations for teaching and reporting alike. Over three hours, you will learn how to create an accessible baseline design that matches your institution or organization’s style guide. Together we’ll explore the basics of CSS—the design language of the internet—and how we can leverage CSS to produce elegant slides for effective communication."
+    "objectID": "about/index.html#about-me",
+    "href": "about/index.html#about-me",
+    "title": "Fabio A. Cruz Sanchez",
+    "section": "About me",
+    "text": "About me\n\n\nMechanical engineer turned innovation management, I’am curious about the use of philosophy of the open source for the .\n\n\n\n\nCertificate in Biomedical Informatics ∙ University of Pennsylvania ∙ 2019\n\n\nPh.D. in Systems Engineering ∙ Purdue University ∙ 2018\n\n\nB.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012"
   },
   {
-    "objectID": "project/2021-07-07-presentable-user2021/index.html#abstract",
-    "href": "project/2021-07-07-presentable-user2021/index.html#abstract",
-    "title": "Professional, Polished, Presentable",
-    "section": "",
-    "text": "The xaringan package brings professional, impressive, and visually appealing slides to the powerful R Markdown ecosystem. Through our hands-on tutorial, you will learn how to design highly effective slides that support presentations for teaching and reporting alike. Over three hours, you will learn how to create an accessible baseline design that matches your institution or organization’s style guide. Together we’ll explore the basics of CSS—the design language of the internet—and how we can leverage CSS to produce elegant slides for effective communication."
+    "objectID": "about/index.html#lately",
+    "href": "about/index.html#lately",
+    "title": "Fabio A. Cruz Sanchez",
+    "section": "Lately …",
+    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nEscribiendo para no olvidar.\n\n\nDia 1 de escribir para no olvidar\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nTalks\n\n\n\n\n\n\n\n\n\n\nConsidering Equity in Data Visualization\n\n\nInvited talk for the Leonard Davis Institute of Health Economics Summer Undergraduate Mentored Research Program (SUMR)\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nExploring team roles for social innovation labs: Toward a competence-based role self-assessment approach\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nPhilly Center City District SIPS: An Interactive Map\n\n\nA collection of interactive maps showing restaurants participating in Phily’s CCD SIPS\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
   },
   {
-    "objectID": "publications/index.html#scientific-articles",
-    "href": "publications/index.html#scientific-articles",
-    "title": "Publications",
+    "objectID": "blog/2023-09-29-hello-quarto/index.html",
+    "href": "blog/2023-09-29-hello-quarto/index.html",
+    "title": "Escribiendo para no olvidar.",
     "section": "",
-    "text": "A comprehensive literature review including the comparison of 7 innovation team frameworks and a set of 14 competences for SI lab teams, a model consisting of the roles of facilitator, maker, visionary and manager is proposed.\n\n\n\nResearch\n\n\nInnovation labs\n\n\nSocial innovation\n\n\nInnovation team roles\n\n\n\n\n\n\nJan 28, 2024\n\n\nFerney Osorio, Fabio A. Cruz Sanchez, Mauricio Camargo, Laurent Dupont, José Isamel Peña\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis study presents an experimental assessment of multimaterial recycling printability using two of the most common thermoplastics in the beverage industry, polyethylene terephthalate (PET) and high-density polyethylene (HDPE), and the feasibility of mixing PET and HDPE to be used as a feedstock material for large-scale 3-D printing.\n\n\n\nResearch\n\n\nDRAM\n\n\nTBI\n\n\n\n\n\n\nJan 5, 2024\n\n\nCatalina Suescun Gonzalez, Fabio A. Cruz Sanchez, Hakim Boudaoud, Cecile Nouvel, Joshua Pearce\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article presents the different facets of fab labs through a systematic questioning.\n\n\n\nInnovation\n\n\nOpen source\n\n\nFab lab\n\n\nThird place\n\n\n\n\n\n\nNov 23, 2023\n\n\nFabio A. Cruz Sanchez, Alaa Hassan, Hakim Boudahoud\n\n\n\n\n\n\n\n\n\n\n\n\n\nPresent study aims to enhance the damping characteristics of the final part by incorporating viscoelastic materials into the primary structure using multi-material AM.\n\n\n\nResearch\n\n\n\n\n\n\nAug 29, 2023\n\n\nFangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe purpose of this study is to evaluate the environmental impact of a DRAM unit as a baseline scenario, compared to two scenarios of the virgin supply chain plastic filament used in the printing process.\n\n\n\nDRAM\n\n\nLCA\n\n\nDIY\n\n\n\n\n\n\nMay 16, 2023\n\n\nCristian Caceres Mendoza, Pavlo Santander Tapia, Fabio A. Cruz Sanchez, Nadège Troussier, Hakim Boudahoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article describes the design, assembly, and setup of the hardware, system architecture, and software of collectors that may be used by these recycling units.\n\n\n\nResearch\n\n\n\n\n\n\nJan 20, 2023\n\n\nAlex Gabriel, Fabio A. Cruz Sanchez\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3D Printing\n\n\nPrototyping\n\n\nDistributed Recycling\n\n\nTensile strength\n\n\nPLA\n\n\n\n\n\n\nJul 23, 2022\n\n\nVictor M. Lopez, Diego Carou, Fabio A. Cuz Sanchez\n\n\n\n\n\n\n\n\n\n\n\n\n\nA systematic literature review has been conducted in order to understand how the social, political, and technological dimensions should be integrated into the sustainability evaluation process of a potential recycling network.\n\n\n\nRecycling\n\n\nClosed loop supply chain\n\n\nReverse supply chain\n\n\nReverse logistics\n\n\nSustainability indicators\n\n\nSocial dimension\n\n\nTechnological dimension\n\n\nPolitical dimension\n\n\n\n\n\n\nJan 3, 2022\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe objective of this work is to evaluate the performance of the FFF and FGF techniques in terms of technical and economical dimensions at the desktop 3D printing scale. Recycled and virgin polylactic acid material was studied by using five different types of recycling feedstocks: commercial filament, pellets, distributed filament, distributed pellets, and shredded waste. The results showed that the mechanical properties from the FGF technique using same configurations showed no statistical differences to FFF samples.\n\n\n\nfused granular fabrication,\n\n\nRecycling\n\n\nPolylactic acid\n\n\nTensile properties\n\n\nDistributed recycling\n\n\n\n\n\n\n\n\n\nApr 24, 2020\n\n\nArthur Alexandre, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis paper aims to examine the current advances on thermoplastic recycling processes via additive manufacturing technologies proposing a closed recycling global chain for Distributed Recycling via Additive Manufacturing –DRAM-.\n\n\n\nRecycling\n\n\nClosed loop supply chain\n\n\nReverse supply chain\n\n\nReverse logistics\n\n\nSustainability indicators\n\n\nSocial dimension\n\n\nTechnological dimension\n\n\nPolitical dimension\n\n\n\n\n\n\nApr 15, 2020\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo, Joshua Pearce\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis article therefore explores the economic and environmental feasibility of this distributed plastic recycling approach from a logistics perspective, as a step towards its validation. To achieve this, an optimization mixed integer linear programming (MILP) model was used as an evaluation tool, representing a local closed loop supply chain (CLSC) network.\n\n\n\nClosed loop supply chain\n\n\nPlastic recycling\n\n\n3D printing\n\n\nCircular economy\n\n\nMixed integer linear programming\n\n\nDistributed recycling\n\n\n\n\n\n\nDec 3, 2019\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe contribution of the present study is twofold: first, a general methodology to evaluate the recyclability of thermoplastics used as feedstock in open-source 3D printing machines is proposed. Then, the proposed methodology is applied to the recycling study of polylactic acid (PLA) material addressed to the fused filament fabrication (FFF) technique, which is currently the most widely used.\n\n\n\n3D printing\n\n\nPlastic recycling\n\n\nMechanical properties\n\n\nPLA\n\n\nOpen source additive manufacturing\n\n\nRepRap\n\n\n\n\n\n\nAug 5, 2017\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo\n\n\n\n\n\n\n\n\n\n\n\n\n\nThis paper deals with the development, manufacture and testing of a geometrical benchmarking model (GBM) in order to evaluate the geometrical accuracy performance of open source 3D printers.\n\n\n\nopen source 3-dimensional printing\n\n\nMachine qualification\n\n\nRepRap\n\n\nBenchmarking\n\n\n\n\n\n\nJul 3, 2014\n\n\nFabio A. Cruz Sanchez, Hakim Boudaoud, Laurent Muller, Mauricio Camargo\n\n\n\n\n\n\nNo matching items"
+    "text": "Una de las principales cosas de escribir es poder sacar lo q"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Send me a note ",
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#goodbye-hugo-apéro",
+    "href": "blog/2023-09-29-hello-quarto/index.html#goodbye-hugo-apéro",
+    "title": "Escribiendo para no olvidar.",
     "section": "",
-    "text": "Send me a note \nYou can use this form to contact me about speaking engagements, collaborations, or simply to say hello.\nI also love hearing if my educational materials have been helpful for you, and how they could be improved — particularly if they could be made more accessible \n      \n\n\n\n\n\n\n\n\nFull Name \nEmail Address \nMessage\n\n\nSend message\n\n\n\n\n\nSign-up for my newsletter \nYou can use this form to sign up to receive a little e-mail note from me anytime I post something new on my website.\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "In 2019 I created my first website using blogdown and the Hugo Academic theme, and in 2021 I migrated that site to the Hugo Apéro theme created by Alison Hill. I even documented that trek in great detail 😅 to provide something resembling a paved path for others to use on their journey adopting this beautiful and functional theme. Over the past two years, my Apéro site became a wonderful place to cultivate a digital garden1. Now the time has come to say thank you, say goodbye, and travel down a new path. Enter Quarto."
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#why-port-to-quarto",
+    "href": "blog/2023-09-29-hello-quarto/index.html#why-port-to-quarto",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Why port to Quarto?",
+    "text": "Why port to Quarto?\nQuarto is a new and powerful technical publishing system in active development, natively friendly to a variety of programming languages and IDEs. There are countless features available in Quarto that I was interested in having access to in my website, so I’ll list just my top five:\n\nFlexibility in design. Quarto offers options for website navigation (top navigation vs. side navigation), “about” pages like the postcard landing pages that a lot of folks use in their distill sites, listing pages that are generated from a list of documents, among others. These components would act like modules that I could combine to design a site that truly fit my needs.\nFlexibility in content layout. With Quarto I would gain the ability to organize content in ways I hadn’t even dreamt of. Tables and figures could be laid out across multiple columns and rows as sub-tables and sub-figures of a panel. How much of the page the content took up would be up to me. Content could even go in the margin! 🤩 \nFreezing computations. Quarto would give me the option to freeze posts containing executable code. This was huge for me, because updating my blogdown site always produced a little bit of anxiety. I used to worry that blogdown might try to re-render old R Markdown blog posts and break things! 😱\nSite search. With content spread out over blog posts, talks, publications, and projects, I wanted site visitors (including myself!) to be able to keyword search for something in particular. Tags and categories in blogdown would get me part of the way there, but Quarto offers built-in search capability.\nEmbedding computations. Ok this is a feature that I learned about a week ago at posit::conf(2023) from Mine Çetinkaya-Rundel’s talk “Reproducible Manuscripts with Quarto.” Mine demo’d pulling a table from a .qmd file and a figure from an .ipynb file into the same manuscript .qmd file, without having to execute the source code again! 👀 This is a game changer for anyone compiling results from computations performed in different files, and in my personal site I could see it coming in handy if I have a series of blog posts with outputs that I want to cross-reference. Currently we can only embed computations from Jupyter notebook files, but hopefully we’ll be able to embed .qmd computations in Quarto v1.4! 🤞🏽\nI mean, it’s pretty cool that content can go in the margin, right??  It could even be a picture: The book page reads verdere expedities which is Dutch for “further expeditions”"
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#the-cost-of-porting",
+    "href": "blog/2023-09-29-hello-quarto/index.html#the-cost-of-porting",
+    "title": "Escribiendo para no olvidar.",
+    "section": "The cost of porting",
+    "text": "The cost of porting\nGaining the aforementioned Quarto functionality did not come without a cost. To me, the biggest cost was the aesthetics – the Hugo Apéro theme is quite lovely! – but I customized my Quarto site enough to reflect the design aspects I loved the most. More on styling later. Some other costs included:\n\n\nLoss of the sidebar layout. The Apéro theme has options for adding a nicely styled sidebar that I had been using for my blog. It included a featured image and details about the individual post like tags, categories, length, etc. All of this information is available in Quarto posts, it’s just organized a little differently.\nExample of the sidebar\n\n\n\n\nLoss of Utterances comments. Any interactions with folks through Utteranc.es comments did not transfer over, and I’ll miss them. The few comments on my site have been very kind (see example below) and I’ve really enjoy reading them!\nExample of Utterances comments\n\n\n\n\n\n\n\nUpdate: Oct. 12, 2023\n\n\n\n\n\nThanks to Emily Riederer, I’m happy to report this is a non-issue! See her tips in the comments at the end of the post, or on GitHub.\n\n\n\n\nHugo Apéro collections. The Apéro theme had a way of bundling together posts that were related into a collection of posts. Garrick and I used this feature for our user!2021 xaringan workshop and it worked well to organize learning materials for different sections of our workshop. If I wanted something like this in the future, I would probably use Quarto’s sidebar navigation feature like Andrew Bray did in his Rmd to Quarto workshop for rstudio::conf(2022).\nName pronunciation on the About page. Apéro had a built-in option for adding an audio clip under your name that you could use to help people learn how your name is pronounced. I never used this feature myself, but if I wanted to, I could look to Emil Hvitfeldt’s site as an example.\nRedirects. The Apéro theme gave me the option to define the combination of date information and URL slugs for each of my posts, and I had them set up as year-slug (e.g., blog/2023-hello-quarto). Quarto does not offer that functionality and strictly creates URLs for posts based on the filepath (e.g., blog/2023-09-29-hello-quarto). In order to continue using my year-month-day-slug naming convention for my post folders, I had to set up redirects from the old URLs to the new ones so that there wouldn’t be broken links sprinkled throughout the internet. More on redirects later."
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#designing-the-site",
+    "href": "blog/2023-09-29-hello-quarto/index.html#designing-the-site",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Designing the site",
+    "text": "Designing the site\nApéro had posts in the content folder but with Quarto I could pull blog, talk, publication, and project subfolders into the root folder.\nStructure\n\n\nQuarto\nHugo Apéro\n\n\n\n.\n├── _quarto.yml\n├── about\n├── blog\n├── talk\n├── publication\n├── project\n├── index.qmd\n└── silvia.Rproj\n\n\n.\n├── content\n│   ├── _index.md\n│   ├── about    \n│   ├── blog      \n│   ├── project\n│   ├── publication\n│   └── talk\n├── config.toml\n├── netlify.toml\n├── index.Rmd\n└── silvia.Rproj\n\n\n\nAbout & listing pages\nI decided to use a combination of about pages and listing pages to replicate the site structure I enjoyed in my Apéro site. I used an about page layout for both my home and about pages, and listing pages to generate a list of blog posts, talks, publications, and projects. There was also some custom CSS involved, but we haven’t gotten to that part of the blog post yet wink 😉 Dear reader, it’s at this point in my blog post drafting that I start realizing that what was meant to be a brief post is turning into a novel (sigh)\nOne of the aspects I liked about my Apéro site was that the About page highlighted the most recent posts from the blog, talk, publication, and project groups. In my Quarto site, I achieved this by including a one-entry listing grid for each group on my About page.\n\n\n\n\n\n\nCSS tip\n\n\n\n\n\nThese listing cards looked great on a wide screen but as the screen got narrower (think mobile device) the listing cards just became narrower and narrower 😂. I took care of this by tweaking the CSS so that the cards would wrap.\n\n\nassets/about.css\n\n  /* wrap lately section */\n  #lately .grid {\n    display: flex;\n    flex-wrap: wrap;\n  }\n\n  /* listings */\n  #blog, #talks, #publications, #projects {\n    flex-basis: 100% !important;\n  }\n\n source code\n\n\n\nContact form\nThe last structural piece I wanted to recreate from Apéro was a contact form. I saw a great example on Michael McCarthy’s Tidy Tales blog, site and did a little repo-diving to get ideas on how to organize the content. I ended up using the Bootstrap CSS Grid to layout the content exactly how I wanted to. See what I mean about Quarto offering a lot of flexibility in content layout?\n\n\n\n\n\n\nBones of the contact page\n\n\n\n\n\n\n\ncontact.qmd\n\n\n&lt;!-- start grid --&gt;\n::: {.grid} \n\n&lt;!-- column for the body text --&gt;\n::: {.g-col-5}\n\n# Send me a note\n\n&lt; Body text&gt;\n\n&lt; HTML code for social media icons &gt;\n\n:::\n\n&lt;!-- column for spacing --&gt;\n::: {.g-col-1}\n:::\n\n&lt;!-- column for the form --&gt;\n::: {.g-col-6}\n\n&lt; HTML embed code provided by Formspree &gt;\n\n:::\n\n:::\n&lt;!-- end grid --&gt;\n\n source code"
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#adapting-old-posts",
+    "href": "blog/2023-09-29-hello-quarto/index.html#adapting-old-posts",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Adapting old posts",
+    "text": "Adapting old posts\nYAML fields\nOk so once I figured out how to incorporate all of the structural elements I wanted, I had to deal with the (relatively small) challenge of porting my old posts to Quarto. Quarto was designed to be compatible with existing R Markdown documents, but I didn’t actually want it trying to re-render old R Markdown files so I had Quarto ignore those completely2 and render the Markdown version of each post instead3. There were also a handful of YAML fields that I had to remove or modify to play nicely with Quarto:\n\nRemove layout: (e.g., layout: single-sidebar)\nRemove publishDate\n\nRemove lastUpdated\n\nRemove featured (e.g., featured: yes)\nMerge categories with tags and keep tags\n\nAdd image (e.g. image: featured.png)\nPartials\nIf you’ve used Apéro you might have come to love the cute button links created from the links field in the YAML, like the one at the top of this post, pointing to the Quarto docs.\nlinks:\n- icon: journal-text\n  name: Quarto Docs\n  url: https://quarto.org/docs/websites/\nWell, these button links are not ready-made by Quarto, but lucky for me (us!), Garrick figured out a way to bring them in right where we I need them. I repo-dived and found that he modified an HTML partial for title blocks, which controls the layout and styling of the post title, description, and tags, shown at the top of the page.\nThe original title block partial has sections controlling the placement and styling of text provided in the title, subtitle, authors, date, and abstract fields of the document YAML.\nAs an example, line 2 might read:If there’s something in the title field of the YAML, give it a level 1 heading and style it with CSS class .title\n\n\ngithub.com/quarto-dev/quarto-cli/src/resources/formats/html/pandoc/title-block.html\n\n&lt;header id=\"title-block-header\"&gt;\n$if(title)$&lt;h1 class=\"title\"&gt;$title$&lt;/h1&gt;$endif$\n$if(subtitle)$\n&lt;p class=\"subtitle\"&gt;$subtitle$&lt;/p&gt;\n$endif$\n$for(author)$\n&lt;p class=\"author\"&gt;$author$&lt;/p&gt;\n$endfor$\n\n$if(date)$\n&lt;p class=\"date\"&gt;$date$&lt;/p&gt;\n$endif$\n$if(abstract)$\n&lt;div class=\"abstract\"&gt;\n&lt;div class=\"abstract-title\"&gt;$abstract-title$&lt;/div&gt;\n$abstract$\n&lt;/div&gt;\n$endif$\n&lt;/header&gt;\n\nThe modified partial  includes some additional sections but I’ll break down the one for links.\nThere’s more styling going on in the modified partial, but starting on line 6, the structure for the link buttons is effectively:If the links field is populated in the YAML, create an HTML container styled by some CSS, and give it some specific HTML properies.Then, for each sub-item of the links field: create a hyperlink from the url sub-item, apply some CSS classes to create the button, add a Bootstrap icon defined by the icon sub-item, and finally add hyperlink text defined by the name sub-item.\n\n\n_partials/title-block-link-buttons/title-block.html\n\n&lt;header id=\"title-block-header\" class=\"quarto-title-block default page-columns\"&gt;\n...\n$if(links)$\n&lt;div class=\"mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start\" role=\"group\" aria-label=\"Links\"&gt;\n$for(links)$\n&lt;a href=\"$links.url$\" class=\"btn btn-secondary text-capitalize\"&gt;&lt;i class=\"bi bi-$links.icon$ me-1\"&gt;&lt;/i&gt;$links.name$&lt;/a&gt;\n$endfor$\n&lt;/div&gt;\n$endif$\n...\n&lt;/header&gt;"
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#styling-the-site",
+    "href": "blog/2023-09-29-hello-quarto/index.html#styling-the-site",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Styling the site",
+    "text": "Styling the site\nSCSS variables\nI may have published my brand new Quarto site in the fall of 2023, but I had actually taken my first go at porting it from Apéro in the fall of 2022. In an attempt to replicate the styling of my old site I tried to strong-arm my Quarto site into using tachyons4, and I wrote way too much custom CSS in the process 😩.\nSomething didn’t feel right about it, so I took a break and came back to my in-progress Quarto site several months later – outside of the Quarto release craze, and with the perspective that I wanted to work with the built-in theming capabilities, rather than against them 😌. This time around I leaned into the Bootstrap SCSS variables, and added custom styling as needed.\nTo be more specific, I created a custom theme 5, and populated it with definitions for some of the built-in Bootstrap Sass variables. If you poke around my custom theme, you will notice that some colors are defined by color variables that start with $spc-. These are variables pointing to colors that I’ve defined elsewhere, and they can be replaced with a hex code of your choosing! 🎨\n\n\nassets/silvia-theme.scss\n\n/*-- scss:defaults --*/\n\n// Colors\n$primary:                    $spc-primary-light;\n$secondary:                  $spc-secondary;\n\nThe Sass variables listed in the documentation got me pretty far, but there were still elements of my site using default colors and styling that I wanted to change. So I repo-dived to learn about additional Quarto Bootstrap variables and rules:\n\nBootstrap variables: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/_bootstrap-variables.scss\n\nBootstrap rules: https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/_bootstrap-rules.scss\n\n\nTo give you an example, someone in the Quarto Discussions forum asked how to set the color of block quotes, figure captions, and outlines, something not defined in the documentation. One of the replies suggested using the browser’s inspector to find the CSS rule applied to the element in question, we’ll say the figure caption, and then looking at how Quarto implemented that rule. I’ll make that process a little more explicit here and use the figure caption as an example:\n\nUse the browser inspector to highlight a figure caption\nThe inspector will reveal that the element is styled by CSS class .figure-caption\nRun a keyword search for “figure-caption” in the Bootstrap variables file. This will yield no results 🤔\n\nRun the same keyword search in the Bootstrap rules file – success! We have a clue, which is that .figure-caption is styled by a variable named body-secondary 🔍\n.panel-caption,\n.figure-caption,\n.subfigure-caption,\n.table-caption,\nfigcaption.quarto-float-caption,\ncaption {\n  font-size: 0.9rem;\n  @include body-secondary;\n}\n\n\nDefine your own body-secondary color variable in your custom theme file\n\n\nassets/custom-theme.scss\n\n/*-- scss:defaults --*/\n\n$body-secondary: #6C757D;\n\n\nEnjoy the fruits of your labor as a CSS detective 🕵🏽‍♀️\nIndividual page styling\nIn some cases, I wanted to style individual pages differently than I was styling my entire site. Poking around Garrick’s repo (again!), I learned that you can reference CSS stylesheets in the YAML of any particular document. I used this approach to separately style my Home, About, and listing pages.\n\n\nindex.qmd\n\n\n&lt;br&gt;&lt;br&gt;\n\n\n\n\n\nindex.qmd  source code\n\n\nassets/index.css  source code\n\nBackground image for title blocks\nOk one of the aesthetic pieces I was excited to add to my Quarto site that I didn’t have in my old site is a featured image at the top of each post. I was inspired by Matt Worthington’s site while I was reading one of his excellent blog posts on a workflow for interactive maps in R – I loved that the title block included an image in the background! 🤩\nAfter some web inspecting and repo-diving in Matt’s website repo I came up with some styling that I could apply to the title block of each post. It took modifying the title block partial described earlier, and adding some CSS to my custom theme.\nFor styling that I wanted to apply uniformly to all post title blocks, I created a .featured-image CSS class in my custom theme:\nDon’t miss the code annotations for this code chunk! 👀 Such a cool feature!\n\n\nassets/custom-theme.scss\n\n  // style background image on posts\n  .featured-image {\n1    background-size: cover;\n2    background-position: center;\n3    color: white;\n4    box-shadow: inset 0 0 0 1000px rgba(0,38,66,0.75);\n  }\n\n\n1\n\nHave the image cover the background\n\n2\n\nCenter the image\n\n3\n\nMake the overlaying text color white\n\n4\n\nAdd shadowing that gives the appearance of a dark overlay\n\n\nAlright, but why didn’t I use a background-image property to define the image? If I define the background image in my .featured-image class then that is the image that’s going to show up in all of the posts across my site. I want the title block of each post to display the featured image belonging to each individual post. That’s where the partial comes back in.\n\n\n_partials/title-block-link-buttons/title-block.html\n\n&lt;div \nid=\"title-block-header-title\" \nclass=\"quarto-title page-columns page-full page-layout-full featured-image p-4\" \nstyle=\"background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);\"&gt;\n...\n&lt;/div&gt;\n\nAlong with some other CSS classes, the div container for the title block is styled with the featured-image class defined earlier, using the class= property. In addition, the div itself is styled using the style= property, and that’s where I defined the background image. The partial will look for a featured image of some kind either in the same folder as the post, or in the parent folder, and display it in the background of the title block.\nThis is a hacky way of getting what I really want which is for the partial to check for a featured image in the order I specify and then just stop once it finds one. As it stands right now, the styling attempts to layer on all three images, with the first image on the top and the last image on the bottom. This means that I get a warning every time I preview or render my site because the partial can’t find one or two of the other urls, but I’m ok with that!\n\n\n\n\n\n\nExample warning\n\n\n\n/blog/2023-09-29-hello-quarto/featured.png (404: Not Found)"
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#setting-up-redirects",
+    "href": "blog/2023-09-29-hello-quarto/index.html#setting-up-redirects",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Setting up redirects",
+    "text": "Setting up redirects\nResources\nLast but not least, I can’t finish this blog post without talking about the necessary task of redirecting old Apéro URLs to new Quarto ones 6. Many thanks to Danielle Navarro and Tom Mock for documenting their solutions for automatically generating a _redirects file with each render of the site.\n\nDanielle’s blog post: Notes from a data witch - Porting a distill blog to quarto\n\nTom’s source code: index.qmd - The MockUp\n\n\nI adapted their code to (1) fit my site, which has multiple folders of posts that all need redirects, and (2) combine these automatically generated redirects with ones I had already defined manually. I placed this code within my home page index.qmd file  and I specified freeze: false in the YAML so that the code would run each time I rendered the site. The following sections will take a look at the code piece by piece.\nImporting manual redirects\nThe first step imports the manually-defined redirects that I had already been using in my old site. These redirects primarily have the task of redirecting my rbind.io domain to my custom domain silviacanelon.com.\n\n\n\nindex.qmd\n\nmanual_redirects &lt;-\n  readr::read_table(here::here(\"static\", \"_manualredirects.txt\"),\n                    col_names = FALSE) |&gt; \n  dplyr::mutate(redirect = paste0(X1, \" \", X2, \" \", X3))\n\nmanual_redirects &lt;- manual_redirects$redirect\n\nhead(manual_redirects)\n\n\n[1] \"https://silvia.rbind.io/authors/silvia/avatar.png https://silviacanelon.com/about/sidebar/avatar.png 301!\"\n[2] \"https://silvia.rbind.io/post/* https://silviacanelon.com/blog/:splat 301!\"                                \n[3] \"https://silvia.rbind.io/blog/* https://silviacanelon.com/blog/:splat 301!\"                                \n[4] \"https://silvia.rbind.io/talk/* https://silviacanelon.com/talk/:splat 301!\"                                \n[5] \"https://silvia.rbind.io/project/* https://silviacanelon.com/project/:splat 301!\"                          \n[6] \"http://silvia.rbind.io/* https://silviacanelon.com/:splat 301!\"                                           \n\n\nListing subdirectories\nThe next step defines a function that obtains a list of subdirectories, iterates it over the four groups of posts in my site (blog posts, talks, publications, and projects), and compiles the files into a data frame.\n\n\n\nindex.qmd\n\n# function: obtain list of post paths\nlist_paths &lt;- function(folder) {\n  posts &lt;-\n    list.dirs(\n    path = c(here::here(folder)),\n    full.names = FALSE,\n    recursive = FALSE\n    ) |&gt; \n    tibble::as_tibble_col(column_name = \"path\")  |&gt;\n    dplyr::mutate(folder = folder)\n}\n\n# define post folders\nfolders &lt;- c(\"blog\", \"project\", \"publication\", \"talk\")\n\n# list post paths by folder\nposts &lt;- purrr::map(folders, list_paths) |&gt; purrr::list_rbind()\n\nhead(posts)\n\n\n\n  \n\n\n\nDefining redirects\nThis next chunk removes the month and day from year-month-day-slug so that I’m left with shorter paths with the format year-slug, and uses these paths and the folders they are housed in to create redirects.\nThe resulting redirects will point the short year-slug link to this blog post:\nhttps://silviacanelon.com/blog/2023-hello-quarto\nTo the longer year-month-day-slug Quarto link to this post:\nhttps://silviacanelon.com/blog/2023-09-29-hello-quarto\n\n# extract short paths and create redirects\nposts &lt;- \n  posts |&gt; \n  dplyr::mutate(\n    # extract the year-slugs\n    short_path = stringr::str_remove(path, \"(?!\\\\d{4}-)\\\\d{2}-\\\\d{2}-(?!\\\\d)\"),\n    # create short paths\n    short_path = paste0(folder, \"/\", short_path),\n    # create lines to insert to a netlify _redirect file\n    redirects = paste0(\"/\", short_path, \" \", \"/\", folder, \"/\", path)\n    )\n\nhead(posts)\n\n\n  \n\n\n\nWriting redirects file\nThe last step takes the redirects from the data frame produced in the previous step, combines them with the manual redirects, and writes them to a new text file _redirects. This file is written into the _site folder where my Quarto site is rendered, and where Netlify will know to find it.\n\n\n\nindex.qmd\n\n# extract redirects\nredirects &lt;- posts$redirects\n\n# combine with manual redirects\nredirects_combined &lt;- c(manual_redirects, redirects)\n\n# write the _redirect file\nwriteLines(redirects_combined, here::here(\"_site\", \"_redirects\"))"
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#fin",
+    "href": "blog/2023-09-29-hello-quarto/index.html#fin",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Fin",
+    "text": "Fin\nNow that it’s been over a year since Quarto made its debut, there are so many wonderful blog posts walking folks through how to create a Quarto site. My hope is that the notes I took in this blog post help provide some stepping stones for folks making the transition from blogdown sites, and offer some ideas for what is possible with the flexibility of this new publishing framework. I, for one, am looking forward to growing my digital garden with Quarto tools 🌱."
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#acknowledgments",
+    "href": "blog/2023-09-29-hello-quarto/index.html#acknowledgments",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nFeatured photo by Annelies Geneyn on Unsplash."
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#footnotes",
+    "href": "blog/2023-09-29-hello-quarto/index.html#footnotes",
+    "title": "Escribiendo para no olvidar.",
+    "section": "Notas",
+    "text": "Notas\n\nSee also Digital gardens let you cultivate your own little bit of the internet | MIT Technology Review↩︎\nBy adding an underscore prefix (e.g., _index.Rmarkdown)↩︎\nI.e., index.markdown↩︎\nA CSS design system used in the Hugo Apéro theme: https://tachyons.io↩︎\nFor more on custom theming, see Quarto - HTML Theming and Quarto - More About Quarto Themes↩︎\nDon’t skip this step! People will almost certainly have shared one or more of your posts somewhere on the internet, and it helps everyone if you can point them to the right spot↩︎"
+  },
+  {
+    "objectID": "project/2024-06-16-ccd-sips/index.html",
+    "href": "project/2024-06-16-ccd-sips/index.html",
+    "title": "Philly Center City District SIPS: An Interactive Map",
+    "section": "",
+    "text": "Philly’s Center City District posted a list of restaurants and bars participating in Philly’s 2024 CCD SIPS. CCD SIPS is a series of summer Wednesday evenings (5-7pm) filled with happy hour specials, between June 5th and August 28th.\nInformation from the website was scarped in order to present the information as a map. You can click or tap on the circle map markers to see information about each restaurant/bar along with a direct link to their posted happy hour specials.\nCheck out the link at the top of this post for a larger version of the interactive map below, search the table below, or take a look at CCD SIPS maps from past years."
+  },
+  {
+    "objectID": "project/2024-06-16-ccd-sips/index.html#map-view",
+    "href": "project/2024-06-16-ccd-sips/index.html#map-view",
+    "title": "Philly Center City District SIPS: An Interactive Map",
+    "section": "Map view",
+    "text": "Map view"
+  },
+  {
+    "objectID": "project/2024-06-16-ccd-sips/index.html#table-view",
+    "href": "project/2024-06-16-ccd-sips/index.html#table-view",
+    "title": "Philly Center City District SIPS: An Interactive Map",
+    "section": "Table view",
+    "text": "Table view"
+  },
+  {
+    "objectID": "project/2024-06-16-ccd-sips/index.html#past-years",
+    "href": "project/2024-06-16-ccd-sips/index.html#past-years",
+    "title": "Philly Center City District SIPS: An Interactive Map",
+    "section": "Past years",
+    "text": "Past years\n\n\n\n\n\n\n\n\n\n\n\n\n2023\n\n\n\nWeb analytics\n\n1,760 unique visitors in the United States visited this post 2,330 times between June 7th and August 30th, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2019\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\n\n  \n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "talk/index.html",
+    "href": "talk/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Considering Equity in Data Visualization\n\n\nInvited talk for the Leonard Davis Institute of Health Economics Summer Undergraduate Mentored Research Program (SUMR)\n\n\n\nResearch\n\n\n\n\n\n\nJul 10, 2024\n\n\nSilvia Canelón, Emily Seeburger\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "blog/2023-09-29-hello-quarto/index.html#escribir-y-leer",
+    "href": "blog/2023-09-29-hello-quarto/index.html#escribir-y-leer",
+    "title": "Escribiendo para no olvidar.",
+    "section": "",
+    "text": "Una de las principales cosas de escribir es poder sacar lo q"
+  },
+  {
+    "objectID": "blog/meditaciones/2024-10-10-meditaciones/index.html",
+    "href": "blog/meditaciones/2024-10-10-meditaciones/index.html",
+    "title": "Meditaciones: Lo importante es comenzar",
+    "section": "",
+    "text": "Ten presente, pues, estas prescripciones y deja a un lado todo lo demás. No olvides tampoco que la vida se limita para cada uno de nosotros al tiempo presente, que sólo es un fugaz intervalo; el resto de la existencia no existe, o es incierto. Por consiguiente, la vida de todo ser no representa casi nada; el lugar donde transcurre no es más que un rincón insignificante de la Tierra, y la reputación más duradera que uno deja tras de sí apenas si vale algo, pues se transmite mediante una sucesión a individuos insignificantes que, a su vez deben morir también, que no se conocen a ellos mismos y que, como es natural, conocen mucho menos todavía al que murió hace mucho tiempo.\nMeditaciones, Libro III\n\nLos grandes cambios en la vida comienzan con acciones concretas. Acciones de hecho pequeñas. Muy pequeñas, que casi son imperceptibles para nuestra conciencia tan agitada en un mundo que no tiene cabida para la reflexión en silencio. Y aun así, estos cambios en silencio representan los gigantescos terremotos que hacen evolucionar las trayectorias de vida.\nPara mí, este punto de inflexión se resume en escribir. Cerrar los ojos, mirarme al interior y poder deslizar mis dedos en un teclado donde intento no poner freno alguno a lo que estoy poniendo en la realidad. Se resume en sacar de la cabeza todas las lanas enredaderas que pueden hacer dentro de un cerebro que lidia por encontrar un propósito en la vida. Porque la vida es corta. Está hecha de esos segundos que llamamos el presente. Y que si no somos conscientes, se pasan sin ser admirados en su justo valor.\nEscribir es aclarar y escuchar en los pensamientos. Y al momento de escribir esto, mis ojos lloran de poder exprimir lo que siento en esta época de mi vida de Octubre 2024. Un periodo donde cambios pequeños pueden tener una incidencia gigante en mi existencia y paso por esta tierra.\nEste escrito no tiene más propósito que poder comenzar con algo. Empezar con cosas insignificantes. El acto de empezar es como la semilla que se pone en un jardín. Nunca seremos totalmente en control del resultado. Sin embargo, en honor al estoicismo, quiero hacer la acción que hace parte de mi control. Tiene el propósito de poder sacar afuera, valga la redundancia, las cosas que se llevan dentro. Tiene como objetivo aclarar un camino hacia donde apuntar. Ya que, durante el trayecto que tiene mi existencia he perdido el rumbo.\nLo llamo meditaciones en honor al Estoicismo, que aunque es una filosofía que resuena en mi, siento qué es un camino de vida a seguir.\n\n\n\n Volver arribaReutilizaciónCC BY-SA 4.0"
   }
 ]

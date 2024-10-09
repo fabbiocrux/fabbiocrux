@@ -44,7 +44,7 @@ resources:
 
 
 ::: {#hero-heading}
-Hello there! Thanks for passing by.
+Hello there! 👋.
 
 I work specifically at the  [Research team on innovation process -ERPI- Laboratory](https://erpi.univ-lorraine.fr/) and teach at the [National School in Industrial Systems Engineering and Innovation -ENSGSI School-](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy - France.
 

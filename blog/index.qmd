@@ -1,14 +1,10 @@
 ---
-title: "Meeting People Where They R"
+title: "Research · Life · random thoughts "
 description: |
-  This is my blog where I practice sharing my curiosity about R.<br>
-  It includes notes and tutorials for my future self and hopefully also for you.<br><br>
-  {{< bi substack >}} Sign up for my [newsletter](https://spcanelon.substack.com/) to receive updates about new posts.
+  This is my blog where I write my curiosity about many things.
 listing: 
   contents: 
     - "**/index.qmd"
-    - "**/index.markdown" 
-    - "**/index.md"
   sort: "date desc"
   type: default
   categories: false
@@ -34,3 +30,5 @@ resources:
   - ../assets/listing-default.css 
 #include-after-body: ../assets/silvia/subscribe.html
 ---
+
+

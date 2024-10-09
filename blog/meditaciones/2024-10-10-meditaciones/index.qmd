@@ -1,0 +1,33 @@
+---
+lang: es
+title: 'Meditaciones: Lo importante es comenzar'
+author: Fabio Cruz
+date: '2024-10-10'
+date-modified: '2024-10-10'
+image: featured.jpg
+categories:
+  - Meditaciones
+subtitle: >
+  Dia 1 de escribir para no olvidar
+description: ''
+code-annotations: below
+df-print: paged
+---
+
+:::{.blockquote}
+Ten presente, pues, estas prescripciones y deja a un lado todo lo demás. 
+No olvides tampoco que la vida se limita para cada uno de nosotros al tiempo presente, que sólo es un fugaz intervalo; el resto de la existencia no existe, o es incierto. Por consiguiente, la vida de todo ser no representa casi nada; el lugar donde transcurre no es más que un rincón insignificante de la Tierra, y la reputación más duradera que uno deja tras de sí apenas si vale algo, pues se transmite mediante una sucesión a individuos insignificantes que, a su vez deben morir también, que no se conocen a ellos mismos y que, como es natural, conocen mucho menos todavía al que murió hace mucho tiempo.
+
+**Meditaciones, Libro III**
+:::
+
+
+Los grandes cambios en la vida comienzan con acciones concretas. Acciones de hecho pequeñas. Muy pequeñas, que casi son imperceptibles para nuestra conciencia tan agitada en un mundo que no tiene cabida para la reflexión en silencio. Y aun así, estos cambios en silencio representan los  gigantescos terremotos que hacen evolucionar las trayectorias de vida. 
+
+Para mí, este punto de inflexión se resume en escribir. Cerrar los ojos, mirarme al interior y poder deslizar mis dedos en un teclado donde intento no poner freno alguno a lo que estoy poniendo en la realidad. Se resume en sacar de la cabeza todas las lanas enredaderas que pueden hacer dentro de un cerebro que lidia por encontrar un propósito en la vida. Porque la vida es corta. Está hecha de esos segundos que llamamos *el presente*. Y que si no somos conscientes, se pasan sin ser admirados en su justo valor. 
+
+Escribir es aclarar y escuchar en los pensamientos. Y al momento de escribir esto, mis ojos lloran de poder exprimir lo que siento en esta época de mi vida de Octubre 2024. Un periodo donde cambios pequeños pueden tener una incidencia gigante en mi existencia y paso por esta tierra. 
+
+Este escrito no tiene más propósito que poder comenzar con algo. Empezar con cosas insignificantes. El acto de empezar es como la semilla que se pone en un jardín. Nunca seremos totalmente en control del resultado. Sin embargo, en honor al estoicismo, quiero hacer la acción que hace parte de mi control. Tiene el propósito de poder sacar afuera, valga la redundancia, las cosas que se llevan dentro. Tiene como objetivo aclarar un camino hacia donde apuntar. Ya que, durante el trayecto que tiene mi existencia he  perdido el rumbo. 
+
+Lo llamo meditaciones en honor al *Estoicismo*, que aunque es una filosofía que resuena en mi, siento qué es un camino de vida a seguir. 

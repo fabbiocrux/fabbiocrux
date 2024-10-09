@@ -1,6 +1,6 @@
 ---
 title: "Fabio A. Cruz Sanchez"
-subtitle: Assistant Prof.,<br>Université de Lorraine. 
+subtitle: Assistant Proffesor <br> Université de Lorraine. 
 image: sidebar/fabio-cruz.jpg
 image-alt: "Smiling man, dark eyes, and dark long wavy hair styled to one side"
 about:
@@ -9,22 +9,22 @@ about:
   image-shape: rounded
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - icon: substack
-      href: https://spcanelon.substack.com
+    # - text: "{{< fa universal-access >}}"
+    #   aria-label: "Accessibility statement"
+    #   href: accessibility.qmd
+    # - icon: substack
+    #   href: https://spcanelon.substack.com
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
+      href: https://github.com/fabbiocrux
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://linkedin.com/in/fabbiocrux
     # - text: "{{< fa brands bluesky >}}" 
     #   aria-label: "Bluesky"
     #   href: https://bsky.app/profile/silviacanelon.com
-    - icon: mastodon
-      href: https://hachyderm.io/@spcanelon
+    # - icon: mastodon
+    #   href: https://hachyderm.io/@spcanelon
     - text: "{{< ai orcid >}}"
       href: https://orcid.org/0000-0001-8529-5327
     - text: "{{< ai google-scholar >}}"
@@ -96,11 +96,15 @@ resources:
 ::: {#hero-heading}
 <div class="h1">Hey, I'm happy you're here</div>
 
-I work at the Université de Lorraine in France in topics related to the mechanical and innovation management engineering. 
+I work at the Université de Lorraine in France in topics related to the mechanical and innovation engineering. 
 
-My research interests include applications of biomedical and spatial data science in the public and population health fields. 
 
-I work on projects that aims to deep study the limits of the distributed recycling approach as a short-medium strategy for the plastic waste problem.   Learn more about my research interests in [publications](/publication).
+The objet of my research is the concept of [distributed recycling process](). 
+The idea is to better understand the limits of this approach as a short/medium strategy of the plastic waste problem.
+I am very interested to work with fantastic people to make a holistic analysis of this topic, by doing research from technical, logistical and systemic evaluation.   
+
+Learn more about my research interests in [publications](/publication).
+
 
 Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 

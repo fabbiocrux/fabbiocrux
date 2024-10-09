@@ -1,119 +1,14 @@
 [
   {
-    "listing": "/talk/index.html",
+    "listing": "/project/index.html",
     "items": [
-      "/talk/2024-07-10-data-equity-ldi/index.html",
-      "/talk/2024-03-26-env-justice/index.html",
-      "/talk/2023-10-11-epis4equity/index.html",
-      "/talk/2023-03-09-penn-community-scholars/index.html",
-      "/talk/2022-11-10-thinking-big/index.html",
-      "/talk/2022-09-29-ccd-sips/index.html",
-      "/talk/2022-04-27-dbei-research-day/index.html",
-      "/talk/2022-02-11-tdw-ehr-lessons/index.html",
-      "/talk/2021-07-07-presentable-user2021/index.html",
-      "/talk/2021-05-04-data-viz-accessibility/index.html",
-      "/talk/2021-03-23-amia-informatics-summit/index.html",
-      "/talk/2021-03-16-xaringan-deploy-demo/index.html",
-      "/talk/2021-02-18-r-teaching-panel/index.html",
-      "/talk/2020-12-17-introduccion-xaringan/index.html",
-      "/talk/2020-11-03-xaringan-basics-and-beyond/index.html",
-      "/talk/2020-08-31-tour-of-the-tidyverse/index.html"
-    ]
-  },
-  {
-    "listing": "/about/index.html",
-    "items": [
-      "/blog/2023-09-29-hello-quarto/index.html",
-      "/talk/2024-07-10-data-equity-ldi/index.html",
-      "/talk/2024-03-26-env-justice/index.html",
-      "/talk/2023-10-11-epis4equity/index.html",
-      "/talk/2023-03-09-penn-community-scholars/index.html",
-      "/talk/2022-11-10-thinking-big/index.html",
-      "/talk/2022-09-29-ccd-sips/index.html",
-      "/talk/2022-04-27-dbei-research-day/index.html",
-      "/talk/2022-02-11-tdw-ehr-lessons/index.html",
-      "/talk/2021-07-07-presentable-user2021/index.html",
-      "/talk/2021-05-04-data-viz-accessibility/index.html",
-      "/talk/2021-03-23-amia-informatics-summit/index.html",
-      "/talk/2021-03-16-xaringan-deploy-demo/index.html",
-      "/talk/2021-02-18-r-teaching-panel/index.html",
-      "/talk/2020-12-17-introduccion-xaringan/index.html",
-      "/talk/2020-11-03-xaringan-basics-and-beyond/index.html",
-      "/talk/2020-08-31-tour-of-the-tidyverse/index.html",
-      "/publications/articles/2024-01-28-ferney/index.html",
-      "/publications/articles/2024-01-05-catalina/index.html",
-      "/publications/articles/2023-11-23-fablabs-ti/index.html",
-      "/publications/articles/2023-08-28-fangkai/index.html",
-      "/publications/articles/2023-05-16-cristian/index.html",
-      "/publications/articles/2023-01-20-alex/index.html",
-      "/publications/articles/2022-07-27-diego/index.html",
-      "/publications/conferences/2022-01-20-fangkai/index.html",
-      "/publications/articles/2022-01-03-pavlo/index.html",
-      "/publications/articles/2020-04-24-arthur/index.html",
-      "/publications/articles/2020-04-15-fabio/index.html",
-      "/publications/articles/2019-12-03-pavlo/index.html",
-      "/publications/conferences/2018-06-01-pavlo/index.html",
-      "/publications/conferences/2018-06-01-ramses/index.html",
-      "/publications/articles/2017-08-05-fabio/index.html",
-      "/publications/thesis/2016-08-05-fabio/index.html",
-      "/publications/conferences/2015-08-05-fabio/index.html",
-      "/publications/articles/2014-04-15-fabio/index.html",
-      "/project/2024-06-16-ccd-sips/index.html",
-      "/project/2023-04-18-r-for-the-rest-of-us/index.html",
-      "/project/2021-07-07-presentable-user2021/index.html",
-      "/project/2021-05-04-tidy-tuesday-alt-text/index.html",
-      "/project/2021-01-01-useR-2021/index.html",
-      "/project/2020-12-28-teaching-tech-together-es/index.html",
-      "/project/2020-12-09-xaringan/index.html",
-      "/project/2020-11-03-xaringan-nhs-r/index.html",
-      "/project/2020-10-29-nhsrtheme/index.html",
-      "/project/2020-03-25-data-hack-opioid/index.html"
+      "/project/2024-06-16-ccd-sips/index.html"
     ]
   },
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/2023-09-29-hello-quarto/index.html"
-    ]
-  },
-  {
-    "listing": "/publication/index.html",
-    "items": [
-      "/publication/articles/2014-04-15-fabio/index.html",
-      "/publication/conferences/2015-08-05-fabio/index.html",
-      "/publication/2024-01-28-ferney/index.html",
-      "/publication/2024-01-05-catalina/index.html",
-      "/publication/2023-08-28-fangkai/index.html",
-      "/publication/2023-11-23-fablabs-ti/index.html",
-      "/publication/2023-01-20-alex/index.html",
-      "/publication/2023-05-16-cristian/index.html",
-      "/publication/2022-07-27-diego/index.html",
-      "/publication/2022-01-20-fangkai/index.html",
-      "/publication/2022-01-03-pavlo/index.html",
-      "/publication/2020-04-24-arthur/index.html",
-      "/publication/2020-04-15-fabio/index.html",
-      "/publication/2019-12-03-pavlo/index.html",
-      "/publication/2018-06-01-ramses/index.html",
-      "/publication/2018-06-01-pavlo/index.html",
-      "/publication/2017-08-05-fabio/index.html",
-      "/publication/2016-08-05-fabio/index.html",
-      "/publication/2015-08-05-fabio/index.html",
-      "/publication/2014-04-15-fabio/index.html"
-    ]
-  },
-  {
-    "listing": "/project/index.html",
-    "items": [
-      "/project/2024-06-16-ccd-sips/index.html",
-      "/project/2023-04-18-r-for-the-rest-of-us/index.html",
-      "/project/2021-07-07-presentable-user2021/index.html",
-      "/project/2021-05-04-tidy-tuesday-alt-text/index.html",
-      "/project/2021-01-01-useR-2021/index.html",
-      "/project/2020-12-28-teaching-tech-together-es/index.html",
-      "/project/2020-12-09-xaringan/index.html",
-      "/project/2020-11-03-xaringan-nhs-r/index.html",
-      "/project/2020-10-29-nhsrtheme/index.html",
-      "/project/2020-03-25-data-hack-opioid/index.html"
+      "/blog/meditaciones/2024-10-10-meditaciones/index.html"
     ]
   },
   {
@@ -137,6 +32,42 @@
       "/publications/conferences/2018-06-01-ramses/index.html",
       "/publications/conferences/2015-08-05-fabio/index.html",
       "/publications/thesis/2016-08-05-fabio/index.html"
+    ]
+  },
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/blog/2023-09-29-hello-quarto/index.html",
+      "/talk/2024-07-10-data-equity-ldi/index.html",
+      "/publications/articles/2024-01-28-ferney/index.html",
+      "/publications/articles/2024-01-05-catalina/index.html",
+      "/publications/articles/2023-11-23-fablabs-ti/index.html",
+      "/publications/articles/2023-08-28-fangkai/index.html",
+      "/publications/articles/2023-05-16-cristian/index.html",
+      "/publications/articles/2023-01-20-alex/index.html",
+      "/publications/articles/2022-07-27-diego/index.html",
+      "/publications/conferences/2022-01-20-fangkai/index.html",
+      "/publications/articles/2022-01-03-pavlo/index.html",
+      "/publications/articles/2020-04-24-arthur/index.html",
+      "/publications/articles/2020-04-15-fabio/index.html",
+      "/publications/articles/2019-12-03-pavlo/index.html",
+      "/publications/conferences/2018-06-01-pavlo/index.html",
+      "/publications/conferences/2018-06-01-ramses/index.html",
+      "/publications/articles/2017-08-05-fabio/index.html",
+      "/publications/thesis/2016-08-05-fabio/index.html",
+      "/publications/conferences/2015-08-05-fabio/index.html",
+      "/publications/articles/2014-04-15-fabio/index.html",
+      "/project/2024-06-16-ccd-sips/index.html"
+    ]
+  },
+  {
+    "listing": "/project/2024-06-16-ccd-sips/index.html",
+    "items": []
+  },
+  {
+    "listing": "/talk/index.html",
+    "items": [
+      "/talk/2024-07-10-data-equity-ldi/index.html"
     ]
   }
 ]

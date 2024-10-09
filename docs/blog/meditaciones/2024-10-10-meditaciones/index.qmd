@@ -1,0 +1,21 @@
+---
+lang: es
+title: 'Meditaciones: Lo importante es comenzar'
+author: Fabio Cruz
+date: '2024-10-10'
+date-modified: '2024-10-10'
+#image: featured.jpg
+categories:
+  - Meditaciones
+subtitle: >
+  Dia 1 de escribir para no olvidar
+description: ''
+
+code-annotations: below
+df-print: paged
+---
+
+
+Ten presente, pues, estas prescripciones y deja a un lado todo lo demás. 
+No olvides tampoco que la vida se limita para cada uno de nosotros al tiempo presente, que sólo es un fugaz intervalo; el resto de la existencia no existe, o es incierto. Por consiguiente, la vida de todo ser no representa casi nada; el lugar donde transcurre no es más que un rincón insignificante de la Tierra, y la reputación más duradera que uno deja tras de sí apenas si vale algo, pues se transmite mediante una sucesión a individuos insignificantes que, a su vez deben morir también, que no se conocen a ellos mismos y que, como es natural, conocen mucho menos todavía al que murió hace mucho tiempo.
+Meditaciones, Libro III

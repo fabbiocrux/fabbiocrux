@@ -14,20 +14,20 @@ toc-title: Table of contents
 toc-location: right
 
 # Default fields for citation
-citation: true
-appendix-cite-as: display
+#citation: true
+#appendix-cite-as: display
 
 # Wrap overflow code
 format: 
   html: 
     code-overflow: wrap
-    #template-partials: 
-    #  - ../_partials/title-block-link-buttons/title-block.html
+    template-partials: 
+      - ../_partials/title-block-link-buttons/title-block.html
 
 # Enable comments
-comments: 
-  utterances:
-    repo: spcanelon/silvia
-    issue-term: title
-    theme: boxy-light
-    label: "comments :crystal_ball:"
+# comments: 
+#   utterances:
+#     repo: spcanelon/silvia
+#     issue-term: title
+#     theme: boxy-light
+#     label: "comments :crystal_ball:"
