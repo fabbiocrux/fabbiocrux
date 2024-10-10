@@ -6,12 +6,6 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/meditaciones/2024-10-10-meditaciones/index.html"
-    ]
-  },
-  {
     "listing": "/publications/index.html",
     "items": [
       "/publications/articles/2024-01-28-ferney/index.html",
@@ -58,6 +52,12 @@
       "/publications/conferences/2015-08-05-fabio/index.html",
       "/publications/articles/2014-04-15-fabio/index.html",
       "/project/2024-06-16-ccd-sips/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/meditaciones/2024-10-10-meditaciones/index.html"
     ]
   },
   {

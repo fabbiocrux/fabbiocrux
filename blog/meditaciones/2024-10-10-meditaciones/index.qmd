@@ -12,6 +12,11 @@ categories:
   - Meditaciones
 ---
 
+:::{preview}
+![](featured.jpg)
+:::
+
+
 
 :::{.blockquote .column-margin}
 Ten presente, pues, estas prescripciones y deja a un lado todo lo demás. 

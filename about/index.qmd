@@ -122,9 +122,9 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
 
 <ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Systems and Innovation Engineering ∙ Université de Lorraine ∙ 2016</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Master Innovation management ∙ ENSGSI ∙ Université de Lorraine ∙ 2013</
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012</li>
+  <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Systems and Innovation Engineering ∙ Université de Lorraine ∙ 2016</li>
+  <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Master Innovation management ∙ ENSGSI ∙ Université de Lorraine ∙ 2013</li>
+  <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012</li>
 </ul>
 
 :::
@@ -132,7 +132,9 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 :::
 <!-- end grid -->
 
+
 ## Lately ...
+
 
 :::: {.grid}
 

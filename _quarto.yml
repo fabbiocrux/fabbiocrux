@@ -89,12 +89,13 @@ format:
     #include-before-body: assets/header.html  
     #bibliography: assets/bibliography.bib
     page-layout: full
+    fontsize: 18px
     theme:
       light:
         - cosmo
         - assets/fabio-theme-light.scss
-        - assets/silvia/colors-light.scss
-        - assets/silvia/fonts.scss
+        # - assets/silvia/colors-light.scss
+        # - assets/silvia/fonts.scss
     code-link: true
     pagetitle: "{{< meta title >}}"
     lightbox: true
