@@ -1,7 +1,7 @@
 ---
 title: "Research · Life · random thoughts "
 description: |
-  This is my blog where I write my curiosity about many things.
+  This is my blog where I put out my curiosity about many things in english and spanish.
 listing: 
   contents: 
     - "**/index.qmd"
@@ -13,7 +13,7 @@ listing:
   fields: [title, author, categories, date, image]
   image-placeholder: sidebar.jpg
   image-align: right
-  # page-size: 5
+  page-size: 5
   feed:
     categories: [R]
 citation: false
@@ -30,7 +30,5 @@ resources:
   - ../assets/listing-default.css 
 #include-after-body: ../assets/silvia/subscribe.html
 ---
-
-
 
 
