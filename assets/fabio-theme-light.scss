@@ -38,10 +38,23 @@ $link-hover-color:            $accent;
 $link-shade-percentage:       20% !default;
 $link-hover-decoration:       underline;
 
-
 $nav-link-hover-color:         $secondary !default;
 
 
 
 // Footer text
 $footer-fg:                   $primary;
+
+
+
+// Blockquotes
+.blockquote {
+    color: lighten($primary, 15%);
+    font-style: oblique;
+  }
+  
+  .blockquote > .author{
+    color: black ;
+    text-align: right ;
+  }
+

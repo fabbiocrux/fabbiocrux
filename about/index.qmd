@@ -114,7 +114,10 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 ::: {.grid}
 ::: {.g-col-6 #about-me-1}
 
-**Mechanical engineer turned innovation management, I'am curious about the use of philosophy of the open source for the .**
+**Mechanical engineer turned innovation management**
+
+I'am curious about the role of Engineering from a perspective of the sustainability sciences
+
 
 :::
 
