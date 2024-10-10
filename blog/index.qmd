@@ -1,5 +1,6 @@
 ---
-title: "Research · Life · random thoughts "
+title: "Research · Human · Life"
+subtitle: "Random thoughts in 🇨🇴🇬🇧 "
 description: |
   This is my blog where I put out my curiosity about many things in english and spanish.
 listing: 

@@ -51,15 +51,8 @@ $font-family-monospace:      "Dank Mono", SFMono-Regular, Menlo, Monaco, Consola
 
 $headings-font-family:       "Petrona";
 
-// Links
-
-$link-color:                  $primary;
-$link-decoration:             underline;
-$link-hover-color:            $accent;
-$link-hover-decoration:       none;
 
 // Tables
-
 $table-border-color:          $primary;
 $table-group-separator-color: lighten($primary, 40%);
 $table-caption-color:         $body-secondary;
@@ -80,8 +73,6 @@ $toc-inactive-border:         lighten($toc-color, 50%);
 // Navbar icons
 $navbar-fg:                   $primary;
 
-// Footer text
-$footer-fg:                   $primary;
 
 // table variable overrides
 $table-group-separator-color: lighten($primary, 25%);
