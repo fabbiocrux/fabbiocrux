@@ -122,6 +122,11 @@ p code:not(.sourceCode), li code:not(.sourceCode), td code:not(.sourceCode) {
   font-style: oblique;
 }
 
+.blockquote > .author{
+  color: black ;
+  text-align: right ;
+}
+
 // Social icons
 
 // footer

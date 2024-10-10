@@ -1,24 +1,26 @@
 ---
 lang: es
 title: 'Meditaciones: Lo importante es comenzar'
+subtitle: >
+  Escribir es un acto que comienza con la primera palabra. Escribir para no olvidar
+description: ''
 author: Fabio Cruz
 date: '2024-10-10'
 date-modified: '2024-10-10'
 image: featured.jpg
 categories:
   - Meditaciones
-subtitle: >
-  Dia 1 de escribir para no olvidar
-description: ''
-code-annotations: below
-df-print: paged
 ---
 
-:::{.blockquote}
+
+:::{.blockquote .column-margin}
 Ten presente, pues, estas prescripciones y deja a un lado todo lo demás. 
 No olvides tampoco que la vida se limita para cada uno de nosotros al tiempo presente, que sólo es un fugaz intervalo; el resto de la existencia no existe, o es incierto. Por consiguiente, la vida de todo ser no representa casi nada; el lugar donde transcurre no es más que un rincón insignificante de la Tierra, y la reputación más duradera que uno deja tras de sí apenas si vale algo, pues se transmite mediante una sucesión a individuos insignificantes que, a su vez deben morir también, que no se conocen a ellos mismos y que, como es natural, conocen mucho menos todavía al que murió hace mucho tiempo.
 
-**Meditaciones, Libro III**
+::: {.author}
+**Meditaciones, Libro III - Paragrafro 6**
+:::
+
 :::
 
 
@@ -30,4 +32,6 @@ Escribir es aclarar y escuchar en los pensamientos. Y al momento de escribir est
 
 Este escrito no tiene más propósito que poder comenzar con algo. Empezar con cosas insignificantes. El acto de empezar es como la semilla que se pone en un jardín. Nunca seremos totalmente en control del resultado. Sin embargo, en honor al estoicismo, quiero hacer la acción que hace parte de mi control. Tiene el propósito de poder sacar afuera, valga la redundancia, las cosas que se llevan dentro. Tiene como objetivo aclarar un camino hacia donde apuntar. Ya que, durante el trayecto que tiene mi existencia he  perdido el rumbo. 
 
-Lo llamo meditaciones en honor al *Estoicismo*, que aunque es una filosofía que resuena en mi, siento qué es un camino de vida a seguir. 
+Lo llamo meditaciones en honor al *Estoicismo*, que aunque es una filosofía que resuena en mi, siento qué es mas un camino de vida a seguir. 
+
+

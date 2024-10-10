@@ -20,6 +20,12 @@ toc-location: right
 # Wrap overflow code
 format: 
   html: 
+    page-layout: article
+    grid:
+      sidebar-width: 250px
+      body-width: 700px
+      margin-width: 400px
+      gutter-width: 2rem
     code-overflow: wrap
     template-partials: 
       - ../_partials/title-block-link-buttons/title-block.html

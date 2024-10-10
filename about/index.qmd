@@ -2,7 +2,7 @@
 title: "Fabio A. Cruz Sanchez"
 subtitle: Assistant Proffesor <br> Université de Lorraine. 
 image: sidebar/fabio-cruz.jpg
-image-alt: "Smiling man, dark eyes, and dark long wavy hair styled to one side"
+image-alt: "Smiling man, brown eyes, and dark wavy hair styled to one side"
 about:
   template: trestles
   image-width: 14em
@@ -33,8 +33,7 @@ about:
 listing: 
 - id: blog
   contents: 
-    - "../blog/*/index.qmd"
-    - "../blog/*/index.markdown"
+    - "../blog/*/*/index.qmd"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -117,15 +116,14 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
 **Mechanical engineer turned innovation management, I'am curious about the use of philosophy of the open source for the .**
 
-
 :::
 
 ::: {.g-col-6 #about-me-2}
 
 
 <ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Systems  Engineering ∙ Purdue University ∙ 2018</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Systems and Innovation Engineering ∙ Université de Lorraine ∙ 2016</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Master Innovation management ∙ ENSGSI ∙ Université de Lorraine ∙ 2013</
    <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012</li>
 </ul>
 

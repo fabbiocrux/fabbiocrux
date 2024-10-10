@@ -44,7 +44,7 @@ website:
         href: about/
       - text: Blog
         aria-label: "Pensées pour Moi"
-        href: blog/.qmd
+        href: blog/
       - text: Talks
         aria-label: "Invited Talks"
         href: talk/
