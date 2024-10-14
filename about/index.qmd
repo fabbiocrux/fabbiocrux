@@ -103,7 +103,6 @@ I am very interested to work with fantastic people to make a holistic analysis o
 
 Learn more about my research interests in [publications](/publication).
 
-
 Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
 :::
@@ -115,8 +114,9 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
 **Mechanical engineer turned innovation management**
 
-I'am curious about the role of Engineering from a perspective of the sustainability sciences
-
+I am learning about the role of Engineering from a perspective of the sustainability sciences.
+I am curious on the role of history and philosophy may have in a world where the critical thinking is becoming an rare assets.
+I am optimist in the value of education on engineering for the societal challengues of our world. 
 
 :::
 

@@ -45,15 +45,15 @@ website:
       - text: Blog
         aria-label: "Pensées pour Moi"
         href: blog/
-      - text: Talks
-        aria-label: "Invited Talks"
-        href: talk/
+      # - text: Talks
+      #   aria-label: "Invited Talks"
+      #   href: talk/
       - text: Publications
         aria-label: "Publications"
         href: publications/
-      - text: Projects
-        aria-label: "Project Portfolio"
-        href: project/
+      # - text: Projects
+      #   aria-label: "Project Portfolio"
+      #   href: project/
 
   page-footer:  
     #background: light
@@ -101,7 +101,7 @@ format:
     lightbox: true
 
 
-#execute: 
-#  freeze: auto
+execute: 
+ freeze: auto
 
 
