@@ -7,13 +7,13 @@ description: ''
 author: Fabio Cruz
 date: '2024-10-10'
 date-modified: '2024-10-10'
-image: featured.jpg
+image: meditar.jpg
 categories:
   - Meditaciones
 ---
 
-:::{preview}
-![](featured.jpg)
+:::{.preview}
+![](meditar.jpg)
 :::
 
 

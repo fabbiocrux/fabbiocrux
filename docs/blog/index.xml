@@ -8,8 +8,7 @@
 <title>Fabio Cruz</title>
 <link>https://fabbiocrux.com/blog/</link>
 <atom:link href="https://fabbiocrux.com/blog/index.xml" rel="self" type="application/rss+xml"/>
-<description>This is my blog where I put out my curiosity about many things in english and spanish.
-</description>
+<description>Assistant Professor at the Université de Lorraine</description>
 <generator>quarto-1.4.554</generator>
 <lastBuildDate>Wed, 09 Oct 2024 22:00:00 GMT</lastBuildDate>
 <item>
@@ -22,8 +21,8 @@
 
 
 
-<div class="{preview}">
-<p><a href="featured.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/featured.jpg" class="img-fluid"></a></p>
+<div class="preview">
+<p><a href="meditar.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/meditar.jpg" class="img-fluid"></a></p>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="blockquote">
@@ -43,7 +42,7 @@
   <category>Meditaciones</category>
   <guid>https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/</guid>
   <pubDate>Wed, 09 Oct 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/featured.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/meditar.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
