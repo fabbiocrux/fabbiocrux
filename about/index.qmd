@@ -112,11 +112,11 @@ Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 ::: {.grid}
 ::: {.g-col-6 #about-me-1}
 
-**Mechanical engineer turned innovation management**
+**Mechanical engineer that turned into innovation science**
 
-I am learning about the role of Engineering from a perspective of the sustainability sciences.
-I am curious on the role of history and philosophy may have in a world where the critical thinking is becoming an rare assets.
-I am optimist in the value of education on engineering for the societal challengues of our world. 
+I am learning about the role of Engineering from a perspective of the [sustainability sciences]().
+I am curious on the role of history and philosophy may have in a world where the critical thinking is becoming a rare asset.
+I am optimist in the value of education on engineering for the societal challenges of our world. 
 
 :::
 
@@ -128,6 +128,8 @@ I am optimist in the value of education on engineering for the societal challeng
   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Master Innovation management ∙ ENSGSI ∙ Université de Lorraine ∙ 2013</li>
   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Mechanical Engineering ∙ Universidad Nacional de Colombia ∙ 2012</li>
 </ul>
+
+
 
 :::
 

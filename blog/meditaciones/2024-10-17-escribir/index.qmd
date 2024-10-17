@@ -1,0 +1,34 @@
+---
+lang: es
+title: 'Escribir: para no olvidar'
+subtitle: >
+  Escribir es un acto de coraje comienza con la primera palabra. 
+description: ''
+author: Fabio Cruz
+date: '2024-10-10'
+date-modified: '2024-10-10'
+image: javier-balseiro-SndBdqPo9bg-unsplash.jpg
+categories:
+  - Meditaciones
+---
+
+:::{.preview}
+![](javier-balseiro-SndBdqPo9bg-unsplash.jpg)
+:::
+
+
+:::{.blockquote .column-margin}
+
+::: {.author}
+**, Libro III - Paragrafro 6**
+:::
+:::
+
+
+Escribir. Algo tan básico pero al mismo tiempo tan complejo. Escribir lo que uno piensa puede ser una distracción, un catalizador, o incluso, un medio de relajación para ciertas personas. No importa el propósito, creo que lo importante es poder transcribir en letras las cosas por las que nuestra mente divaga constantemente. 
+
+No tengo un punto importante a desarrollar en esta entrada de blog. Solo quiero decir que escribir, parece como una actividad que vagamente hacemos por nosotros mismos. O en todo caso ese es mi caso. Si no tengo un articulo, proyecto, o algo externo por el cual deba escribir. Probablemente no escribo. Sin embargo, quiero comprobar si el hecho de poner en letras alguna parte de nuestra consciencia; puede ser en cierto modo sea un llamado al destino para que las letras que uno pone en un papel (o sitio web) algún día se conviertan en realidad.  ¿Será una especie de pócima mágica para que la vida que uno quiere aparezca? ¿Se hace realidad lo que uno escribe? ¿Es que Dios juega a los dados cuando uno no escribe lo que piensa para su vida? 
+
+No sé, muy difícilmente lo sabré. Solo puedo decir que escribir es la primera palabra que se me viene a la mente y a partir escribo para no olvidar. Escribo para clarificar el ser. Escribo para expresar con palabras las ilusiones del alma. Escribir es como armarse con una espada y un escudo para atravesar el bosque oscuro y peligroso de nuestro inconsciente, y realizar un viaje del héroe, como lo describiría Joseph campbell
+
+
