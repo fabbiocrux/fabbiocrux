@@ -43,19 +43,19 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
-- id: talk
-  contents: 
-    - "../talk/*/index.qmd"
-    - "../talk/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
+# - id: talk
+#   contents: 
+#     - "../talk/*/index.qmd"
+#     - "../talk/*/index.markdown"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, subtitle, image]
+#   max-items: 1
+#   image-height: "200"
 - id: publication
   contents: 
     - "../publications/*/*/index.qmd"
@@ -69,19 +69,19 @@ listing:
   max-items: 1
   image-height: "200"
   image-placeholder: ../publication/featured.jpg
-- id: project
-  contents: 
-    - "../project/*/index.qmd"
-    - "../project/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
+# - id: project
+#   contents: 
+#     - "../project/*/index.qmd"
+#     - "../project/*/index.markdown"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, subtitle, image]
+#   max-items: 1
+#   image-height: "200"
 format: 
   html: 
     page-layout: full
@@ -149,12 +149,12 @@ I am optimist in the value of education on engineering for the societal challeng
 [See all &rarr;](../blog){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
+<!-- ::: {.g-col-3}
 #### Talks
 ::: {#talk}
 :::
 [See all &rarr;](../talk){.about-links .subtitle}
-:::
+::: -->
 
 ::: {.g-col-3}
 #### Publications
@@ -163,11 +163,11 @@ I am optimist in the value of education on engineering for the societal challeng
 [See all &rarr;](../publication){.about-links .subtitle}
 :::
 
-::: {.g-col-3}
+<!-- ::: {.g-col-3}
 #### Projects
 ::: {#project}
 :::
 [See all &rarr;](../project){.about-links .subtitle}
-:::
+::: -->
 
 ::::
