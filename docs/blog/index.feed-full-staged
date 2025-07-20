@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Fabio Cruz</title>
+<link>https://fabbiocrux.com/blog/</link>
+<atom:link href="https://fabbiocrux.com/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Assistant Professor at the Université de Lorraine</description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Wed, 09 Oct 2024 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/blog/meditaciones/2024-10-10-meditaciones/index.html}</title>
+  <dc:creator>Fabio Cruz</dc:creator>
+  <link>https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/</link>
+  <description>{B4F502887207:/blog/meditaciones/2024-10-10-meditaciones/index.html}</description>
+  <category>Meditaciones</category>
+  <guid>https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/</guid>
+  <pubDate>Wed, 09 Oct 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/meditar.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/blog/meditaciones/2024-10-17-escribir/index.html}</title>
+  <dc:creator>Fabio Cruz</dc:creator>
+  <link>https://fabbiocrux.com/blog/meditaciones/2024-10-17-escribir/</link>
+  <description>{B4F502887207:/blog/meditaciones/2024-10-17-escribir/index.html}</description>
+  <category>Meditaciones</category>
+  <guid>https://fabbiocrux.com/blog/meditaciones/2024-10-17-escribir/</guid>
+  <pubDate>Wed, 09 Oct 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://fabbiocrux.com/blog/meditaciones/2024-10-17-escribir/javier-balseiro-SndBdqPo9bg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

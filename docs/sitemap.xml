@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://fabbiocrux.com/publications/index.html</loc>
+    <lastmod>2024-09-15T16:29:54.507Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fabbiocrux.com/publications/articles/2020-04-24-arthur/index.html</loc>
+    <lastmod>2025-07-20T17:52:20.482Z</lastmod>
+  </url>
+  <url>
     <loc>https://fabbiocrux.com/talk/2024-07-10-data-equity-ldi/index.html</loc>
     <lastmod>2024-08-20T22:03:25.000Z</lastmod>
   </url>
@@ -10,107 +18,7 @@
   </url>
   <url>
     <loc>https://fabbiocrux.com/project/index.html</loc>
-    <lastmod>2024-10-14T14:31:00.629Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/index.html</loc>
-    <lastmod>2024-10-14T14:29:07.021Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/index.html</loc>
-    <lastmod>2024-10-10T13:37:39.561Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/conferences/2018-06-01-pavlo/index.html</loc>
-    <lastmod>2024-09-15T15:05:07.099Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/conferences/2015-08-05-fabio/index.html</loc>
-    <lastmod>2024-09-15T14:54:29.270Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/thesis/2016-08-05-fabio/index.html</loc>
-    <lastmod>2024-09-15T15:04:42.672Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2023-05-16-cristian/index.html</loc>
-    <lastmod>2024-09-15T16:10:08.258Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2023-11-23-fablabs-ti/index.html</loc>
-    <lastmod>2024-09-15T16:16:44.776Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2024-01-28-ferney/index.html</loc>
-    <lastmod>2024-10-10T13:31:56.368Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2023-01-20-alex/index.html</loc>
-    <lastmod>2024-09-15T15:08:28.257Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2020-04-24-arthur/index.html</loc>
-    <lastmod>2024-09-15T15:05:59.947Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2024-01-05-catalina/index.html</loc>
-    <lastmod>2024-09-15T15:07:33.897Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2022-01-03-pavlo/index.html</loc>
-    <lastmod>2024-09-15T15:06:15.488Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/contact.html</loc>
-    <lastmod>2024-10-07T14:55:41.729Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2023-08-28-fangkai/index.html</loc>
-    <lastmod>2024-09-15T15:08:13.915Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2017-08-05-fabio/index.html</loc>
-    <lastmod>2024-09-15T15:04:52.865Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2020-04-15-fabio/index.html</loc>
-    <lastmod>2024-09-15T15:06:04.479Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2022-07-27-diego/index.html</loc>
-    <lastmod>2024-09-15T15:06:42.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2019-12-03-pavlo/index.html</loc>
-    <lastmod>2024-09-15T15:05:37.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/articles/2014-04-15-fabio/index.html</loc>
-    <lastmod>2024-09-15T14:54:00.481Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/index.html</loc>
-    <lastmod>2024-09-15T16:29:54.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/conferences/2022-01-20-fangkai/index.html</loc>
-    <lastmod>2024-09-15T15:06:31.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/publications/conferences/2018-06-01-ramses/index.html</loc>
-    <lastmod>2024-09-15T15:05:18.481Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/about/index.html</loc>
-    <lastmod>2025-02-05T12:24:04.610Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/blog/index.html</loc>
-    <lastmod>2024-10-14T14:37:33.862Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fabbiocrux.com/project/2024-06-16-ccd-sips/index.html</loc>
-    <lastmod>2024-08-20T22:03:25.000Z</lastmod>
+    <lastmod>2025-07-20T19:08:58.164Z</lastmod>
   </url>
   <url>
     <loc>https://fabbiocrux.com/license.html</loc>
@@ -121,7 +29,7 @@
     <lastmod>2024-08-20T22:03:25.000Z</lastmod>
   </url>
   <url>
-    <loc>https://fabbiocrux.com/blog/meditaciones/2024-10-17-escribir/index.html</loc>
-    <lastmod>2024-10-17T07:46:26.494Z</lastmod>
+    <loc>https://fabbiocrux.com/index.html</loc>
+    <lastmod>2024-10-10T13:37:39.561Z</lastmod>
   </url>
 </urlset>
