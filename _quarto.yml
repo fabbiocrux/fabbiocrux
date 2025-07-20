@@ -90,6 +90,8 @@ format:
     #bibliography: assets/bibliography.bib
     page-layout: full
     fontsize: 18px
+    include-in-header: 
+      - file: "assets/matomo.html" 
     theme:
       light:
         - cosmo
@@ -99,6 +101,7 @@ format:
     code-link: true
     pagetitle: "{{< meta title >}}"
     lightbox: true
+
 
 
 execute: 
