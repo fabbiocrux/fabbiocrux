@@ -85,7 +85,7 @@
     /* social links: block of links */
     .about-entity .about-links {
       justify-content: center !important;
-      font-size: 1em !important;
+      font-size: 1.2em !important;
     }
 
     /* blurb */
@@ -102,5 +102,10 @@
     .about-image {
       order: 1 !important;
       padding: 0 2em 0 2em !important;
+    }
+
+    /* MAking About links in a row */
+    .about-links {
+      flex-direction: row !important;
     }
 }

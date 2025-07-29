@@ -40,7 +40,8 @@ resources:
   - assets/index.css
 ---
 
-<br><br>
+<br> <br>
+
 
 
 ::: {#hero-heading}

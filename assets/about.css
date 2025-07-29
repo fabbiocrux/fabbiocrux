@@ -17,6 +17,8 @@
   font-size: 1.2em !important;
 }
 
+
+
 /* social links: individual links */
 .about-entity .about-link {
   padding: 0.25em 0.25em !important;
@@ -49,6 +51,7 @@
   .about-entity .about-links {
     font-size: 1.2em !important;
   }
+
 }
 
 /* mobile query up for screens up to ~576px wide */
