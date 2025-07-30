@@ -33,6 +33,11 @@
   border-radius: 5px;
 }
 
+/* MAking About links in a row */
+.about-links {
+    flex-direction: row !important;
+  }
+
 /* mobile query up for screens up to ~992px wide */
 @media screen and (max-width: 991.98px) {
   /* wrap lately section */
@@ -83,4 +88,5 @@
   .about-entity {
     margin: 0em 0em 0em 0em;
   }
+  
 }

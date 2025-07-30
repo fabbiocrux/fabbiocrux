@@ -17,6 +17,8 @@
   font-size: 1.2em !important;
 }
 
+
+
 /* social links: individual links */
 .about-entity .about-link {
   padding: 0.25em 0.25em !important;
@@ -30,6 +32,11 @@
   margin: 0em 2em 0em 2em;
   border-radius: 5px;
 }
+
+/* MAking About links in a row */
+.about-links {
+    flex-direction: row !important;
+  }
 
 /* mobile query up for screens up to ~992px wide */
 @media screen and (max-width: 991.98px) {
@@ -49,6 +56,7 @@
   .about-entity .about-links {
     font-size: 1.2em !important;
   }
+
 }
 
 /* mobile query up for screens up to ~576px wide */
@@ -80,4 +88,5 @@
   .about-entity {
     margin: 0em 0em 0em 0em;
   }
+  
 }
