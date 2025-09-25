@@ -59,5 +59,11 @@
       "/blog/meditaciones/2024-10-10-meditaciones/index.html",
       "/blog/meditaciones/2024-10-17-escribir/index.html"
     ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/2025-09-26-CIS/index.html"
+    ]
   }
 ]

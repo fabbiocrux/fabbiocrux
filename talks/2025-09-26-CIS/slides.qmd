@@ -1,0 +1,237 @@
+---
+title: "Droit à la réparation, science ouverte et tiers-lieux"
+subtitle: "Journées du CIS 2025"
+description: |
+  This panel explores current events and questions surrounding the right to repair as a modality of the open science movement. We will examine the different conceptions and applications of this right and discuss the particular role of third places in this dynamic. The main objective is to share experiences and questions at the intersection of these concepts.
+email: "fabio.cruz@univ-lorraine.fr"
+institute: "Université de Lorraine"
+author: 
+  - Fabio A. Cruz
+date: today
+date-format: long
+slug: GIS-2025
+image: featured.png
+format: 
+  beamer: 
+    keep-tex: true
+    classoption: c
+    aspectratio: 169
+    navigation: horizontal
+    theme: Luebeck #AnnArbor
+    #toc: true
+    #toc-title: "Organisation de la presentation"
+    #Luebeck
+    linkcolor: blue
+    colorlinks: true
+    colortheme: beaver
+    slide-level: 2
+    toc-depth: 2
+    fig-align: center
+    # header-includes:
+    #   - \titlegraphic{\includegraphics[width=0.6\paperwidth]{Figures/Logos/UL-ENSGSI-ERPI.png}}
+#      - \date{Thisis test }
+    # beameroption: 
+    #  - show notes on second screen
+    #beamerarticle: true
+    #latex_engine: lualatex
+    include-in-header: [../../assets/slides.tex]
+  # revealjs:
+  #   slide-number: c/t
+  #   controls: true
+  #   transition: none
+  #   #margin: 10
+  #   width: 1600
+  #   height: 900
+  #   theme: [default]
+  #   #css: ../assets/fabio.css
+  #   #logo: "../assets/img/logos/ENSGSI.png"
+  #   #embed-resources: false
+  #   echo: false
+  #   pdf-separate-fragments: true
+  #   #toc: true
+  #   #toc-title: Agenda for today
+  #   #toc-depth: 1
+  #   center: false
+  #   number-sections: false
+  #   fig-align: center
+  #   code-copy: true        
+  #   #header-logo: "../assets/img/logos/UL.png"    
+  #   #subtitle-as-header: true
+  #   chalkboard: false
+  #   footer: ''
+  #   header: ''
+  #   slide-level: 2   
+bibliography: ../../assets/library.bib
+csl: journal-of-cleaner-production.csl
+#fontsize: 11pt  
+categories:
+  - talk
+---
+
+
+
+
+# What is '*Right to repair*' from Engineering perspective?
+
+
+## Repair as European Commission 'New  Circular Economy' action plan
+
+::: {layout="[48,-3, 50]"}
+
+:::{}
+**CE from EU view:** \newline
+
+> "\small The circular economy is a model of production and consumption, which involves sharing, leasing, reusing, repairing, refurbishing and recycling existing materials and products as long as possible. In this way, the life cycle of products is extended." (European Parliament, 2023).
+:::
+
+![Repair as CE strategies. \newline Source: [@Morseletto2020]](figures/Morseletto2020.png){fig-align="center" width="100%"}
+
+:::
+
+## Repair practice as a complex system
+
+::: {layout="[50,50]"}
+
+![Repair practice is part of a larger production and consumption system. Source: [@parajuly2023]](figures/parajuly2023.png){fig-align="center" width="100%"}
+
+:::{}
+
+**Techno--Economic**
+
+- **Product design** → Influence on the reparability.
+- **Business models**: Ownership,  and service models (ie. SAV )
+- **Infrastructure:** Physical infrastructure (ie: tiers lieux?)
+
+:::
+
+:::
+
+
+
+## From “right to repair” to “willingness to repair” 
+
+::: {layout="[50,50]"}
+
+
+![Consumer Barriers to Repair. Source: [@roskladka2023]](figures/roskladka2023-00.png){fig-align="center" width="50%"}
+
+
+:::{}
+
+**Barriers to repair practice:**
+
+- **Technical**  Inappropriate product architecture → Obsolescence" 
+
+- **Convenience**: 
+   - Affordable infrastructure
+   - Intangible costs (i.e cost of 'searching', 'waiting', 'frustation')
+
+
+- **Willingness:** 
+
+   - Repair culture built on  consumers’ trust.
+   - Emotional attachement
+   - Beliefs on 'repairability'
+
+:::
+:::
+
+
+## From “right to repair” to “willingness to repair” 
+
+::: {layout="[50,50]"}
+
+![Consumer Barriers to Repair. Source: [@roskladka2023]](figures/roskladka2023-01.png){fig-align="center" width="50%"}
+
+:::{}
+
+![Case study: Washing machine: [@roskladka2023]](figures/roskladka2023-02.png){fig-align="center" width="70%"}
+
+:::
+
+:::
+
+
+# Repair and the '*Tiers-lieux* et *Espace du faire*'?
+
+::: {layout="[50,50]"}
+
+:::{}
+Perspective of:
+
+- Grassroot Innovations [@enarsson2024] 
+- Urban commons [@zapatacampos2020]
+
+
+**Commoning communities can *reinvent*, *appropriate*, and *foster* urban sustainability transitions.**
+:::
+
+:::{}
+
+![Espaces du faire: Source [RRFLabs](https://www.rfflabs.fr/nos-ressources/)](figures/RFFF-carte.png){fig-align="center" width="70%"}
+
+![Repair Cafes](figures/repair-cafe-00.png){fig-align="center" width="70%"}
+
+
+:::
+:::
+
+
+## Repair and the '*Tiers-lieux* et *Espace du faire*'?
+
+**Communities of Practice that *reinvent*, *appropriate*, and *foster* urban sustainability transitions.**
+
+::: {layout="[50,50]" layout-valign="top"}
+:::{}
+
+\begin{enumerate}[\faCheck]
+ \item Engaging people sustainable consumption 
+ \item Foster ‘culture of repair’ (Creative and improvisation)
+ \item Re-acquire use and repair skills (open the black box)
+\end{enumerate}
+:::
+
+:::{}
+
+\begin{enumerate}[\faTimesCircle]
+ \item (Re)production of gender roles that are socially understood as traditional ?
+
+\end{enumerate}
+
+
+:::
+:::
+
+\vfill
+
+
+Using citizen science research and Philosophy of Care, [@meissner2021a][^1] to study of collaborative repair practices among the participants in repair cafes.
+
+[^1]: \tiny  Meissner, M., 2021. Repair is care? - Dimensions of care within collaborative practices in repair cafes. Journal of Cleaner Production 299, 126913. https://doi.org/10.1016/j.jclepro.2021.126913
+
+
+# Repair and the Global South?
+
+![](figures/Casa.png){fig-align="center" width="80%"}
+
+
+## Repair and the Global South?
+
+![](figures/Maria-Jose.png){fig-align="center" width="70%"}
+
+Source. Maria José Zapata. 
+
+
+## Open Questions
+
+- Repair from *grassroot* to *mainstream*?
+
+
+
+## References
+
+\tiny
+
+::: {#refs}
+:::
+
