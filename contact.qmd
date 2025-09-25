@@ -25,13 +25,12 @@ You can use this form to contact me about speaking engagements, collaborations, 
 
 I also love hearing if my educational materials have been helpful for you, and how they could be improved &#8212; particularly if they could be made more accessible {{< bi heart-fill >}}
 
-<a class="link-dark me-1" href="/accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener">{{< fa universal-access >}}</a>
-<a class="link-dark me-1" href="https://spcanelon.substack.com" title="Substack" target="_blank" rel="noopener">{{< bi substack >}}</a>
-<a class="link-dark me-1" href="https://github.com/spcanelon" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-<a class="link-dark me-1" href="https://linkedin.com/in/spcanelon" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
-<a class="link-dark me-1" href="https://hachyderm.io/@spcanelon" title="mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
-<a class="link-dark me-1" href="https://orcid.org/0000-0003-1709-1394" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
-<a class="link-dark me-1" href="https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+<!-- <a class="link-dark me-1" href="/accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener">{{< fa universal-access >}}</a>
+<a class="link-dark me-1" href="https://spcanelon.substack.com" title="Substack" target="_blank" rel="noopener">{{< bi substack >}}</a> -->
+<a class="link-dark me-1" href="https://github.com/fabbiocrux" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+<a class="link-dark me-1" href="https://www.linkedin.com/in/fabbiocrux/" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+<a class="link-dark me-1" href="https://orcid.org/0000-0001-8529-5327" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+<a class="link-dark me-1" href="https://scholar.google.com/citations?user=8Cuoaf4AAAAJ&hl=en" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
 
 
 :::
@@ -39,7 +38,7 @@ I also love hearing if my educational materials have been helpful for you, and h
 
 ::: {.g-col-1}
 :::
-
+<!-- 
 ::: {.g-col-6 #form}
 
 <form action="https://formspree.io/f/mwkapgzw" method="POST" accept-charset="utf-8">
@@ -55,49 +54,13 @@ I also love hearing if my educational materials have been helpful for you, and h
   <textarea rows="6" name="message" id="message" class="form-control" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required></textarea>
 
 <button type="submit" class="btn btn-primary mt-4">Send message</button>
-</form>
+</form> -->
 :::
 
 
-::: {.g-col-5 #substack}
 
-# Sign-up for my newsletter {{< bi substack >}}
-
-You can use this form to sign up to receive a little e-mail note from me anytime I post something new on my website.
-
-
-:::
 
 ::: {.g-col-1}
-:::
-
-::: {.g-col-6 #substack-form}
-
-<br><br>
-<iframe src="https://spcanelon.substack.com/embed" width="100%" height="170" style="border:2px solid #FAF0E3; background:white;" frameborder="2" scrolling="no" id="substack-embed"></iframe>
-
-<!-- <div id="custom-substack-embed"></div> -->
-
-
-<!-- <script> -->
-<!--   window.CustomSubstackWidget = { -->
-<!--     substackUrl: "spcanelon.substack.com", -->
-<!--     placeholder: "your@email.here", -->
-<!--     buttonText: "Subscribe", -->
-<!--     theme: "custom", -->
-<!--     colors: { -->
-<!--       primary: "#A23E02", -->
-<!--       input: "#FFFBF2", -->
-<!--       email: "#173552", -->
-<!--       text: "#FFFFFF", -->
-<!--     }, -->
-
-<!--     // Go to substackapi.com to unlock custom redirect -->
-
-<!--   }; -->
-<!-- </script> -->
-<!-- <script src="https://substackapi.com/widget.js" async></script> -->
-
 :::
 
 
