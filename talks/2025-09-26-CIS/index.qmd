@@ -59,7 +59,7 @@ format:
   #   footer: ''
   #   header: ''
   #   slide-level: 2   
-bibliography: biblio.bib
+bibliography: ../../assets/library.bib
 csl: journal-of-cleaner-production.csl
 #fontsize: 11pt  
 categories:
@@ -150,12 +150,86 @@ categories:
 :::
 
 
-# Repair and the '*Espace du faire*' --> ?
+# Repair and the '*Tiers-lieux* et *Espace du faire*'?
 
+::: {layout="[50,50]"}
+
+:::{}
+Perspective of:
+
+- Grassroot Innovations [@enarsson2024] 
+- Urban commons [@zapatacampos2020]
+
+
+**Commoning communities can *reinvent*, *appropriate*, and *foster* urban sustainability transitions.**
+:::
+
+:::{}
+
+![Espaces du faire: Source [RRFLabs](https://www.rfflabs.fr/nos-ressources/)](figures/RFFF-carte.png){fig-align="center" width="70%"}
+
+![Repair Cafes](figures/repair-cafe-00.png){fig-align="center" width="70%"}
+
+
+:::
+:::
+
+
+## Repair and the '*Tiers-lieux* et *Espace du faire*'?
+
+**Communities of Practice that *reinvent*, *appropriate*, and *foster* urban sustainability transitions.**
+
+::: {layout="[50,50]" layout-valign="top"}
+:::{}
+
+\begin{enumerate}[\faCheck]
+ \item Engaging people sustainable consumption 
+ \item Foster ‘culture of repair’ (Creative and improvisation)
+ \item Re-acquire use and repair skills (open the black box)
+\end{enumerate}
+:::
+
+:::{}
+
+\begin{enumerate}[\faTimesCircle]
+ \item (Re)production of gender roles that are socially understood as traditional ?
+
+\end{enumerate}
+
+
+:::
+:::
+
+\vfill
+
+
+Using citizen science research and Philosophy of Care, [@meissner2021a][^1] to study of collaborative repair practices among the participants in repair cafes.
+
+[^1]: \tiny  Meissner, M., 2021. Repair is care? - Dimensions of care within collaborative practices in repair cafes. Journal of Cleaner Production 299, 126913. https://doi.org/10.1016/j.jclepro.2021.126913
+
+
+# Repair and the Global South?
+
+![](figures/Casa.png){fig-align="center" width="80%"}
+
+
+## Repair and the Global South?
+
+![](figures/Maria-Jose.png){fig-align="center" width="70%"}
+
+Source. Maria José Zapata. 
+
+
+## Open Questions
+
+- Repair from *grassroot* to *mainstream*?
 
 
 
 ## References
 
+\tiny
 
+::: {#refs}
+:::
 
