@@ -18,7 +18,7 @@ links:
   url: https://github.com/spcanelon/ropensci-a11y
 - icon: pencil-fill
   name: Related blog post
-  url: /slides.pdf
+  url: /talks/2025-09-26-CIS/slides.pdf
 ---
 
 ## Description
