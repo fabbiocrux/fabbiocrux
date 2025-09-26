@@ -5,7 +5,7 @@ author:
   - Fabio A Cruz Sanchez
 date: 2025-09-25
 slug: cis-2025
-image: featured.jpg
+#image: featured.png
 categories:
   - talks
   - fablabs
@@ -18,11 +18,12 @@ links:
   url: https://github.com/spcanelon/ropensci-a11y
 - icon: pencil-fill
   name: Related blog post
-  url: /blog/2021-09-23-data-viz-a11y
+  url: /slides.pdf
 ---
 
 ## Description
 
 I had the pleasure of joining Jean-Baptiste Scherrer from CNRS in the panel *"Droit à la réparation, science ouverte et tiers-lieux"*.
+
 
 We had a lively and informative discussion!

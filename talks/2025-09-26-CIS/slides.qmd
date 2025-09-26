@@ -4,16 +4,16 @@ subtitle: "Journées du CIS 2025"
 description: |
   This panel explores current events and questions surrounding the right to repair as a modality of the open science movement. We will examine the different conceptions and applications of this right and discuss the particular role of third places in this dynamic. The main objective is to share experiences and questions at the intersection of these concepts.
 email: "fabio.cruz@univ-lorraine.fr"
-institute: "Université de Lorraine"
+institute: "![](figures/UL-ENSGSI-ERPI.png){width='95%'}"
 author: 
-  - Fabio A. Cruz
+  - MCF. Fabio A. Cruz
 date: today
 date-format: long
 slug: GIS-2025
 image: featured.png
 format: 
   beamer: 
-    keep-tex: true
+    keep-tex: false
     classoption: c
     aspectratio: 169
     navigation: horizontal
@@ -74,7 +74,7 @@ categories:
 # What is '*Right to repair*' from Engineering perspective?
 
 
-## Repair as European Commission 'New  Circular Economy' action plan
+## Repair → European Commission 'New  Circular Economy' action plan
 
 ::: {layout="[48,-3, 50]"}
 
@@ -145,7 +145,7 @@ categories:
 
 :::{}
 
-![Case study: Washing machine: [@roskladka2023]](figures/roskladka2023-02.png){fig-align="center" width="70%"}
+![Case study (Italy): Washing machine: [@roskladka2023]](figures/roskladka2023-02.png){fig-align="center" width="70%"}
 
 :::
 
@@ -163,7 +163,7 @@ Perspective of:
 - Urban commons [@zapatacampos2020]
 
 
-**Commoning communities can *reinvent*, *appropriate*, and *foster* urban sustainability transitions.**
+**Communities of Practice that *reinvent*, *appropriate*, and *foster* urban sustainability transitions.**
 :::
 
 :::{}
@@ -203,6 +203,7 @@ Perspective of:
 :::
 
 \vfill
+
 
 
 Using citizen science research and Philosophy of Care, [@meissner2021a][^1] to study of collaborative repair practices among the participants in repair cafes.
