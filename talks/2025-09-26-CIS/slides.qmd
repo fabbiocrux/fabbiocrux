@@ -226,7 +226,13 @@ Source. Maria José Zapata.
 ## Open Questions
 
 - Repair from *grassroot* to *mainstream*?
+- Design for R-Framework? → skills and competences
+- Appropriate certification and auditing of repair services ?
+- Repair as care for *Object, each other, Community, environment*?
 
+\vfill
+\hfill
+**Merci beaucoup !**
 
 
 ## References
