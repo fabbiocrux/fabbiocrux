@@ -1,6 +1,6 @@
 ---
 title: "Fabio A. Cruz Sanchez"
-subtitle: Assistant Proffessor <br> Université de Lorraine. 
+subtitle: Assistant Professor <br> Université de Lorraine. 
 image: sidebar/fabio-cruz.jpg
 image-alt: "Smiling man, brown eyes, and dark wavy hair styled to one side"
 about:
