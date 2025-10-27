@@ -39,18 +39,18 @@ website:
         href: https://www.linkedin.com/company/102623341/        
 
     right:
-      - text: About
-        aria-label: "About Me"
-        href: about/
-      - text: Blog
-        aria-label: "Pensées pour Moi"
-        href: blog/
+      # - text: About
+      #   aria-label: "About Me"
+      #   href: about/
+      # - text: Blog
+      #   aria-label: "Pensées pour Moi"
+      #   href: blog/
       # - text: Talks
       #   aria-label: "Invited Talks"
       #   href: talk/
-      - text: Publications
-        aria-label: "Publications"
-        href: publications/
+      # - text: Publications
+      #   aria-label: "Publications"
+      #   href: publications/
       # - text: Projects
       #   aria-label: "Project Portfolio"
       #   href: project/

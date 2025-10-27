@@ -1,7 +1,7 @@
 ---
 title: "Fabio A. Cruz Sanchez"
 pagetitle: "Fabio A. Cruz Sanchez"
-subtitle: "Assistant Professor on Distributed Recycling concept"
+subtitle: "Assistant Professor on \n Distributed Recycling concept"
 image: assets/figures/home/header-2.jpg
 image-alt: "Fabio A. Cruz Sanchez"
 
@@ -45,7 +45,7 @@ resources:
 
 
 ::: {#hero-heading}
-I work specifically at the sss [Équipe de Recherche sur le Processus Innovatifs[^1] --ERPI--](https://erpi.univ-lorraine.fr/) and teach at the [École Nationale Supérieure en Génie des Systèmes et de l'Innovation [^2] --ENSGSI--](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy - France.
+I work specifically at the sss [Équipe de Recherche sur le Processus Innovatifs --ERPI--](https://erpi.univ-lorraine.fr/) and teach at the [École Nationale Supérieure en Génie des Systèmes et de l'Innovation --ENSGSI--](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy - France.
 
 My research is developed at the [Lorraine Fab Living Lab Platform](https://lf2l.fr/) on projects related to the concept of **Distributed Recycling for Additive Manufacturing (DRAM)** for circular economy perspectives valuing the junction between *open source* tools, social innovation spaces, holistic indicators. 
 I hope this research contributes to way to put in place sustainability approaches for a post-growth scenarios.
@@ -54,6 +54,3 @@ I hope this research contributes to way to put in place sustainability approache
 
 :::
 
-
-[^1]: Research team on Innovation Process -ERPI- Laboratory
-[^2]:  National School in Industrial Systems Engineering and Innovation
