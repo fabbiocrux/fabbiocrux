@@ -2,12 +2,13 @@
 title: "Droit à la réparation, science ouverte et tiers-lieux"
 subtitle: "Journées du CIS 2025"
 description: |
-  This panel explores current events and questions surrounding the right to repair as a modality of the open science movement. We will examine the different conceptions and applications of this right and discuss the particular role of third places in this dynamic. The main objective is to share experiences and questions at the intersection of these concepts.
+  This panel explores current events and questions surrounding the right to repair as a modality of the open science movement. 
+  We will examine the different conceptions and applications of this right and discuss the particular role of third places in this dynamic. The main objective is to share experiences and questions at the intersection of these concepts.
 email: "fabio.cruz@univ-lorraine.fr"
 institute: "![](figures/UL-ENSGSI-ERPI.png){width='95%'} ![](CIS-2025.png){width='15%'} "
 author: 
   - MCF. Fabio A. Cruz
-date: today
+date: 2025-09-26
 date-format: long
 slug: GIS-2025
 image: CIS-2025.png
