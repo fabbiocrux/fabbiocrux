@@ -1,0 +1,84 @@
+---
+title: "Anthropocène and "
+subtitle: "Madelhid du CIS 2025"
+description: |
+  This panel explores current events and questions surrounding the right to repair as a modality of the open science movement. 
+  We will examine the different conceptions and applications of this right and discuss the particular role of third places in this dynamic. The main objective is to share experiences and questions at the intersection of these concepts.
+email: "fabio.cruz@univ-lorraine.fr"
+institute: "![](figures/UL-ENSGSI-ERPI.png){width='95%'}"
+author: 
+  - MCF. Fabio A. Cruz
+date: 2025-09-26
+date-format: long
+slug: GIS-2025
+image: CIS-2025.png
+format: 
+  beamer: 
+    keep-tex: false
+    classoption: c
+    aspectratio: 169
+    navigation: horizontal
+    theme: Luebeck #AnnArbor
+    #toc: true
+    #toc-title: "Organisation de la presentation"
+    #Luebeck
+    linkcolor: blue
+    colorlinks: true
+    colortheme: beaver
+    slide-level: 2
+    toc-depth: 2
+    fig-align: center
+    include-in-header: [../../../assets/slides.tex]
+
+#bibliography: ../../../assets/library.bib
+#csl: ../../../journal-of-cleaner-production.csl
+categories:
+  - talk
+---
+
+
+
+# Distributed Recycling at ERPI
+
+\small
+
+::: {layout="[60,-5,40]"}
+::: {}
+**The scientific issue**:  Design at early-stage phases a complementary distributed recycling of thermoplastics through open source and urban manufacturing approaches. 
+:::
+::: {}
+
+**Leviers**: 
+
+1. Technological Feasability, 
+2. Organizational, 
+3. Indicators
+:::
+:::
+
+
+::: {layout="[20,80]"}
+\tiny Cruz Sanchez, F.A., Boudaoud, H., Camargo, M., Pearce, J.M., 2020. [Plastic recycling in additive manufacturing: A systematic literature review and opportunities for the circular economy](https://doi.org/10.1016/j.jclepro.2020.121602). Journal of Cleaner Production 264, 121602. 
+
+![](Figures/DRAM/opacity/DRAM-01.png){width=80% fig-align="center"}
+:::
+
+
+
+# Context: Anthropocene Humans as geological Force
+
+- The great Acceleration since 1950
+
+- $CO_{2}$: 311 ppm --> 369 (2000)
+
+- Capitolocene rahte Anthropoce
+
+
+@steffen2011
+
+ 
+# Problematic
+
+# Controverse
+
+# Ideas to Explore
