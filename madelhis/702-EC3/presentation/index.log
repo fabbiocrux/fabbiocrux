@@ -1,9 +1,9 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.16)  17 DEC 2025 00:59
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.2.3)  9 FEB 2026 15:47
  restricted system commands enabled.
 **index.tex
 (./index.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
+L3 programming layer <2026-01-19>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2025/08/13 v3.76 A class for typesetting presentations
+Document Class: beamer 2026/01/22 v3.77 A class for typesetting presentations
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count273
@@ -304,7 +304,7 @@ Package: xxcolor 2003/10/24 ver 0.1
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 ) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -325,7 +325,7 @@ Package pdftexcmds Info: \pdfdraftmode found.
 )) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
@@ -341,31 +341,31 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count321
 \Hy@pagecounter=\count322
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 ) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count323
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4066.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4066.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4066.
-Package hyperref Info: Option `implicit' set `false' on input line 4066.
-Package hyperref Info: Hyper figures OFF on input line 4195.
-Package hyperref Info: Link nesting OFF on input line 4200.
-Package hyperref Info: Hyper index ON on input line 4203.
-Package hyperref Info: Plain pages OFF on input line 4210.
-Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Option `unicode' set `true' on input line 4072.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4072.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4072.
+Package hyperref Info: Option `implicit' set `false' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4462.
+Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count324
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4801.
+LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen275
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -375,13 +375,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count325
 \Field@Width=\dimen276
 \Fld@charsize=\dimen277
-Package hyperref Info: Hyper figures OFF on input line 6078.
-Package hyperref Info: Link nesting OFF on input line 6083.
-Package hyperref Info: Hyper index ON on input line 6086.
-Package hyperref Info: backreferencing OFF on input line 6093.
-Package hyperref Info: Link coloring OFF on input line 6098.
-Package hyperref Info: Link coloring with OCG OFF on input line 6103.
-Package hyperref Info: PDF/A mode OFF on input line 6108.
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
 \Hy@abspage=\count326
 
 Package hyperref Message: Stopped early.
@@ -389,7 +389,7 @@ Package hyperref Message: Stopped early.
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+File: hluatex.def 2026-01-29 v7.01p Hyperref driver for luaTeX
 \Fld@listcount=\count327
 \c@bookmark@seq@number=\count328
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
@@ -577,7 +577,7 @@ LaTeX Info: Redefining \addtolength on input line 87.
 \pgfphysicalwidth=\dimen304
 \pgfpages@shipoutbox=\box78
 ) (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-11-14 L3 programming layer (loader) 
+Package: expl3 2026-01-19 L3 programming layer (loader) 
 (/Users/FabioCruz/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count365
@@ -1285,12 +1285,12 @@ l.246 \end{frame}
                
 
 Here is how much of LuaTeX's memory you used:
- 36554 strings out of 476081
+ 36562 strings out of 476076
  125086,1373583 words of node,token memory allocated
  8249 words of node memory still in use:
    75 hlist, 11 vlist, 7 rule, 61 disc, 15 local_par, 6 dir, 181 glue, 29 kern, 44 penalty, 4 margin_kern, 498 glyph, 175 attribute, 86 glue_spec, 175 attribute_list, 5 temp, 7 if_stack, 1 shape, 1 write, 44 pdf_literal, 2 pdf_start_link, 2 pdf_end_link, 2 pdf_action, 45 pdf_colorstack nodes
    avail lists: 1:2,2:372,3:275,4:394,5:124,6:46,7:306,9:507,10:9
- 58102 multiletter control sequences out of 65536+600000
- 46 fonts using 11825679 bytes
+ 58115 multiletter control sequences out of 65536+600000
+ 46 fonts using 11825559 bytes
  101i,15n,114p,1001b,1088s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
