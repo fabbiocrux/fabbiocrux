@@ -1,6 +1,6 @@
 # Freeze computed outputs
-#execute: 
-#  freeze: true
+execute: 
+ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
@@ -13,7 +13,7 @@ format:
   html: 
     code-overflow: wrap
     # template-partials: 
-    #   - ../_partials/title-block-link-buttons/title-block.html
+    #   - ../_partials/fabio/title-block.html
       
 # placeholder featured image
-#image: featured.jpg
+image: featured.jpg

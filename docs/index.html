@@ -37,10 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-79f6068bbaed50b7fea4afbde6c5011e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ab9941bcc960fa2ea8b0b16ad36d382c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ab9941bcc960fa2ea8b0b16ad36d382c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ab9941bcc960fa2ea8b0b16ad36d382c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -109,15 +113,32 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo light-content">
+    <img src="./logo.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Fabio Cruz</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about/"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications/"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
     <a href="https://www.linkedin.com/company/102623341/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
-          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -160,8 +181,8 @@ ul.task-list li input[type="checkbox"] {
   </a>
 </div>
       <div class="about-contents"><div id="hero-heading">
-<p>I work specifically at the sss <a href="https://erpi.univ-lorraine.fr/">Équipe de Recherche sur le Processus Innovatifs –ERPI–</a> and teach at the <a href="https://ensgsi.univ-lorraine.fr/nos-formations/">École Nationale Supérieure en Génie des Systèmes et de l’Innovation –ENSGSI–</a> at Nancy - France.</p>
-<p>My research is developed at the <a href="https://lf2l.fr/">Lorraine Fab Living Lab Platform</a> on projects related to the concept of <strong>Distributed Recycling for Additive Manufacturing (DRAM)</strong> for circular economy perspectives valuing the junction between <em>open source</em> tools, social innovation spaces, holistic indicators. I hope this research contributes to way to put in place sustainability approaches for a post-growth scenarios.</p>
+<p>I work at the <a href="https://erpi.univ-lorraine.fr/">Équipe de Recherche sur le Processus Innovatifs –ERPI–</a> and teach at the <a href="https://ensgsi.univ-lorraine.fr/nos-formations/">École Nationale Supérieure en Génie des Systèmes et de l’Innovation –ENSGSI–</a> at Nancy - France.</p>
+<p>My research is developed at the <a href="https://lf2l.fr/">Lorraine Fab Living Lab</a> on projects related to the concept of <a href="./publications/articles/2020-04-15-fabio/index.html"><strong>Distributed Recycling via Additive Manufacturing (DRAM)</strong></a>. for circular economy perspectives valuing the junction between <em>open source</em> tools, social innovation spaces, holistic indicators. I hope this research contributes to way to put in place sustainability approaches for a post-growth scenarios.</p>
 <p><a href="./about" class="about-links subtitle">Learn more about my research →</a></p>
 </div></div>
     </div>
@@ -572,7 +593,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Fabio Cruz ∙ Made with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2026 Fabio Cruz ∙ Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

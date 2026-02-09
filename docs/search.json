@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Fabio A. Cruz Sanchez",
     "section": "",
-    "text": "I work specifically at the sss Équipe de Recherche sur le Processus Innovatifs –ERPI– and teach at the École Nationale Supérieure en Génie des Systèmes et de l’Innovation –ENSGSI– at Nancy - France.\nMy research is developed at the Lorraine Fab Living Lab Platform on projects related to the concept of Distributed Recycling for Additive Manufacturing (DRAM) for circular economy perspectives valuing the junction between open source tools, social innovation spaces, holistic indicators. I hope this research contributes to way to put in place sustainability approaches for a post-growth scenarios.\nLearn more about my research →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "text": "I work at the Équipe de Recherche sur le Processus Innovatifs –ERPI– and teach at the École Nationale Supérieure en Génie des Systèmes et de l’Innovation –ENSGSI– at Nancy - France.\nMy research is developed at the Lorraine Fab Living Lab on projects related to the concept of Distributed Recycling via Additive Manufacturing (DRAM). for circular economy perspectives valuing the junction between open source tools, social innovation spaces, holistic indicators. I hope this research contributes to way to put in place sustainability approaches for a post-growth scenarios.\nLearn more about my research →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "accessibility.html",
@@ -144,7 +144,7 @@
     "href": "publications/index.html#conferences",
     "title": "Publications",
     "section": "Conferences",
-    "text": "Conferences\n\n\n\n\n\n\n\n\n\n\n3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design\n\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\nJun 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication\n\n\n\nFangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya\n\n\nJan 20, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling, Printing and Validation of Dental Dry Models for Implantology Skills Training\n\n\n\nRamses Alburquerque, Giovanny Arbelaez Garces, Fabio A. Cruz Sanchez, Mauricio Camargo, Joseph David, Nguyen Tran\n\n\nJun 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods\n\n\n\nFabio A. Cruz Sanchez, Silvia Lanza, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo\n\n\nAug 1, 2015\n\n\n\n\n\n\nNo matching items"
+    "text": "Conferences\n\n\n\n\n\n\n\n\n\n\n3D-Printing Based Distributed Plastic Recycling: A Conceptual Model for Closed-Loop Supply Chain Design\n\n\n\nPavlo Santander, Fabio A. Cruz Sanchez, Hakim Boudaoud, Mauricio Camargo\n\n\nJun 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication\n\n\n\nFangkai Xue, Hakim Boudaoud, Guillaume Robin, Fabio A. Cruz Sanchez, El Mostafa Daya\n\n\nJan 20, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling, Printing and Validation of Dental Dry Models for Implantology Skills Training\n\n\n\nRamses Alburquerque, Giovanny Arbelaez Garces, Fabio A. Cruz Sanchez, Mauricio Camargo, Joseph David, Nguyen Tran\n\n\nJun 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nPolymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods\n\n\n\nFabio A. Cruz Sanchez, Silvia Lanza, Hakim Boudaoud, Sandrine Hoppe, Mauricio Camargo\n\n\nAug 1, 2015\n\n\n\n\n\n\n\n\n\n\n\n\n\nToward a Unified Theory of High-Energy Metaphysics: Silly String Theory\n\n\n\nJosiah Carberry\n\n\nMar 29, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/index.html#thesis",
@@ -397,5 +397,12 @@
     "title": "Curriculum Vitae Fabio A. CRuz Sanchez",
     "section": "",
     "text": "Back to top"
+  },
+  {
+    "objectID": "publications/conferences/2026-01-09-test/index.html",
+    "href": "publications/conferences/2026-01-09-test/index.html",
+    "title": "Toward a Unified Theory of High-Energy Metaphysics: Silly String Theory",
+    "section": "",
+    "text": "Introduction\n\n\n\n\n Back to topReuseCC BY 4.0CitationBibTeX citation:@online{carberry2026,\n  author = {Carberry, Josiah},\n  title = {Toward a {Unified} {Theory} of {High-Energy} {Metaphysics:}\n    {Silly} {String} {Theory}},\n  volume = {1},\n  number = {1},\n  date = {2026-03-29},\n  url = {https://fabbiocrux.com/publications/conferences/2026-01-09-test/},\n  doi = {10.5555/12345678},\n  langid = {en},\n  abstract = {The characteristic theme of the works of Stone is the\n    bridge between culture and society. ...}\n}\nFor attribution, please cite this work as:\nCarberry, Josiah. 2026. “Toward a Unified Theory of High-Energy\nMetaphysics: Silly String Theory.” Journal of Psychoceramics.\nMarch 29, 2026. https://doi.org/10.5555/12345678."
   }
 ]

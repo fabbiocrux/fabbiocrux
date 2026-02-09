@@ -38,19 +38,19 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/company/102623341/        
 
-# /    right:
-      # - text: About
-      #   aria-label: "About Me"
-      #   href: about/
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about/
       # - text: Blog
       #   aria-label: "Pensées pour Moi"
       #   href: blog/
       # - text: Talks
       #   aria-label: "Invited Talks"
       #   href: talk/
-      # - text: Publications
-      #   aria-label: "Publications"
-      #   href: publications/
+      - text: Publications
+        aria-label: "Publications"
+        href: publications/
       # - text: Projects
       #   aria-label: "Project Portfolio"
       #   href: project/
@@ -58,7 +58,7 @@ website:
   page-footer:  
     #background: light
     left: >-
-     &#169; 2025 Fabio Cruz &#8729; Made with [Quarto](https://quarto.org)
+     &#169; 2026 Fabio Cruz &#8729; Made with [Quarto](https://quarto.org)
     center: 
       - icon: github
         href: https://github.com/

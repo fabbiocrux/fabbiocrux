@@ -1,12 +1,20 @@
 ---
 title: "Polymer Recycling and Additive Manufacturing in an Open Source context : Optimization of processes and methods"
-author: 
+
+author:
   - name: Fabio A. Cruz Sanchez
+    id: FC
     orcid: 0000-0001-8529-5327
-  - Silvia Lanza
-  - Hakim Boudaoud
-  - Sandrine Hoppe
-  - Mauricio Camargo  
+    email: fabio.cruz@univ-lorraine.fr
+    affiliation: 
+      - name: Université de Lorraine
+        city: Nancy
+        state: Lorraine
+        url: www.univ-lorraine.fr
+  - name: Silvia Lanza
+  - name: Hakim Boudaoud
+  - name: Sandrine Hoppe
+  - name: Mauricio Camargo  
 date: '2015-08-01'
 image: featured.jpg
 slug: processes-methods-dram
@@ -22,7 +30,13 @@ links:
 - icon: file-richtext-fill
   name: Publication
   url: https://repositories.lib.utexas.edu/items/1cf6b1c0-e24a-4919-bff1-571c1a8fd25f
+
+- icon: github
+  name: HAL
+  url: https://hal.science/hal-02518430v1
 ---
+
+
 
 
 
