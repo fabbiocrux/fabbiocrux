@@ -74,3 +74,6 @@ links:
   url: https://doi.org/10.1016/j.techfore.2026.124700
 ---
 
+## History of the Paper
+
+s

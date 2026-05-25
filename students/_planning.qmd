@@ -7,7 +7,7 @@ author:
         - id: ERPI
           name: Université de Lorraine
           department: ERPI
-          address: Street Address
+          address: 7 Rue Bastien Lepage
           city: Nancy
           state: France
           postal-code: 54000
@@ -43,20 +43,12 @@ format:
     toc-title: Contents
     include-in-header: ../assets/articles.tex
     keep-tex: false
-#    template-partials:
-#       - assets/before-body.tex
+    template-partials:
+      - ../assets/before-body.tex
 #       - assets/_titlepage.tex
 
-# format:
-#   elsevier-pdf:
-#     keep-tex: true
-#     journal:
-#       name: Journal Name
-#       formatting: preprint
-#       # model: 3p # Don't set a model with preprint
-#       #cite-style: authoryear
-
-cls: ../../../assets/journal-of-cleaner-production.csl     
+cls: ../assets/journal-of-cleaner-production.csl     
+stage: true
 ---
 
 
