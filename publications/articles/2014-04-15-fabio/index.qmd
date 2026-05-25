@@ -1,11 +1,30 @@
 ---
 title: "Towards a standard experimental protocol for open source additive manufacturing"
-author: 
+authors: 
   - name: Fabio A. Cruz Sanchez
     orcid: 0000-0001-8529-5327
-  - Hakim Boudaoud
-  - Laurent Muller
-  - Mauricio Camargo 
+    email: fabio.cruz[at]univ-lorraine.fr
+    corresponding: true
+    affiliation: 
+      - id: ERPI
+        number: number
+        name: Université de Lorraine
+        department: ERPI
+        group: string
+        address: 8 rue Bastien Lepage
+        city: Nancy
+        region: Lorraine
+        country: France
+        postal-code: 54000
+        url: https://erpi.univ-lorraine.fr/
+    degrees: 
+      - PhD
+  - name: Hakim Boudaoud
+    affiliation: 
+      - ref: ERPI
+  - name: Laurent Muller
+  - name: Mauricio Camargo 
+
 date: '2014-07-03'
 image: Master-00.png
 slug: benchmarking

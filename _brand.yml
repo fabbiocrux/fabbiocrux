@@ -8,8 +8,8 @@ color:
   foreground: dark-grey
   primary: black
 
-logo: 
-  medium: logo.png
+# logo: 
+#   medium: logo.png
 
 # typography:
 #   fonts:
