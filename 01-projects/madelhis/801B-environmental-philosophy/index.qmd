@@ -1,0 +1,63 @@
+---
+title: "Environnemental Philosophy"
+subtitle: "Course in the MadelHis"
+draft: true
+---
+
+
+
+THe idea of Anthropocene have taking place in the research of philosophy of Science. 
+
+Sébastien Dutreuil
+
+Les dernières décennies sont aux sciences de la Terre et de l’environnement global ce que la période comprise entre les années 1950 et 1980 est aux sciences de la vie. 
+Dans cette dernière période, les échanges de métaphores entre biologie et sciences sociales, l’avènement de nouveaux paradigmes théoriques pour les sciences de la vie (biologie moléculaire, synthèse moderne en biologie de l’évolution, écologie, génétique, sociobiologie, cybernétique et approches thermodynamiques du vivant) avaient suscité des analyses philosophiques et sociologiques des grandes conceptions de la vie et de leurs engagements politiques (la biopolitique foucaldienne, la constitution de la philosophie de la biologie comme discipline aux États-Unis, la sociologie des laboratoires de biologie moléculaire par Bruno Latour, etc.).
+
+Les études des sciences ne s’intéressaient alors pas aux sciences de la Terre, ou marginalement. Au cours des quinze dernières années, la Terre est redevenue l’objet d’une attention philosophique et politique renouvelée, comme elle pouvait l’être au cœur du 19e siècle : elle est entrée au centre des réflexions des sciences humaines et sociales, jusqu’à en transformer les paradigmes et les frontières disciplinaires. Ce cours sera ainsi consacré à une analyse de ces transformations récentes et à une exploration des relations entre représentations scientifiques de la Terre, philosophies de la nature, et rapports anthropologiques et politiques à l’environnement. Elle proposera une réflexion et une analyse de divers concepts et thématiques : anthropocène, hypothèse Gaïa, limites planétaires, géoingénierie.
+
+
+
+Le cours sera structuré de la manière suivante.
+
+ 
+
+Séances synchrones (3 séances d'1h30)
+
+S1 - "Quelle est la nature de la Terre" - introduction générale et cadrage méthodologique
+
+ 
+
+S2. Gaia, Terre vivante. Raconter l'histoire contemporaine de l'hypothèse Gaïa permettra, chemin faisant, d'aborder des réflexions sur plusieurs thématiques structurant l'histoire, la philosophie et la sociologie des sciences d'une part, les humanités environnementales de l'autre, e.g.: les démarcations entre science et pseudo-sciences ; des "chapitres" d'histoire des sciences de la Terre; des réflexions sur le statut épistémologique des modèles; sur les liens entre sciences et philosophies de la nature; sur l'histoire des controverses environnementales (CFC, climat, pluies acides, etc); sur l'histoire de la constitution des cadrages contemporains de la question climatique, etc.
+
+Discussion possible de la séance asynchrone A1 (en particulier, des différences entre sciences du système Terre et physique du climat qui sous-tend les travaux du GIEC).
+
+ 
+
+S3. Réflexions sur la géoingénierie (et discussions de l'anthropocène et du climatoscepticisme). Cette séance synchrone visera premièrement à discuter de vos lectures et écoutes des séances asynchrones A3 et A4 (A2 dans une moindre mesure). Elle visera deuxièmement à présenter les techniques envisagées pour modifier le climat à grande échelle et les débats scientifiques, techniques, géopolitiques et philosophiques qu'elles soulèvent.
+
+ 
+
+
+Seances asynchrones
+
+ A1. L'histoire des sciences du système Terre comme théorie de la Terre centrée sur l'habitabilité humaine du globe. Disponible en ligne:: https://sciences-en-questions.hub.inrae.fr/actualites/video-quelle-est-la-nature-de-la-terre-conference-de-sebastien-dutreuil .
+
+Cette séance est articulée à S1 et S2. Elle vise à retracer l'histoire des sciences du système Terre, cadre qui s'est imposé ces dernières décennies dans le débat public au travers de concepts normatifs articulant savoirs et pouvoirs sur la Terre: anthropocène, limites planétaires, tipping elements. Elle offre une analyse du genre de pratique scientifique (la réactivation des théories de la Terre du 18e siècle) qui sous-tend les institutions des sciences du système Terre.
+
+ 
+
+A2. Gaïa, Terre vivante (suite). Il s'agira d'un enregistrement de la fin du cours consacré à Gaïa. Il sera mis en ligne après S2, en fonction de ce que nous aurons eu le temps d'aborder pour S2.
+
+ 
+
+A3. L'anthropocène. Cette séance vise à faire le point sur la notion d'anthropocène et ses discussions par les sciences humaines et sociales. Matériaux:
+
+●         Parcourir les volumes: Penser l'anthropocène, Beau, R. et Larrère, C., Presse de Sciences Po 2018 et Humanités environnementales, Demeulenaere, E, Blanc, G, et Feuerhahn, W , 2017.
+
+●         Textes à lire : Charbonnier et Dutreuil, Philosophie de l'anthropocène ; ""Qui a tué l'anthropocène, Pierre de Jouvancourt"" https://www.terrestres.org/2024/04/08/qui-a-tue-lanthropocene/
+
+●         Conférence en ligne de Christophe Bonneuil:
+
+
+# What is a theory
+

@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
+    browser: true
 
 website:
   title: "Fabio Cruz"
@@ -41,10 +44,17 @@ website:
     right:
       - text: About
         aria-label: "About Me"
-        href: about/
-      # - text: Blog
-      #   aria-label: "Pensées pour Moi"
-      #   href: blog/
+        href: 02-areas/about/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: 01-projects/
+      - text: Blog
+        aria-label: "blog on pedagogy and research"
+        href: 03-resources/blog/
+      - text: Publications
+        aria-label: "Areas of research / Pedagogy"
+        href: 03-resources/publications/
+
       # - text: Talks
       #   aria-label: "Invited Talks"
       #   href: talk/
@@ -105,6 +115,6 @@ format:
 
 
 execute: 
- freeze: auto
+  freeze: auto
 
 

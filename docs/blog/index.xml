@@ -10,7 +10,7 @@
 <atom:link href="https://fabbiocrux.com/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Assistant Professor at the Université de Lorraine</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Wed, 09 Oct 2024 22:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 10 Oct 2024 05:00:00 GMT</lastBuildDate>
 <item>
   <title>Meditaciones: Lo importante es comenzar</title>
   <dc:creator>Fabio Cruz</dc:creator>
@@ -41,7 +41,7 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section></div> ]]></description>
   <category>Meditaciones</category>
   <guid>https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/</guid>
-  <pubDate>Wed, 09 Oct 2024 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 10 Oct 2024 05:00:00 GMT</pubDate>
   <media:content url="https://fabbiocrux.com/blog/meditaciones/2024-10-10-meditaciones/meditar.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -71,8 +71,24 @@
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reutilización</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></div></div></section></div> ]]></description>
   <category>Meditaciones</category>
   <guid>https://fabbiocrux.com/blog/meditaciones/2024-10-17-escribir/</guid>
-  <pubDate>Wed, 09 Oct 2024 22:00:00 GMT</pubDate>
+  <pubDate>Thu, 10 Oct 2024 05:00:00 GMT</pubDate>
   <media:content url="https://fabbiocrux.com/blog/meditaciones/2024-10-17-escribir/javier-balseiro-SndBdqPo9bg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Plastic paradox</title>
+  <link>https://fabbiocrux.com/blog/plastic/2026-06-16-plastic-paradox/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div> ]]></description>
+  <guid>https://fabbiocrux.com/blog/plastic/2026-06-16-plastic-paradox/</guid>
+  <pubDate>Sat, 08 Aug 2026 17:54:29 GMT</pubDate>
 </item>
 </channel>
 </rss>
