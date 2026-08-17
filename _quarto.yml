@@ -53,7 +53,7 @@ website:
         href: resources/blog/
       - text: Publications
         aria-label: "Areas of research / Pedagogy"
-        href: resources/publications/
+        href: publications/
   page-footer:  
     #background: light
     left: >-

@@ -1,0 +1,27 @@
+---
+title: "Feasibility study on the use of recycled materials for prototyping purposes: A comparative study based on the tensile strength"
+author: 
+  - Victor M. Lopez
+  - Diego Carou
+  - name: Fabio A. Cuz Sanchez
+    orcid: 0000-0001-8529-5327
+date: '2022-07-23'
+image: featured.jpg
+slug: prototyping-dram-comparative
+type: article
+categories:
+  - 3D Printing
+  - Prototyping
+  - Distributed Recycling 
+  - Tensile strength
+  - PLA
+description: ''
+abstract: '3D printing is considered a disruptive technology and it continues to expand the design space boundaries for prototypes and final products. Sustainability is one of the major objectives for manufacturing, and the use of recycled materials is becoming a relevant sustainability strategy, particularly for improving material resource efficiency. This paper evaluates the suitability of substituting virgin polylactic acid (PLA) for recycled PLA. It describes an experimental plan divided into three phases to evaluate the specimens’ tensile strength. The results showed that recycled PLA could be used thanks to a similar tensile strength, even though this is slightly lower than that of the virgin material. In addition, the infill density and the orientation parameters played a major role in the response. As the infill density approaches 100%, both the maximum load and tensile strength increase sharply. However, when using an infill density of 40%, on average, the specimen resists 58.07% of the maximum load. In addition, because of the anisotropy, the horizontal orientation allowed attaining a higher tensile strength while the vertical orientation provided a lower value. These are relevant insights for prescriptions of the 3D-printing parameters guaranteeing minimum tensile strength in prototyping.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.1177/09544054221113378
+---
+
+
+

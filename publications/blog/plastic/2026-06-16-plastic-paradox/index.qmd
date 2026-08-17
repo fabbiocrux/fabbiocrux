@@ -1,0 +1,22 @@
+---
+title: "Plastic paradox"
+draft: true
+---
+
+
+
+<!-- Plastics -->
+Plastic materials are becoming a major paradox for human development. 
+Humans have benefited from the use of polymers since approximately 1600 BC, when the ancient Mesoamericans first processed natural rubber into balls, figurines and bands. 
+Nevertheless, it was not until the $19^{th}$ that the development of modern synthetic thermoplastics began. 
+In 1839, Goodyear developed vulcanized rubber, and Eduard Simon, a German apothecary, discovered polystyrene (PS). 
+Since then, experimental work continued on natural/synthetic polymers producing such notables as celluloid for billiard balls and polyvinyl chloride (PVC) which is used in many applications [@Andrady2009]. 
+Indeed, the first truly synthetic polymer, *Bakelite*, was developed by Belgian chemist Leo Baekeland in 1907. 
+The development of synthetic polymers are typically prepared by polymerization of monomers derived from oil or gas. 
+These synthetic polymers include several chemical additives to help in the color, processability, thermal/mechanical properties.
+It was not until the 1940s and 1950s, that mass production of everyday plastic items really started to take place [@Thompson2009a] and many other plastics were subsequently developed over the next few decades.
+
+However, today plastic waste is a wicked problem, and one of the main markers of human presence on Earth. 
+The major contradiction of plastic materials is that, while the first steps related to the production, usage and short-term post-usage (incineration, recycling) are relatively well known in its life cycle, the long-term that occur after discarding (after reuse and recycling) remain largely unclear. 
+After discarding, conventional petrochemical plastics have been discovered behaving differently relative to other materials that have been extensively used. 
+They do not solubilize slowly like dense materials, such as glass or metals, to reintegrate into silica or iron cycles and mineralize soils and water. They are also not digested by the micro-organisms naturally present in soils like natural organic materials, such as paper, cotton and leather, to reintegrate in the natural carbon cycle. In other words, *they do not reintegrate into one of the relatively well-known biogeochemical cycles of the elements of our ecosystems* [@gontard2022].

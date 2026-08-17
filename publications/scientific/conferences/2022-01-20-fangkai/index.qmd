@@ -1,0 +1,31 @@
+---
+title: "General Methodology to Investigate the Effect of Process Parameters on the Vibration Properties of Structures Produced by Additive Manufacturing Using Fused Filament Fabrication"
+author: 
+  - Fangkai Xue
+  - Hakim Boudaoud
+  - Guillaume Robin  
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+  - El Mostafa Daya 
+date: '2022-01-20'
+image: featured.png
+slug: vibration-am
+type: conference
+categories:
+  - Vibration
+  - Damping, 
+  - Fused Filament Fabrication
+  - Modal Analysis
+  - Thermoplastic Polyurethane
+description: 'Solid Freeform Fabrication 2021'
+subtitle: 'This paper proposes a general methodology to investigate the effect of process parameters, such as raster angle, nozzle temperature, layer height, and deposition speed, on the vibration properties of FFF printed structures.'
+abstract: 'Advances in fused filament fabrication (FFF) enable the manufacturing of multi-material and multi-functional structures, which provides new opportunities for the development of lightweight and high damping structures for vibration control. However, very few studies mention the vibration characteristics of FFF printed structures. This paper proposes a general methodology to investigate the effect of process parameters, such as raster angle, nozzle temperature, layer height, and deposition speed, on the vibration properties of FFF printed structures. An application of this methodology to structures printed by polylactic acid (PLA) is realized. In terms of vibration properties, a good reproducibility of the FFF process and the vibration test was achieved. It was found that raster angle significantly affects both resonant frequency (16.6%) and loss factor (7.5%). The impact of the other three parameters is relatively low (less than 4%). All these results provide guidance for further application of FFF in the vibration field.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.1007/s11837-021-05051-9
+---
+
+sss
+
+

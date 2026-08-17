@@ -1,0 +1,29 @@
+---
+title: "Les fab labs : des lieux de partage pour booster l’innovation"
+author:
+  - name: Fabio A. Cruz Sanchez
+    orcid: 0000-0001-8529-5327
+  - name: Alaa Hassan
+  - name: Hakim Boudahoud
+date: '2023-11-23'
+image: featured.jpg
+slug: fablabs
+type: article
+categories:
+  - Innovation 
+  - Open source 
+  - Fab lab 
+  - Third place
+description: "Techniques de l'Ingenieur"
+subtitle: 'This article presents the different facets  of fab labs through a systematic questioning.'
+abstract: 'Companies, universities and municipalities have all bet on the development of  fab labs. They want to promote the development of innovation projects through these  spaces dedicated to learning and collaboration. This article presents the different facets  of fab labs through a systematic questioning. After a quick introduction, an analysis of the  typologies and resources available in fab labs is given. Their networking and modes of  governance are discussed, then the article highlights the actors of these spaces and the  projects that are realized within them. Finally, some perspectives on the future of these  spaces are proposed.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.51257/a-v1-ag276
+---
+
+
+# Résumé
+
+Les entreprises, les universités, les communes ont toutes parié sur le  développement des fab labs. Il s'agit pour elles de favoriser le développement de projets  d'innovation par ces espaces dédiés à l’apprentissage et à la collaboration. Cet article  présente les différentes facettes des fab labs au moyen d’un questionnement  systématique. Après une rapide introduction, une analyse des typologies et des  ressources disponibles dans les fab labs est donnée. Leur constitution en réseau et leurs  modes de gouvernance sont discutés, puis l’article met en lumière les acteurs de ces  lieux et les projets qui y sont réalisés. Enfin, quelques perspectives du devenir de ces  espaces sont proposées.

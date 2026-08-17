@@ -65,9 +65,32 @@
   {
     "listing": "/resources/blog/index.html",
     "items": [
-      "/resources/blog/plastic/2026-06-16-plastic-paradox/index.html",
       "/resources/blog/meditaciones/2024-10-10-meditaciones/index.html",
       "/resources/blog/meditaciones/2024-10-17-escribir/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/scientific/index.html",
+    "items": [
+      "/publications/scientific/articles/2026-05-08-ostrl/index.html",
+      "/publications/scientific/articles/2024-01-28-ferney/index.html",
+      "/publications/scientific/articles/2024-01-05-catalina/index.html",
+      "/publications/scientific/articles/2023-11-23-fablabs-ti/index.html",
+      "/publications/scientific/articles/2023-08-28-fangkai/index.html",
+      "/publications/scientific/articles/2023-05-16-cristian/index.html",
+      "/publications/scientific/articles/2023-01-20-alex/index.html",
+      "/publications/scientific/articles/2022-07-27-diego/index.html",
+      "/publications/scientific/articles/2022-01-03-pavlo/index.html",
+      "/publications/scientific/articles/2020-04-24-arthur/index.html",
+      "/publications/scientific/articles/2020-04-15-fabio/index.html",
+      "/publications/scientific/articles/2019-12-03-pavlo/index.html",
+      "/publications/scientific/articles/2017-08-05-fabio/index.html",
+      "/publications/scientific/articles/2014-04-15-fabio/index.html",
+      "/publications/scientific/conferences/2018-06-01-pavlo/index.html",
+      "/publications/scientific/conferences/2022-01-20-fangkai/index.html",
+      "/publications/scientific/conferences/2018-06-01-ramses/index.html",
+      "/publications/scientific/conferences/2015-08-05-fabio/index.html",
+      "/publications/scientific/thesis/2016-08-05-fabio/index.html"
     ]
   }
 ]
