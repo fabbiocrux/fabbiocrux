@@ -1,43 +1,5 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/plastic/2026-06-16-plastic-paradox/index.html",
-      "/blog/meditaciones/2024-10-10-meditaciones/index.html",
-      "/blog/meditaciones/2024-10-17-escribir/index.html"
-    ]
-  },
-  {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/2025-09-26-CIS/index.html"
-    ]
-  },
-  {
-    "listing": "/publications/index.html",
-    "items": [
-      "/publications/articles/2026-05-08-ostrl/index.html",
-      "/publications/articles/2024-01-28-ferney/index.html",
-      "/publications/articles/2024-01-05-catalina/index.html",
-      "/publications/articles/2023-11-23-fablabs-ti/index.html",
-      "/publications/articles/2023-08-28-fangkai/index.html",
-      "/publications/articles/2023-05-16-cristian/index.html",
-      "/publications/articles/2023-01-20-alex/index.html",
-      "/publications/articles/2022-07-27-diego/index.html",
-      "/publications/articles/2022-01-03-pavlo/index.html",
-      "/publications/articles/2020-04-24-arthur/index.html",
-      "/publications/articles/2020-04-15-fabio/index.html",
-      "/publications/articles/2019-12-03-pavlo/index.html",
-      "/publications/articles/2017-08-05-fabio/index.html",
-      "/publications/articles/2014-04-15-fabio/index.html",
-      "/publications/conferences/2018-06-01-pavlo/index.html",
-      "/publications/conferences/2022-01-20-fangkai/index.html",
-      "/publications/conferences/2018-06-01-ramses/index.html",
-      "/publications/conferences/2015-08-05-fabio/index.html",
-      "/publications/thesis/2016-08-05-fabio/index.html"
-    ]
-  },
-  {
     "listing": "/about/index.html",
     "items": [
       "/resources/blog/plastic/2026-06-16-plastic-paradox/index.html",
@@ -62,82 +24,6 @@
       "/resources/publications/thesis/2016-08-05-fabio/index.html",
       "/resources/publications/conferences/2015-08-05-fabio/index.html",
       "/resources/publications/articles/2014-04-15-fabio/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/index.html",
-    "items": [
-      "/projects/techtraplastice/index.html"
-    ]
-  },
-  {
-    "listing": "/01-projects/index.html",
-    "items": [
-      "/01-projects/techtraplastice/index.html"
-    ]
-  },
-  {
-    "listing": "/02-areas/about/index.html",
-    "items": []
-  },
-  {
-    "listing": "/01-projects/blog/index.html",
-    "items": [
-      "/01-projects/blog/plastic/2026-06-16-plastic-paradox/index.html",
-      "/01-projects/blog/meditaciones/2024-10-10-meditaciones/index.html",
-      "/01-projects/blog/meditaciones/2024-10-17-escribir/index.html"
-    ]
-  },
-  {
-    "listing": "/03-ressources/talks/index.html",
-    "items": [
-      "/03-ressources/talks/2025-09-26-CIS/index.html"
-    ]
-  },
-  {
-    "listing": "/03-ressources/blog/index.html",
-    "items": [
-      "/03-ressources/blog/plastic/2026-06-16-plastic-paradox/index.html",
-      "/03-ressources/blog/meditaciones/2024-10-10-meditaciones/index.html",
-      "/03-ressources/blog/meditaciones/2024-10-17-escribir/index.html"
-    ]
-  },
-  {
-    "listing": "/03-resources/blog/index.html",
-    "items": [
-      "/03-resources/blog/plastic/2026-06-16-plastic-paradox/index.html",
-      "/03-resources/blog/meditaciones/2024-10-10-meditaciones/index.html",
-      "/03-resources/blog/meditaciones/2024-10-17-escribir/index.html"
-    ]
-  },
-  {
-    "listing": "/03-resources/publications/index.html",
-    "items": [
-      "/03-resources/publications/articles/2026-05-08-ostrl/index.html",
-      "/03-resources/publications/articles/2024-01-28-ferney/index.html",
-      "/03-resources/publications/articles/2024-01-05-catalina/index.html",
-      "/03-resources/publications/articles/2023-11-23-fablabs-ti/index.html",
-      "/03-resources/publications/articles/2023-08-28-fangkai/index.html",
-      "/03-resources/publications/articles/2023-05-16-cristian/index.html",
-      "/03-resources/publications/articles/2023-01-20-alex/index.html",
-      "/03-resources/publications/articles/2022-07-27-diego/index.html",
-      "/03-resources/publications/articles/2022-01-03-pavlo/index.html",
-      "/03-resources/publications/articles/2020-04-24-arthur/index.html",
-      "/03-resources/publications/articles/2020-04-15-fabio/index.html",
-      "/03-resources/publications/articles/2019-12-03-pavlo/index.html",
-      "/03-resources/publications/articles/2017-08-05-fabio/index.html",
-      "/03-resources/publications/articles/2014-04-15-fabio/index.html",
-      "/03-resources/publications/conferences/2018-06-01-pavlo/index.html",
-      "/03-resources/publications/conferences/2022-01-20-fangkai/index.html",
-      "/03-resources/publications/conferences/2018-06-01-ramses/index.html",
-      "/03-resources/publications/conferences/2015-08-05-fabio/index.html",
-      "/03-resources/publications/thesis/2016-08-05-fabio/index.html"
-    ]
-  },
-  {
-    "listing": "/03-resources/talks/index.html",
-    "items": [
-      "/03-resources/talks/2025-09-26-CIS/index.html"
     ]
   },
   {
@@ -168,6 +54,12 @@
       "/resources/publications/conferences/2018-06-01-ramses/index.html",
       "/resources/publications/conferences/2015-08-05-fabio/index.html",
       "/resources/publications/thesis/2016-08-05-fabio/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/techtraplastice/index.html"
     ]
   },
   {
