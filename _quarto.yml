@@ -88,7 +88,7 @@ format:
     #include-before-body: assets/header.html  
     bibliography: assets/library.bib
     page-layout: full
-    fontsize: 20px
+    fontsize: 19px
     include-in-header: 
       - file: "assets/matomo.html" 
     theme:
