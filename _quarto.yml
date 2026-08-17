@@ -48,12 +48,12 @@ website:
       - text: Projects
         aria-label: "Project Portfolio"
         href: projects/
-      - text: Blog
-        aria-label: "Blog on pedagogy and research"
-        href: resources/blog/
       - text: Publications
-        aria-label: "Areas of research / Pedagogy"
-        href: publications/
+        aria-label: "Areas of Research / Pedagogy"
+        href: publications/scientific/
+      - text: Blog
+        aria-label: "Random ideas on research, pedagogy and life"
+        href: publications/blog/
   page-footer:  
     #background: light
     left: >-

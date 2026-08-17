@@ -92,5 +92,18 @@
       "/publications/scientific/conferences/2015-08-05-fabio/index.html",
       "/publications/scientific/thesis/2016-08-05-fabio/index.html"
     ]
+  },
+  {
+    "listing": "/publications/talks/index.html",
+    "items": [
+      "/publications/talks/2025-09-26-CIS/index.html"
+    ]
+  },
+  {
+    "listing": "/publications/blog/index.html",
+    "items": [
+      "/publications/blog/meditaciones/2024-10-10-meditaciones/index.html",
+      "/publications/blog/meditaciones/2024-10-17-escribir/index.html"
+    ]
   }
 ]
