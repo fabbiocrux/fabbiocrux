@@ -3,7 +3,7 @@ title: "Projects"
 subtitle: "Past · Current · Future"
 citation: false
 comments: false
-author: "Fabio A. Cruz Sanchez"
+#author: "Fabio A. Cruz Sanchez"
 description: |
   Porfolio of projects that I have been involved including research, pedagogical, and tools I have contributed to or designed. 
 
