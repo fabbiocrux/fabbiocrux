@@ -44,27 +44,16 @@ website:
     right:
       - text: About
         aria-label: "About Me"
-        href: 02-areas/about/index.qmd
+        href: about/index.qmd
       - text: Projects
         aria-label: "Project Portfolio"
-        href: 01-projects/
+        href: projects/
       - text: Blog
-        aria-label: "blog on pedagogy and research"
-        href: 03-resources/blog/
+        aria-label: "Blog on pedagogy and research"
+        href: resources/blog/
       - text: Publications
         aria-label: "Areas of research / Pedagogy"
-        href: 03-resources/publications/
-
-      # - text: Talks
-      #   aria-label: "Invited Talks"
-      #   href: talk/
-      - text: Publications
-        aria-label: "Publications"
-        href: publications/
-      # - text: Projects
-      #   aria-label: "Project Portfolio"
-      #   href: project/
-
+        href: resources/publications/
   page-footer:  
     #background: light
     left: >-
@@ -97,9 +86,9 @@ format:
   html:    
     #include-in-header: assets/header.html  
     #include-before-body: assets/header.html  
-    #bibliography: assets/bibliography.bib
+    bibliography: assets/library.bib
     page-layout: full
-    fontsize: 18px
+    fontsize: 20px
     include-in-header: 
       - file: "assets/matomo.html" 
     theme:
@@ -115,6 +104,8 @@ format:
 
 
 execute: 
-  freeze: auto
+  freeze: true
+  cache: true  
+
 
 

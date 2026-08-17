@@ -1,0 +1,52 @@
+---
+title: "Plasticocene?"
+author:
+  - name: Fabio A. Cruz Sanchez
+    email: fabio.cruz@univ-lorraine.fr
+    affiliations: 
+        - id: ERPI
+          name: Université de Lorraine
+          department: ERPI
+          address: Street Address
+          city: Nancy
+          state: France
+          postal-code: 54000
+    attributes:
+        corresponding: true
+    note: This is the first author footnote. 
+#abstract: |
+keywords: 
+  - Plastic Waste
+date: today
+date-format: long
+bibliography: ../../../assets/library.bib
+format:
+  pdf:
+    documentclass: article
+#    classoption: [oneside]
+#    number-sections: true
+    geometry:
+      - top=30mm
+      - bottom=25mm      
+      - left=25mm
+      - right=25mm
+      - headheight=15mm
+      - footskip=33pt
+    fontsize: 12pt
+    linestretch: 1.2
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+    fig-pos: 'H'
+    link-citations: true
+    toc-title: Contents
+    include-in-header: ../../../assets/articles.tex
+    keep-tex: false
+#    template-partials:
+#       - assets/before-body.tex
+#       - assets/_titlepage.tex
+
+cls: ../../../assets/journal-of-cleaner-production.csl     
+---
+
+@abbott2011
