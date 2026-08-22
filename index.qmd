@@ -1,7 +1,7 @@
 ---
-title: "Fabio A. Cruz Sanchez"
-pagetitle: "Fabio A. Cruz Sanchez"
-subtitle: "Assistant Professor on \n Distributed Recycling concept"
+title: "Fabio A. <br> Cruz Sanchez"
+pagetitle: "Fabio A. <br> Cruz Sanchez"
+subtitle: "Assistant Professor on <br> Distributed Recycling concept"
 image: assets/figures/home/header-2.jpg
 image-alt: "Fabio A. Cruz Sanchez"
 
@@ -41,8 +41,6 @@ resources:
 ---
 
 <br> <br>
-
-
 
 ::: {#hero-heading}
 I work at the [Équipe de Recherche sur le Processus Innovatifs --ERPI--](https://erpi.univ-lorraine.fr/) and teach at the [École Nationale Supérieure en Génie des Systèmes et de l'Innovation --ENSGSI--](https://ensgsi.univ-lorraine.fr/nos-formations/) at Nancy - France.
