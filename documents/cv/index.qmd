@@ -6,7 +6,7 @@ published-title: CV last updated
 engine: knitr
 freeze: false
 cv:
-  pdf_fr: "CV-Fabio-CRUZ-fr.pdf"
+  pdf_fr: "../../resources/cv/CV-Fabio-CRUZ-fr.pdf"
 ---
 
 
