@@ -11,14 +11,16 @@ cv:
 
 
 
-[⬇️ Download CV](CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
+[⬇️ Download CV in French](https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
 
 
 ```{=html}
-<iframe src="CV-Fabio-CRUZ-fr.pdf" width="100%" height="600px" style="border: 1px;">
-  <p>Your browser does not support PDFs. <a href="CV-Fabio-CRUZ-fr.pdf">Download the PDF</a>.</p>
+<iframe src="https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.qmd" width="100%" height="600px" style="border: 1px;">
+  <p>Your browser does not support PDFs. <a href="https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.pdf">Download the PDF</a>.</p>
 </iframe>
 ```
+
+[⬇️ Download CV in Spanish](https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
 
 
 
