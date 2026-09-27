@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/about/index.html",
+    "items": []
+  },
+  {
     "listing": "/publications/scientific/index.html",
     "items": [
       "/publications/scientific/articles/2026-05-08-ostrl/index.html",
@@ -41,9 +45,5 @@
     "items": [
       "/projects/techtraplastice/index.html"
     ]
-  },
-  {
-    "listing": "/about/index.html",
-    "items": []
   }
 ]
