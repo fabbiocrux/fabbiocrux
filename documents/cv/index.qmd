@@ -1,26 +1,26 @@
 ---
 title: Curriculum vitæ
 description: "Fabio A. Cruz Sanchez CV"
-date: 2026-09-29
+date: today
 published-title: CV last updated
 engine: knitr
 freeze: false
-cv:
-  pdf_fr: "../../resources/cv/CV-Fabio-CRUZ-fr.pdf"
 ---
 
 
 
-[⬇️ Download CV in French](https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
+:::{layout-ncol="2"}
+[⬇️ Download CV in French](CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
 
+
+[⬇️ Download CV in Spanish](CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
+:::
 
 ```{=html}
-<iframe src="https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.qmd" width="100%" height="600px" style="border: 1px;">
-  <p>Your browser does not support PDFs. <a href="https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.pdf">Download the PDF</a>.</p>
+<iframe src="CV-Fabio-CRUZ-fr.pdf" width="100%" height="600px" style="border: 1px;">
+  <p>Your browser does not support PDFs. <a href="CV-Fabio-CRUZ-fr.pdf">Download the PDF</a>.</p>
 </iframe>
 ```
-
-[⬇️ Download CV in Spanish](https://raw.githubusercontent.com/fabbiocrux/CV/refs/heads/main/CV-Fabio-CRUZ-fr.pdf){.btn .btn-primary .btn-lg .cv-download target="_blank"}
 
 
 
