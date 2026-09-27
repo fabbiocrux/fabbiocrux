@@ -4,6 +4,8 @@ project:
   preview:
     port: 4200
     browser: true
+  resources:
+    - resources/**  
 
 website:
   title: "Fabio Cruz"
