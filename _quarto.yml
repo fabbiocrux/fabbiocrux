@@ -5,7 +5,7 @@ project:
     port: 4200
     browser: true
   resources:
-    - resources/**  
+    - "cv/**"  
 
 website:
   title: "Fabio Cruz"
@@ -91,8 +91,8 @@ format:
     bibliography: assets/library.bib
     page-layout: full
     fontsize: 19px
-    include-in-header: 
-      - file: "assets/matomo.html" 
+    #include-in-header: 
+    #  - file: "assets/matomo.html" 
     theme:
       light:
         - cosmo
