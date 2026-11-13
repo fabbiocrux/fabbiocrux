@@ -30,19 +30,19 @@ about:
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
       href: https://scholar.google.com/citations?user=8Cuoaf4AAAAJ&hl=en
-listing: 
-- id: blog
-  contents: 
-    - "../resources/blog/*/*/index.qmd"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
+# listing: 
+# - id: blog
+#   contents: 
+#     - "../blog/*/*/index.qmd"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, subtitle, image]
+#   max-items: 1
+#   image-height: "200"
 # - id: talk
 #   contents: 
 #     - "../talk/*/index.qmd"
@@ -56,19 +56,19 @@ listing:
 #   fields: [title, subtitle, image]
 #   max-items: 1
 #   image-height: "200"
-- id: publication
-  contents: 
-    - "../resources/publications/*/*/index.qmd"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
+# - id: publication
+#   contents: 
+#     - "../resources/publications/*/*/index.qmd"
+#   sort: date desc
+#   type: grid
+#   grid-columns: 1
+#   categories: false
+#   sort-ui: false
+#   filter-ui: false
+#   fields: [title, image]
+#   max-items: 1
+#   image-height: "200"
+#   image-placeholder: ../publication/featured.jpg
 # - id: project
 #   contents: 
 #     - "../project/*/index.qmd"
@@ -155,6 +155,7 @@ I am optimist in the value of education on engineering for the societal challeng
 :::
 [See all &rarr;](../talk){.about-links .subtitle}
 ::: -->
+
 
 ::: {.g-col-3}
 #### Publications

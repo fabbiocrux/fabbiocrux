@@ -1,0 +1,89 @@
+---
+title: "Logique, Histoire & philosophie de la logique"
+---
+
+#Bibliographie 
+
+## En français
+
+1. Pierre Wagner, Logique et philosophie. Manuel d'introduction pour les étudiants du supérieur, Ellipses, 2014, 360 p.
+*Niveau : initiation*
+
+Pierre Wagner enseigne la logique aux étudiants de philosophie de l'université Paris 1 Panthéon-Sorbonne, et ce manuel est directement pensé pour ce public. Il expose les concepts et les méthodes de base de la logique formelle (calcul des propositions, calcul des prédicats) sans supposer de formation mathématique, tout en montrant ce que ces outils apportent à des questions proprement philosophiques. 
+C'est sans doute le compagnon le plus naturel de ce cours.
+
+2. Gilles Dowek, Les démonstrations et les algorithmes. Introduction à la logique et à la calculabilité, Éditions de l'École polytechnique, 2010, 194 p.
+*Niveau : intermédiaire à avancé*
+
+Issu de l'enseignement de Gilles Dowek à l'École polytechnique, ce livre introduit les notions de démonstration, de fonction calculable, de modèle et d'ensemble. Il conduit jusqu'au théorème d'indécidabilité de Church (dont le théorème d'incomplétude de Gödel apparaît comme un corollaire), puis aborde la recherche automatique de démonstrations et les démonstrations constructives. Idéal pour qui s'intéresse aux liens entre logique et informatique.
+
+L'introduction et la table des matières sont en ligne sur la page de l'auteur : introduction (PDF), table des matières (PDF).
+Traduction anglaise : Proofs and Algorithms. An Introduction to Logic and Computability, Springer, coll. « Undergraduate Topics in Computer Science », 2011.
+
+3. René Cori et Daniel Lascar, Logique mathématique. Cours et exercices corrigés, 2 tomes, préface de Jean-Louis Krivine, Dunod, coll. « Sciences Sup », 2003 (1re éd. Masson, 1993)
+ - Tome 1 : Calcul propositionnel, algèbres de Boole, calcul des prédicats
+ - Tome 2 : Fonctions récursives, théorème de Gödel, théorie des ensembles, théorie des modèles
+*Niveau : avancé*
+
+La référence française classique en logique mathématique, issue de l'équipe de logique de l'université Paris 7. 
+Le premier tome couvre le calcul propositionnel, les algèbres de Boole, le calcul des prédicats et les théorèmes de complétude ; le second traite de la récursivité, des théorèmes de Gödel, de la théorie des ensembles et de la théorie des modèles. Très rigoureux, chaque chapitre est accompagné de nombreux exercices corrigés : c'est l'ouvrage à ouvrir si vous voulez faire de la logique « en mathématicien ».
+
+Traduction anglaise : Mathematical Logic. A Course with Exercises, 2 vol., trad. Donald H. Pelletier, Oxford University Press, 2000–2001.
+4. Robert Blanché et Jacques Dubucs, La logique et son histoire, Armand Colin, coll. « U », 1996
+Niveau : initiation à intermédiaire (lecture d'accompagnement)
+
+Il s'agit de l'édition revue du classique de Robert Blanché, La logique et son histoire d'Aristote à Russell (1970), dont Jacques Dubucs a complété la partie finale pour couvrir le XXe siècle. Plutôt qu'un manuel d'exercices, c'est une mise en perspective : on y suit la logique d'Aristote aux Stoïciens, aux médiévaux, à Leibniz, puis à la logique mathématique moderne. 
+
+En anglais
+5. Volker Halbach, The Logic Manual, Oxford University Press, 2010
+Niveau : initiation
+
+C'est le manuel du cours d'introduction à la logique suivi par les étudiants en philosophie d'Oxford. Court (environ 200 pages) et très clair, il couvre la logique propositionnelle et la logique des prédicats avec identité, leur sémantique (avec des définitions précises de la vérité et de la satisfaction) et la déduction naturelle. Un site compagnon propose des exercices, des exemples et des sujets d'examen.
+
+6. Graham Priest, Logic: A Very Short Introduction, 2e éd., Oxford University Press, coll. « Very Short Introductions », 2017 (1re éd. 2000)
+Niveau : initiation (lecture de découverte)
+
+Un petit livre de poche, vivant et sans technicité, où chaque chapitre part d'une question philosophique : l'existence de Dieu, la réalité du temps, le vague, les conditionnels, l'identité à travers le changement… Priest y présente aussi bien la logique classique que des logiques non classiques, et la deuxième édition ajoute des développements sur les algorithmes, les axiomes et la démonstration en mathématiques. 
+
+7. Nicholas J. J. Smith, Logic: The Laws of Truth, Princeton University Press, 2012
+Niveau : initiation à intermédiaire
+
+Un manuel volumineux (plus de 500 pages) et remarquablement clair, consacré à la logique classique du premier ordre avec identité. Sa particularité est de concevoir la logique comme l'étude des « lois de la vérité » plutôt que du raisonnement, et d'expliquer non seulement comment fonctionnent les outils formels, mais aussi pourquoi ils sont construits ainsi. Les tables de vérité et la méthode des arbres y occupent une place centrale. Très bon choix pour qui veut un manuel complet pour travailler seul.
+
+8. Theodore Sider, Logic for Philosophy, Oxford University Press, 2010
+Niveau : intermédiaire à avancé
+
+Conçu pour des étudiants avancés de licence et des débutants en master de philosophie, ce livre vise à donner la logique nécessaire pour lire la philosophie contemporaine. Il privilégie l'étendue à la profondeur : après la logique propositionnelle et la logique des prédicats (et leurs variantes non standard), il traite de la logique modale propositionnelle et quantifiée, des contrefactuels et de la logique modale bidimensionnelle. Il ne démontre pas les grands résultats métalogiques (complétude, indécidabilité), mais reste très accessible sans formation mathématique poussée.
+
+9. John MacFarlane, Philosophical Logic: A Contemporary Introduction, Routledge, coll. « Routledge Contemporary Introductions to Philosophy », 2021
+Niveau : intermédiaire (PDF en libre accès)
+
+Un excellent « deuxième livre », pensé pour des étudiants ayant déjà suivi un cours d'introduction. MacFarlane y examine les limites, les présupposés et les alternatives de la logique classique du premier ordre : quantificateurs généralisés, logiques modales et déontiques, conditionnels, conséquence logique (par les modèles ou par les preuves), remise en cause de principes comme le modus ponens ou l'élimination de la double négation, explosion et contradictions, rapport entre logique et raisonnement, vague. Chaque chapitre s'organise autour de lectures conseillées et propose des exercices.
+
+Avec l'accord de l'éditeur, l'auteur met à disposition un PDF du livre (version révisée) sur sa page, où l'on trouve aussi les errata.
+10. Dirk van Dalen, Logic and Structure, Springer, coll. « Universitext », 5e éd., 2013 (1re éd. 1980)
+Niveau : avancé
+
+Un manuel de logique mathématique de référence, l'un des premiers à avoir systématiquement utilisé la déduction naturelle de Gentzen. Il couvre la logique propositionnelle et des prédicats, le théorème de complétude et ses applications, la logique du second ordre, la logique intuitionniste, la normalisation des démonstrations et le théorème de Gödel. 
+
+Version électronique sur SpringerLink 
+Manuels en ligne, en libre accès
+Ces deux manuels complets sont gratuits et téléchargeables légalement. Ils sont en anglais.
+
+11. P. D. Magnus et Tim Button, revu et augmenté par Aaron Thomas-Bolduc et Richard Zach, forall x: Calgary. An Introduction to Formal Logic, Open Logic Project
+Niveau : initiation (licence CC BY 4.0)
+
+Un manuel complet, très proche du contenu de ce cours : validité des arguments, logique des fonctions de vérité et tables de vérité, logique du premier ordre avec identité, formalisation d'énoncés de la langue naturelle, déduction naturelle « à la Fitch ». Il aborde aussi quelques sujets plus avancés (logique modale, adéquation, complétude fonctionnelle) et propose des exercices corrigés. 
+
+Page du livre
+PDF du livre · PDF des corrigés · version accessible (dyslexie)
+Version HTML à lire en ligne
+12. Johan van Benthem, Hans van Ditmarsch, Jan van Eijck et Jan Jaspars, Logic in Action, nouvelle édition, 2016
+Niveau : initiation à intermédiaire
+
+Issu d'un projet de cours ouvert de l'Institute for Logic, Language and Computation d'Amsterdam, ce manuel a été utilisé notamment à Amsterdam, Pékin et Stanford. Il présente d'abord les systèmes classiques (logique propositionnelle, syllogistique d'Aristote, logique des prédicats), puis ce qui fait son originalité : la logique de la connaissance et de l'information (logique épistémique), la logique de l'action (logique dynamique) et les liens entre logique et théorie des jeux. Une dernière partie revient sur les méthodes : tableaux sémantiques, déduction naturelle, et usage de la logique en programmation (Prolog). Idéal pour découvrir la logique comme discipline carrefour entre philosophie, mathématiques, informatique et sciences cognitives.
+
+Page du projet (chapitres téléchargeables séparément, diapositives en anglais et en espagnol)
+PDF du livre complet
+Exercices supplémentaires
+Voir aussi : le livre de MacFarlane (n° 9) est lui aussi disponible gratuitement en PDF.

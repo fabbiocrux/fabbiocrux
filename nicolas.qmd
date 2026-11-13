@@ -1,0 +1,91 @@
+---
+title: "Introduction articule"
+---
+
+<!-- % Plastics and Circular Economy -->
+Plastic materials is a major paradox in the current era.
+The intrinsic plastic properties make them inexpensive, light-weight, and durable for a plethora of uses of in different applications, thus contributing to capitalistic societal development [@andrady2009].
+Currently, 413 Mt in 2023 is produced worldwide [@dokl2024; @Richie2023], and about half of all plastics produced have been made in the last 15 years [@geyer2017]. 
+By 2050, the annual production is projected to increase between 902 Mt to 1124 Mt [@OECD2022].
+At the same time, their accumulation as macro-, micro-, and nanoplastics is generating harmful environmental and societal consequences for future generations [@porta2021; @de-la-torre2021]. 
+Indeed, the widespread use and unethical disposal of plastics affects the ecosystems services in the terrestrial and aquatic compartiments [@kumar2021], which frames plastic pollution as a climate desition [@shen2020; @macreadie2025].
+Moreover, plastic pollution crisis is exacerbating pressures across multiple planetary boundaries [@biermann2020; @villarrubia-gomez2024], thereby threatening the safe operating space for humanity in which no global agreement is found up to date to limit to the virgin production [@villarrubia-gomez2026; @vartanian2025] 
+In the case of France, roughly 4.5 million tonnes of plastic waste is generated per year, of which only 23\% is recycled while 41\% is incinerated and 36% is landfilled [@MTE2025].
+It is well below the 50% packaging-recycling target set by the European Union for 2025 [@EEA2025_France]. 
+Even with immediate and concerted action, around 79% of plastic waste is accumulated in the environment [@bundela2022;@hassan2024], and it is estimated that 710 Mt of plastic waste will enter aquatic and terrestrial ecosystems around 2040 [@lau2020].
+
+
+<!-- Reverse logistics and sustainable supply chain for Plastics -->
+Current centralized waste management systems remain structurally inadequate [@lerpiniere2025] to address the complex and systemic nature of plastic pollution [@salvia2021].
+Therefore, plastic waste management strategies within a circular economy framework [@tang2025; @mallick2025] span a continuum from reuse and recycling approaches (including mechanical, chemical, and biological recycling) to thermolysis and energy recovery processes.
+Among these, mechanical recycling is widely recognized as the most environmentally favorable option [@klotz2023] for relatively clean and homogeneous streams of plastic and bioplastic waste, offering significantly lower environmental impacts compared to landfilling or incineration alternatives [@helbig2022].
+Therefore, recently efforts has increasingly turned attention to desing distributed approaches [@zhong2018; @cruzsanchez2020] where sorting and recycling facilities close to the points where waste is generated [@Gotti2025; @Chari2025; @CorreiadeMelo2024] can be implemented.
+
+Distributed approaches make possible to short collection distances and turn local plastic streams into marketable secondary materials [@simon2019] creating opportunities for decentralized production [@prasad2024; @herrmann2020] for municipalities and small entrepreneurs [@spekkink2022].
+Indeed, a growing number of grassroots initiatives led by citizen networks, makerspaces, fablabs, and third places are experimenting with small-scale, community-based plastic recycling practices [@dijkstra2023].
+Such practices can be understood as forms of urban manufacturing [@juraschek2022; @croxford2020], promoting distributed production models as alternatives to globalized value chains [@priavolou2022; @cerdas2017]. 
+However, to make practical implementation of plastic circular economy depends on several operational (ie. routing problems [@ref] ), tactical (ie. infrasture design [@ref] ) and strategic (ie.) desicions from the sustainable supply chain perspective [@kumar2025] and enviromental performances [@kerdlap2021].
+Indeed, the distributed recycling approach frame the local territory as design space [@Aviso2023; @Billal2025] for a recovery network by pointing out design questions such as how many facilities to can be place in a local terrotory, what criteria can be use to place them considering the urban setups, and which areas they should serve as baseline.
+To answer thse questions is farm from trivial giving the structural barriers [@grafstrom2025] (economic, institutional and regulatory, technological, and social) to consider in the supply and demand factors influencing the choice between virgin and recycled materials.
+Thereore, the major problem is that the design of distributed plastic recycling networks remains complex [@ref] because plastic waste is generated unevenly across a city [@ref] and trade-offs among diferent objectives (economic, environmental, operational) seldom favor the same layout [@Cohen2025]. 
+Reverse logistics, understood as the planning and control of the flows that recover discarded products for valorization or, failing that, safe disposal [@Mallick2023], provides that backbone [@Govindan2015]. 
+For instance, infrastructure is planned by treating economic, environmental, and social performance as joint objectives rather than cost alone [@Eskandarpour2015], spanning both strategic configuration and daily operation [@Yu2020; @Joshi2022], in which sorting and recycling centers are the nodes where recovery physically takes place [@Shetty2022].
+However, the major gap in the literature is that there is no methodological approach to include local spatial conditions, accessibility, and operational constraints [@Mousania2026; @Zhang2023] in the deisgn of distributed plastic recycling networks
+
+<!-- Goal of the Paper -->
+Therefore, the main purpose of this paper is to propose a geographic information system (GIS) multi-objective optimization framework for the design of distributed plastic recycling collection networks.
+A case study of Nancy metropolitan area, France is presented to demonstrate its usefulness in order to identify whether a distributed configuration is viable to implement, in complement with traditional collection schemes [@sulemana2018optimal]. 
+
+The remainder of the article is organized as follows. 
+Section~\ref{sec:background} reviews the literature on distributed recycling and GIS-based waste-management planning and positions the contribution of this study. 
+The problem is presented in Section~\ref{sec:problem} followed by the proposed two-stage framework in Section~\ref{sec:framework}, and its mathematical formulation in Section~\ref{sec:model}. 
+Section~\ref{sec:Case_study} introduces the case study and its data, and Section~\ref{sec:results} reports the results together with a sensitivity analysis. 
+The article then discusses policy and territorial implications and closes with the main conclusions.
+
+
+## 1. Introduction
+
+Plastic materials represent a major paradox of contemporary society. 
+Their intrinsic properties, including low cost, lightweight structure, durability, and versatility, have enabled their widespread adoption across numerous industrial and consumer applications, contributing significantly to economic and societal development [@andrady2009]. 
+Global plastic production reached approximately 413 million tonnes (Mt) in 2023 [@dokl2024; @Richie2023], with nearly half of all plastics ever manufactured having been produced within the preceding 15 years [@geyer2017]. 
+Annual production is projected to increase to between 902 and 1,124 Mt by 2050 [@OECD2022]. 
+However, the properties that make plastics valuable also contribute to their persistence in the environment, where they accumulate as macro-, micro-, and nanoplastics, posing substantial risks to ecosystems and human well-being [@porta2021; @de-la-torre2021]. 
+The widespread consumption and inadequate disposal of plastic materials threaten ecosystem services across terrestrial and aquatic environments [@kumar2021], while plastic production and waste management contribute to climate change pressure [@shen2020; @macreadie2025]. 
+Furthermore, plastic pollution places increasing pressure on multiple planetary boundaries, threatening the safe operating space for humanity [@biermann2020; @villarrubia-gomez2024]. 
+Despite growing international recognition of these challenges, a binding global agreement to limit virgin plastic production has yet to be established [@villarrubia-gomez2026; @vartanian2025]. 
+In France, approximately 4.5 Mt of plastic waste is generated annually, of which only 23% is recycled, while 41% is incinerated and 36% is landfilled [@MTE2025]. 
+This recycling rate remains low in relation to the European Union's 2025 target of 50% for plastic packaging waste, although the two indicators cover different waste streams [@EEA2025_France]. 
+At the global scale, approximately 79% of plastic waste generated historically has accumulated in landfills or the natural environment [@bundela2022; @hassan2024], and cumulative plastic leakage into terrestrial and aquatic ecosystems could reach 710 Mt by 2040 under a business-as-usual scenario [@lau2020]. 
+These trends underscore the need for more effective and territorially adapted plastic waste management strategies.
+
+Existing centralized waste management systems face structural limitations in addressing the spatially dispersed and systemic nature of plastic pollution [@lerpiniere2025; @salvia2021]. 
+Within a circular economy framework, plastic waste management includes strategies ranging from reuse and material recycling (ie. mechanical, chemical, and biological), to thermolysis and energy recovery [@tang2025; @mallick2025]. 
+Among these alternatives, mechanical recycling is generally considered an environmentally favorable option for relatively clean and homogeneous plastic waste streams [@klotz2023], offering lower environmental impacts than landfilling or incineration under suitable operating conditions [@helbig2022]. 
+In this context, increasing attention has been directed toward distributed recycling approaches [@zhong2018; @cruzsanchez2020], in which collection, sorting, and recycling facilities are located closer to waste generation points [@Gotti2025; @Chari2025; @CorreiadeMelo2024].
+
+Distributed recycling systems can reduce waste transportation distances and facilitate the transformation of locally generated plastic waste into marketable secondary materials [@simon2019]. By connecting local material recovery with decentralized manufacturing, these systems may create new opportunities for municipalities, small enterprises, and community-based initiatives to participate in circular value chains [@prasad2024; @herrmann2020; @spekkink2022]. 
+A growing number of grassroots initiatives, including citizen networks, makerspaces, fabrication laboratories (fablabs), and third places, are already experimenting with small-scale plastic recycling practices [@dijkstra2023]. 
+These initiatives can be understood as emerging forms of urban manufacturing [@juraschek2022; @croxford2020], promoting locally embedded production systems as alternatives or complements to conventional globalized value chains [@priavolou2022; @cerdas2017]. 
+Nevertheless, translating these initiatives into operationally viable circular economy systems requires coordinated decisions across strategic, tactical, and operational planning levels [@kumar2025]. 
+These include determining the configuration and location of recycling infrastructure, allocating waste generation areas to facilities, and organizing collection routes, while simultaneously accounting for environmental performance [@kerdlap2021].
+
+From this perspective, distributed recycling shifts the focus of waste management toward the local territory as a spatial decision-making and network design problem [@Aviso2023; @Billal2025]. 
+The design of such networks raises several interrelated questions: How many collection and recycling facilities should be established within a given urban area? Where should these facilities be located, considering the existing urban structure and spatial accessibility? Which waste generation areas should each facility serve?.
+Addressing these questions is particularly challenging because the implementation of circular plastic systems is influenced by economic, institutional, regulatory, technological, and social barriers [@grafstrom2025]. 
+Moreover, plastic waste generation is spatially heterogeneous, and alternative network configurations involve trade-offs among economic costs, environmental impacts, accessibility, and operational efficiency [@Cohen2025]. 
+Consequently, the design of distributed recycling networks requires an integrated approach capable of representing local spatial conditions while evaluating multiple, potentially conflicting objectives.
+
+Reverse logistics provides a relevant conceptual and methodological foundation for addressing these challenges. It encompasses the planning, implementation, and control of material flows associated with the collection and recovery of discarded products for valorization or, when recovery is not feasible, safe disposal [@Mallick2023; @Govindan2015]. 
+Within sustainable supply chain management, reverse logistics network design increasingly incorporates economic, environmental, and social performance as interconnected objectives rather than focusing exclusively on cost minimization [@Eskandarpour2015]. 
+Such networks involve decisions across strategic and operational levels, including infrastructure configuration, facility location, service area allocation, and waste collection operations [@Yu2020; @Joshi2022]. Collection, sorting, and recycling facilities constitute critical nodes within these networks, determining where material recovery activities take place and how waste flows are organized [@Shetty2022]. 
+However, despite advances in reverse logistics optimization, the integration of fine-scale territorial characteristics, spatial accessibility, and operational constraints into the multi-objective design of distributed plastic recycling networks remains insufficiently explored [@Mousania2026; @Zhang2023]. 
+This limitation is particularly relevant in urban contexts, where the spatial distribution of waste generation and the characteristics of the built environment can substantially influence the feasibility and performance of decentralized infrastructure.
+
+To address this gap, this study proposes a geographic information system (GIS)-based multi-objective optimization framework for the spatial design of distributed plastic waste collection and recycling networks. 
+The framework integrates territorial information and network design considerations to support decisions regarding facility location and the allocation of waste generation areas. 
+Its applicability is demonstrated through a case study of the Nancy metropolitan area in France, where alternative distributed network configurations are evaluated to assess their potential feasibility and role as complements to conventional waste collection systems [@sulemana2018optimal]. The study aims to provide a decision-support approach for planning territorially adapted plastic recovery infrastructure linking spatial analysis with multi-objective optimization.
+
+The remainder of this article is organized as follows. Section~\ref{sec:background} reviews the literature on distributed recycling and GIS-based waste management planning and establishes the positioning of this study. 
+Section~\ref{sec:problem} defines the network design problem, followed by the proposed two-stage framework in Section~\ref{sec:framework} and its mathematical formulation in Section~\ref{sec:model}. Section~\ref{sec:Case_study} describes the Nancy metropolitan case study and the associated data, while Section~\ref{sec:results} presents the optimization results and sensitivity analysis. Finally, the article discusses the implications for territorial planning and circular economy policies before presenting the main conclusions.
+
+

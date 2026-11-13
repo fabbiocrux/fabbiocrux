@@ -3,8 +3,6 @@ title: Curriculum vitæ
 description: "Fabio A. Cruz Sanchez CV"
 date: today
 published-title: CV last updated
-engine: knitr
-freeze: false
 ---
 
 
@@ -25,3 +23,9 @@ freeze: false
 
 
 
+
+
+
+```{r}
+sqrt((-1)*(5000^2 - 4*(350)*(35000)))/700
+```
